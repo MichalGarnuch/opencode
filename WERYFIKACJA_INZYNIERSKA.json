@@ -1,0 +1,15 @@
+{
+  "repository": "opencode",
+  "branch": "wersja-inzynierska-2026",
+  "base_ref": "dev",
+  "base_commit": "fee476bb90043a1012abda156dd9af9e5c71b19d",
+  "date": "2026-10-29",
+  "checks": [
+    {
+      "command_or_scope": "Bun 1.3.13: test/atomic-json.test.ts w packages/core",
+      "result": "PASS: 1 test, 8 asercji, rzeczywisty filesystem"
+    }
+  ],
+  "limitations": "Nie wykonano pełnego builda ani testów całego monorepo. Brak testu awarii zasilania, Windows, NFS i alternatywnych implementacji Effect FileSystem. Nie zapewniono rozwiązywania konfliktów równoczesnych edycji ani zachowania ACL/właściciela.",
+  "production_deployment_performed": false
+}

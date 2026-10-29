@@ -1,3 +1,4 @@
+import { atomicJson } from "./util/atomic-json"
 import { NodeFileSystem } from "@effect/platform-node"
 import { dirname, isAbsolute, join, relative, resolve as pathResolve, sep } from "path"
 import { realpathSync } from "fs"
@@ -108,9 +109,10 @@ export namespace FSUtil {
       })
 
       const writeJson = Effect.fn("FileSystem.writeJson")(function* (path: string, data: unknown, mode?: number) {
-        const content = JSON.stringify(data, null, 2)
-        yield* fs.writeFileString(path, content)
-        if (mode) yield* fs.chmod(path, mode)
+        yield* Effect.tryPromise({
+          try: () => atomicJson(path, data, mode),
+          catch: (cause) => new FileSystemError({ method: "writeJson", cause }),
+        })
       })
 
       const ensureDir = Effect.fn("FileSystem.ensureDir")(function* (path: string) {
