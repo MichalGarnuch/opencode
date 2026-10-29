@@ -1,0 +1,306 @@
+# opencode — mapa plików (14/23)
+
+Wykaz śledzonych plików z badanego commita. Liczba wierszy i nazwy deklaracji są wyciągane automatycznie z dostępnej kopii tekstowej; nie oznaczają ręcznej oceny pliku. Brak opisu oznacza, że zawartość nie była analizowana tą metodą (np. plik binarny, zasób lub pominięty plik).
+
+[Wróć do audytu](AUDYT_EDUKACYJNY.md) · [1](AUDYT_MAPA_01.md) · [2](AUDYT_MAPA_02.md) · [3](AUDYT_MAPA_03.md) · [4](AUDYT_MAPA_04.md) · [5](AUDYT_MAPA_05.md) · [6](AUDYT_MAPA_06.md) · [7](AUDYT_MAPA_07.md) · [8](AUDYT_MAPA_08.md) · [9](AUDYT_MAPA_09.md) · [10](AUDYT_MAPA_10.md) · [11](AUDYT_MAPA_11.md) · [12](AUDYT_MAPA_12.md) · [13](AUDYT_MAPA_13.md) · [14](AUDYT_MAPA_14.md) · [15](AUDYT_MAPA_15.md) · [16](AUDYT_MAPA_16.md) · [17](AUDYT_MAPA_17.md) · [18](AUDYT_MAPA_18.md) · [19](AUDYT_MAPA_19.md) · [20](AUDYT_MAPA_20.md) · [21](AUDYT_MAPA_21.md) · [22](AUDYT_MAPA_22.md) · [23](AUDYT_MAPA_23.md)
+
+- [packages/storybook/.storybook/mocks/app/context/permission.ts](packages/storybook/.storybook/mocks/app/context/permission.ts) — 27 wierszy; deklaracje: `key:3`, `usePermission:7`
+- [packages/storybook/.storybook/mocks/app/context/platform.ts](packages/storybook/.storybook/mocks/app/context/platform.ts) — 13 wierszy; deklaracje: `usePlatform:11`
+- [packages/storybook/.storybook/mocks/app/context/prompt.ts](packages/storybook/.storybook/mocks/app/context/prompt.ts) — 131 wierszy; deklaracje: `PartBase:3`, `TextPart:9`, `FileAttachmentPart:13`, `AgentPart:18`, `ImageAttachmentPart:23`
+- [packages/storybook/.storybook/mocks/app/context/sdk.ts](packages/storybook/.storybook/mocks/app/context/sdk.ts) — 27 wierszy; deklaracje: `useSDK:25`
+- [packages/storybook/.storybook/mocks/app/context/server-sdk.ts](packages/storybook/.storybook/mocks/app/context/server-sdk.ts) — 47 wierszy; deklaracje: `useServerSDK:45`
+- [packages/storybook/.storybook/mocks/app/context/server-sync.ts](packages/storybook/.storybook/mocks/app/context/server-sync.ts) — 33 wierszy; deklaracje: `mockProviderAuth:13`, `useServerSync:25`
+- [packages/storybook/.storybook/mocks/app/context/sync.ts](packages/storybook/.storybook/mocks/app/context/sync.ts) — 37 wierszy; deklaracje: `useSync:35`
+- [packages/storybook/.storybook/mocks/app/hooks/use-providers.ts](packages/storybook/.storybook/mocks/app/hooks/use-providers.ts) — 56 wierszy; deklaracje: `useProviders:48`
+- [packages/storybook/.storybook/mocks/solid-router.tsx](packages/storybook/.storybook/mocks/solid-router.tsx) — 32 wierszy; deklaracje: `useParams:3`, `useNavigate:10`, `useSearchParams:14`, `useLocation:18`, `MemoryRouter:26`
+- [packages/storybook/.storybook/playground-css-plugin.ts](packages/storybook/.storybook/playground-css-plugin.ts) — 136 wierszy; deklaracje: `Edit:23`, `Result:24`, `applyEdits:26`, `escapeRegex:57`, `playgroundCss:61`
+- [packages/storybook/.storybook/preview.tsx](packages/storybook/.storybook/preview.tsx) — 112 wierszy; deklaracje: `resolveScheme:17`
+- [packages/storybook/.storybook/theme-tool.ts](packages/storybook/.storybook/theme-tool.ts) — 21 wierszy; deklaracje: `ThemeTool:5`
+- [packages/storybook/debug-storybook.log](packages/storybook/debug-storybook.log)
+- [packages/storybook/package.json](packages/storybook/package.json) — 31 wierszy
+- [packages/storybook/sst-env.d.ts](packages/storybook/sst-env.d.ts) — 10 wierszy
+- [packages/storybook/tsconfig.json](packages/storybook/tsconfig.json) — 16 wierszy
+- [packages/tui/bunfig.toml](packages/tui/bunfig.toml)
+- [packages/tui/package.json](packages/tui/package.json) — 73 wierszy
+- [packages/tui/src/app.tsx](packages/tui/src/app.tsx) — 1136 wierszy; deklaracje: `TuiInput:142`, `errorMessage:154`, `isVersionGreater:169`, `App:367`
+- [packages/tui/src/attention.ts](packages/tui/src/attention.ts) — 260 wierszy; deklaracje: `FocusState:24`, `AttentionRenderer:26`, `RegisteredSoundPack:33`, `TuiAttentionHost:37`, `skipped:60`
+- [packages/tui/src/audio.d.ts](packages/tui/src/audio.d.ts) — 9 wierszy
+- [packages/tui/src/audio.ts](packages/tui/src/audio.ts) — 53 wierszy; deklaracje: `getAudio:7`, `loadSoundFile:23`, `play:38`, `stopVoice:45`, `dispose:49`
+- [packages/tui/src/clipboard.ts](packages/tui/src/clipboard.ts) — 125 wierszy; deklaracje: `command:9`, `writeOsc52:23`, `read:30`, `copyCommand:77`, `getCopyMethod:99`
+- [packages/tui/src/component/bg-pulse-render.ts](packages/tui/src/component/bg-pulse-render.ts) — 436 wierszy; deklaracje: `LogoTemplateCell:35`, `Rgb:72`, `GoUpsellArtRenderOptions:74`, `toRgb:83`, `clamp:88`
+- [packages/tui/src/component/bg-pulse.tsx](packages/tui/src/component/bg-pulse.tsx) — 99 wierszy; deklaracje: `OptimizedBuffer:4`, `RenderContext:5`, `RenderableOptions:6`, `GoUpsellArtOptions:13`, `GoUpsellArtRenderable:19`
+- [packages/tui/src/component/command-palette.tsx](packages/tui/src/component/command-palette.tsx) — 79 wierszy; deklaracje: `OpenTuiKeymap:7`, `PaletteCommandEntry:13`, `isVisiblePaletteCommand:15`, `isSuggestedPaletteCommand:19`, `CommandPaletteDialog:26`
+- [packages/tui/src/component/dialog-agent.tsx](packages/tui/src/component/dialog-agent.tsx) — 31 wierszy; deklaracje: `DialogAgent:6`
+- [packages/tui/src/component/dialog-console-org.tsx](packages/tui/src/component/dialog-console-org.tsx) — 135 wierszy; deklaracje: `OrgOption:11`, `DialogConsoleOrg:24`
+- [packages/tui/src/component/dialog-debug.tsx](packages/tui/src/component/dialog-debug.tsx) — 90 wierszy; deklaracje: `DialogDebug:13`
+- [packages/tui/src/component/dialog-mcp.tsx](packages/tui/src/component/dialog-mcp.tsx) — 85 wierszy; deklaracje: `Status:10`, `DialogMcp:21`
+- [packages/tui/src/component/dialog-model.tsx](packages/tui/src/component/dialog-model.tsx) — 197 wierszy; deklaracje: `DialogModel:12`, `toOptions:29`, `onSelect:142`, `sortModelOptions:186`
+- [packages/tui/src/component/dialog-move-session.tsx](packages/tui/src/component/dialog-move-session.tsx) — 353 wierszy; deklaracje: `MoveSessionSelection:22`, `ProjectDirectory:23`, `DialogMoveSessionProps:25`, `DialogMoveSession:34`, `reopen:52`
+- [packages/tui/src/component/dialog-provider.tsx](packages/tui/src/component/dialog-provider.tsx) — 469 wierszy; deklaracje: `ProviderOptionBase:31`, `ProviderOption:38`, `providerOptions:47`, `normalizeCustomProviderID:80`, `createDialogProviderOptions:86`
+- [packages/tui/src/component/dialog-retry-action.tsx](packages/tui/src/component/dialog-retry-action.tsx) — 160 wierszy; deklaracje: `DialogRetryActionProps:15`, `runAction:23`, `dismiss:29`, `panelOverlay:34`, `DialogRetryAction:39`
+- [packages/tui/src/component/dialog-session-delete-failed.tsx](packages/tui/src/component/dialog-session-delete-failed.tsx) — 99 wierszy; deklaracje: `DialogSessionDeleteFailed:8`, `confirm:36`
+- [packages/tui/src/component/dialog-session-list.tsx](packages/tui/src/component/dialog-session-list.tsx) — 364 wierszy; deklaracje: `SessionListFilter:22`, `createDialogSessionListQuery:24`, `loadDialogSessionList:34`, `DialogSessionList:45`, `recover:101`
+- [packages/tui/src/component/dialog-session-rename.tsx](packages/tui/src/component/dialog-session-rename.tsx) — 31 wierszy; deklaracje: `DialogSessionRenameProps:7`, `DialogSessionRename:11`
+- [packages/tui/src/component/dialog-skill.tsx](packages/tui/src/component/dialog-skill.tsx) — 70 wierszy; deklaracje: `DialogSkillProps:9`, `DialogSkill:13`
+- [packages/tui/src/component/dialog-stash.tsx](packages/tui/src/component/dialog-stash.tsx) — 87 wierszy; deklaracje: `getRelativeTime:9`, `getStashPreview:24`, `DialogStash:29`
+- [packages/tui/src/component/dialog-status.tsx](packages/tui/src/component/dialog-status.tsx) — 168 wierszy; deklaracje: `DialogStatusProps:8`, `DialogStatus:10`
+- [packages/tui/src/component/dialog-tag.tsx](packages/tui/src/component/dialog-tag.tsx) — 47 wierszy; deklaracje: `DialogTag:8`
+- [packages/tui/src/component/dialog-theme-list.tsx](packages/tui/src/component/dialog-theme-list.tsx) — 50 wierszy; deklaracje: `DialogThemeList:6`
+- [packages/tui/src/component/dialog-variant.tsx](packages/tui/src/component/dialog-variant.tsx) — 39 wierszy; deklaracje: `DialogVariant:6`
+- [packages/tui/src/component/dialog-workspace-create.tsx](packages/tui/src/component/dialog-workspace-create.tsx) — 308 wierszy; deklaracje: `Adapter:14`, `WorkspaceSelection:16`, `WorkspaceSelectValue:32`, `ExistingWorkspaceSelectValue:33`, `recentConnectedWorkspaces:35`
+- [packages/tui/src/component/dialog-workspace-file-changes.tsx](packages/tui/src/component/dialog-workspace-file-changes.tsx) — 144 wierszy; deklaracje: `WorkspaceFileChangesChoice:14`, `statusLabel:16`, `changeCountWidth:22`, `DialogWorkspaceFileChanges:27`, `confirm:41`
+- [packages/tui/src/component/dialog-workspace-list.tsx](packages/tui/src/component/dialog-workspace-list.tsx) — 112 wierszy; deklaracje: `WorkspaceOption:14`, `DialogWorkspaceList:16`, `showDetails:54`, `remove:58`
+- [packages/tui/src/component/dialog-workspace-unavailable.tsx](packages/tui/src/component/dialog-workspace-unavailable.tsx) — 69 wierszy; deklaracje: `DialogWorkspaceUnavailable:8`, `confirm:17`
+- [packages/tui/src/component/error-component.tsx](packages/tui/src/component/error-component.tsx) — 240 wierszy; deklaracje: `ErrorComponent:10`, `buildIssueURL:203`
+- [packages/tui/src/component/logo.tsx](packages/tui/src/component/logo.tsx) — 61 wierszy; deklaracje: `Logo:6`
+- [packages/tui/src/component/plugin-route-missing.tsx](packages/tui/src/component/plugin-route-missing.tsx) — 14 wierszy; deklaracje: `PluginRouteMissing:3`
+- [packages/tui/src/component/prompt/autocomplete.tsx](packages/tui/src/component/prompt/autocomplete.tsx) — 781 wierszy; deklaracje: `removeLineRange:27`, `extractLineRange:32`, `AutocompleteRef:59`, `AutocompleteOption:64`, `Autocomplete:75`
+- [packages/tui/src/component/prompt/cwd.ts](packages/tui/src/component/prompt/cwd.ts) — 0 wierszy
+- [packages/tui/src/component/prompt/frecency.tsx](packages/tui/src/component/prompt/frecency.tsx) — 1 wierszy
+- [packages/tui/src/component/prompt/history.tsx](packages/tui/src/component/prompt/history.tsx) — 1 wierszy
+- [packages/tui/src/component/prompt/index.tsx](packages/tui/src/component/prompt/index.tsx) — 1716 wierszy; deklaracje: `KeyEvent:8`, `Renderable:9`, `PromptProps:63`, `pastedFilepath:78`, `PromptRef:89`
+- [packages/tui/src/component/prompt/local-attachment.ts](packages/tui/src/component/prompt/local-attachment.ts) — 48 wierszy; deklaracje: `LocalFiles:4`, `LocalAttachment:10`, `readLocalAttachment:14`, `readLocalAttachmentWith:36`
+- [packages/tui/src/component/prompt/move.tsx](packages/tui/src/component/prompt/move.tsx) — 205 wierszy; deklaracje: `moveReminderText:14`, `usePromptMove:18`, `create:30`, `open:68`, `sessionContext:104`
+- [packages/tui/src/component/prompt/stash.tsx](packages/tui/src/component/prompt/stash.tsx) — 1 wierszy
+- [packages/tui/src/component/prompt/workspace.tsx](packages/tui/src/component/prompt/workspace.tsx) — 137 wierszy; deklaracje: `WorkspaceSelection:12`, `usePromptWorkspace:16`, `create:27`, `warp:61`, `showNotice:96`
+- [packages/tui/src/component/register-spinner.ts](packages/tui/src/component/register-spinner.ts) — 6 wierszy; deklaracje: `registerOpencodeSpinner:4`
+- [packages/tui/src/component/spinner.tsx](packages/tui/src/component/spinner.tsx) — 26 wierszy; deklaracje: `Spinner:12`
+- [packages/tui/src/component/startup-loading.tsx](packages/tui/src/component/startup-loading.tsx) — 63 wierszy; deklaracje: `StartupLoading:5`
+- [packages/tui/src/component/todo-item.tsx](packages/tui/src/component/todo-item.tsx) — 32 wierszy; deklaracje: `TodoItemProps:3`, `TodoItem:8`
+- [packages/tui/src/component/use-connected.tsx](packages/tui/src/component/use-connected.tsx) — 12 wierszy; deklaracje: `useConnected:4`
+- [packages/tui/src/component/workspace-label.tsx](packages/tui/src/component/workspace-label.tsx) — 19 wierszy; deklaracje: `WorkspaceStatus:3`, `WorkspaceLabel:5`
+- [packages/tui/src/config/index.tsx](packages/tui/src/config/index.tsx) — 148 wierszy; deklaracje: `AttentionSoundName:16`, `AttentionSoundPaths:43`, `Info:76`, `Resolved:78`, `ResolveOptions:99`
+- [packages/tui/src/config/keybind.ts](packages/tui/src/config/keybind.ts) — 471 wierszy; deklaracje: `BindingValueSchema:34`, `Definition:36`, `KeybindName:242`, `Keybinds:428`, `KeybindOverrides:429`
+- [packages/tui/src/context/args.tsx](packages/tui/src/context/args.tsx) — 16 wierszy; deklaracje: `Args:3`
+- [packages/tui/src/context/clipboard.tsx](packages/tui/src/context/clipboard.tsx) — 18 wierszy; deklaracje: `ClipboardContent:4`, `ClipboardService:5`, `ClipboardProvider:12`, `useClipboard:16`
+- [packages/tui/src/context/data.tsx](packages/tui/src/context/data.tsx) — 569 wierszy; deklaracje: `LocationData:27`, `Data:37`, `locationKey:50`, `locationQuery:54`, `handleEvent:124`
+- [packages/tui/src/context/directory.ts](packages/tui/src/context/directory.ts) — 17 wierszy; deklaracje: `useDirectory:7`
+- [packages/tui/src/context/editor.ts](packages/tui/src/context/editor.ts) — 408 wierszy; deklaracje: `JsonRpcMessage:95`, `EditorSelection:96`, `EditorMention:97`, `EditorLabelState:98`, `EditorServerInfo:99`
+- [packages/tui/src/context/epilogue.tsx](packages/tui/src/context/epilogue.tsx) — 6 wierszy
+- [packages/tui/src/context/event.ts](packages/tui/src/context/event.ts) — 36 wierszy; deklaracje: `EventMetadata:4`, `useEvent:9`, `subscribe:12`, `on:22`
+- [packages/tui/src/context/exit.tsx](packages/tui/src/context/exit.tsx) — 8 wierszy; deklaracje: `Exit:3`
+- [packages/tui/src/context/helper.tsx](packages/tui/src/context/helper.tsx) — 26 wierszy; deklaracje: `createSimpleContext:3`
+- [packages/tui/src/context/kv.tsx](packages/tui/src/context/kv.tsx) — 66 wierszy; deklaracje: `setter:46`
+- [packages/tui/src/context/local.tsx](packages/tui/src/context/local.tsx) — 542 wierszy; deklaracje: `LocalTheme:17`, `parseModel:27`, `recentModels:35`, `isModelValid:64`, `getFirstValidModel:69`
+- [packages/tui/src/context/location.tsx](packages/tui/src/context/location.tsx) — 14 wierszy; deklaracje: `LocationProvider:6`, `useLocation:10`
+- [packages/tui/src/context/path-format.tsx](packages/tui/src/context/path-format.tsx) — 24 wierszy; deklaracje: `usePathFormatter:6`, `formatPath:15`
+- [packages/tui/src/context/permission.tsx](packages/tui/src/context/permission.tsx) — 26 wierszy; deklaracje: `PermissionMode:5`
+- [packages/tui/src/context/project.tsx](packages/tui/src/context/project.tsx) — 115 wierszy; deklaracje: `WorkspaceStatus:7`, `sync:38`, `syncWorkspace:55`
+- [packages/tui/src/context/prompt.tsx](packages/tui/src/context/prompt.tsx) — 18 wierszy
+- [packages/tui/src/context/route.tsx](packages/tui/src/context/route.tsx) — 60 wierszy; deklaracje: `HomeRoute:6`, `SessionRoute:11`, `PluginRoute:17`, `Route:23`, `initialRoute:44`
+- [packages/tui/src/context/runtime.tsx](packages/tui/src/context/runtime.tsx) — 62 wierszy; deklaracje: `TuiPaths:3`, `TuiTerminalEnvironment:10`, `TuiStartup:16`, `provider:25`, `TuiPathsProvider:34`
+- [packages/tui/src/context/sdk.tsx](packages/tui/src/context/sdk.tsx) — 151 wierszy; deklaracje: `EventSource:7`, `createSDK:23`, `startSSE:82`
+- [packages/tui/src/context/sync.tsx](packages/tui/src/context/sync.tsx) — 673 wierszy; deklaracje: `search:41`, `compareMessage:54`, `sessionListQuery:160`, `listSessions:170`, `bootstrap:451`
+- [packages/tui/src/context/theme.tsx](packages/tui/src/context/theme.tsx) — 332 wierszy; deklaracje: `ThemeJson:20`, `ThemeSource:32`, `discoverThemes:52`, `Theme:77`, `ThemeJson:78`
+- [packages/tui/src/context/thinking.ts](packages/tui/src/context/thinking.ts) — 67 wierszy; deklaracje: `ThinkingMode:4`, `reasoningSummary:12`, `isThinkingMode:19`, `nextThinkingMode:24`, `useThinkingMode:29`
+- [packages/tui/src/editor-zed.ts](packages/tui/src/editor-zed.ts) — 286 wierszy; deklaracje: `ZedEditorRow:33`, `ZedActiveEditorRow:34`, `ZedSelectionResult:36`, `resolveZedSelection:41`, `queryZedActiveEditor:89`
+- [packages/tui/src/editor.ts](packages/tui/src/editor.ts) — 101 wierszy; deklaracje: `EditorStdio:10`, `normalizePromptContent:12`, `openEditor:26`, `discoverEditorConnection:56`
+- [packages/tui/src/feature-plugins/builtins.ts](packages/tui/src/feature-plugins/builtins.ts) — 36 wierszy; deklaracje: `BuiltinTuiPlugin:15`, `createBuiltinPlugins:21`
+- [packages/tui/src/feature-plugins/home/footer.tsx](packages/tui/src/feature-plugins/home/footer.tsx) — 100 wierszy; deklaracje: `Directory:10`, `Mcp:27`, `Version:54`, `View:64`
+- [packages/tui/src/feature-plugins/home/tips-view.tsx](packages/tui/src/feature-plugins/home/tips-view.tsx) — 287 wierszy; deklaracje: `TipPart:8`, `TipShortcut:9`, `Shortcuts:10`, `Tip:45`, `parse:47`
+- [packages/tui/src/feature-plugins/home/tips.tsx](packages/tui/src/feature-plugins/home/tips.tsx) — 59 wierszy; deklaracje: `View:9`
+- [packages/tui/src/feature-plugins/sidebar/context.tsx](packages/tui/src/feature-plugins/sidebar/context.tsx) — 65 wierszy; deklaracje: `View:13`
+- [packages/tui/src/feature-plugins/sidebar/files.tsx](packages/tui/src/feature-plugins/sidebar/files.tsx) — 70 wierszy; deklaracje: `changeCountWidth:8`, `View:14`
+- [packages/tui/src/feature-plugins/sidebar/footer.tsx](packages/tui/src/feature-plugins/sidebar/footer.tsx) — 98 wierszy; deklaracje: `View:9`
+- [packages/tui/src/feature-plugins/sidebar/lsp.tsx](packages/tui/src/feature-plugins/sidebar/lsp.tsx) — 65 wierszy; deklaracje: `View:7`
+- [packages/tui/src/feature-plugins/sidebar/mcp.tsx](packages/tui/src/feature-plugins/sidebar/mcp.tsx) — 97 wierszy; deklaracje: `View:7`
+- [packages/tui/src/feature-plugins/sidebar/todo.tsx](packages/tui/src/feature-plugins/sidebar/todo.tsx) — 49 wierszy; deklaracje: `View:8`
+- [packages/tui/src/feature-plugins/system/diff-viewer-file-tree-utils.ts](packages/tui/src/feature-plugins/system/diff-viewer-file-tree-utils.ts) — 232 wierszy; deklaracje: `FileTreeItem:6`, `FileTreeNode:11`, `FileTree:21`, `FileTreeRow:26`, `buildFileTree:34`
+- [packages/tui/src/feature-plugins/system/diff-viewer-file-tree.tsx](packages/tui/src/feature-plugins/system/diff-viewer-file-tree.tsx) — 162 wierszy; deklaracje: `DiffViewerFileTreeTheme:11`, `DiffViewerFileTreeProps:23`, `DiffViewerFileTree:37`, `scrollFileTreeRowIntoView:125`, `fileTreeRowPrefix:136`
+- [packages/tui/src/feature-plugins/system/diff-viewer-ui.tsx](packages/tui/src/feature-plugins/system/diff-viewer-ui.tsx) — 103 wierszy; deklaracje: `Axis:6`, `SeparatorEdge:7`, `PanelBorder:8`, `crossAxis:12`, `usePanelGroup:16`
+- [packages/tui/src/feature-plugins/system/diff-viewer.tsx](packages/tui/src/feature-plugins/system/diff-viewer.tsx) — 1077 wierszy; deklaracje: `BorderSides:6`, `BoxRenderable:7`, `DiffRenderable:8`, `ScrollBoxRenderable:9`, `FileTreeRow:25`
+- [packages/tui/src/feature-plugins/system/notifications.ts](packages/tui/src/feature-plugins/system/notifications.ts) — 94 wierszy; deklaracje: `SessionError:7`, `notify:9`, `sessionErrorMessage:20`
+- [packages/tui/src/feature-plugins/system/plugins.tsx](packages/tui/src/feature-plugins/system/plugins.tsx) — 269 wierszy; deklaracje: `state:11`, `source:23`, `meta:28`, `Install:38`, `row:135`
+- [packages/tui/src/feature-plugins/system/which-key.tsx](packages/tui/src/feature-plugins/system/which-key.tsx) — 608 wierszy; deklaracje: `Layout:51`, `Color:53`, `Skin:55`, `Entry:66`, `Group:74`
+- [packages/tui/src/index.tsx](packages/tui/src/index.tsx) — 1 wierszy
+- [packages/tui/src/keymap.tsx](packages/tui/src/keymap.tsx) — 290 wierszy; deklaracje: `OpenTuiKeymap:31`, `OpencodeModeStack:32`, `CommandSlashEntry:33`, `Command:39`, `BindingLookup:40`
+- [packages/tui/src/logo.ts](packages/tui/src/logo.ts) — 11 wierszy
+- [packages/tui/src/parsers-config.ts](packages/tui/src/parsers-config.ts) — 386 wierszy
+- [packages/tui/src/plugin/adapters.tsx](packages/tui/src/plugin/adapters.tsx) — 355 wierszy; deklaracje: `Input:23`, `routeNavigate:41`, `routeCurrent:57`, `mapOption:75`, `pickOption:82`
+- [packages/tui/src/plugin/api.ts](packages/tui/src/plugin/api.ts) — 52 wierszy; deklaracje: `RouteEntry:4`, `RouteMap:9`, `createPluginRoutes:11`, `PluginRoutes:40`, `createTuiApi:42`
+- [packages/tui/src/plugin/command-shim.ts](packages/tui/src/plugin/command-shim.ts) — 109 wierszy; deklaracje: `Warn:9`, `LegacyDialog:10`, `CommandShimDialog:11`, `LegacyKeybinds:12`, `warnCommandShim:14`
+- [packages/tui/src/plugin/runtime.tsx](packages/tui/src/plugin/runtime.tsx) — 81 wierszy; deklaracje: `createPluginRuntime:12`, `PluginRuntimeCommands:37`, `PluginRuntime:59`, `TuiPluginHost:61`, `PluginRuntimeProvider:73`
+- [packages/tui/src/plugin/slots.tsx](packages/tui/src/plugin/slots.tsx) — 65 wierszy; deklaracje: `RuntimeSlotMap:6`, `SlotView:7`, `HostSlotPlugin:9`, `HostPluginApi:10`, `HostSlots:11`
+- [packages/tui/src/prompt/display.ts](packages/tui/src/prompt/display.ts) — 48 wierszy; deklaracje: `promptOffsetWidth:3`, `displayOffsetIndex:12`, `displaySlice:25`, `displayCharAt:29`, `mentionTriggerIndex:38`
+- [packages/tui/src/prompt/frecency.tsx](packages/tui/src/prompt/frecency.tsx) — 80 wierszy; deklaracje: `FrecencyEntry:8`, `parseFrecency:12`, `calculateFrecency:33`, `updateFrecency:57`
+- [packages/tui/src/prompt/history.tsx](packages/tui/src/prompt/history.tsx) — 111 wierszy; deklaracje: `PromptInfo:9`, `parsePromptHistory:29`, `isDuplicateEntry:44`
+- [packages/tui/src/prompt/part.ts](packages/tui/src/prompt/part.ts) — 29 wierszy; deklaracje: `stripPromptPartIDs:3`, `expandPastedTextPlaceholders:8`, `isPastedTextPart:15`, `expandTrackedPastedText:24`
+- [packages/tui/src/prompt/stash.tsx](packages/tui/src/prompt/stash.tsx) — 89 wierszy; deklaracje: `StashEntry:9`, `parsePromptStash:17`
+- [packages/tui/src/prompt/traits.ts](packages/tui/src/prompt/traits.ts) — 29 wierszy; deklaracje: `PromptMode:3`, `PromptTraitsInput:5`, `PromptTraits:10`, `computePromptTraits:16`
+- [packages/tui/src/routes/home.tsx](packages/tui/src/routes/home.tsx) — 95 wierszy; deklaracje: `Home:22`
+- [packages/tui/src/routes/home/session-destination.tsx](packages/tui/src/routes/home/session-destination.tsx) — 41 wierszy; deklaracje: `Accessor:6`, `ParentProps:7`, `Setter:8`, `HomeSessionDestination:13`, `Context:15`
+- [packages/tui/src/routes/session/dialog-fork-from-timeline.tsx](packages/tui/src/routes/session/dialog-fork-from-timeline.tsx) — 76 wierszy; deklaracje: `DialogForkFromTimeline:12`
+- [packages/tui/src/routes/session/dialog-message.tsx](packages/tui/src/routes/session/dialog-message.tsx) — 109 wierszy; deklaracje: `DialogMessage:10`
+- [packages/tui/src/routes/session/dialog-subagent.tsx](packages/tui/src/routes/session/dialog-subagent.tsx) — 26 wierszy; deklaracje: `DialogSubagent:4`
+- [packages/tui/src/routes/session/dialog-timeline.tsx](packages/tui/src/routes/session/dialog-timeline.tsx) — 47 wierszy; deklaracje: `DialogTimeline:10`
+- [packages/tui/src/routes/session/footer.tsx](packages/tui/src/routes/session/footer.tsx) — 91 wierszy; deklaracje: `Footer:9`, `tick:31`
+- [packages/tui/src/routes/session/index.tsx](packages/tui/src/routes/session/index.tsx) — 2706 wierszy; deklaracje: `RetryAction:96`, `goUpsellKeys:98`, `use:171`, `Session:177`, `toBottom:423`
+- [packages/tui/src/routes/session/permission.tsx](packages/tui/src/routes/session/permission.tsx) — 719 wierszy; deklaracje: `PermissionStage:20`, `EditBody:22`, `TextBody:90`, `PermissionPrompt:111`, `RejectPrompt:443`
+- [packages/tui/src/routes/session/question.tsx](packages/tui/src/routes/session/question.tsx) — 515 wierszy; deklaracje: `QuestionPrompt:14`, `submit:48`, `reject:57`, `pick:64`, `toggle:85`
+- [packages/tui/src/routes/session/sidebar.tsx](packages/tui/src/routes/session/sidebar.tsx) — 103 wierszy; deklaracje: `Sidebar:12`
+- [packages/tui/src/routes/session/subagent-footer.tsx](packages/tui/src/routes/session/subagent-footer.tsx) — 132 wierszy; deklaracje: `SubagentFooter:11`
+- [packages/tui/src/runtime.tsx](packages/tui/src/runtime.tsx) — 9 wierszy; deklaracje: `abbreviateHome:3`
+- [packages/tui/src/terminal-win32.ts](packages/tui/src/terminal-win32.ts) — 130 wierszy; deklaracje: `load:17`, `win32DisableProcessedInput:30`, `win32FlushInputBuffer:47`, `win32InstallCtrlCGuard:69`
+- [packages/tui/src/theme/assets/aura.json](packages/tui/src/theme/assets/aura.json) — 69 wierszy
+- [packages/tui/src/theme/assets/ayu.json](packages/tui/src/theme/assets/ayu.json) — 80 wierszy
+- [packages/tui/src/theme/assets/carbonfox.json](packages/tui/src/theme/assets/carbonfox.json) — 248 wierszy
+- [packages/tui/src/theme/assets/catppuccin-frappe.json](packages/tui/src/theme/assets/catppuccin-frappe.json) — 230 wierszy
+- [packages/tui/src/theme/assets/catppuccin-macchiato.json](packages/tui/src/theme/assets/catppuccin-macchiato.json) — 230 wierszy
+- [packages/tui/src/theme/assets/catppuccin.json](packages/tui/src/theme/assets/catppuccin.json) — 112 wierszy
+- [packages/tui/src/theme/assets/cobalt2.json](packages/tui/src/theme/assets/cobalt2.json) — 225 wierszy
+- [packages/tui/src/theme/assets/cursor.json](packages/tui/src/theme/assets/cursor.json) — 249 wierszy
+- [packages/tui/src/theme/assets/dracula.json](packages/tui/src/theme/assets/dracula.json) — 219 wierszy
+- [packages/tui/src/theme/assets/everforest.json](packages/tui/src/theme/assets/everforest.json) — 241 wierszy
+- [packages/tui/src/theme/assets/flexoki.json](packages/tui/src/theme/assets/flexoki.json) — 237 wierszy
+- [packages/tui/src/theme/assets/github.json](packages/tui/src/theme/assets/github.json) — 233 wierszy
+- [packages/tui/src/theme/assets/gruvbox.json](packages/tui/src/theme/assets/gruvbox.json) — 242 wierszy
+- [packages/tui/src/theme/assets/kanagawa.json](packages/tui/src/theme/assets/kanagawa.json) — 77 wierszy
+- [packages/tui/src/theme/assets/lucent-orng.json](packages/tui/src/theme/assets/lucent-orng.json) — 234 wierszy
+- [packages/tui/src/theme/assets/material.json](packages/tui/src/theme/assets/material.json) — 235 wierszy
+- [packages/tui/src/theme/assets/matrix.json](packages/tui/src/theme/assets/matrix.json) — 77 wierszy
+- [packages/tui/src/theme/assets/mercury.json](packages/tui/src/theme/assets/mercury.json) — 252 wierszy
+- [packages/tui/src/theme/assets/monokai.json](packages/tui/src/theme/assets/monokai.json) — 221 wierszy
+- [packages/tui/src/theme/assets/nightowl.json](packages/tui/src/theme/assets/nightowl.json) — 221 wierszy
+- [packages/tui/src/theme/assets/nord.json](packages/tui/src/theme/assets/nord.json) — 223 wierszy
+- [packages/tui/src/theme/assets/one-dark.json](packages/tui/src/theme/assets/one-dark.json) — 84 wierszy
+- [packages/tui/src/theme/assets/opencode.json](packages/tui/src/theme/assets/opencode.json) — 245 wierszy
+- [packages/tui/src/theme/assets/orng.json](packages/tui/src/theme/assets/orng.json) — 249 wierszy
+- [packages/tui/src/theme/assets/osaka-jade.json](packages/tui/src/theme/assets/osaka-jade.json) — 93 wierszy
+- [packages/tui/src/theme/assets/palenight.json](packages/tui/src/theme/assets/palenight.json) — 222 wierszy
+- [packages/tui/src/theme/assets/rosepine.json](packages/tui/src/theme/assets/rosepine.json) — 234 wierszy
+- [packages/tui/src/theme/assets/solarized.json](packages/tui/src/theme/assets/solarized.json) — 223 wierszy
+- [packages/tui/src/theme/assets/synthwave84.json](packages/tui/src/theme/assets/synthwave84.json) — 226 wierszy
+- [packages/tui/src/theme/assets/tokyonight.json](packages/tui/src/theme/assets/tokyonight.json) — 243 wierszy
+- [packages/tui/src/theme/assets/vercel.json](packages/tui/src/theme/assets/vercel.json) — 245 wierszy
+- [packages/tui/src/theme/assets/vesper.json](packages/tui/src/theme/assets/vesper.json) — 218 wierszy
+- [packages/tui/src/theme/assets/zenburn.json](packages/tui/src/theme/assets/zenburn.json) — 223 wierszy
+- [packages/tui/src/theme/index.ts](packages/tui/src/theme/index.ts) — 1089 wierszy; deklaracje: `Theme:36`, `ThemeColor:92`, `SyntaxStyleOverrides:93`, `selectedForeground:95`, `HexColor:113`
+- [packages/tui/src/ui/border.ts](packages/tui/src/ui/border.ts) — 21 wierszy
+- [packages/tui/src/ui/dialog-alert.tsx](packages/tui/src/ui/dialog-alert.tsx) — 66 wierszy; deklaracje: `DialogAlertProps:6`, `DialogAlert:12`
+- [packages/tui/src/ui/dialog-confirm.tsx](packages/tui/src/ui/dialog-confirm.tsx) — 108 wierszy; deklaracje: `DialogConfirmProps:9`, `DialogConfirmResult:17`, `DialogConfirm:19`
+- [packages/tui/src/ui/dialog-export-options.tsx](packages/tui/src/ui/dialog-export-options.tsx) — 220 wierszy; deklaracje: `DialogExportOptionsProps:9`, `DialogExportOptions:25`
+- [packages/tui/src/ui/dialog-help.tsx](packages/tui/src/ui/dialog-help.tsx) — 40 wierszy; deklaracje: `DialogHelp:6`
+- [packages/tui/src/ui/dialog-prompt.tsx](packages/tui/src/ui/dialog-prompt.tsx) — 127 wierszy; deklaracje: `DialogPromptProps:9`, `DialogPrompt:20`, `confirm:28`
+- [packages/tui/src/ui/dialog-select.tsx](packages/tui/src/ui/dialog-select.tsx) — 791 wierszy; deklaracje: `KeyEvent:6`, `Renderable:7`, `DialogSelectProps:23`, `DialogSelectOption:56`, `DialogSelectRef:74`
+- [packages/tui/src/ui/dialog.tsx](packages/tui/src/ui/dialog.tsx) — 231 wierszy; deklaracje: `Dialog:11`, `init:69`, `refocus:88`, `find:92`, `DialogContext:178`
+- [packages/tui/src/ui/link.tsx](packages/tui/src/ui/link.tsx) — 34 wierszy; deklaracje: `LinkProps:5`, `Link:18`
+- [packages/tui/src/ui/spinner.ts](packages/tui/src/ui/spinner.ts) — 368 wierszy; deklaracje: `AdvancedGradientOptions:5`, `ScannerState:15`, `getScannerState:25`, `calculateColorIndex:106`, `createKnightRiderTrail:141`
+- [packages/tui/src/ui/toast.tsx](packages/tui/src/ui/toast.tsx) — 102 wierszy; deklaracje: `ToastOptions:7`, `ToastInput:13`, `Toast:15`, `init:53`, `ToastContext:87`
+- [packages/tui/src/util/collapse-tool-output.ts](packages/tui/src/util/collapse-tool-output.ts) — 19 wierszy; deklaracje: `collapseToolOutput:1`
+- [packages/tui/src/util/error.ts](packages/tui/src/util/error.ts) — 193 wierszy; deklaracje: `ConfigIssue:3`, `cliErrorMessage:5`, `tagged:89`, `named:93`, `configData:97`
+- [packages/tui/src/util/filetype.ts](packages/tui/src/util/filetype.ts) — 130 wierszy; deklaracje: `filetype:125`
+- [packages/tui/src/util/format.ts](packages/tui/src/util/format.ts) — 20 wierszy; deklaracje: `formatDuration:1`
+- [packages/tui/src/util/layout.ts](packages/tui/src/util/layout.ts) — 25 wierszy; deklaracje: `setPreLayoutSiblingMargin:8`, `previousSiblings:20`
+- [packages/tui/src/util/locale.ts](packages/tui/src/util/locale.ts) — 86 wierszy; deklaracje: `titlecase:1`, `time:5`, `datetime:10`, `todayTimeOrDateTime:17`, `number:30`
+- [packages/tui/src/util/model.ts](packages/tui/src/util/model.ts) — 28 wierszy; deklaracje: `parse:3`, `index:8`, `get:12`, `name:22`
+- [packages/tui/src/util/path.ts](packages/tui/src/util/path.ts) — 12 wierszy; deklaracje: `normalizePath:4`
+- [packages/tui/src/util/persistence.ts](packages/tui/src/util/persistence.ts) — 33 wierszy; deklaracje: `readText:4`, `readJson:8`, `writeText:12`, `appendText:17`, `writeJsonAtomic:22`
+- [packages/tui/src/util/presentation.ts](packages/tui/src/util/presentation.ts) — 38 wierszy; deklaracje: `wordmark:10`, `sessionEpilogue:29`
+- [packages/tui/src/util/provider-origin.ts](packages/tui/src/util/provider-origin.ts) — 7 wierszy
+- [packages/tui/src/util/record.ts](packages/tui/src/util/record.ts) — 3 wierszy; deklaracje: `isRecord:1`
+- [packages/tui/src/util/renderer.ts](packages/tui/src/util/renderer.ts) — 7 wierszy; deklaracje: `destroyRenderer:3`
+- [packages/tui/src/util/revert-diff.ts](packages/tui/src/util/revert-diff.ts) — 18 wierszy; deklaracje: `getRevertDiffFiles:3`
+- [packages/tui/src/util/scroll.ts](packages/tui/src/util/scroll.ts) — 27 wierszy; deklaracje: `ScrollConfig:3`, `CustomSpeedScroll:8`, `getScrollAcceleration:18`
+- [packages/tui/src/util/selection.ts](packages/tui/src/util/selection.ts) — 79 wierszy; deklaracje: `Toast:3`, `FocusableSelectionTarget:8`, `Renderer:13`, `SelectionKeyEvent:19`, `copy:26`
+- [packages/tui/src/util/session.ts](packages/tui/src/util/session.ts) — 3 wierszy; deklaracje: `isDefaultTitle:1`
+- [packages/tui/src/util/signal.ts](packages/tui/src/util/signal.ts) — 51 wierszy; deklaracje: `createDebouncedSignal:3`, `createFadeIn:19`
+- [packages/tui/src/util/system.ts](packages/tui/src/util/system.ts) — 20 wierszy; deklaracje: `describeOS:3`, `describeTerminal:15`
+- [packages/tui/src/util/tool-display.ts](packages/tui/src/util/tool-display.ts) — 13 wierszy; deklaracje: `webSearchProviderLabel:1`, `toolDisplayMetadata:7`
+- [packages/tui/src/util/transcript.ts](packages/tui/src/util/transcript.ts) — 114 wierszy; deklaracje: `TranscriptOptions:5`, `SessionInfo:12`, `MessageWithParts:21`, `formatTranscript:26`, `formatMessage:48`
+- [packages/tui/sst-env.d.ts](packages/tui/sst-env.d.ts) — 10 wierszy
+- [packages/tui/test/app-lifecycle.test.tsx](packages/tui/test/app-lifecycle.test.tsx) — 190 wierszy
+- [packages/tui/test/cli/cmd/tui/dialog-workspace-create.test.ts](packages/tui/test/cli/cmd/tui/dialog-workspace-create.test.ts) — 28 wierszy
+- [packages/tui/test/cli/cmd/tui/model-options.test.ts](packages/tui/test/cli/cmd/tui/model-options.test.ts) — 32 wierszy
+- [packages/tui/test/cli/cmd/tui/notifications.test.ts](packages/tui/test/cli/cmd/tui/notifications.test.ts) — 267 wierszy; deklaracje: `setup:7`, `question:67`, `permission:75`
+- [packages/tui/test/cli/cmd/tui/provider-options.test.ts](packages/tui/test/cli/cmd/tui/provider-options.test.ts) — 41 wierszy
+- [packages/tui/test/cli/cmd/tui/sync-fixture.tsx](packages/tui/test/cli/cmd/tui/sync-fixture.tsx) — 70 wierszy; deklaracje: `wait:15`, `Ctx:23`, `mount:25`, `Probe:36`
+- [packages/tui/test/cli/cmd/tui/sync-live-hydration.test.tsx](packages/tui/test/cli/cmd/tui/sync-live-hydration.test.tsx) — 285 wierszy; deklaracje: `global:32`
+- [packages/tui/test/cli/cmd/tui/sync-undefined-messages.test.tsx](packages/tui/test/cli/cmd/tui/sync-undefined-messages.test.tsx) — 43 wierszy
+- [packages/tui/test/cli/cmd/tui/sync.test.tsx](packages/tui/test/cli/cmd/tui/sync.test.tsx) — 65 wierszy; deklaracje: `branchEvent:7`
+- [packages/tui/test/cli/tui/__snapshots__/inline-tool-wrap-snapshot.test.tsx.snap](packages/tui/test/cli/tui/__snapshots__/inline-tool-wrap-snapshot.test.tsx.snap)
+- [packages/tui/test/cli/tui/data.test.tsx](packages/tui/test/cli/tui/data.test.tsx) — 486 wierszy; deklaracje: `wait:12`, `global:20`, `emitEvent:24`, `Probe:60`, `Probe:129`
+- [packages/tui/test/cli/tui/dialog-prompt.test.tsx](packages/tui/test/cli/tui/dialog-prompt.test.tsx) — 147 wierszy; deklaracje: `wait:14`, `mountPrompt:22`, `Harness:49`
+- [packages/tui/test/cli/tui/diff-viewer-file-tree.test.tsx](packages/tui/test/cli/tui/diff-viewer-file-tree.test.tsx) — 200 wierszy; deklaracje: `renderFrame:155`, `renderOnceSettled:165`, `captureSettledFrame:171`, `withTheme:181`, `visibleLines:193`
+- [packages/tui/test/cli/tui/diff-viewer.test.tsx](packages/tui/test/cli/tui/diff-viewer.test.tsx) — 268 wierszy; deklaracje: `renderDiffViewer:101`, `Harness:111`, `findScrollBox:188`, `containsDiff:193`, `waitForCommand:245`
+- [packages/tui/test/cli/tui/inline-tool-wrap-snapshot.test.tsx](packages/tui/test/cli/tui/inline-tool-wrap-snapshot.test.tsx) — 351 wierszy; deklaracje: `ToolFixture:27`, `ShellOutput:55`, `UserMessage:73`, `Fixture:83`, `TaskRowsFixture:108`
+- [packages/tui/test/cli/tui/prompt-submit-race.test.ts](packages/tui/test/cli/tui/prompt-submit-race.test.ts) — 98 wierszy; deklaracje: `Store:22`, `SubmitResult:24`, `Harness:26`, `createHarness:33`, `createSubmit:52`
+- [packages/tui/test/cli/tui/thinking.test.ts](packages/tui/test/cli/tui/thinking.test.ts) — 36 wierszy
+- [packages/tui/test/cli/tui/use-event.test.tsx](packages/tui/test/cli/tui/use-event.test.tsx) — 148 wierszy; deklaracje: `wait:14`, `event:22`, `vcs:31`, `update:41`, `mount:51`
+- [packages/tui/test/clipboard.test.ts](packages/tui/test/clipboard.test.ts) — 19 wierszy
+- [packages/tui/test/component/dialog-session-list.test.ts](packages/tui/test/component/dialog-session-list.test.ts) — 46 wierszy
+- [packages/tui/test/config.test.tsx](packages/tui/test/config.test.tsx) — 142 wierszy; deklaracje: `Info:12`, `Consumer:122`
+- [packages/tui/test/context/local.test.ts](packages/tui/test/context/local.test.ts) — 22 wierszy
+- [packages/tui/test/editor.test.ts](packages/tui/test/editor.test.ts) — 32 wierszy
+- [packages/tui/test/feature-plugins/diff-viewer-file-tree-utils.test.ts](packages/tui/test/feature-plugins/diff-viewer-file-tree-utils.test.ts) — 323 wierszy
+- [packages/tui/test/fixture/fixture.ts](packages/tui/test/fixture/fixture.ts) — 13 wierszy; deklaracje: `tmpdir:5`
+- [packages/tui/test/fixture/tui-environment.tsx](packages/tui/test/fixture/tui-environment.tsx) — 32 wierszy; deklaracje: `TuiPaths:6`, `TestTuiContexts:10`
+- [packages/tui/test/fixture/tui-plugin.ts](packages/tui/test/fixture/tui-plugin.ts) — 36 wierszy; deklaracje: `Opts:5`, `createTuiPluginApi:13`
+- [packages/tui/test/fixture/tui-runtime.ts](packages/tui/test/fixture/tui-runtime.ts) — 12 wierszy; deklaracje: `ResolvedInput:4`, `createTuiResolvedConfig:10`
+- [packages/tui/test/fixture/tui-sdk.ts](packages/tui/test/fixture/tui-sdk.ts) — 109 wierszy; deklaracje: `json:7`, `eventSource:14`, `createEventSource:18`, `FetchHandler:62`, `createFetch:64`
+- [packages/tui/test/index.test.tsx](packages/tui/test/index.test.tsx) — 6 wierszy
+- [packages/tui/test/keymap.test.tsx](packages/tui/test/keymap.test.tsx) — 141 wierszy; deklaracje: `createResolvedKeymapConfig:10`, `Harness:24`, `Harness:69`
+- [packages/tui/test/plugin/runtime.test.ts](packages/tui/test/plugin/runtime.test.ts) — 50 wierszy
+- [packages/tui/test/plugin/slots.test.tsx](packages/tui/test/plugin/slots.test.tsx) — 38 wierszy; deklaracje: `Slots:6`
+- [packages/tui/test/prompt/display.test.ts](packages/tui/test/prompt/display.test.ts) — 33 wierszy
+- [packages/tui/test/prompt/history.test.ts](packages/tui/test/prompt/history.test.ts) — 39 wierszy
+- [packages/tui/test/prompt/jsonl.test.ts](packages/tui/test/prompt/jsonl.test.ts) — 24 wierszy
+- [packages/tui/test/prompt/local-attachment.test.ts](packages/tui/test/prompt/local-attachment.test.ts) — 43 wierszy; deklaracje: `files:5`
+- [packages/tui/test/prompt/part.test.ts](packages/tui/test/prompt/part.test.ts) — 53 wierszy
+- [packages/tui/test/prompt/persistence.test.ts](packages/tui/test/prompt/persistence.test.ts) — 23 wierszy
+- [packages/tui/test/prompt/traits.test.ts](packages/tui/test/prompt/traits.test.ts) — 25 wierszy
+- [packages/tui/test/runtime.test.tsx](packages/tui/test/runtime.test.tsx) — 37 wierszy; deklaracje: `Runtime:16`
+- [packages/tui/test/theme.test.ts](packages/tui/test/theme.test.ts) — 81 wierszy; deklaracje: `terminalColors:47`
+- [packages/tui/test/util/error.test.ts](packages/tui/test/util/error.test.ts) — 49 wierszy; deklaracje: `OpaqueError:29`
+- [packages/tui/test/util/filetype.test.ts](packages/tui/test/util/filetype.test.ts) — 16 wierszy
+- [packages/tui/test/util/format.test.ts](packages/tui/test/util/format.test.ts) — 59 wierszy
+- [packages/tui/test/util/model.test.ts](packages/tui/test/util/model.test.ts) — 9 wierszy
+- [packages/tui/test/util/presentation.test.ts](packages/tui/test/util/presentation.test.ts) — 8 wierszy
+- [packages/tui/test/util/renderer.test.ts](packages/tui/test/util/renderer.test.ts) — 30 wierszy
+- [packages/tui/test/util/revert-diff.test.ts](packages/tui/test/util/revert-diff.test.ts) — 35 wierszy
+- [packages/tui/test/util/session.test.ts](packages/tui/test/util/session.test.ts) — 10 wierszy
+- [packages/tui/test/util/tool-display.test.ts](packages/tui/test/util/tool-display.test.ts) — 40 wierszy
+- [packages/tui/test/util/transcript.test.ts](packages/tui/test/util/transcript.test.ts) — 449 wierszy
+- [packages/tui/tsconfig.json](packages/tui/tsconfig.json) — 10 wierszy
+- [packages/ui/.gitignore](packages/ui/.gitignore)
+- [packages/ui/AGENTS.md](packages/ui/AGENTS.md) — 10 wierszy
+- [packages/ui/LICENSE](packages/ui/LICENSE)
+- [packages/ui/package.json](packages/ui/package.json) — 113 wierszy
+- [packages/ui/script/build-oc2-v2-overrides.ts](packages/ui/script/build-oc2-v2-overrides.ts) — 32 wierszy; deklaracje: `readTokens:22`
+- [packages/ui/script/colors.txt](packages/ui/script/colors.txt)
+- [packages/ui/script/pack.ts](packages/ui/script/pack.ts) — 40 wierszy; deklaracje: `pack:7`
+- [packages/ui/script/publish.ts](packages/ui/script/publish.ts) — 26 wierszy
+- [packages/ui/script/tailwind.ts](packages/ui/script/tailwind.ts) — 23 wierszy
+- [packages/ui/src/assets/audio/alert-01.aac](packages/ui/src/assets/audio/alert-01.aac)
+- [packages/ui/src/assets/audio/alert-01.mp3](packages/ui/src/assets/audio/alert-01.mp3)
+- [packages/ui/src/assets/audio/alert-02.aac](packages/ui/src/assets/audio/alert-02.aac)
+- [packages/ui/src/assets/audio/alert-02.mp3](packages/ui/src/assets/audio/alert-02.mp3)
+- [packages/ui/src/assets/audio/alert-03.aac](packages/ui/src/assets/audio/alert-03.aac)
+- [packages/ui/src/assets/audio/alert-03.mp3](packages/ui/src/assets/audio/alert-03.mp3)
+- [packages/ui/src/assets/audio/alert-04.aac](packages/ui/src/assets/audio/alert-04.aac)
+- [packages/ui/src/assets/audio/alert-04.mp3](packages/ui/src/assets/audio/alert-04.mp3)
+- [packages/ui/src/assets/audio/alert-05.aac](packages/ui/src/assets/audio/alert-05.aac)
+- [packages/ui/src/assets/audio/alert-05.mp3](packages/ui/src/assets/audio/alert-05.mp3)
+- [packages/ui/src/assets/audio/alert-06.aac](packages/ui/src/assets/audio/alert-06.aac)
+- [packages/ui/src/assets/audio/alert-06.mp3](packages/ui/src/assets/audio/alert-06.mp3)
+- [packages/ui/src/assets/audio/alert-07.aac](packages/ui/src/assets/audio/alert-07.aac)
+- [packages/ui/src/assets/audio/alert-07.mp3](packages/ui/src/assets/audio/alert-07.mp3)
+- [packages/ui/src/assets/audio/alert-08.aac](packages/ui/src/assets/audio/alert-08.aac)
+- [packages/ui/src/assets/audio/alert-08.mp3](packages/ui/src/assets/audio/alert-08.mp3)
+- [packages/ui/src/assets/audio/alert-09.aac](packages/ui/src/assets/audio/alert-09.aac)
+- [packages/ui/src/assets/audio/alert-09.mp3](packages/ui/src/assets/audio/alert-09.mp3)
+- [packages/ui/src/assets/audio/alert-10.aac](packages/ui/src/assets/audio/alert-10.aac)
+- [packages/ui/src/assets/audio/alert-10.mp3](packages/ui/src/assets/audio/alert-10.mp3)
+- [packages/ui/src/assets/audio/bip-bop-01.aac](packages/ui/src/assets/audio/bip-bop-01.aac)
+- [packages/ui/src/assets/audio/bip-bop-01.mp3](packages/ui/src/assets/audio/bip-bop-01.mp3)
+- [packages/ui/src/assets/audio/bip-bop-02.aac](packages/ui/src/assets/audio/bip-bop-02.aac)
+- [packages/ui/src/assets/audio/bip-bop-02.mp3](packages/ui/src/assets/audio/bip-bop-02.mp3)
+- [packages/ui/src/assets/audio/bip-bop-03.aac](packages/ui/src/assets/audio/bip-bop-03.aac)
+- [packages/ui/src/assets/audio/bip-bop-03.mp3](packages/ui/src/assets/audio/bip-bop-03.mp3)
+- [packages/ui/src/assets/audio/bip-bop-04.aac](packages/ui/src/assets/audio/bip-bop-04.aac)
+- [packages/ui/src/assets/audio/bip-bop-04.mp3](packages/ui/src/assets/audio/bip-bop-04.mp3)
+- [packages/ui/src/assets/audio/bip-bop-05.aac](packages/ui/src/assets/audio/bip-bop-05.aac)
+- [packages/ui/src/assets/audio/bip-bop-05.mp3](packages/ui/src/assets/audio/bip-bop-05.mp3)
+- [packages/ui/src/assets/audio/bip-bop-06.aac](packages/ui/src/assets/audio/bip-bop-06.aac)
+- [packages/ui/src/assets/audio/bip-bop-06.mp3](packages/ui/src/assets/audio/bip-bop-06.mp3)
+- [packages/ui/src/assets/audio/bip-bop-07.aac](packages/ui/src/assets/audio/bip-bop-07.aac)
+- [packages/ui/src/assets/audio/bip-bop-07.mp3](packages/ui/src/assets/audio/bip-bop-07.mp3)

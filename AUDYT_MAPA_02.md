@@ -1,0 +1,306 @@
+# opencode — mapa plików (2/23)
+
+Wykaz śledzonych plików z badanego commita. Liczba wierszy i nazwy deklaracji są wyciągane automatycznie z dostępnej kopii tekstowej; nie oznaczają ręcznej oceny pliku. Brak opisu oznacza, że zawartość nie była analizowana tą metodą (np. plik binarny, zasób lub pominięty plik).
+
+[Wróć do audytu](AUDYT_EDUKACYJNY.md) · [1](AUDYT_MAPA_01.md) · [2](AUDYT_MAPA_02.md) · [3](AUDYT_MAPA_03.md) · [4](AUDYT_MAPA_04.md) · [5](AUDYT_MAPA_05.md) · [6](AUDYT_MAPA_06.md) · [7](AUDYT_MAPA_07.md) · [8](AUDYT_MAPA_08.md) · [9](AUDYT_MAPA_09.md) · [10](AUDYT_MAPA_10.md) · [11](AUDYT_MAPA_11.md) · [12](AUDYT_MAPA_12.md) · [13](AUDYT_MAPA_13.md) · [14](AUDYT_MAPA_14.md) · [15](AUDYT_MAPA_15.md) · [16](AUDYT_MAPA_16.md) · [17](AUDYT_MAPA_17.md) · [18](AUDYT_MAPA_18.md) · [19](AUDYT_MAPA_19.md) · [20](AUDYT_MAPA_20.md) · [21](AUDYT_MAPA_21.md) · [22](AUDYT_MAPA_22.md) · [23](AUDYT_MAPA_23.md)
+
+- [packages/app/public/oc-theme-preload.js](packages/app/public/oc-theme-preload.js) — 40 wierszy
+- [packages/app/public/site.webmanifest](packages/app/public/site.webmanifest)
+- [packages/app/public/social-share-zen.png](packages/app/public/social-share-zen.png)
+- [packages/app/public/social-share.png](packages/app/public/social-share.png)
+- [packages/app/public/web-app-manifest-192x192.png](packages/app/public/web-app-manifest-192x192.png)
+- [packages/app/public/web-app-manifest-512x512.png](packages/app/public/web-app-manifest-512x512.png)
+- [packages/app/src/addons/serialize.test.ts](packages/app/src/addons/serialize.test.ts) — 327 wierszy; deklaracje: `createTerminal:20`, `writeAndWait:33`
+- [packages/app/src/addons/serialize.ts](packages/app/src/addons/serialize.ts) — 642 wierszy; deklaracje: `IBuffer:22`, `IBufferLine:33`, `IBufferCell:40`, `TerminalBuffers:59`, `ISerializeOptions:103`
+- [packages/app/src/app.tsx](packages/app/src/app.tsx) — 667 wierszy; deklaracje: `BaseRouterProps:12`, `Component:25`, `JSX:33`, `ParentProps:36`, `TargetServerRoute:110`
+- [packages/app/src/assets/help/home.png](packages/app/src/assets/help/home.png)
+- [packages/app/src/assets/help/introducing-tabs.mp4](packages/app/src/assets/help/introducing-tabs.mp4)
+- [packages/app/src/assets/help/placeholder.png](packages/app/src/assets/help/placeholder.png)
+- [packages/app/src/assets/help/tabs.png](packages/app/src/assets/help/tabs.png)
+- [packages/app/src/components/command-palette.ts](packages/app/src/components/command-palette.ts) — 281 wierszy; deklaracje: `CommandPaletteEntry:19`, `uniqueCommandPaletteEntries:46`, `createCommandPaletteFileEntry:55`, `createCommandPaletteFileOpener:65`, `createCommandPaletteModel:81`
+- [packages/app/src/components/command-tooltip-keybind.test.ts](packages/app/src/components/command-tooltip-keybind.test.ts) — 22 wierszy
+- [packages/app/src/components/command-tooltip-keybind.ts](packages/app/src/components/command-tooltip-keybind.ts) — 11 wierszy; deklaracje: `CommandKeybind:1`, `reviewTooltipKeybind:5`, `newTabTooltipKeybind:9`
+- [packages/app/src/components/debug-bar.tsx](packages/app/src/components/debug-bar.tsx) — 587 wierszy; deklaracje: `Mem:10`, `Evt:17`, `Shift:22`, `Obs:27`, `Cell:56`
+- [packages/app/src/components/dialog-command-palette-v2.css](packages/app/src/components/dialog-command-palette-v2.css) — 220 wierszy
+- [packages/app/src/components/dialog-command-palette-v2.tsx](packages/app/src/components/dialog-command-palette-v2.tsx) — 342 wierszy; deklaracje: `CommandPaletteEntry:23`, `groups:27`, `matchesEntry:33`, `DialogCommandPaletteV2:38`, `DialogHomeCommandPaletteV2:64`
+- [packages/app/src/components/dialog-connect-provider.stories.tsx](packages/app/src/components/dialog-connect-provider.stories.tsx) — 73 wierszy; deklaracje: `ConnectProviderDialogStory:9`, `ProviderConnectionDialogStory:22`, `renderConnection:38`
+- [packages/app/src/components/dialog-connect-provider.tsx](packages/app/src/components/dialog-connect-provider.tsx) — 1191 wierszy; deklaracje: `Accessor:17`, `Component:18`, `ConnectMethod:43`, `useProviderConnectController:45`, `Content:74`
+- [packages/app/src/components/dialog-custom-provider-form.ts](packages/app/src/components/dialog-custom-provider-form.ts) — 158 wierszy; deklaracje: `Translator:4`, `ModelErr:6`, `HeaderErr:11`, `ModelRow:16`, `HeaderRow:23`
+- [packages/app/src/components/dialog-custom-provider.test.ts](packages/app/src/components/dialog-custom-provider.test.ts) — 80 wierszy
+- [packages/app/src/components/dialog-custom-provider.tsx](packages/app/src/components/dialog-custom-provider.tsx) — 330 wierszy; deklaracje: `Props:17`, `DialogCustomProvider:21`, `CustomProviderForm:43`
+- [packages/app/src/components/dialog-edit-project-v2.tsx](packages/app/src/components/dialog-edit-project-v2.tsx) — 156 wierszy; deklaracje: `DialogEditProjectV2:16`
+- [packages/app/src/components/dialog-edit-project.tsx](packages/app/src/components/dialog-edit-project.tsx) — 170 wierszy; deklaracje: `DialogEditProject:15`
+- [packages/app/src/components/dialog-fork.tsx](packages/app/src/components/dialog-fork.tsx) — 104 wierszy; deklaracje: `ForkableMessage:15`, `formatTime:21`
+- [packages/app/src/components/dialog-manage-models.tsx](packages/app/src/components/dialog-manage-models.tsx) — 265 wierszy; deklaracje: `ModelItem:25`
+- [packages/app/src/components/dialog-release-notes.tsx](packages/app/src/components/dialog-release-notes.tsx) — 144 wierszy; deklaracje: `Highlight:8`, `DialogReleaseNotes:18`, `handleNext:31`, `handleClose:36`, `handleDisable:40`
+- [packages/app/src/components/dialog-select-directory-v2.css](packages/app/src/components/dialog-select-directory-v2.css) — 107 wierszy
+- [packages/app/src/components/dialog-select-directory-v2.tsx](packages/app/src/components/dialog-select-directory-v2.tsx) — 386 wierszy; deklaracje: `DialogSelectDirectoryV2Props:34`, `DialogSelectDirectoryV2:43`, `load:120`, `navigate:155`, `complete:175`
+- [packages/app/src/components/dialog-select-directory.tsx](packages/app/src/components/dialog-select-directory.tsx) — 200 wierszy; deklaracje: `DialogSelectDirectoryProps:14`, `Row:23`, `toRow:29`, `uniqueRows:44`, `DialogSelectDirectory:53`
+- [packages/app/src/components/dialog-select-file.tsx](packages/app/src/components/dialog-select-file.tsx) — 189 wierszy; deklaracje: `CommandPaletteEntry:21`, `DialogSelectFileMode:28`, `DialogSelectFile:30`, `DialogSelectFileDesktopV2:46`, `DialogSelectFileLegacy:67`
+- [packages/app/src/components/dialog-select-mcp.tsx](packages/app/src/components/dialog-select-mcp.tsx) — 92 wierszy
+- [packages/app/src/components/dialog-select-model-search.test.ts](packages/app/src/components/dialog-select-model-search.test.ts) — 19 wierszy
+- [packages/app/src/components/dialog-select-model-search.ts](packages/app/src/components/dialog-select-model-search.ts) — 18 wierszy
+- [packages/app/src/components/dialog-select-model-unpaid-v2.stories.tsx](packages/app/src/components/dialog-select-model-unpaid-v2.stories.tsx) — 55 wierszy; deklaracje: `SelectModelWithoutProviders:16`
+- [packages/app/src/components/dialog-select-model-unpaid-v2.tsx](packages/app/src/components/dialog-select-model-unpaid-v2.tsx) — 176 wierszy; deklaracje: `ModelState:15`
+- [packages/app/src/components/dialog-select-model-unpaid.tsx](packages/app/src/components/dialog-select-model-unpaid.tsx) — 147 wierszy; deklaracje: `ModelState:15`
+- [packages/app/src/components/dialog-select-model.tsx](packages/app/src/components/dialog-select-model.tsx) — 557 wierszy; deklaracje: `ModelState:29`, `ModelItem:30`, `ModelSelectorTriggerProps:115`, `ModelSelectorTrigger:116`, `Dismiss:117`
+- [packages/app/src/components/dialog-select-server.tsx](packages/app/src/components/dialog-select-server.tsx) — 722 wierszy; deklaracje: `ServerFormProps:26`, `showRequestError:43`, `useDefaultServer:51`, `useServerPreview:81`, `ServerForm:113`
+- [packages/app/src/components/dialog-settings.tsx](packages/app/src/components/dialog-settings.tsx) — 94 wierszy
+- [packages/app/src/components/dialog-usage-exceeded.tsx](packages/app/src/components/dialog-usage-exceeded.tsx) — 46 wierszy; deklaracje: `DialogGoUpsellProps:8`, `DialogUsageExceeded:16`
+- [packages/app/src/components/directory-picker-domain.test.ts](packages/app/src/components/directory-picker-domain.test.ts) — 310 wierszy
+- [packages/app/src/components/directory-picker-domain.ts](packages/app/src/components/directory-picker-domain.ts) — 414 wierszy; deklaracje: `treeEntries:1`, `pickerTreeEntries:9`, `pickerSearchEntries:17`, `pickerMode:24`, `pickerFileSearchQuery:66`
+- [packages/app/src/components/directory-picker-policy.ts](packages/app/src/components/directory-picker-policy.ts) — 7 wierszy; deklaracje: `directoryPickerKind:4`
+- [packages/app/src/components/directory-picker.test.ts](packages/app/src/components/directory-picker.test.ts) — 21 wierszy
+- [packages/app/src/components/directory-picker.tsx](packages/app/src/components/directory-picker.tsx) — 45 wierszy; deklaracje: `DirectoryPickerInput:13`, `useDirectoryPicker:20`
+- [packages/app/src/components/edit-project.ts](packages/app/src/components/edit-project.ts) — 133 wierszy; deklaracje: `createEditProjectModel:11`, `selectFile:27`, `drop:39`, `dragOver:46`, `dragLeave:51`
+- [packages/app/src/components/external-link.tsx](packages/app/src/components/external-link.tsx) — 21 wierszy; deklaracje: `ExternalLinkProps:3`, `ExternalLink:7`
+- [packages/app/src/components/file-tree-v2-model.test.ts](packages/app/src/components/file-tree-v2-model.test.ts) — 74 wierszy
+- [packages/app/src/components/file-tree-v2-model.ts](packages/app/src/components/file-tree-v2-model.ts) — 107 wierszy; deklaracje: `FileTreeV2Model:3`, `FileTreeV2Node:8`, `FileTreeV2Row:10`, `normalizeFileTreeV2Path:15`, `buildFileTreeV2Model:22`
+- [packages/app/src/components/file-tree-v2.tsx](packages/app/src/components/file-tree-v2.tsx) — 301 wierszy; deklaracje: `ComponentProps:11`, `ParentProps:12`, `FileTreeV2Node:24`, `rowPaddingStart:32`, `guideLineStart:38`
+- [packages/app/src/components/file-tree.test.ts](packages/app/src/components/file-tree.test.ts) — 80 wierszy
+- [packages/app/src/components/file-tree.tsx](packages/app/src/components/file-tree.tsx) — 509 wierszy; deklaracje: `ComponentProps:16`, `ParentProps:17`, `pathToFileUrl:24`, `Kind:28`, `Filter:30`
+- [packages/app/src/components/help-button.tsx](packages/app/src/components/help-button.tsx) — 143 wierszy; deklaracje: `TabsInfoPopup:17`
+- [packages/app/src/components/model-tooltip.tsx](packages/app/src/components/model-tooltip.tsx) — 124 wierszy; deklaracje: `InputKey:4`, `InputMap:5`, `ModelInfo:7`, `ModelTooltipRow:26`
+- [packages/app/src/components/pierre-tree.test.ts](packages/app/src/components/pierre-tree.test.ts) — 23 wierszy
+- [packages/app/src/components/prompt-input-v2.tsx](packages/app/src/components/prompt-input-v2.tsx) — 589 wierszy; deklaracje: `PromptInputV2Interaction:33`, `PromptInputV2ComposerProps:36`, `PromptInputV2ControllerProps:42`, `PromptInputV2ComposerController:43`, `PromptInputV2Composer:47`
+- [packages/app/src/components/prompt-input.stories.tsx](packages/app/src/components/prompt-input.stories.tsx) — 223 wierszy; deklaracje: `createPromptInputStoryRuntime:8`, `PromptInputExample:23`, `PromptInputWithOpenDock:120`
+- [packages/app/src/components/prompt-input.tsx](packages/app/src/components/prompt-input.tsx) — 1793 wierszy; deklaracje: `JSX:14`, `PromptHistoryComment:60`, `PromptHistoryEntry:61`, `PromptInputHistory:67`, `PromptInputControls:70`
+- [packages/app/src/components/prompt-input/attachments.test.ts](packages/app/src/components/prompt-input/attachments.test.ts) — 108 wierszy
+- [packages/app/src/components/prompt-input/attachments.ts](packages/app/src/components/prompt-input/attachments.ts) — 213 wierszy; deklaracje: `PromptTarget:13`, `AttachmentTarget:14`, `PromptAttachmentsCoreInput:16`, `PromptAttachmentsInput:27`, `createPromptAttachmentsCore:38`
+- [packages/app/src/components/prompt-input/build-request-parts.test.ts](packages/app/src/components/prompt-input/build-request-parts.test.ts) — 396 wierszy
+- [packages/app/src/components/prompt-input/build-request-parts.ts](packages/app/src/components/prompt-input/build-request-parts.ts) — 213 wierszy; deklaracje: `PromptRequestPart:9`, `ContextFile:11`, `BuildRequestPartsInput:22`, `buildRequestParts:91`
+- [packages/app/src/components/prompt-input/context-items.tsx](packages/app/src/components/prompt-input/context-items.tsx) — 98 wierszy; deklaracje: `PromptContextItem:10`, `ContextItemsProps:12`
+- [packages/app/src/components/prompt-input/contracts.ts](packages/app/src/components/prompt-input/contracts.ts) — 57 wierszy; deklaracje: `PromptInputState:6`, `PromptInputSubmission:8`, `PromptInputControls:13`, `PromptInputProps:42`
+- [packages/app/src/components/prompt-input/drag-overlay.tsx](packages/app/src/components/prompt-input/drag-overlay.tsx) — 25 wierszy; deklaracje: `PromptDragOverlayProps:4`
+- [packages/app/src/components/prompt-input/editor-dom.test.ts](packages/app/src/components/prompt-input/editor-dom.test.ts) — 99 wierszy
+- [packages/app/src/components/prompt-input/editor-dom.ts](packages/app/src/components/prompt-input/editor-dom.ts) — 148 wierszy; deklaracje: `createTextFragment:3`, `getNodeLength:30`, `getTextLength:35`, `getCursorPosition:45`, `setCursorPosition:56`
+- [packages/app/src/components/prompt-input/files.ts](packages/app/src/components/prompt-input/files.ts) — 98 wierszy; deklaracje: `AttachmentPicker:5`, `pickAttachmentFiles:14`, `kind:57`, `ext:61`, `textMime:67`
+- [packages/app/src/components/prompt-input/history-store.ts](packages/app/src/components/prompt-input/history-store.ts) — 63 wierszy; deklaracje: `PromptHistoryComment:8`, `PromptHistoryStoredEntry:9`, `PromptInputHistory:12`, `PromptHistoryState:17`, `createPromptInputHistoryStore:19`
+- [packages/app/src/components/prompt-input/history.test.ts](packages/app/src/components/prompt-input/history.test.ts) — 153 wierszy; deklaracje: `PromptHistoryComment:10`
+- [packages/app/src/components/prompt-input/history.ts](packages/app/src/components/prompt-input/history.ts) — 256 wierszy; deklaracje: `PromptHistoryComment:8`, `PromptHistoryEntry:18`, `PromptHistoryStoredEntry:23`, `canNavigateHistoryAtCursor:25`, `clonePromptParts:34`
+- [packages/app/src/components/prompt-input/image-attachments.css](packages/app/src/components/prompt-input/image-attachments.css) — 43 wierszy
+- [packages/app/src/components/prompt-input/image-attachments.tsx](packages/app/src/components/prompt-input/image-attachments.tsx) — 169 wierszy; deklaracje: `PromptCommentItem:12`, `PromptImageAttachmentsProps:14`
+- [packages/app/src/components/prompt-input/paste.ts](packages/app/src/components/prompt-input/paste.ts) — 24 wierszy; deklaracje: `largePaste:4`, `normalizePaste:15`, `pasteMode:20`
+- [packages/app/src/components/prompt-input/placeholder.test.ts](packages/app/src/components/prompt-input/placeholder.test.ts) — 63 wierszy
+- [packages/app/src/components/prompt-input/placeholder.ts](packages/app/src/components/prompt-input/placeholder.ts) — 24 wierszy; deklaracje: `PromptPlaceholderInput:1`, `promptPlaceholder:9`, `promptDesignPlaceholder:17`
+- [packages/app/src/components/prompt-input/slash-popover.tsx](packages/app/src/components/prompt-input/slash-popover.tsx) — 376 wierszy; deklaracje: `AtOption:8`, `SlashCommand:22`, `PromptPopoverProps:32`
+- [packages/app/src/components/prompt-input/submission-state.ts](packages/app/src/components/prompt-input/submission-state.ts) — 33 wierszy; deklaracje: `PromptTarget:3`, `createPromptSubmissionState:5`
+- [packages/app/src/components/prompt-input/submit.test.ts](packages/app/src/components/prompt-input/submit.test.ts) — 598 wierszy
+- [packages/app/src/components/prompt-input/submit.ts](packages/app/src/components/prompt-input/submit.ts) — 645 wierszy; deklaracje: `PendingPrompt:27`, `FollowupDraft:34`, `FollowupSendInput:44`, `sendFollowupDraft:58`, `PromptSubmitInput:210`
+- [packages/app/src/components/prompt-input/transient-state.ts](packages/app/src/components/prompt-input/transient-state.ts) — 46 wierszy; deklaracje: `PromptInputTransientState:5`, `resetPromptInputTransientState:17`, `createPromptInputTransientState:30`
+- [packages/app/src/components/prompt-project-selector.tsx](packages/app/src/components/prompt-project-selector.tsx) — 589 wierszy; deklaracje: `Accessor:8`, `ComponentProps:9`, `PromptProject:23`, `PromptProjectControls:32`, `projectKey:43`
+- [packages/app/src/components/prompt-workspace-selector.tsx](packages/app/src/components/prompt-workspace-selector.tsx) — 128 wierszy; deklaracje: `PromptWorkspaceSelector:9`, `PromptGitStatus:101`
+- [packages/app/src/components/server/server-row-menu.tsx](packages/app/src/components/server/server-row-menu.tsx) — 96 wierszy; deklaracje: `serverMenuLabels:34`
+- [packages/app/src/components/server/server-row.tsx](packages/app/src/components/server/server-row.tsx) — 127 wierszy; deklaracje: `JSXElement:8`, `ParentProps:10`, `ServerRowProps:17`, `ServerRow:28`, `ServerHealthIndicator:116`
+- [packages/app/src/components/session-context-usage.tsx](packages/app/src/components/session-context-usage.tsx) — 169 wierszy; deklaracje: `SessionContextUsageProps:20`, `ContextTooltipRow:26`, `openSessionContext:35`, `SessionContextUsage:46`
+- [packages/app/src/components/session/index.ts](packages/app/src/components/session/index.ts) — 6 wierszy
+- [packages/app/src/components/session/open-in-app-v2.tsx](packages/app/src/components/session/open-in-app-v2.tsx) — 101 wierszy; deklaracje: `OpenInAppV2:12`
+- [packages/app/src/components/session/open-in-app.tsx](packages/app/src/components/session/open-in-app.tsx) — 229 wierszy; deklaracje: `OpenApp:26`, `OpenAppOS:27`, `detectOpenAppOS:94`, `openAppFileManager:104`, `openAppsForOS:110`
+- [packages/app/src/components/session/session-context-breakdown.test.ts](packages/app/src/components/session/session-context-breakdown.test.ts) — 61 wierszy
+- [packages/app/src/components/session/session-context-breakdown.ts](packages/app/src/components/session/session-context-breakdown.ts) — 132 wierszy; deklaracje: `SessionContextBreakdownKey:3`, `SessionContextBreakdownSegment:5`, `estimateSessionContextBreakdown:70`
+- [packages/app/src/components/session/session-context-format.ts](packages/app/src/components/session/session-context-format.ts) — 20 wierszy; deklaracje: `createSessionContextFormatter:3`
+- [packages/app/src/components/session/session-context-metrics.test.ts](packages/app/src/components/session/session-context-metrics.test.ts) — 99 wierszy
+- [packages/app/src/components/session/session-context-metrics.ts](packages/app/src/components/session/session-context-metrics.ts) — 65 wierszy; deklaracje: `Provider:3`, `Model:9`, `Context:16`, `getSessionContext:63`
+- [packages/app/src/components/session/session-context-tab.tsx](packages/app/src/components/session/session-context-tab.tsx) — 383 wierszy; deklaracje: `Stat:33`, `RawMessageContent:42`, `RawMessage:64`, `SessionContextTab:97`
+- [packages/app/src/components/session/session-header.tsx](packages/app/src/components/session/session-header.tsx) — 568 wierszy; deklaracje: `OpenApp:54`, `OS:55`, `SessionHeader:140`, `SessionHeaderV2ActionsState:519`, `SessionHeaderV2Actions:529`
+- [packages/app/src/components/session/session-new-view.tsx](packages/app/src/components/session/session-new-view.tsx) — 91 wierszy; deklaracje: `NewSessionViewProps:14`, `NewSessionView:18`
+- [packages/app/src/components/session/session-sortable-tab-v2.tsx](packages/app/src/components/session/session-sortable-tab-v2.tsx) — 74 wierszy; deklaracje: `SortableTabV2:13`
+- [packages/app/src/components/session/session-sortable-tab.tsx](packages/app/src/components/session/session-sortable-tab.tsx) — 78 wierszy; deklaracje: `FileVisual:13`, `SortableTab:32`
+- [packages/app/src/components/session/session-sortable-terminal-tab-v2.tsx](packages/app/src/components/session/session-sortable-terminal-tab-v2.tsx) — 284 wierszy; deklaracje: `SortableTerminalTabV2:15`
+- [packages/app/src/components/session/session-sortable-terminal-tab.tsx](packages/app/src/components/session/session-sortable-terminal-tab.tsx) — 193 wierszy; deklaracje: `SortableTerminalTab:14`
+- [packages/app/src/components/settings-dialog.tsx](packages/app/src/components/settings-dialog.tsx) — 43 wierszy; deklaracje: `useSettingsDialog:7`, `useSettingsCommand:27`
+- [packages/app/src/components/settings-general.tsx](packages/app/src/components/settings-general.tsx) — 795 wierszy; deklaracje: `ThemeOption:41`, `ShellOption:46`, `ShellSelectOption:52`, `SettingsRowProps:779`
+- [packages/app/src/components/settings-keybinds.tsx](packages/app/src/components/settings-keybinds.tsx) — 781 wierszy; deklaracje: `KeybindGroup:24`, `KeybindMeta:26`, `KeybindMap:31`, `CommandContext:32`, `LanguageContext:33`
+- [packages/app/src/components/settings-list.tsx](packages/app/src/components/settings-list.tsx) — 5 wierszy
+- [packages/app/src/components/settings-models.tsx](packages/app/src/components/settings-models.tsx) — 149 wierszy; deklaracje: `ModelItem:14`
+- [packages/app/src/components/settings-providers.tsx](packages/app/src/components/settings-providers.tsx) — 264 wierszy; deklaracje: `ProviderSource:16`, `ProviderItem:17`
+- [packages/app/src/components/settings-server-picker.tsx](packages/app/src/components/settings-server-picker.tsx) — 106 wierszy; deklaracje: `SettingsServerScope:14`, `SettingsServerDataProviders:27`, `SettingsServerPicker:42`
+- [packages/app/src/components/settings-servers.tsx](packages/app/src/components/settings-servers.tsx) — 33 wierszy
+- [packages/app/src/components/settings-v2/dialog-server-v2.tsx](packages/app/src/components/settings-v2/dialog-server-v2.tsx) — 134 wierszy
+- [packages/app/src/components/settings-v2/dialog-settings-v2.tsx](packages/app/src/components/settings-v2/dialog-settings-v2.tsx) — 114 wierszy
+- [packages/app/src/components/settings-v2/general-controller-behavior.ts](packages/app/src/components/settings-v2/general-controller-behavior.ts) — 70 wierszy; deklaracje: `ShellOption:3`, `ShellSelectOption:9`, `createShellOptions:16`, `createSoundPreviewController:40`
+- [packages/app/src/components/settings-v2/general-controllers.test.ts](packages/app/src/components/settings-v2/general-controllers.test.ts) — 53 wierszy
+- [packages/app/src/components/settings-v2/general-controllers.ts](packages/app/src/components/settings-v2/general-controllers.ts) — 173 wierszy; deklaracje: `createPermissionScopeController:25`, `createShellSettingsController:52`, `createAppearanceSettingsController:75`, `SoundSelectOption:117`, `createSoundSettingsController:119`
+- [packages/app/src/components/settings-v2/general.tsx](packages/app/src/components/settings-v2/general.tsx) — 571 wierszy; deklaracje: `AppearanceSettingsController:23`, `PermissionScopeController:24`, `ShellSettingsController:25`, `SoundSettingsController:26`
+- [packages/app/src/components/settings-v2/index.tsx](packages/app/src/components/settings-v2/index.tsx) — 1 wierszy
+- [packages/app/src/components/settings-v2/interface-transition.stories.tsx](packages/app/src/components/settings-v2/interface-transition.stories.tsx) — 76 wierszy; deklaracje: `Frame:15`, `ToggleExample:19`, `NoticeExample:34`
+- [packages/app/src/components/settings-v2/interface-transition.tsx](packages/app/src/components/settings-v2/interface-transition.tsx) — 54 wierszy; deklaracje: `LayoutTransitionToggle:7`, `LayoutRetirementNotice:37`
+- [packages/app/src/components/settings-v2/models.tsx](packages/app/src/components/settings-v2/models.tsx) — 187 wierszy; deklaracje: `ModelItem:18`
+- [packages/app/src/components/settings-v2/parts/list.tsx](packages/app/src/components/settings-v2/parts/list.tsx) — 6 wierszy
+- [packages/app/src/components/settings-v2/parts/row.tsx](packages/app/src/components/settings-v2/parts/row.tsx) — 20 wierszy; deklaracje: `SettingsRowV2Props:4`
+- [packages/app/src/components/settings-v2/providers.tsx](packages/app/src/components/settings-v2/providers.tsx) — 267 wierszy; deklaracje: `ProviderSource:16`, `ProviderItem:17`
+- [packages/app/src/components/settings-v2/servers.tsx](packages/app/src/components/settings-v2/servers.tsx) — 139 wierszy
+- [packages/app/src/components/settings-v2/settings-v2.css](packages/app/src/components/settings-v2/settings-v2.css) — 729 wierszy
+- [packages/app/src/components/status-popover-body.tsx](packages/app/src/components/status-popover-body.tsx) — 514 wierszy; deklaracje: `ServerStatusState:100`, `ServerStatusItem:110`, `StatusPopoverServerBody:119`, `ServerStatusPopoverView:173`, `ServerStatusList:198`
+- [packages/app/src/components/status-popover-indicator.test.ts](packages/app/src/components/status-popover-indicator.test.ts) — 58 wierszy
+- [packages/app/src/components/status-popover-indicator.ts](packages/app/src/components/status-popover-indicator.ts) — 30 wierszy; deklaracje: `hasServiceNeedingAttention:4`, `hasNonBlockingServiceIssue:8`, `serverStatusDotClass:18`
+- [packages/app/src/components/status-popover.tsx](packages/app/src/components/status-popover.tsx) — 208 wierszy; deklaracje: `StatusPopover:21`, `StatusPopoverV2:85`, `DirectoryStatusPopover:90`, `ServerStatusPopover:127`, `StatusPopoverState:151`
+- [packages/app/src/components/terminal.tsx](packages/app/src/components/terminal.tsx) — 757 wierszy; deklaracje: `TerminalProps:23`, `TerminalColors:46`
+- [packages/app/src/components/titlebar-history.test.ts](packages/app/src/components/titlebar-history.test.ts) — 63 wierszy; deklaracje: `history:4`
+- [packages/app/src/components/titlebar-history.ts](packages/app/src/components/titlebar-history.ts) — 57 wierszy; deklaracje: `TitlebarAction:3`, `TitlebarHistory:5`, `applyPath:11`, `pushPath:28`, `trimHistory:34`
+- [packages/app/src/components/titlebar-session-events.test.ts](packages/app/src/components/titlebar-session-events.test.ts) — 32 wierszy
+- [packages/app/src/components/titlebar-session-events.ts](packages/app/src/components/titlebar-session-events.ts) — 35 wierszy; deklaracje: `SessionTabsRemovedDetail:5`, `notifySessionTabsRemoved:11`, `readSessionTabsRemovedDetail:15`
+- [packages/app/src/components/titlebar-tab-gesture.test.ts](packages/app/src/components/titlebar-tab-gesture.test.ts) — 33 wierszy
+- [packages/app/src/components/titlebar-tab-gesture.ts](packages/app/src/components/titlebar-tab-gesture.ts) — 17 wierszy; deklaracje: `isTabCloseTarget:3`, `canStartTabDrag:7`, `forwardTabRef:11`, `canOpenTabRename:15`
+- [packages/app/src/components/titlebar-tab-nav.css](packages/app/src/components/titlebar-tab-nav.css) — 150 wierszy
+- [packages/app/src/components/titlebar-tab-nav.tsx](packages/app/src/components/titlebar-tab-nav.tsx) — 438 wierszy; deklaracje: `TabNavItem:22`, `DraftTabItem:346`
+- [packages/app/src/components/titlebar-tab-order.test.ts](packages/app/src/components/titlebar-tab-order.test.ts) — 23 wierszy
+- [packages/app/src/components/titlebar-tab-order.ts](packages/app/src/components/titlebar-tab-order.ts) — 12 wierszy; deklaracje: `adjacentTabKey:1`, `mergeVisibleTabOrder:8`
+- [packages/app/src/components/titlebar-tab-popover.css](packages/app/src/components/titlebar-tab-popover.css) — 127 wierszy
+- [packages/app/src/components/titlebar-tab-popover.tsx](packages/app/src/components/titlebar-tab-popover.tsx) — 92 wierszy; deklaracje: `TabPreviewData:15`, `TabPreviewPopover:22`
+- [packages/app/src/components/titlebar-tab-strip.tsx](packages/app/src/components/titlebar-tab-strip.tsx) — 417 wierszy; deklaracje: `SessionTabSlot:24`, `SessionTabEntry:73`, `DraftTabSlot:170`, `TitlebarTabStrip:212`, `selectAdjacentTab:250`
+- [packages/app/src/components/titlebar.css](packages/app/src/components/titlebar.css) — 77 wierszy
+- [packages/app/src/components/titlebar.tsx](packages/app/src/components/titlebar.tsx) — 673 wierszy; deklaracje: `TitlebarUpdate:49`, `useTitlebarRightMount:55`, `Titlebar:64`, `TitlebarUpdatePillState:595`, `TitlebarV2RightState:604`
+- [packages/app/src/components/ui/drawer.tsx](packages/app/src/components/ui/drawer.tsx) — 119 wierszy; deklaracje: `DrawerOverlayProps:19`, `DrawerContentProps:45`, `DrawerTitleProps:78`, `DrawerDescriptionProps:91`
+- [packages/app/src/components/updater-action.test.ts](packages/app/src/components/updater-action.test.ts) — 26 wierszy
+- [packages/app/src/components/updater-action.ts](packages/app/src/components/updater-action.ts) — 51 wierszy; deklaracje: `updaterAction:7`, `useUpdaterAction:25`
+- [packages/app/src/components/virtual-scroll-element.test.ts](packages/app/src/components/virtual-scroll-element.test.ts) — 18 wierszy
+- [packages/app/src/components/virtual-scroll-element.ts](packages/app/src/components/virtual-scroll-element.ts) — 4 wierszy; deklaracje: `virtualScrollElement:1`
+- [packages/app/src/components/windows-app-menu.tsx](packages/app/src/components/windows-app-menu.tsx) — 133 wierszy; deklaracje: `WindowsAppMenu:13`, `DesktopMenuSubmenu:108`, `DesktopMenuItem:124`
+- [packages/app/src/constants/file-picker.ts](packages/app/src/constants/file-picker.ts) — 89 wierszy; deklaracje: `filePickerFilters:86`
+- [packages/app/src/context/closed-tabs.ts](packages/app/src/context/closed-tabs.ts) — 40 wierszy; deklaracje: `ClosedTab:3`, `pushClosedTab:12`, `takeClosedTab:19`, `removeClosedTabs:28`, `nextTabAfterClose:33`
+- [packages/app/src/context/command-keybind.test.ts](packages/app/src/context/command-keybind.test.ts) — 69 wierszy
+- [packages/app/src/context/command.test.ts](packages/app/src/context/command.test.ts) — 70 wierszy; deklaracje: `CommandOption:7`
+- [packages/app/src/context/command.tsx](packages/app/src/context/command.tsx) — 476 wierszy; deklaracje: `KeyLabel:18`, `keyText:35`, `actionId:39`, `normalizeKey:44`, `signature:51`
+- [packages/app/src/context/comments.test.ts](packages/app/src/context/comments.test.ts) — 188 wierszy; deklaracje: `line:24`
+- [packages/app/src/context/comments.tsx](packages/app/src/context/comments.tsx) — 261 wierszy; deklaracje: `LineComment:14`, `CommentFocus:22`, `sessionKey:27`, `decodeSessionKey:31`, `CommentStore:40`
+- [packages/app/src/context/directory-sync.ts](packages/app/src/context/directory-sync.ts) — 156 wierszy
+- [packages/app/src/context/file-content-eviction-accounting.test.ts](packages/app/src/context/file-content-eviction-accounting.test.ts) — 65 wierszy
+- [packages/app/src/context/file.tsx](packages/app/src/context/file.tsx) — 303 wierszy; deklaracje: `FileState:31`, `FileSelection:32`, `FileViewState:33`, `SelectedLineRange:34`, `errorMessage:49`
+- [packages/app/src/context/file/content-cache.ts](packages/app/src/context/file/content-cache.ts) — 88 wierszy; deklaracje: `approxBytes:9`, `setBytes:18`, `touch:26`, `remove:32`, `reset:39`
+- [packages/app/src/context/file/path.test.ts](packages/app/src/context/file/path.test.ts) — 383 wierszy
+- [packages/app/src/context/file/path.ts](packages/app/src/context/file/path.ts) — 156 wierszy; deklaracje: `stripFileProtocol:1`, `stripQueryAndHash:6`, `unquoteGitPath:19`, `decodeFilePath:75`, `encodeFilePath:83`
+- [packages/app/src/context/file/tree-store.ts](packages/app/src/context/file/tree-store.ts) — 174 wierszy; deklaracje: `DirectoryState:4`, `TreeStoreOptions:12`, `createFileTreeStore:19`
+- [packages/app/src/context/file/types.ts](packages/app/src/context/file/types.ts) — 41 wierszy; deklaracje: `FileSelection:3`, `SelectedLineRange:10`, `FileViewState:17`, `FileState:23`, `selectionFromLines:32`
+- [packages/app/src/context/file/view-cache.ts](packages/app/src/context/file/view-cache.ts) — 147 wierszy; deklaracje: `normalizeSelectedLines:12`, `equalSelectedLines:27`, `createViewSession:37`, `createFileViewCache:123`
+- [packages/app/src/context/file/watcher.test.ts](packages/app/src/context/file/watcher.test.ts) — 149 wierszy
+- [packages/app/src/context/file/watcher.ts](packages/app/src/context/file/watcher.ts) — 53 wierszy; deklaracje: `WatcherEvent:3`, `WatcherOps:8`, `invalidateFromWatcher:18`
+- [packages/app/src/context/global-sync/bootstrap.test.ts](packages/app/src/context/global-sync/bootstrap.test.ts) — 330 wierszy; deklaracje: `ProjectApi:21`, `directoryState:41`
+- [packages/app/src/context/global-sync/bootstrap.ts](packages/app/src/context/global-sync/bootstrap.ts) — 554 wierszy; deklaracje: `GlobalStore:49`, `waitForPaint:59`, `errors:78`, `clearProviderRev:84`, `runAll:88`
+- [packages/app/src/context/global-sync/child-store.test.ts](packages/app/src/context/global-sync/child-store.test.ts) — 276 wierszy; deklaracje: `createOwner:43`
+- [packages/app/src/context/global-sync/child-store.ts](packages/app/src/context/global-sync/child-store.ts) — 396 wierszy; deklaracje: `ChildOptions:8`, `DirState:9`, `IconCache:10`, `MetaCache:11`, `ProjectMeta:12`
+- [packages/app/src/context/global-sync/event-reducer.test.ts](packages/app/src/context/global-sync/event-reducer.test.ts) — 616 wierszy
+- [packages/app/src/context/global-sync/event-reducer.ts](packages/app/src/context/global-sync/event-reducer.ts) — 479 wierszy; deklaracje: `applyGlobalEvent:37`, `cleanupSessionCaches:66`, `cleanupDroppedSessionCaches:80`, `applyDirectoryEvent:109`
+- [packages/app/src/context/global-sync/eviction.ts](packages/app/src/context/global-sync/eviction.ts) — 28 wierszy; deklaracje: `pickDirectoriesToEvict:3`, `canDisposeDirectory:21`
+- [packages/app/src/context/global-sync/home-session-index.test.ts](packages/app/src/context/global-sync/home-session-index.test.ts) — 185 wierszy
+- [packages/app/src/context/global-sync/home-session-index.ts](packages/app/src/context/global-sync/home-session-index.ts) — 186 wierszy; deklaracje: `HomeSessionEvent:8`, `HomeSessionEvents:12`, `HomeSessionIndex:16`, `HomeSessionPage:24`, `loadHomeSessionIndex:26`
+- [packages/app/src/context/global-sync/mcp.test.ts](packages/app/src/context/global-sync/mcp.test.ts) — 54 wierszy
+- [packages/app/src/context/global-sync/mcp.ts](packages/app/src/context/global-sync/mcp.ts) — 19 wierszy; deklaracje: `toggleMcp:3`
+- [packages/app/src/context/global-sync/queue.test.ts](packages/app/src/context/global-sync/queue.test.ts) — 46 wierszy
+- [packages/app/src/context/global-sync/queue.ts](packages/app/src/context/global-sync/queue.ts) — 87 wierszy; deklaracje: `QueueInput:1`, `createRefreshQueue:8`, `drain:50`
+- [packages/app/src/context/global-sync/session-cache.test.ts](packages/app/src/context/global-sync/session-cache.test.ts) — 104 wierszy
+- [packages/app/src/context/global-sync/session-cache.ts](packages/app/src/context/global-sync/session-cache.ts) — 62 wierszy; deklaracje: `SessionCache:7`, `dropSessionCaches:19`, `pickSessionCacheEvictions:43`
+- [packages/app/src/context/global-sync/session-load.ts](packages/app/src/context/global-sync/session-load.ts) — 33 wierszy; deklaracje: `loadRootSessions:5`, `loadRootSessionsV1:19`, `estimateRootSessionTotal:29`
+- [packages/app/src/context/global-sync/session-trim.test.ts](packages/app/src/context/global-sync/session-trim.test.ts) — 59 wierszy
+- [packages/app/src/context/global-sync/session-trim.ts](packages/app/src/context/global-sync/session-trim.ts) — 57 wierszy; deklaracje: `sessionUpdatedAt:5`, `compareSessionRecent:9`, `takeRecentSessions:16`, `trimSessions:33`
+- [packages/app/src/context/global-sync/types.ts](packages/app/src/context/global-sync/types.ts) — 135 wierszy; deklaracje: `ProjectMeta:22`, `State:33`, `VcsCache:88`, `MetaCache:94`, `IconCache:100`
+- [packages/app/src/context/global-sync/utils.test.ts](packages/app/src/context/global-sync/utils.test.ts) — 138 wierszy
+- [packages/app/src/context/global-sync/utils.ts](packages/app/src/context/global-sync/utils.ts) — 172 wierszy; deklaracje: `normalizeAgentList:15`, `normalizePermissionRequest:39`, `normalizeProviderList:53`, `sanitizeProject:155`, `normalizeProjectInfo:167`
+- [packages/app/src/context/global.tsx](packages/app/src/context/global.tsx) — 161 wierszy; deklaracje: `createServerCtx:96`, `enrich:113`, `ServerCtx:156`, `isLocalHost:158`
+- [packages/app/src/context/highlights.tsx](packages/app/src/context/highlights.tsx) — 233 wierszy; deklaracje: `Store:12`, `ParsedRelease:16`, `isRecord:21`, `getText:25`, `normalizeVersion:35`
+- [packages/app/src/context/language.tsx](packages/app/src/context/language.tsx) — 242 wierszy; deklaracje: `DesktopNativeBundle:16`, `DesktopNativeLocale:17`, `Locale:20`, `Direction:21`, `localeDirection:25`
+- [packages/app/src/context/layout-helpers.ts](packages/app/src/context/layout-helpers.ts) — 38 wierszy; deklaracje: `ensureSessionKey:3`, `createSessionKeyReader:9`, `pruneSessionKeys:18`
+- [packages/app/src/context/layout-scroll.test.ts](packages/app/src/context/layout-scroll.test.ts) — 64 wierszy
+- [packages/app/src/context/layout-scroll.ts](packages/app/src/context/layout-scroll.ts) — 126 wierszy; deklaracje: `SessionScroll:3`, `ScrollMap:8`, `Options:10`, `createScrollPersistence:16`, `clone:22`
+- [packages/app/src/context/layout-tabs.test.ts](packages/app/src/context/layout-tabs.test.ts) — 82 wierszy; deklaracje: `SessionTabState:7`
+- [packages/app/src/context/layout-tabs.ts](packages/app/src/context/layout-tabs.ts) — 103 wierszy; deklaracje: `SessionTabs:3`, `SessionTabState:8`, `previewSessionTab:16`, `openSessionTab:43`, `closeSessionTab:82`
+- [packages/app/src/context/layout.test.ts](packages/app/src/context/layout.test.ts) — 69 wierszy
+- [packages/app/src/context/layout.tsx](packages/app/src/context/layout.tsx) — 1081 wierszy; deklaracje: `AvatarColorKey:35`, `getAvatarColors:37`, `getProjectAvatarVariant:50`, `SessionView:68`, `TabHandoff:78`
+- [packages/app/src/context/local-agent.test.ts](packages/app/src/context/local-agent.test.ts) — 29 wierszy
+- [packages/app/src/context/local-agent.ts](packages/app/src/context/local-agent.ts) — 7 wierszy; deklaracje: `hasCustomAgent:1`, `resolveAgent:5`
+- [packages/app/src/context/local.tsx](packages/app/src/context/local.tsx) — 416 wierszy; deklaracje: `ModelKey:18`, `State:20`, `Saved:26`, `ModelSelection:416`
+- [packages/app/src/context/mcp.ts](packages/app/src/context/mcp.ts) — 19 wierszy; deklaracje: `useMcpToggle:6`
+- [packages/app/src/context/model-variant.test.ts](packages/app/src/context/model-variant.test.ts) — 86 wierszy
+- [packages/app/src/context/model-variant.ts](packages/app/src/context/model-variant.ts) — 52 wierszy; deklaracje: `AgentModel:1`, `Agent:6`, `Model:11`, `VariantInput:15`, `getConfiguredAgentVariant:21`
+- [packages/app/src/context/models.tsx](packages/app/src/context/models.tsx) — 173 wierszy; deklaracje: `ModelKey:9`, `Visibility:11`, `User:12`, `Store:13`, `modelKey:21`
+- [packages/app/src/context/notification.tsx](packages/app/src/context/notification.tsx) — 483 wierszy; deklaracje: `NotificationBase:21`, `TurnCompleteNotification:29`, `ErrorNotification:33`, `Notification:38`, `NotificationIndex:40`
+- [packages/app/src/context/permission-auto-respond.test.ts](packages/app/src/context/permission-auto-respond.test.ts) — 125 wierszy
+- [packages/app/src/context/permission-auto-respond.ts](packages/app/src/context/permission-auto-respond.ts) — 60 wierszy; deklaracje: `acceptKey:3`, `directoryAcceptKey:8`, `accepted:12`, `isDirectoryAutoAccepting:17`, `sessionLineage:22`
+- [packages/app/src/context/permission.tsx](packages/app/src/context/permission.tsx) — 484 wierszy; deklaracje: `PermissionRespondFn:25`, `isNonAllowRule:32`, `hasPermissionPromptRules:45`, `PermissionState:187`, `PermissionEvent:188`
+- [packages/app/src/context/platform.tsx](packages/app/src/context/platform.tsx) — 143 wierszy; deklaracje: `PickerPaths:10`, `OpenDirectoryPickerOptions:11`, `OpenAttachmentPickerOptions:12`, `SaveFilePickerOptions:19`, `PlatformName:20`
+- [packages/app/src/context/prompt-state.test.ts](packages/app/src/context/prompt-state.test.ts) — 29 wierszy
+- [packages/app/src/context/prompt-state.ts](packages/app/src/context/prompt-state.ts) — 273 wierszy; deklaracje: `PartBase:11`, `TextPart:17`, `FileAttachmentPart:21`, `AgentPart:31`, `ImageAttachmentPart:36`
+- [packages/app/src/context/prompt.tsx](packages/app/src/context/prompt.tsx) — 170 wierszy; deklaracje: `ContextItem:14`, `FileContextItem:15`, `Prompt:16`, `PromptModel:17`, `PromptScope:18`
+- [packages/app/src/context/sdk.tsx](packages/app/src/context/sdk.tsx) — 17 wierszy; deklaracje: `DirectorySDK:5`
+- [packages/app/src/context/server-sdk.test.ts](packages/app/src/context/server-sdk.test.ts) — 196 wierszy
+- [packages/app/src/context/server-sdk.tsx](packages/app/src/context/server-sdk.tsx) — 444 wierszy; deklaracje: `ServerEvent:21`, `QueuedServerEvent:22`, `CurrentDelta:23`, `adaptServerEvent:28`, `enqueueServerEvent:68`
+- [packages/app/src/context/server-session-v2-reducer.test.ts](packages/app/src/context/server-session-v2-reducer.test.ts) — 156 wierszy
+- [packages/app/src/context/server-session-v2-reducer.ts](packages/app/src/context/server-session-v2-reducer.ts) — 509 wierszy; deklaracje: `Assistant:3`, `Compaction:4`, `Shell:5`, `V2SessionReduction:7`, `createV2SessionReducer:14`
+- [packages/app/src/context/server-session.test.ts](packages/app/src/context/server-session.test.ts) — 1642 wierszy; deklaracje: `MessageApi:8`, `UserMessage:21`, `AssistantMessage:22`, `TextPart:23`, `MessageResponse:24`
+- [packages/app/src/context/server-session.ts](packages/app/src/context/server-session.ts) — 1427 wierszy; deklaracje: `MessageApi:26`, `needsOlderTurnRoot:35`, `OptimisticItem:46`, `MessagePage:53`, `legacyMessageSource:63`
+- [packages/app/src/context/server-sync.test.ts](packages/app/src/context/server-sync.test.ts) — 233 wierszy; deklaracje: `McpApi:18`, `sessionInfo:163`
+- [packages/app/src/context/server-sync.tsx](packages/app/src/context/server-sync.tsx) — 760 wierszy; deklaracje: `GlobalStore:63`, `McpListApi:74`, `McpResourceApi:78`, `ApiQueryOptions:84`, `SessionActiveApi:89`
+- [packages/app/src/context/server.test.ts](packages/app/src/context/server.test.ts) — 245 wierszy
+- [packages/app/src/context/server.tsx](packages/app/src/context/server.tsx) — 360 wierszy; deklaracje: `StoredProject:8`, `StoredServer:9`, `ServerProjectState:10`, `normalizeServerUrl:23`, `serverName:30`
+- [packages/app/src/context/settings.test.ts](packages/app/src/context/settings.test.ts) — 96 wierszy
+- [packages/app/src/context/settings.tsx](packages/app/src/context/settings.tsx) — 547 wierszy; deklaracje: `NotificationSettings:7`, `SoundSettings:13`, `Settings:22`, `compareVersions:66`, `isAppUpgrade:79`
+- [packages/app/src/context/sync-optimistic.test.ts](packages/app/src/context/sync-optimistic.test.ts) — 137 wierszy; deklaracje: `Text:5`
+- [packages/app/src/context/sync.tsx](packages/app/src/context/sync.tsx) — 120 wierszy; deklaracje: `sortParts:10`, `OptimisticStore:16`, `OptimisticAddInput:21`, `OptimisticRemoveInput:27`, `OptimisticItem:32`
+- [packages/app/src/context/tab-memory.ts](packages/app/src/context/tab-memory.ts) — 36 wierszy; deklaracje: `Entry:3`, `createTabMemory:8`
+- [packages/app/src/context/tab-migration.ts](packages/app/src/context/tab-migration.ts) — 23 wierszy; deklaracje: `migrateTabs:4`
+- [packages/app/src/context/tabs.test.ts](packages/app/src/context/tabs.test.ts) — 125 wierszy; deklaracje: `sessionTab:11`
+- [packages/app/src/context/tabs.tsx](packages/app/src/context/tabs.tsx) — 385 wierszy; deklaracje: `SessionTab:17`, `DraftTab:23`, `Tab:31`, `TabInfo:33`, `RecentTab:38`
+- [packages/app/src/context/terminal-title.ts](packages/app/src/context/terminal-title.ts) — 24 wierszy; deklaracje: `defaultTitle:14`, `isDefaultTitle:18`, `titleNumber:22`
+- [packages/app/src/context/terminal.test.ts](packages/app/src/context/terminal.test.ts) — 91 wierszy
+- [packages/app/src/context/terminal.tsx](packages/app/src/context/terminal.tsx) — 546 wierszy; deklaracje: `LocalPTY:13`, `record:27`, `text:31`, `num:35`, `numberFromTitle:39`
+- [packages/app/src/custom-elements.d.ts](packages/app/src/custom-elements.d.ts) — 17 wierszy; deklaracje: `IntrinsicElements:11`
+- [packages/app/src/desktop-menu.test.ts](packages/app/src/desktop-menu.test.ts) — 23 wierszy
+- [packages/app/src/desktop-menu.ts](packages/app/src/desktop-menu.ts) — 302 wierszy; deklaracje: `DesktopMenuPlatform:3`, `DesktopMenuAction:5`, `DesktopMenuRole:26`, `DesktopMenuItem:47`, `DesktopMenuSeparator:59`
+- [packages/app/src/entry.tsx](packages/app/src/entry.tsx) — 180 wierszy
+- [packages/app/src/env.d.ts](packages/app/src/env.d.ts) — 31 wierszy; deklaracje: `ImportMetaEnv:1`, `ImportMeta:11`, `Directives:27`
+- [packages/app/src/hooks/provider-catalog.test.ts](packages/app/src/hooks/provider-catalog.test.ts) — 77 wierszy
+- [packages/app/src/hooks/provider-catalog.ts](packages/app/src/hooks/provider-catalog.ts) — 37 wierszy; deklaracje: `DirectoryCatalog:5`, `ProviderCatalogInput:10`, `selectProviderCatalog:23`, `resolveDefaultModel:29`
+- [packages/app/src/hooks/use-providers.ts](packages/app/src/hooks/use-providers.ts) — 74 wierszy; deklaracje: `useProviders:20`
+- [packages/app/src/i18n/am.ts](packages/app/src/i18n/am.ts) — 1130 wierszy
+- [packages/app/src/i18n/ar.ts](packages/app/src/i18n/ar.ts) — 1171 wierszy
+- [packages/app/src/i18n/az.ts](packages/app/src/i18n/az.ts) — 1168 wierszy
+- [packages/app/src/i18n/bg.ts](packages/app/src/i18n/bg.ts) — 1170 wierszy
+- [packages/app/src/i18n/bn.ts](packages/app/src/i18n/bn.ts) — 1152 wierszy
+- [packages/app/src/i18n/br.ts](packages/app/src/i18n/br.ts) — 1181 wierszy
+- [packages/app/src/i18n/bs.ts](packages/app/src/i18n/bs.ts) — 1257 wierszy
+- [packages/app/src/i18n/ca.ts](packages/app/src/i18n/ca.ts) — 1173 wierszy
+- [packages/app/src/i18n/cs.ts](packages/app/src/i18n/cs.ts) — 1163 wierszy
+- [packages/app/src/i18n/da.ts](packages/app/src/i18n/da.ts) — 1248 wierszy
+- [packages/app/src/i18n/de.ts](packages/app/src/i18n/de.ts) — 1185 wierszy; deklaracje: `Keys:3`
+- [packages/app/src/i18n/desktop-native.test.ts](packages/app/src/i18n/desktop-native.test.ts) — 151 wierszy
+- [packages/app/src/i18n/desktop-native.ts](packages/app/src/i18n/desktop-native.ts) — 365 wierszy; deklaracje: `DesktopNativeLocale:66`, `detectDesktopNativeLocale:198`, `desktopNativePluralCategories:212`, `locale:216`, `DesktopNativeKey:324`
+- [packages/app/src/i18n/dv.ts](packages/app/src/i18n/dv.ts) — 1177 wierszy
+- [packages/app/src/i18n/dz.ts](packages/app/src/i18n/dz.ts) — 1181 wierszy
+- [packages/app/src/i18n/el.ts](packages/app/src/i18n/el.ts) — 1173 wierszy
+- [packages/app/src/i18n/en.ts](packages/app/src/i18n/en.ts) — 1150 wierszy
+- [packages/app/src/i18n/es.ts](packages/app/src/i18n/es.ts) — 1265 wierszy
+- [packages/app/src/i18n/et.ts](packages/app/src/i18n/et.ts) — 1151 wierszy
+- [packages/app/src/i18n/fa.ts](packages/app/src/i18n/fa.ts) — 1155 wierszy
+- [packages/app/src/i18n/fi.ts](packages/app/src/i18n/fi.ts) — 1168 wierszy
+- [packages/app/src/i18n/fo.ts](packages/app/src/i18n/fo.ts) — 1154 wierszy
+- [packages/app/src/i18n/fr.ts](packages/app/src/i18n/fr.ts) — 1199 wierszy
+- [packages/app/src/i18n/hi.ts](packages/app/src/i18n/hi.ts) — 1163 wierszy
+- [packages/app/src/i18n/hr.ts](packages/app/src/i18n/hr.ts) — 1168 wierszy
+- [packages/app/src/i18n/hu.ts](packages/app/src/i18n/hu.ts) — 1170 wierszy
+- [packages/app/src/i18n/hy.ts](packages/app/src/i18n/hy.ts) — 1165 wierszy
+- [packages/app/src/i18n/id.ts](packages/app/src/i18n/id.ts) — 1250 wierszy
+- [packages/app/src/i18n/is.ts](packages/app/src/i18n/is.ts) — 1157 wierszy
+- [packages/app/src/i18n/it.ts](packages/app/src/i18n/it.ts) — 1176 wierszy
+- [packages/app/src/i18n/ja.ts](packages/app/src/i18n/ja.ts) — 1169 wierszy
+- [packages/app/src/i18n/ka.ts](packages/app/src/i18n/ka.ts) — 1156 wierszy
+- [packages/app/src/i18n/km.ts](packages/app/src/i18n/km.ts) — 1151 wierszy
+- [packages/app/src/i18n/ko.ts](packages/app/src/i18n/ko.ts) — 1167 wierszy
+- [packages/app/src/i18n/lo.ts](packages/app/src/i18n/lo.ts) — 1148 wierszy
+- [packages/app/src/i18n/lt.ts](packages/app/src/i18n/lt.ts) — 1173 wierszy
+- [packages/app/src/i18n/lv.ts](packages/app/src/i18n/lv.ts) — 1162 wierszy
+- [packages/app/src/i18n/mk.ts](packages/app/src/i18n/mk.ts) — 1166 wierszy
+- [packages/app/src/i18n/mn.ts](packages/app/src/i18n/mn.ts) — 1168 wierszy
+- [packages/app/src/i18n/ms.ts](packages/app/src/i18n/ms.ts) — 1157 wierszy
+- [packages/app/src/i18n/my.ts](packages/app/src/i18n/my.ts) — 1176 wierszy
+- [packages/app/src/i18n/ne.ts](packages/app/src/i18n/ne.ts) — 1157 wierszy
+- [packages/app/src/i18n/nl.ts](packages/app/src/i18n/nl.ts) — 1171 wierszy
+- [packages/app/src/i18n/no.ts](packages/app/src/i18n/no.ts) — 1267 wierszy; deklaracje: `Keys:2`
+- [packages/app/src/i18n/pa.ts](packages/app/src/i18n/pa.ts) — 1161 wierszy
+- [packages/app/src/i18n/parity.test.ts](packages/app/src/i18n/parity.test.ts) — 230 wierszy; deklaracje: `dictionary:204`, `isDictionary:212`, `placeholders:217`, `pluralFamilies:221`
+- [packages/app/src/i18n/pl.ts](packages/app/src/i18n/pl.ts) — 1184 wierszy
+- [packages/app/src/i18n/ro.ts](packages/app/src/i18n/ro.ts) — 1162 wierszy
+- [packages/app/src/i18n/ru.ts](packages/app/src/i18n/ru.ts) — 1262 wierszy
+- [packages/app/src/i18n/si.ts](packages/app/src/i18n/si.ts) — 1153 wierszy
+- [packages/app/src/i18n/sk.ts](packages/app/src/i18n/sk.ts) — 1159 wierszy
+- [packages/app/src/i18n/sl.ts](packages/app/src/i18n/sl.ts) — 1163 wierszy
+- [packages/app/src/i18n/sq.ts](packages/app/src/i18n/sq.ts) — 1163 wierszy

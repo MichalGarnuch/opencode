@@ -1,0 +1,306 @@
+# opencode — mapa plików (4/23)
+
+Wykaz śledzonych plików z badanego commita. Liczba wierszy i nazwy deklaracji są wyciągane automatycznie z dostępnej kopii tekstowej; nie oznaczają ręcznej oceny pliku. Brak opisu oznacza, że zawartość nie była analizowana tą metodą (np. plik binarny, zasób lub pominięty plik).
+
+[Wróć do audytu](AUDYT_EDUKACYJNY.md) · [1](AUDYT_MAPA_01.md) · [2](AUDYT_MAPA_02.md) · [3](AUDYT_MAPA_03.md) · [4](AUDYT_MAPA_04.md) · [5](AUDYT_MAPA_05.md) · [6](AUDYT_MAPA_06.md) · [7](AUDYT_MAPA_07.md) · [8](AUDYT_MAPA_08.md) · [9](AUDYT_MAPA_09.md) · [10](AUDYT_MAPA_10.md) · [11](AUDYT_MAPA_11.md) · [12](AUDYT_MAPA_12.md) · [13](AUDYT_MAPA_13.md) · [14](AUDYT_MAPA_14.md) · [15](AUDYT_MAPA_15.md) · [16](AUDYT_MAPA_16.md) · [17](AUDYT_MAPA_17.md) · [18](AUDYT_MAPA_18.md) · [19](AUDYT_MAPA_19.md) · [20](AUDYT_MAPA_20.md) · [21](AUDYT_MAPA_21.md) · [22](AUDYT_MAPA_22.md) · [23](AUDYT_MAPA_23.md)
+
+- [packages/console/app/public/favicon-96x96-v3.png](packages/console/app/public/favicon-96x96-v3.png)
+- [packages/console/app/public/favicon-96x96.png](packages/console/app/public/favicon-96x96.png)
+- [packages/console/app/public/favicon-v3.ico](packages/console/app/public/favicon-v3.ico)
+- [packages/console/app/public/favicon-v3.svg](packages/console/app/public/favicon-v3.svg)
+- [packages/console/app/public/favicon.ico](packages/console/app/public/favicon.ico)
+- [packages/console/app/public/favicon.svg](packages/console/app/public/favicon.svg)
+- [packages/console/app/public/opencode-brand-assets.zip](packages/console/app/public/opencode-brand-assets.zip)
+- [packages/console/app/public/robots.txt](packages/console/app/public/robots.txt)
+- [packages/console/app/public/site.webmanifest](packages/console/app/public/site.webmanifest)
+- [packages/console/app/public/social-share-black.png](packages/console/app/public/social-share-black.png)
+- [packages/console/app/public/social-share-zen.png](packages/console/app/public/social-share-zen.png)
+- [packages/console/app/public/social-share.png](packages/console/app/public/social-share.png)
+- [packages/console/app/public/theme.json](packages/console/app/public/theme.json) — 182 wierszy
+- [packages/console/app/public/web-app-manifest-192x192.png](packages/console/app/public/web-app-manifest-192x192.png)
+- [packages/console/app/public/web-app-manifest-512x512.png](packages/console/app/public/web-app-manifest-512x512.png)
+- [packages/console/app/script/generate-sitemap.ts](packages/console/app/script/generate-sitemap.ts) — 108 wierszy; deklaracje: `SitemapEntry:13`, `getMainRoutes:19`, `getDocsRoutes:44`, `generateSitemapXML:71`, `main:88`
+- [packages/console/app/src/app.css](packages/console/app/src/app.css) — 1 wierszy
+- [packages/console/app/src/app.tsx](packages/console/app/src/app.tsx) — 44 wierszy; deklaracje: `AppMeta:13`, `App:25`
+- [packages/console/app/src/asset/black/hero.png](packages/console/app/src/asset/black/hero.png)
+- [packages/console/app/src/asset/brand/opencode-brand-assets.zip](packages/console/app/src/asset/brand/opencode-brand-assets.zip)
+- [packages/console/app/src/asset/brand/opencode-logo-dark-square.png](packages/console/app/src/asset/brand/opencode-logo-dark-square.png)
+- [packages/console/app/src/asset/brand/opencode-logo-dark-square.svg](packages/console/app/src/asset/brand/opencode-logo-dark-square.svg)
+- [packages/console/app/src/asset/brand/opencode-logo-dark.png](packages/console/app/src/asset/brand/opencode-logo-dark.png)
+- [packages/console/app/src/asset/brand/opencode-logo-dark.svg](packages/console/app/src/asset/brand/opencode-logo-dark.svg)
+- [packages/console/app/src/asset/brand/opencode-logo-light-square.png](packages/console/app/src/asset/brand/opencode-logo-light-square.png)
+- [packages/console/app/src/asset/brand/opencode-logo-light-square.svg](packages/console/app/src/asset/brand/opencode-logo-light-square.svg)
+- [packages/console/app/src/asset/brand/opencode-logo-light.png](packages/console/app/src/asset/brand/opencode-logo-light.png)
+- [packages/console/app/src/asset/brand/opencode-logo-light.svg](packages/console/app/src/asset/brand/opencode-logo-light.svg)
+- [packages/console/app/src/asset/brand/opencode-wordmark-dark.png](packages/console/app/src/asset/brand/opencode-wordmark-dark.png)
+- [packages/console/app/src/asset/brand/opencode-wordmark-dark.svg](packages/console/app/src/asset/brand/opencode-wordmark-dark.svg)
+- [packages/console/app/src/asset/brand/opencode-wordmark-light.png](packages/console/app/src/asset/brand/opencode-wordmark-light.png)
+- [packages/console/app/src/asset/brand/opencode-wordmark-light.svg](packages/console/app/src/asset/brand/opencode-wordmark-light.svg)
+- [packages/console/app/src/asset/brand/opencode-wordmark-simple-dark.png](packages/console/app/src/asset/brand/opencode-wordmark-simple-dark.png)
+- [packages/console/app/src/asset/brand/opencode-wordmark-simple-dark.svg](packages/console/app/src/asset/brand/opencode-wordmark-simple-dark.svg)
+- [packages/console/app/src/asset/brand/opencode-wordmark-simple-light.png](packages/console/app/src/asset/brand/opencode-wordmark-simple-light.png)
+- [packages/console/app/src/asset/brand/opencode-wordmark-simple-light.svg](packages/console/app/src/asset/brand/opencode-wordmark-simple-light.svg)
+- [packages/console/app/src/asset/brand/preview-opencode-dark.png](packages/console/app/src/asset/brand/preview-opencode-dark.png)
+- [packages/console/app/src/asset/brand/preview-opencode-logo-dark-square.png](packages/console/app/src/asset/brand/preview-opencode-logo-dark-square.png)
+- [packages/console/app/src/asset/brand/preview-opencode-logo-dark.png](packages/console/app/src/asset/brand/preview-opencode-logo-dark.png)
+- [packages/console/app/src/asset/brand/preview-opencode-logo-light-square.png](packages/console/app/src/asset/brand/preview-opencode-logo-light-square.png)
+- [packages/console/app/src/asset/brand/preview-opencode-logo-light.png](packages/console/app/src/asset/brand/preview-opencode-logo-light.png)
+- [packages/console/app/src/asset/brand/preview-opencode-wordmark-dark.png](packages/console/app/src/asset/brand/preview-opencode-wordmark-dark.png)
+- [packages/console/app/src/asset/brand/preview-opencode-wordmark-light.png](packages/console/app/src/asset/brand/preview-opencode-wordmark-light.png)
+- [packages/console/app/src/asset/brand/preview-opencode-wordmark-simple-dark.png](packages/console/app/src/asset/brand/preview-opencode-wordmark-simple-dark.png)
+- [packages/console/app/src/asset/brand/preview-opencode-wordmark-simple-light.png](packages/console/app/src/asset/brand/preview-opencode-wordmark-simple-light.png)
+- [packages/console/app/src/asset/go-ornate-dark.svg](packages/console/app/src/asset/go-ornate-dark.svg)
+- [packages/console/app/src/asset/go-ornate-light.svg](packages/console/app/src/asset/go-ornate-light.svg)
+- [packages/console/app/src/asset/lander/avatar-adam.png](packages/console/app/src/asset/lander/avatar-adam.png)
+- [packages/console/app/src/asset/lander/avatar-david.png](packages/console/app/src/asset/lander/avatar-david.png)
+- [packages/console/app/src/asset/lander/avatar-dax.png](packages/console/app/src/asset/lander/avatar-dax.png)
+- [packages/console/app/src/asset/lander/avatar-frank.png](packages/console/app/src/asset/lander/avatar-frank.png)
+- [packages/console/app/src/asset/lander/avatar-jay.png](packages/console/app/src/asset/lander/avatar-jay.png)
+- [packages/console/app/src/asset/lander/brand-assets-dark.svg](packages/console/app/src/asset/lander/brand-assets-dark.svg)
+- [packages/console/app/src/asset/lander/brand-assets-light.svg](packages/console/app/src/asset/lander/brand-assets-light.svg)
+- [packages/console/app/src/asset/lander/brand.png](packages/console/app/src/asset/lander/brand.png)
+- [packages/console/app/src/asset/lander/check.svg](packages/console/app/src/asset/lander/check.svg)
+- [packages/console/app/src/asset/lander/copy.svg](packages/console/app/src/asset/lander/copy.svg)
+- [packages/console/app/src/asset/lander/desktop-app-icon.png](packages/console/app/src/asset/lander/desktop-app-icon.png)
+- [packages/console/app/src/asset/lander/desktop-tabs-landscape.mp4](packages/console/app/src/asset/lander/desktop-tabs-landscape.mp4)
+- [packages/console/app/src/asset/lander/dock.png](packages/console/app/src/asset/lander/dock.png)
+- [packages/console/app/src/asset/lander/logo-dark.svg](packages/console/app/src/asset/lander/logo-dark.svg)
+- [packages/console/app/src/asset/lander/logo-light.svg](packages/console/app/src/asset/lander/logo-light.svg)
+- [packages/console/app/src/asset/lander/opencode-comparison-min.mp4](packages/console/app/src/asset/lander/opencode-comparison-min.mp4)
+- [packages/console/app/src/asset/lander/opencode-comparison-poster.png](packages/console/app/src/asset/lander/opencode-comparison-poster.png)
+- [packages/console/app/src/asset/lander/opencode-desktop-icon.png](packages/console/app/src/asset/lander/opencode-desktop-icon.png)
+- [packages/console/app/src/asset/lander/opencode-logo-dark.svg](packages/console/app/src/asset/lander/opencode-logo-dark.svg)
+- [packages/console/app/src/asset/lander/opencode-logo-light.svg](packages/console/app/src/asset/lander/opencode-logo-light.svg)
+- [packages/console/app/src/asset/lander/opencode-min.mp4](packages/console/app/src/asset/lander/opencode-min.mp4)
+- [packages/console/app/src/asset/lander/opencode-poster.png](packages/console/app/src/asset/lander/opencode-poster.png)
+- [packages/console/app/src/asset/lander/opencode-wordmark-dark.svg](packages/console/app/src/asset/lander/opencode-wordmark-dark.svg)
+- [packages/console/app/src/asset/lander/opencode-wordmark-light.svg](packages/console/app/src/asset/lander/opencode-wordmark-light.svg)
+- [packages/console/app/src/asset/lander/screenshot-github.png](packages/console/app/src/asset/lander/screenshot-github.png)
+- [packages/console/app/src/asset/lander/screenshot-splash.png](packages/console/app/src/asset/lander/screenshot-splash.png)
+- [packages/console/app/src/asset/lander/screenshot-vscode.png](packages/console/app/src/asset/lander/screenshot-vscode.png)
+- [packages/console/app/src/asset/lander/screenshot.png](packages/console/app/src/asset/lander/screenshot.png)
+- [packages/console/app/src/asset/lander/wordmark-dark.svg](packages/console/app/src/asset/lander/wordmark-dark.svg)
+- [packages/console/app/src/asset/lander/wordmark-light.svg](packages/console/app/src/asset/lander/wordmark-light.svg)
+- [packages/console/app/src/asset/logo-ornate-dark.svg](packages/console/app/src/asset/logo-ornate-dark.svg)
+- [packages/console/app/src/asset/logo-ornate-light.svg](packages/console/app/src/asset/logo-ornate-light.svg)
+- [packages/console/app/src/asset/logo.svg](packages/console/app/src/asset/logo.svg)
+- [packages/console/app/src/asset/zen-ornate-dark.svg](packages/console/app/src/asset/zen-ornate-dark.svg)
+- [packages/console/app/src/asset/zen-ornate-light.svg](packages/console/app/src/asset/zen-ornate-light.svg)
+- [packages/console/app/src/component/desktop-promo.css](packages/console/app/src/component/desktop-promo.css) — 103 wierszy
+- [packages/console/app/src/component/desktop-promo.tsx](packages/console/app/src/component/desktop-promo.tsx) — 60 wierszy; deklaracje: `DesktopPromo:12`
+- [packages/console/app/src/component/dropdown.css](packages/console/app/src/component/dropdown.css) — 80 wierszy
+- [packages/console/app/src/component/dropdown.tsx](packages/console/app/src/component/dropdown.tsx) — 79 wierszy; deklaracje: `DropdownProps:6`, `Dropdown:15`, `DropdownItemProps:61`, `DropdownItem:68`
+- [packages/console/app/src/component/email-signup.tsx](packages/console/app/src/component/email-signup.tsx) — 47 wierszy; deklaracje: `EmailSignup:24`
+- [packages/console/app/src/component/faq.tsx](packages/console/app/src/component/faq.tsx) — 33 wierszy; deklaracje: `Faq:4`
+- [packages/console/app/src/component/footer.tsx](packages/console/app/src/component/footer.tsx) — 48 wierszy; deklaracje: `Footer:8`
+- [packages/console/app/src/component/go-models.ts](packages/console/app/src/component/go-models.ts) — 53 wierszy
+- [packages/console/app/src/component/go-referral.css](packages/console/app/src/component/go-referral.css) — 289 wierszy
+- [packages/console/app/src/component/go-referral.tsx](packages/console/app/src/component/go-referral.tsx) — 306 wierszy; deklaracje: `GoReferralSummary:15`, `GoReferralReward:16`, `GoLiteSubscription:17`, `GoReferralUsagePreview:18`, `GoReferralUsagePreviewItem:19`
+- [packages/console/app/src/component/header-context-menu.css](packages/console/app/src/component/header-context-menu.css) — 63 wierszy
+- [packages/console/app/src/component/header.tsx](packages/console/app/src/component/header.tsx) — 288 wierszy; deklaracje: `Header:38`
+- [packages/console/app/src/component/icon.tsx](packages/console/app/src/component/icon.tsx) — 286 wierszy; deklaracje: `IconZen:3`, `IconGo:16`, `IconCopy:27`, `IconCheck:40`, `IconCreditCard:48`
+- [packages/console/app/src/component/language-picker.css](packages/console/app/src/component/language-picker.css) — 135 wierszy
+- [packages/console/app/src/component/language-picker.tsx](packages/console/app/src/component/language-picker.tsx) — 40 wierszy; deklaracje: `LanguagePicker:8`
+- [packages/console/app/src/component/legal.tsx](packages/console/app/src/component/legal.tsx) — 28 wierszy; deklaracje: `Legal:6`
+- [packages/console/app/src/component/limits-graph.css](packages/console/app/src/component/limits-graph.css) — 300 wierszy
+- [packages/console/app/src/component/limits-graph.tsx](packages/console/app/src/component/limits-graph.tsx) — 166 wierszy; deklaracje: `LimitsGraph:13`
+- [packages/console/app/src/component/locale-links.tsx](packages/console/app/src/component/locale-links.tsx) — 36 wierszy; deklaracje: `skip:8`, `LocaleLinks:21`
+- [packages/console/app/src/component/modal.css](packages/console/app/src/component/modal.css) — 134 wierszy
+- [packages/console/app/src/component/modal.tsx](packages/console/app/src/component/modal.tsx) — 46 wierszy; deklaracje: `ModalProps:5`, `Modal:13`
+- [packages/console/app/src/component/rolling-number.tsx](packages/console/app/src/component/rolling-number.tsx) — 58 wierszy; deklaracje: `RollingNumber:5`
+- [packages/console/app/src/component/spotlight.css](packages/console/app/src/component/spotlight.css) — 15 wierszy
+- [packages/console/app/src/component/spotlight.tsx](packages/console/app/src/component/spotlight.tsx) — 820 wierszy; deklaracje: `ParticlesConfig:4`, `SpotlightConfig:13`, `SpotlightAnimationState:52`, `SpotlightProps:58`, `UniformData:114`
+- [packages/console/app/src/config.ts](packages/console/app/src/config.ts) — 29 wierszy
+- [packages/console/app/src/context/auth.session.ts](packages/console/app/src/context/auth.session.ts) — 1 wierszy
+- [packages/console/app/src/context/auth.ts](packages/console/app/src/context/auth.ts) — 133 wierszy; deklaracje: `AuthSession:18`, `useAuthSession:29`
+- [packages/console/app/src/context/auth.withActor.ts](packages/console/app/src/context/auth.withActor.ts) — 7 wierszy; deklaracje: `withActor:4`
+- [packages/console/app/src/context/i18n.tsx](packages/console/app/src/context/i18n.tsx) — 27 wierszy; deklaracje: `resolve:6`
+- [packages/console/app/src/context/language.tsx](packages/console/app/src/context/language.tsx) — 72 wierszy; deklaracje: `Locale:7`, `initial:20`
+- [packages/console/app/src/entry-client.tsx](packages/console/app/src/entry-client.tsx) — 4 wierszy
+- [packages/console/app/src/entry-server.tsx](packages/console/app/src/entry-server.tsx) — 37 wierszy
+- [packages/console/app/src/global.d.ts](packages/console/app/src/global.d.ts) — 5 wierszy; deklaracje: `APIEvent:4`
+- [packages/console/app/src/i18n/ar.ts](packages/console/app/src/i18n/ar.ts) — 865 wierszy
+- [packages/console/app/src/i18n/br.ts](packages/console/app/src/i18n/br.ts) — 880 wierszy
+- [packages/console/app/src/i18n/da.ts](packages/console/app/src/i18n/da.ts) — 873 wierszy
+- [packages/console/app/src/i18n/de.ts](packages/console/app/src/i18n/de.ts) — 879 wierszy
+- [packages/console/app/src/i18n/en.ts](packages/console/app/src/i18n/en.ts) — 879 wierszy; deklaracje: `Key:878`, `Dict:879`
+- [packages/console/app/src/i18n/es.ts](packages/console/app/src/i18n/es.ts) — 880 wierszy
+- [packages/console/app/src/i18n/fr.ts](packages/console/app/src/i18n/fr.ts) — 888 wierszy
+- [packages/console/app/src/i18n/index.ts](packages/console/app/src/i18n/index.ts) — 45 wierszy; deklaracje: `Key:21`, `Dict:22`, `i18n:26`
+- [packages/console/app/src/i18n/it.ts](packages/console/app/src/i18n/it.ts) — 877 wierszy
+- [packages/console/app/src/i18n/ja.ts](packages/console/app/src/i18n/ja.ts) — 875 wierszy
+- [packages/console/app/src/i18n/ko.ts](packages/console/app/src/i18n/ko.ts) — 865 wierszy
+- [packages/console/app/src/i18n/no.ts](packages/console/app/src/i18n/no.ts) — 874 wierszy
+- [packages/console/app/src/i18n/pl.ts](packages/console/app/src/i18n/pl.ts) — 880 wierszy; deklaracje: `Key:879`, `Dict:880`
+- [packages/console/app/src/i18n/ru.ts](packages/console/app/src/i18n/ru.ts) — 885 wierszy
+- [packages/console/app/src/i18n/th.ts](packages/console/app/src/i18n/th.ts) — 871 wierszy
+- [packages/console/app/src/i18n/tr.ts](packages/console/app/src/i18n/tr.ts) — 880 wierszy
+- [packages/console/app/src/i18n/uk.ts](packages/console/app/src/i18n/uk.ts) — 837 wierszy
+- [packages/console/app/src/i18n/zh.ts](packages/console/app/src/i18n/zh.ts) — 844 wierszy
+- [packages/console/app/src/i18n/zht.ts](packages/console/app/src/i18n/zht.ts) — 842 wierszy
+- [packages/console/app/src/lib/changelog.ts](packages/console/app/src/lib/changelog.ts) — 146 wierszy; deklaracje: `Release:3`, `HighlightMedia:11`, `HighlightItem:15`, `HighlightGroup:22`, `ChangelogRelease:27`
+- [packages/console/app/src/lib/form-error.ts](packages/console/app/src/lib/form-error.ts) — 86 wierszy; deklaracje: `formErrorReloadAmountMin:56`, `formErrorReloadTriggerMin:60`, `localizeError:64`
+- [packages/console/app/src/lib/format-reset-time.ts](packages/console/app/src/lib/format-reset-time.ts) — 47 wierszy; deklaracje: `ResetTimeKeys:4`, `formatResetTime:34`
+- [packages/console/app/src/lib/github.ts](packages/console/app/src/lib/github.ts) — 38 wierszy
+- [packages/console/app/src/lib/inference-proxy.ts](packages/console/app/src/lib/inference-proxy.ts) — 121 wierszy; deklaracje: `proxyInference:21`, `migratedWorkspace:93`, `inferenceUnavailable:116`
+- [packages/console/app/src/lib/language.ts](packages/console/app/src/lib/language.ts) — 359 wierszy; deklaracje: `Locale:22`, `fix:27`, `goUsageLimits:159`, `suffix:165`, `docs:180`
+- [packages/console/app/src/lib/lite-usage.ts](packages/console/app/src/lib/lite-usage.ts) — 73 wierszy; deklaracje: `LiteUsageBreakdownSource:1`, `LiteUsageBreakdownItem:10`, `buildLiteUsageBreakdown:20`, `getModelQuotaLimit:65`, `getUsagePercent:70`
+- [packages/console/app/src/lib/referral-invite.ts](packages/console/app/src/lib/referral-invite.ts) — 44 wierszy; deklaracje: `normalizeReferralCode:8`, `referralCookie:12`, `clearReferralCookie:16`, `referralCodeFromCookieHeader:20`, `createReferralFromCookie:32`
+- [packages/console/app/src/lib/request-country.ts](packages/console/app/src/lib/request-country.ts) — 43 wierszy; deklaracje: `countryFromRequest:26`, `isModelCountryRestricted:32`
+- [packages/console/app/src/lib/salesforce.ts](packages/console/app/src/lib/salesforce.ts) — 81 wierszy; deklaracje: `login:3`, `SalesforceLeadInput:41`, `createLead:50`
+- [packages/console/app/src/lib/server-action.ts](packages/console/app/src/lib/server-action.ts) — 11 wierszy; deklaracje: `sanitizeServerActionRequest:1`
+- [packages/console/app/src/lib/stats-proxy.ts](packages/console/app/src/lib/stats-proxy.ts) — 164 wierszy; deklaracje: `statsProxy:8`, `statsRedirect:65`, `rewriteStatsHtml:76`, `statsCacheKey:80`, `defaultCache:93`
+- [packages/console/app/src/middleware.ts](packages/console/app/src/middleware.ts) — 23 wierszy
+- [packages/console/app/src/routes/\[...404\].css](packages/console/app/src/routes/%5B...404%5D.css) — 130 wierszy
+- [packages/console/app/src/routes/\[...404\].tsx](packages/console/app/src/routes/%5B...404%5D.tsx) — 42 wierszy; deklaracje: `NotFound:9`
+- [packages/console/app/src/routes/api/enterprise.ts](packages/console/app/src/routes/api/enterprise.ts) — 129 wierszy; deklaracje: `EnterpriseFormData:8`, `splitFullName:20`, `subscribe:30`, `POST:61`
+- [packages/console/app/src/routes/api/support/actions/block-workspaces.ts](packages/console/app/src/routes/api/support/actions/block-workspaces.ts) — 22 wierszy; deklaracje: `POST:9`
+- [packages/console/app/src/routes/api/support/actions/create-referral.ts](packages/console/app/src/routes/api/support/actions/create-referral.ts) — 24 wierszy; deklaracje: `POST:12`
+- [packages/console/app/src/routes/api/support/actions/delete-account.ts](packages/console/app/src/routes/api/support/actions/delete-account.ts) — 21 wierszy; deklaracje: `DELETE:9`
+- [packages/console/app/src/routes/api/support/actions/reset-quota.ts](packages/console/app/src/routes/api/support/actions/reset-quota.ts) — 24 wierszy; deklaracje: `POST:12`
+- [packages/console/app/src/routes/api/support/actions/unblock-workspace.ts](packages/console/app/src/routes/api/support/actions/unblock-workspace.ts) — 21 wierszy; deklaracje: `POST:9`
+- [packages/console/app/src/routes/api/support/actions/unblock-workspaces.ts](packages/console/app/src/routes/api/support/actions/unblock-workspaces.ts) — 22 wierszy; deklaracje: `POST:9`
+- [packages/console/app/src/routes/auth/\[...callback\].ts](packages/console/app/src/routes/auth/%5B...callback%5D.ts) — 46 wierszy; deklaracje: `GET:8`
+- [packages/console/app/src/routes/auth/authorize.ts](packages/console/app/src/routes/auth/authorize.ts) — 10 wierszy; deklaracje: `GET:4`
+- [packages/console/app/src/routes/auth/index.ts](packages/console/app/src/routes/auth/index.ts) — 20 wierszy; deklaracje: `GET:7`
+- [packages/console/app/src/routes/auth/logout.ts](packages/console/app/src/routes/auth/logout.ts) — 17 wierszy; deklaracje: `GET:5`
+- [packages/console/app/src/routes/auth/status.ts](packages/console/app/src/routes/auth/status.ts) — 7 wierszy; deklaracje: `GET:4`
+- [packages/console/app/src/routes/bench/\[id\].tsx](packages/console/app/src/routes/bench/%5Bid%5D.tsx) — 375 wierszy; deklaracje: `TaskSource:8`, `Judge:14`, `ScoreDetail:20`, `RunUsage:28`, `Run:34`
+- [packages/console/app/src/routes/bench/index.tsx](packages/console/app/src/routes/bench/index.tsx) — 88 wierszy; deklaracje: `BenchmarkResult:8`, `getBenchmarks:13`, `Bench:36`
+- [packages/console/app/src/routes/bench/submission.ts](packages/console/app/src/routes/bench/submission.ts) — 32 wierszy; deklaracje: `SubmissionBody:8`, `POST:14`
+- [packages/console/app/src/routes/black.css](packages/console/app/src/routes/black.css) — 843 wierszy
+- [packages/console/app/src/routes/black.tsx](packages/console/app/src/routes/black.tsx) — 283 wierszy; deklaracje: `BlackLayout:13`
+- [packages/console/app/src/routes/black/common.tsx](packages/console/app/src/routes/black/common.tsx) — 65 wierszy; deklaracje: `PlanID:10`, `Plan:11`, `PlanIcon:13`
+- [packages/console/app/src/routes/black/index.tsx](packages/console/app/src/routes/black/index.tsx) — 122 wierszy; deklaracje: `Black:14`
+- [packages/console/app/src/routes/black/workspace.css](packages/console/app/src/routes/black/workspace.css) — 214 wierszy
+- [packages/console/app/src/routes/black/workspace.tsx](packages/console/app/src/routes/black/workspace.tsx) — 238 wierszy; deklaracje: `BlackWorkspace:12`
+- [packages/console/app/src/routes/brand/index.css](packages/console/app/src/routes/brand/index.css) — 555 wierszy
+- [packages/console/app/src/routes/brand/index.tsx](packages/console/app/src/routes/brand/index.tsx) — 315 wierszy; deklaracje: `Brand:34`
+- [packages/console/app/src/routes/changelog.json.ts](packages/console/app/src/routes/changelog.json.ts) — 30 wierszy; deklaracje: `GET:12`, `OPTIONS:25`
+- [packages/console/app/src/routes/changelog/index.css](packages/console/app/src/routes/changelog/index.css) — 604 wierszy
+- [packages/console/app/src/routes/changelog/index.tsx](packages/console/app/src/routes/changelog/index.tsx) — 176 wierszy; deklaracje: `formatDate:14`, `ReleaseItem:23`, `HighlightSection:47`, `CollapsibleSection:75`, `CollapsibleSections:93`
+- [packages/console/app/src/routes/data/\[...path\].ts](packages/console/app/src/routes/data/%5B...path%5D.ts) — 8 wierszy
+- [packages/console/app/src/routes/data/index.ts](packages/console/app/src/routes/data/index.ts) — 8 wierszy
+- [packages/console/app/src/routes/desktop-feedback.ts](packages/console/app/src/routes/desktop-feedback.ts) — 5 wierszy; deklaracje: `GET:3`
+- [packages/console/app/src/routes/discord.ts](packages/console/app/src/routes/discord.ts) — 5 wierszy; deklaracje: `GET:3`
+- [packages/console/app/src/routes/docs/\[...path\].ts](packages/console/app/src/routes/docs/%5B...path%5D.ts) — 30 wierszy; deklaracje: `handler:5`
+- [packages/console/app/src/routes/docs/index.ts](packages/console/app/src/routes/docs/index.ts) — 30 wierszy; deklaracje: `handler:5`
+- [packages/console/app/src/routes/download/\[channel\]/\[platform\].ts](packages/console/app/src/routes/download/%5Bchannel%5D/%5Bplatform%5D.ts) — 44 wierszy; deklaracje: `GET:22`, `getAssetUrl:35`, `isRecord:42`
+- [packages/console/app/src/routes/download/index.css](packages/console/app/src/routes/download/index.css) — 636 wierszy
+- [packages/console/app/src/routes/download/index.tsx](packages/console/app/src/routes/download/index.tsx) — 426 wierszy; deklaracje: `getDownloadHref:15`, `CopyStatus:19`, `Download:28`
+- [packages/console/app/src/routes/download/types.ts](packages/console/app/src/routes/download/types.ts) — 4 wierszy; deklaracje: `DownloadPlatform:1`
+- [packages/console/app/src/routes/enterprise/index.css](packages/console/app/src/routes/enterprise/index.css) — 588 wierszy
+- [packages/console/app/src/routes/enterprise/index.tsx](packages/console/app/src/routes/enterprise/index.tsx) — 290 wierszy; deklaracje: `Enterprise:11`
+- [packages/console/app/src/routes/feishu.ts](packages/console/app/src/routes/feishu.ts) — 7 wierszy; deklaracje: `GET:3`
+- [packages/console/app/src/routes/go/index.css](packages/console/app/src/routes/go/index.css) — 1457 wierszy
+- [packages/console/app/src/routes/go/index.tsx](packages/console/app/src/routes/go/index.tsx) — 388 wierszy; deklaracje: `Home:57`
+- [packages/console/app/src/routes/honeycomb/webhook.ts](packages/console/app/src/routes/honeycomb/webhook.ts) — 105 wierszy; deklaracje: `POST:77`
+- [packages/console/app/src/routes/index.css](packages/console/app/src/routes/index.css) — 1183 wierszy
+- [packages/console/app/src/routes/index.tsx](packages/console/app/src/routes/index.tsx) — 833 wierszy; deklaracje: `CopyStatus:20`, `Home:29`
+- [packages/console/app/src/routes/legal/privacy-policy/index.css](packages/console/app/src/routes/legal/privacy-policy/index.css) — 343 wierszy
+- [packages/console/app/src/routes/legal/privacy-policy/index.tsx](packages/console/app/src/routes/legal/privacy-policy/index.tsx) — 1515 wierszy; deklaracje: `PrivacyPolicy:10`
+- [packages/console/app/src/routes/legal/terms-of-service/index.css](packages/console/app/src/routes/legal/terms-of-service/index.css) — 254 wierszy
+- [packages/console/app/src/routes/legal/terms-of-service/index.tsx](packages/console/app/src/routes/legal/terms-of-service/index.tsx) — 523 wierszy; deklaracje: `TermsOfService:10`
+- [packages/console/app/src/routes/oauth/opencode/client.json.ts](packages/console/app/src/routes/oauth/opencode/client.json.ts) — 38 wierszy; deklaracje: `GET:17`
+- [packages/console/app/src/routes/openapi.json.ts](packages/console/app/src/routes/openapi.json.ts) — 7 wierszy; deklaracje: `GET:1`
+- [packages/console/app/src/routes/s/\[id\].ts](packages/console/app/src/routes/s/%5Bid%5D.ts) — 30 wierszy; deklaracje: `handler:5`
+- [packages/console/app/src/routes/stats/\[...path\].ts](packages/console/app/src/routes/stats/%5B...path%5D.ts) — 8 wierszy
+- [packages/console/app/src/routes/stats/index.ts](packages/console/app/src/routes/stats/index.ts) — 8 wierszy
+- [packages/console/app/src/routes/stripe/webhook.ts](packages/console/app/src/routes/stripe/webhook.ts) — 387 wierszy; deklaracje: `POST:14`
+- [packages/console/app/src/routes/t/\[...path\].tsx](packages/console/app/src/routes/t/%5B...path%5D.tsx) — 26 wierszy; deklaracje: `handler:4`
+- [packages/console/app/src/routes/temp.tsx](packages/console/app/src/routes/temp.tsx) — 179 wierszy; deklaracje: `CopyStatus:11`, `Home:20`
+- [packages/console/app/src/routes/user-menu.css](packages/console/app/src/routes/user-menu.css) — 18 wierszy
+- [packages/console/app/src/routes/user-menu.tsx](packages/console/app/src/routes/user-menu.tsx) — 36 wierszy; deklaracje: `UserMenu:24`
+- [packages/console/app/src/routes/workspace-picker.css](packages/console/app/src/routes/workspace-picker.css) — 78 wierszy
+- [packages/console/app/src/routes/workspace-picker.tsx](packages/console/app/src/routes/workspace-picker.tsx) — 119 wierszy; deklaracje: `WorkspacePicker:48`
+- [packages/console/app/src/routes/workspace.css](packages/console/app/src/routes/workspace.css) — 108 wierszy
+- [packages/console/app/src/routes/workspace.tsx](packages/console/app/src/routes/workspace.tsx) — 40 wierszy; deklaracje: `WorkspaceLayout:20`
+- [packages/console/app/src/routes/workspace/\[id\].css](packages/console/app/src/routes/workspace/%5Bid%5D.css) — 337 wierszy
+- [packages/console/app/src/routes/workspace/\[id\].tsx](packages/console/app/src/routes/workspace/%5Bid%5D.tsx) — 80 wierszy; deklaracje: `WorkspaceLayout:8`
+- [packages/console/app/src/routes/workspace/\[id\]/billing/billing-section.module.css](packages/console/app/src/routes/workspace/%5Bid%5D/billing/billing-section.module.css) — 185 wierszy
+- [packages/console/app/src/routes/workspace/\[id\]/billing/billing-section.tsx](packages/console/app/src/routes/workspace/%5Bid%5D/billing/billing-section.tsx) — 266 wierszy; deklaracje: `BillingSection:29`, `onClickCheckout:53`, `onClickSession:64`, `showAddBalanceForm:73`, `hideAddBalanceForm:83`
+- [packages/console/app/src/routes/workspace/\[id\]/billing/black-section.module.css](packages/console/app/src/routes/workspace/%5Bid%5D/billing/black-section.module.css) — 142 wierszy
+- [packages/console/app/src/routes/workspace/\[id\]/billing/black-section.tsx](packages/console/app/src/routes/workspace/%5Bid%5D/billing/black-section.tsx) — 277 wierszy; deklaracje: `BlackSection:128`, `onClickSession:146`, `onClickCancel:154`, `onClickEnroll:161`
+- [packages/console/app/src/routes/workspace/\[id\]/billing/black-waitlist-section.module.css](packages/console/app/src/routes/workspace/%5Bid%5D/billing/black-waitlist-section.module.css) — 23 wierszy
+- [packages/console/app/src/routes/workspace/\[id\]/billing/index.tsx](packages/console/app/src/routes/workspace/%5Bid%5D/billing/index.tsx) — 35 wierszy
+- [packages/console/app/src/routes/workspace/\[id\]/billing/monthly-limit-section.module.css](packages/console/app/src/routes/workspace/%5Bid%5D/billing/monthly-limit-section.module.css) — 96 wierszy
+- [packages/console/app/src/routes/workspace/\[id\]/billing/monthly-limit-section.tsx](packages/console/app/src/routes/workspace/%5Bid%5D/billing/monthly-limit-section.tsx) — 145 wierszy; deklaracje: `MonthlyLimitSection:31`, `show:46`, `hide:60`
+- [packages/console/app/src/routes/workspace/\[id\]/billing/payment-section.module.css](packages/console/app/src/routes/workspace/%5Bid%5D/billing/payment-section.module.css) — 93 wierszy
+- [packages/console/app/src/routes/workspace/\[id\]/billing/payment-section.tsx](packages/console/app/src/routes/workspace/%5Bid%5D/billing/payment-section.tsx) — 141 wierszy; deklaracje: `money:9`, `PaymentSection:29`
+- [packages/console/app/src/routes/workspace/\[id\]/billing/redeem-section.module.css](packages/console/app/src/routes/workspace/%5Bid%5D/billing/redeem-section.module.css) — 61 wierszy
+- [packages/console/app/src/routes/workspace/\[id\]/billing/redeem-section.tsx](packages/console/app/src/routes/workspace/%5Bid%5D/billing/redeem-section.tsx) — 71 wierszy; deklaracje: `RedeemSection:34`
+- [packages/console/app/src/routes/workspace/\[id\]/billing/reload-section.module.css](packages/console/app/src/routes/workspace/%5Bid%5D/billing/reload-section.module.css) — 261 wierszy
+- [packages/console/app/src/routes/workspace/\[id\]/billing/reload-section.tsx](packages/console/app/src/routes/workspace/%5Bid%5D/billing/reload-section.tsx) — 224 wierszy; deklaracje: `ReloadSection:65`, `show:90`, `hide:102`
+- [packages/console/app/src/routes/workspace/\[id\]/go/index.tsx](packages/console/app/src/routes/workspace/%5Bid%5D/go/index.tsx) — 39 wierszy
+- [packages/console/app/src/routes/workspace/\[id\]/go/lite-section.module.css](packages/console/app/src/routes/workspace/%5Bid%5D/go/lite-section.module.css) — 383 wierszy
+- [packages/console/app/src/routes/workspace/\[id\]/go/lite-section.tsx](packages/console/app/src/routes/workspace/%5Bid%5D/go/lite-section.tsx) — 737 wierszy; deklaracje: `LiteUsageWindow:32`, `LiteSubscription:216`, `LiteUsage:312`, `LiteUsageDetailsData:313`, `LiteUsageItem:315`
+- [packages/console/app/src/routes/workspace/\[id\]/index.tsx](packages/console/app/src/routes/workspace/%5Bid%5D/index.tsx) — 81 wierszy; deklaracje: `onClickCheckout:25`
+- [packages/console/app/src/routes/workspace/\[id\]/keys/index.tsx](packages/console/app/src/routes/workspace/%5Bid%5D/keys/index.tsx) — 11 wierszy
+- [packages/console/app/src/routes/workspace/\[id\]/keys/key-section.module.css](packages/console/app/src/routes/workspace/%5Bid%5D/keys/key-section.module.css) — 197 wierszy
+- [packages/console/app/src/routes/workspace/\[id\]/keys/key-section.tsx](packages/console/app/src/routes/workspace/%5Bid%5D/keys/key-section.tsx) — 174 wierszy; deklaracje: `KeySection:47`, `show:62`, `hide:71`
+- [packages/console/app/src/routes/workspace/\[id\]/members/index.tsx](packages/console/app/src/routes/workspace/%5Bid%5D/members/index.tsx) — 11 wierszy
+- [packages/console/app/src/routes/workspace/\[id\]/members/member-section.module.css](packages/console/app/src/routes/workspace/%5Bid%5D/members/member-section.module.css) — 249 wierszy
+- [packages/console/app/src/routes/workspace/\[id\]/members/member-section.tsx](packages/console/app/src/routes/workspace/%5Bid%5D/members/member-section.tsx) — 368 wierszy; deklaracje: `MemberRow:91`, `show:114`, `hide:124`, `getUsageDisplay:128`, `MemberSection:219`
+- [packages/console/app/src/routes/workspace/\[id\]/members/role-dropdown.css](packages/console/app/src/routes/workspace/%5Bid%5D/members/role-dropdown.css) — 72 wierszy
+- [packages/console/app/src/routes/workspace/\[id\]/members/role-dropdown.tsx](packages/console/app/src/routes/workspace/%5Bid%5D/members/role-dropdown.tsx) — 45 wierszy; deklaracje: `RoleOption:5`, `RoleDropdownProps:11`, `RoleDropdown:17`
+- [packages/console/app/src/routes/workspace/\[id\]/model-section.module.css](packages/console/app/src/routes/workspace/%5Bid%5D/model-section.module.css) — 173 wierszy
+- [packages/console/app/src/routes/workspace/\[id\]/model-section.tsx](packages/console/app/src/routes/workspace/%5Bid%5D/model-section.tsx) — 209 wierszy; deklaracje: `ModelSection:102`
+- [packages/console/app/src/routes/workspace/\[id\]/new-user-section.module.css](packages/console/app/src/routes/workspace/%5Bid%5D/new-user-section.module.css) — 143 wierszy
+- [packages/console/app/src/routes/workspace/\[id\]/new-user-section.tsx](packages/console/app/src/routes/workspace/%5Bid%5D/new-user-section.tsx) — 108 wierszy; deklaracje: `NewUserSection:22`
+- [packages/console/app/src/routes/workspace/\[id\]/provider-section.module.css](packages/console/app/src/routes/workspace/%5Bid%5D/provider-section.module.css) — 138 wierszy
+- [packages/console/app/src/routes/workspace/\[id\]/provider-section.tsx](packages/console/app/src/routes/workspace/%5Bid%5D/provider-section.tsx) — 199 wierszy; deklaracje: `Provider:16`, `maskCredentials:18`, `ProviderRow:58`, `show:82`, `hide:91`
+- [packages/console/app/src/routes/workspace/\[id\]/settings/index.tsx](packages/console/app/src/routes/workspace/%5Bid%5D/settings/index.tsx) — 11 wierszy
+- [packages/console/app/src/routes/workspace/\[id\]/settings/settings-section.module.css](packages/console/app/src/routes/workspace/%5Bid%5D/settings/settings-section.module.css) — 94 wierszy
+- [packages/console/app/src/routes/workspace/\[id\]/settings/settings-section.tsx](packages/console/app/src/routes/workspace/%5Bid%5D/settings/settings-section.tsx) — 126 wierszy; deklaracje: `SettingsSection:50`, `show:65`, `hide:74`
+- [packages/console/app/src/routes/workspace/\[id\]/usage/graph-section.module.css](packages/console/app/src/routes/workspace/%5Bid%5D/usage/graph-section.module.css) — 145 wierszy
+- [packages/console/app/src/routes/workspace/\[id\]/usage/graph-section.tsx](packages/console/app/src/routes/workspace/%5Bid%5D/usage/graph-section.tsx) — 556 wierszy; deklaracje: `ChartConfiguration:21`, `getCosts:27`, `getModelColor:122`, `formatDateLabel:130`, `getTimezoneOffset:138`
+- [packages/console/app/src/routes/workspace/\[id\]/usage/index.tsx](packages/console/app/src/routes/workspace/%5Bid%5D/usage/index.tsx) — 21 wierszy
+- [packages/console/app/src/routes/workspace/\[id\]/usage/usage-section.module.css](packages/console/app/src/routes/workspace/%5Bid%5D/usage/usage-section.module.css) — 187 wierszy
+- [packages/console/app/src/routes/workspace/\[id\]/usage/usage-section.tsx](packages/console/app/src/routes/workspace/%5Bid%5D/usage/usage-section.tsx) — 217 wierszy; deklaracje: `getUsageInfo:13`, `UsageSection:22`
+- [packages/console/app/src/routes/workspace/common.tsx](packages/console/app/src/routes/workspace/common.tsx) — 125 wierszy; deklaracje: `formatDateForTable:11`, `formatDateUTC:22`, `formatBalance:37`, `getLastSeenWorkspaceID:42`
+- [packages/console/app/src/routes/zen/go/v1/chat/completions.ts](packages/console/app/src/routes/zen/go/v1/chat/completions.ts) — 14 wierszy; deklaracje: `POST:5`
+- [packages/console/app/src/routes/zen/go/v1/messages.ts](packages/console/app/src/routes/zen/go/v1/messages.ts) — 14 wierszy; deklaracje: `POST:5`
+- [packages/console/app/src/routes/zen/go/v1/models.ts](packages/console/app/src/routes/zen/go/v1/models.ts) — 15 wierszy; deklaracje: `OPTIONS:6`, `GET:10`
+- [packages/console/app/src/routes/zen/go/v1/responses.ts](packages/console/app/src/routes/zen/go/v1/responses.ts) — 14 wierszy; deklaracje: `POST:5`
+- [packages/console/app/src/routes/zen/go/v1/systemone.ts](packages/console/app/src/routes/zen/go/v1/systemone.ts) — 13 wierszy; deklaracje: `POST:4`
+- [packages/console/app/src/routes/zen/go/v1/usage.ts](packages/console/app/src/routes/zen/go/v1/usage.ts) — 161 wierszy; deklaracje: `GET:11`, `formatUsage:155`
+- [packages/console/app/src/routes/zen/index.css](packages/console/app/src/routes/zen/index.css) — 867 wierszy
+- [packages/console/app/src/routes/zen/index.tsx](packages/console/app/src/routes/zen/index.tsx) — 346 wierszy; deklaracje: `Home:31`
+- [packages/console/app/src/routes/zen/util/error.ts](packages/console/app/src/routes/zen/util/error.ts) — 29 wierszy; deklaracje: `AuthError:1`, `CreditsError:2`, `MonthlyLimitError:3`, `UserLimitError:4`, `ModelError:5`
+- [packages/console/app/src/routes/zen/util/handler.ts](packages/console/app/src/routes/zen/util/handler.ts) — 1312 wierszy; deklaracje: `ZenData:56`, `PreparedBody:57`, `BillingSource:58`, `resolve:60`, `handler:69`
+- [packages/console/app/src/routes/zen/util/ipRateLimiter.ts](packages/console/app/src/routes/zen/util/ipRateLimiter.ts) — 61 wierszy; deklaracje: `createRateLimiter:8`, `getRetryAfterDay:52`, `buildYYYYMMDD:56`
+- [packages/console/app/src/routes/zen/util/keyRateLimiter.ts](packages/console/app/src/routes/zen/util/keyRateLimiter.ts) — 37 wierszy; deklaracje: `createRateLimiter:6`
+- [packages/console/app/src/routes/zen/util/logger.ts](packages/console/app/src/routes/zen/util/logger.ts) — 12 wierszy
+- [packages/console/app/src/routes/zen/util/modelTpmLimiter.ts](packages/console/app/src/routes/zen/util/modelTpmLimiter.ts) — 47 wierszy; deklaracje: `createModelTpmLimiter:5`
+- [packages/console/app/src/routes/zen/util/modelTpsLimiter.ts](packages/console/app/src/routes/zen/util/modelTpsLimiter.ts) — 88 wierszy; deklaracje: `createModelTpsLimiter:5`
+- [packages/console/app/src/routes/zen/util/modelsHandler.ts](packages/console/app/src/routes/zen/util/modelsHandler.ts) — 31 wierszy; deklaracje: `buildOptionsResponse:1`, `buildModelsResponse:12`
+- [packages/console/app/src/routes/zen/util/pricing.ts](packages/console/app/src/routes/zen/util/pricing.ts) — 11 wierszy; deklaracje: `isPeakPricing:1`
+- [packages/console/app/src/routes/zen/util/provider/anthropic.ts](packages/console/app/src/routes/zen/util/provider/anthropic.ts) — 759 wierszy; deklaracje: `Usage:5`, `fromAnthropicRequest:190`, `toAnthropicRequest:324`, `fromAnthropicResponse:468`, `toAnthropicResponse:551`
+- [packages/console/app/src/routes/zen/util/provider/google.ts](packages/console/app/src/routes/zen/util/provider/google.ts) — 75 wierszy; deklaracje: `Usage:19`
+- [packages/console/app/src/routes/zen/util/provider/openai-compatible.ts](packages/console/app/src/routes/zen/util/provider/openai-compatible.ts) — 555 wierszy; deklaracje: `Usage:3`, `fromOaCompatibleRequest:83`, `toOaCompatibleRequest:140`, `fromOaCompatibleResponse:223`, `toOaCompatibleResponse:321`
+- [packages/console/app/src/routes/zen/util/provider/openai.ts](packages/console/app/src/routes/zen/util/provider/openai.ts) — 633 wierszy; deklaracje: `Usage:3`, `fromOpenaiRequest:67`, `toOpenaiRequest:204`, `fromOpenaiResponse:334`, `toOpenaiResponse:411`
+- [packages/console/app/src/routes/zen/util/provider/provider.ts](packages/console/app/src/routes/zen/util/provider/provider.ts) — 228 wierszy; deklaracje: `UsageInfo:27`, `ProviderHelper:36`, `CommonMessage:55`, `CommonContentPart:62`, `CommonToolCall:68`
+- [packages/console/app/src/routes/zen/util/provider/systemone.ts](packages/console/app/src/routes/zen/util/provider/systemone.ts) — 30 wierszy; deklaracje: `Usage:3`
+- [packages/console/app/src/routes/zen/util/providerBudgetTracker.ts](packages/console/app/src/routes/zen/util/providerBudgetTracker.ts) — 150 wierszy; deklaracje: `createProviderBudgetTracker:14`
+- [packages/console/app/src/routes/zen/util/redis.ts](packages/console/app/src/routes/zen/util/redis.ts) — 26 wierszy; deklaracje: `getRedis:6`, `buildRateLimitKey:16`, `checkCheckoutRateLimit:20`
+- [packages/console/app/src/routes/zen/util/requestBody.ts](packages/console/app/src/routes/zen/util/requestBody.ts) — 237 wierszy; deklaracje: `prepareRequestBody:4`, `utf8Length:108`, `replace:122`, `passthrough:141`, `appendUsage:173`
+- [packages/console/app/src/routes/zen/util/stickyProviderTracker.ts](packages/console/app/src/routes/zen/util/stickyProviderTracker.ts) — 46 wierszy; deklaracje: `createStickyTracker:4`
+- [packages/console/app/src/routes/zen/util/trainingConsent.ts](packages/console/app/src/routes/zen/util/trainingConsent.ts) — 3 wierszy; deklaracje: `requiresGoTrainingConsent:1`
+- [packages/console/app/src/routes/zen/util/trialLimiter.ts](packages/console/app/src/routes/zen/util/trialLimiter.ts) — 46 wierszy; deklaracje: `createTrialLimiter:6`
+- [packages/console/app/src/routes/zen/util/usageBatcher.ts](packages/console/app/src/routes/zen/util/usageBatcher.ts) — 31 wierszy; deklaracje: `accumulateUsage:14`
+- [packages/console/app/src/routes/zen/util/variant.ts](packages/console/app/src/routes/zen/util/variant.ts) — 21 wierszy; deklaracje: `parseAnthropicVariant:1`, `parseGoogleVariant:10`, `parseOpenAiVariant:19`
+- [packages/console/app/src/routes/zen/v1/chat/completions.ts](packages/console/app/src/routes/zen/v1/chat/completions.ts) — 14 wierszy; deklaracje: `POST:5`
+- [packages/console/app/src/routes/zen/v1/messages.ts](packages/console/app/src/routes/zen/v1/messages.ts) — 14 wierszy; deklaracje: `POST:5`
+- [packages/console/app/src/routes/zen/v1/models.ts](packages/console/app/src/routes/zen/v1/models.ts) — 42 wierszy; deklaracje: `OPTIONS:10`, `GET:14`
+- [packages/console/app/src/routes/zen/v1/models/\[model\].ts](packages/console/app/src/routes/zen/v1/models/%5Bmodel%5D.ts) — 16 wierszy; deklaracje: `POST:5`
+- [packages/console/app/src/routes/zen/v1/responses.ts](packages/console/app/src/routes/zen/v1/responses.ts) — 14 wierszy; deklaracje: `POST:5`
+- [packages/console/app/src/routes/zen/v1/systemone.ts](packages/console/app/src/routes/zen/v1/systemone.ts) — 13 wierszy; deklaracje: `POST:4`
+- [packages/console/app/src/style/base.css](packages/console/app/src/style/base.css) — 21 wierszy
+- [packages/console/app/src/style/component/button.css](packages/console/app/src/style/component/button.css) — 102 wierszy
+- [packages/console/app/src/style/index.css](packages/console/app/src/style/index.css) — 8 wierszy
+- [packages/console/app/src/style/reset.css](packages/console/app/src/style/reset.css) — 76 wierszy
+- [packages/console/app/src/style/token/color.css](packages/console/app/src/style/token/color.css) — 91 wierszy
+- [packages/console/app/src/style/token/font.css](packages/console/app/src/style/token/font.css) — 21 wierszy
+- [packages/console/app/src/style/token/space.css](packages/console/app/src/style/token/space.css) — 46 wierszy
+- [packages/console/app/sst-env.d.ts](packages/console/app/sst-env.d.ts) — 10 wierszy
+- [packages/console/app/test/liteUsage.test.ts](packages/console/app/test/liteUsage.test.ts) — 133 wierszy

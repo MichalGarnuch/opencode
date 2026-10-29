@@ -1,0 +1,306 @@
+# opencode — mapa plików (9/23)
+
+Wykaz śledzonych plików z badanego commita. Liczba wierszy i nazwy deklaracji są wyciągane automatycznie z dostępnej kopii tekstowej; nie oznaczają ręcznej oceny pliku. Brak opisu oznacza, że zawartość nie była analizowana tą metodą (np. plik binarny, zasób lub pominięty plik).
+
+[Wróć do audytu](AUDYT_EDUKACYJNY.md) · [1](AUDYT_MAPA_01.md) · [2](AUDYT_MAPA_02.md) · [3](AUDYT_MAPA_03.md) · [4](AUDYT_MAPA_04.md) · [5](AUDYT_MAPA_05.md) · [6](AUDYT_MAPA_06.md) · [7](AUDYT_MAPA_07.md) · [8](AUDYT_MAPA_08.md) · [9](AUDYT_MAPA_09.md) · [10](AUDYT_MAPA_10.md) · [11](AUDYT_MAPA_11.md) · [12](AUDYT_MAPA_12.md) · [13](AUDYT_MAPA_13.md) · [14](AUDYT_MAPA_14.md) · [15](AUDYT_MAPA_15.md) · [16](AUDYT_MAPA_16.md) · [17](AUDYT_MAPA_17.md) · [18](AUDYT_MAPA_18.md) · [19](AUDYT_MAPA_19.md) · [20](AUDYT_MAPA_20.md) · [21](AUDYT_MAPA_21.md) · [22](AUDYT_MAPA_22.md) · [23](AUDYT_MAPA_23.md)
+
+- [packages/http-recorder/src/types.ts](packages/http-recorder/src/types.ts) — 108 wierszy; deklaracje: `CassetteMetadata:2`, `RequestSnapshot:5`, `ResponseSnapshot:17`, `HttpInteraction:29`, `WebSocketEvent:36`
+- [packages/http-recorder/src/websocket.ts](packages/http-recorder/src/websocket.ts) — 173 wierszy; deklaracje: `WebSocketRequest:10`, `WebSocketConnection:15`, `WebSocketExecutor:21`, `WebSocketRecordReplayOptions:25`
+- [packages/http-recorder/sst-env.d.ts](packages/http-recorder/sst-env.d.ts) — 10 wierszy
+- [packages/http-recorder/test/fixtures/recordings/record-replay/multi-step.json](packages/http-recorder/test/fixtures/recordings/record-replay/multi-step.json) — 41 wierszy
+- [packages/http-recorder/test/fixtures/recordings/record-replay/retry.json](packages/http-recorder/test/fixtures/recordings/record-replay/retry.json) — 41 wierszy
+- [packages/http-recorder/test/record-replay.test.ts](packages/http-recorder/test/record-replay.test.ts) — 879 wierszy
+- [packages/http-recorder/tsconfig.json](packages/http-recorder/tsconfig.json) — 22 wierszy
+- [packages/httpapi-codegen/README.md](packages/httpapi-codegen/README.md) — 42 wierszy
+- [packages/httpapi-codegen/package.json](packages/httpapi-codegen/package.json) — 22 wierszy
+- [packages/httpapi-codegen/src/index.ts](packages/httpapi-codegen/src/index.ts) — 1185 wierszy; deklaracje: `InputField:7`, `Operation:12`, `Output:21`, `Contract:29`, `GenerationError:33`
+- [packages/httpapi-codegen/sst-env.d.ts](packages/httpapi-codegen/sst-env.d.ts) — 10 wierszy
+- [packages/httpapi-codegen/test/effect.ts](packages/httpapi-codegen/test/effect.ts) — 28 wierszy; deklaracje: `Body:6`
+- [packages/httpapi-codegen/test/fixture.ts](packages/httpapi-codegen/test/fixture.ts) — 45 wierszy; deklaracje: `Missing:4`
+- [packages/httpapi-codegen/test/generate.test.ts](packages/httpapi-codegen/test/generate.test.ts) — 1022 wierszy; deklaracje: `api:19`, `compile:23`, `OptionalError:215`, `NamedError:230`, `MissingStatus:246`
+- [packages/httpapi-codegen/test/generated-consumer.ts](packages/httpapi-codegen/test/generated-consumer.ts) — 28 wierszy
+- [packages/httpapi-codegen/test/generated/client-error.ts](packages/httpapi-codegen/test/generated/client-error.ts) — 5 wierszy; deklaracje: `ClientError:3`
+- [packages/httpapi-codegen/test/generated/client.ts](packages/httpapi-codegen/test/generated/client.ts) — 16 wierszy
+- [packages/httpapi-codegen/test/generated/event.ts](packages/httpapi-codegen/test/generated/event.ts) — 39 wierszy; deklaracje: `RawGroup:22`
+- [packages/httpapi-codegen/test/generated/index.ts](packages/httpapi-codegen/test/generated/index.ts) — 2 wierszy
+- [packages/httpapi-codegen/test/generated/session.ts](packages/httpapi-codegen/test/generated/session.ts) — 96 wierszy; deklaracje: `Endpoint2Error0Class:18`, `RawGroup:44`, `Endpoint1Input:55`, `Endpoint2Input:66`, `Endpoint3Input:80`
+- [packages/httpapi-codegen/test/generated/system.ts](packages/httpapi-codegen/test/generated/system.ts) — 25 wierszy; deklaracje: `RawGroup:14`
+- [packages/httpapi-codegen/test/write.test.ts](packages/httpapi-codegen/test/write.test.ts) — 160 wierszy
+- [packages/httpapi-codegen/tsconfig.json](packages/httpapi-codegen/tsconfig.json) — 8 wierszy
+- [packages/identity/mark-192x192.png](packages/identity/mark-192x192.png)
+- [packages/identity/mark-512x512-light.png](packages/identity/mark-512x512-light.png)
+- [packages/identity/mark-512x512.png](packages/identity/mark-512x512.png)
+- [packages/identity/mark-96x96.png](packages/identity/mark-96x96.png)
+- [packages/identity/mark-light.svg](packages/identity/mark-light.svg)
+- [packages/identity/mark.svg](packages/identity/mark.svg)
+- [packages/llm/AGENTS.md](packages/llm/AGENTS.md) — 321 wierszy
+- [packages/llm/DESIGN.md](packages/llm/DESIGN.md) — 1114 wierszy; deklaracje: `RunStopReason:411`, `LLMError:834`
+- [packages/llm/README.md](packages/llm/README.md) — 131 wierszy
+- [packages/llm/example/call-sites.md](packages/llm/example/call-sites.md) — 591 wierszy; deklaracje: `ProviderFacade:165`
+- [packages/llm/example/tutorial.ts](packages/llm/example/tutorial.ts) — 255 wierszy; deklaracje: `FakeBody:175`
+- [packages/llm/package.json](packages/llm/package.json) — 52 wierszy
+- [packages/llm/script/recording-cost-report.ts](packages/llm/script/recording-cost-report.ts) — 250 wierszy; deklaracje: `JsonRecord:7`, `Pricing:9`, `Usage:17`, `Row:26`
+- [packages/llm/script/setup-recording-env.ts](packages/llm/script/setup-recording-env.ts) — 542 wierszy; deklaracje: `Provider:12`, `Env:26`
+- [packages/llm/src/cache-policy.ts](packages/llm/src/cache-policy.ts) — 111 wierszy
+- [packages/llm/src/index.ts](packages/llm/src/index.ts) — 33 wierszy
+- [packages/llm/src/llm.ts](packages/llm/src/llm.ts) — 186 wierszy; deklaracje: `ModelInput:12`, `ContentPart:16`, `ModelInput:21`, `MessageInput:23`, `ToolChoiceInput:25`
+- [packages/llm/src/protocols/anthropic-messages.ts](packages/llm/src/protocols/anthropic-messages.ts) — 855 wierszy; deklaracje: `CacheHint:10`, `FinishReason:11`, `JsonSchema:12`, `LLMRequest:13`, `MediaPart:14`
+- [packages/llm/src/protocols/bedrock-converse.ts](packages/llm/src/protocols/bedrock-converse.ts) — 674 wierszy; deklaracje: `CacheHint:8`, `FinishReason:9`, `JsonSchema:10`, `LLMRequest:11`, `ModelToolSchemaCompatibility:12`
+- [packages/llm/src/protocols/bedrock-event-stream.ts](packages/llm/src/protocols/bedrock-event-stream.ts) — 87 wierszy; deklaracje: `FrameBufferState:17`
+- [packages/llm/src/protocols/gemini.ts](packages/llm/src/protocols/gemini.ts) — 512 wierszy; deklaracje: `FinishReason:10`, `JsonSchema:11`, `LLMRequest:12`, `MediaPart:13`, `ProviderMetadata:14`
+- [packages/llm/src/protocols/index.ts](packages/llm/src/protocols/index.ts) — 6 wierszy
+- [packages/llm/src/protocols/openai-chat.ts](packages/llm/src/protocols/openai-chat.ts) — 506 wierszy; deklaracje: `FinishReason:10`, `JsonSchema:11`, `LLMRequest:12`, `MediaPart:13`, `ReasoningPart:14`
+- [packages/llm/src/protocols/openai-compatible-chat.ts](packages/llm/src/protocols/openai-compatible-chat.ts) — 24 wierszy; deklaracje: `OpenAICompatibleChatModelInput:8`
+- [packages/llm/src/protocols/openai-responses.ts](packages/llm/src/protocols/openai-responses.ts) — 1022 wierszy; deklaracje: `FinishReason:10`, `JsonSchema:11`, `LLMRequest:12`, `ProviderMetadata:13`, `ReasoningPart:14`
+- [packages/llm/src/protocols/shared.ts](packages/llm/src/protocols/shared.ts) — 326 wierszy; deklaracje: `ContentPart:9`, `LLMRequest:10`, `MediaPart:11`, `ToolFileContent:12`, `TextPart:13`
+- [packages/llm/src/protocols/utils/bedrock-auth.ts](packages/llm/src/protocols/utils/bedrock-auth.ts) — 70 wierszy; deklaracje: `Credentials:13`
+- [packages/llm/src/protocols/utils/bedrock-cache.ts](packages/llm/src/protocols/utils/bedrock-cache.ts) — 37 wierszy; deklaracje: `CachePointBlock:14`
+- [packages/llm/src/protocols/utils/bedrock-media.ts](packages/llm/src/protocols/utils/bedrock-media.ts) — 90 wierszy; deklaracje: `ImageFormat:8`, `ImageBlock:16`, `DocumentFormat:21`, `DocumentBlock:30`
+- [packages/llm/src/protocols/utils/cache.ts](packages/llm/src/protocols/utils/cache.ts) — 16 wierszy; deklaracje: `Breakpoints:5`
+- [packages/llm/src/protocols/utils/gemini-tool-schema.ts](packages/llm/src/protocols/utils/gemini-tool-schema.ts) — 99 wierszy
+- [packages/llm/src/protocols/utils/lifecycle.ts](packages/llm/src/protocols/utils/lifecycle.ts) — 102 wierszy; deklaracje: `State:3`
+- [packages/llm/src/protocols/utils/openai-options.ts](packages/llm/src/protocols/utils/openai-options.ts) — 93 wierszy; deklaracje: `OpenAIReasoningEffort:8`, `OpenAIResponseIncludable:22`, `OpenAIServiceTier:24`
+- [packages/llm/src/protocols/utils/tool-schema.ts](packages/llm/src/protocols/utils/tool-schema.ts) — 86 wierszy
+- [packages/llm/src/protocols/utils/tool-stream.ts](packages/llm/src/protocols/utils/tool-stream.ts) — 218 wierszy; deklaracje: `StreamKey:5`, `PendingTool:12`, `State:25`, `AppendOutcome:33`
+- [packages/llm/src/provider-error.ts](packages/llm/src/provider-error.ts) — 43 wierszy
+- [packages/llm/src/provider.ts](packages/llm/src/provider.ts) — 36 wierszy; deklaracje: `ModelOptions:3`, `ModelFactory:11`, `AnyModelFactory:16`, `Definition:18`, `DefinitionShape:24`
+- [packages/llm/src/providers/amazon-bedrock.ts](packages/llm/src/providers/amazon-bedrock.ts) — 43 wierszy; deklaracje: `Config:9`
+- [packages/llm/src/providers/anthropic.ts](packages/llm/src/providers/anthropic.ts) — 35 wierszy; deklaracje: `Config:11`
+- [packages/llm/src/providers/azure.ts](packages/llm/src/providers/azure.ts) — 110 wierszy; deklaracje: `AzureURL:14`, `ModelOptions:16`, `Config:24`
+- [packages/llm/src/providers/cloudflare.ts](packages/llm/src/providers/cloudflare.ts) — 127 wierszy; deklaracje: `CloudflareSecret:13`, `GatewayURL:15`, `AIGatewayOptions:22`, `WorkersAIURL:29`, `WorkersAIOptions:34`
+- [packages/llm/src/providers/github-copilot.ts](packages/llm/src/providers/github-copilot.ts) — 69 wierszy; deklaracje: `ModelOptions:12`
+- [packages/llm/src/providers/google.ts](packages/llm/src/providers/google.ts) — 35 wierszy; deklaracje: `Config:11`
+- [packages/llm/src/providers/index.ts](packages/llm/src/providers/index.ts) — 11 wierszy
+- [packages/llm/src/providers/openai-compatible-profile.ts](packages/llm/src/providers/openai-compatible-profile.ts) — 20 wierszy; deklaracje: `OpenAICompatibleProfile:1`
+- [packages/llm/src/providers/openai-compatible.ts](packages/llm/src/providers/openai-compatible.ts) — 65 wierszy; deklaracje: `GenericModelOptions:9`, `FamilyModelOptions:15`
+- [packages/llm/src/providers/openai-options.ts](packages/llm/src/providers/openai-options.ts) — 83 wierszy; deklaracje: `OpenAIOptionsInput:7`, `OpenAIProviderOptionsInput:21`
+- [packages/llm/src/providers/openai.ts](packages/llm/src/providers/openai.ts) — 63 wierszy; deklaracje: `Config:17`
+- [packages/llm/src/providers/openrouter.ts](packages/llm/src/providers/openrouter.ts) — 98 wierszy; deklaracje: `OpenRouterOptions:16`, `OpenRouterProviderOptionsInput:23`, `ModelOptions:27`, `OpenRouterBody:36`
+- [packages/llm/src/providers/xai.ts](packages/llm/src/providers/xai.ts) — 56 wierszy; deklaracje: `ModelOptions:10`
+- [packages/llm/src/route/auth-options.ts](packages/llm/src/route/auth-options.ts) — 57 wierszy; deklaracje: `ApiKeyMode:4`, `AuthOverride:6`, `OptionalApiKeyAuth:11`, `RequiredApiKeyAuth:16`, `ProviderAuthOption:21`
+- [packages/llm/src/route/auth.ts](packages/llm/src/route/auth.ts) — 156 wierszy; deklaracje: `MissingCredentialError:5`, `CredentialError:13`, `AuthError:14`, `Secret:15`, `AuthInput:17`
+- [packages/llm/src/route/client.ts](packages/llm/src/route/client.ts) — 436 wierszy; deklaracje: `RouteBody:29`, `Route:36`, `AnyRoute:59`, `HttpOptionsInput:61`, `RouteModelInput:63`
+- [packages/llm/src/route/endpoint.ts](packages/llm/src/route/endpoint.ts) — 53 wierszy; deklaracje: `EndpointInput:4`, `EndpointPart:9`, `Endpoint:22`, `EndpointPatch:28`
+- [packages/llm/src/route/executor.ts](packages/llm/src/route/executor.ts) — 385 wierszy; deklaracje: `Interface:27`, `Service:33`
+- [packages/llm/src/route/framing.ts](packages/llm/src/route/framing.ts) — 27 wierszy; deklaracje: `Framing:19`
+- [packages/llm/src/route/index.ts](packages/llm/src/route/index.ts) — 25 wierszy
+- [packages/llm/src/route/protocol.ts](packages/llm/src/route/protocol.ts) — 84 wierszy; deklaracje: `Protocol:36`, `ProtocolBody:45`, `ProtocolStream:52`
+- [packages/llm/src/route/transport/http.ts](packages/llm/src/route/transport/http.ts) — 155 wierszy; deklaracje: `JsonRequestInput:10`, `JsonRequestParts:12`, `HttpPrepared:19`, `HttpJsonInput:108`, `HttpJsonPatch:112`
+- [packages/llm/src/route/transport/index.ts](packages/llm/src/route/transport/index.ts) — 33 wierszy; deklaracje: `TransportRuntime:8`, `Transport:13`, `TransportPrepareInput:23`
+- [packages/llm/src/route/transport/websocket.ts](packages/llm/src/route/transport/websocket.ts) — 280 wierszy; deklaracje: `WebSocketRequest:7`, `WebSocketConnection:12`, `Interface:18`, `WebSocketConstructorWithHeaders:22`, `Service:27`
+- [packages/llm/src/schema/errors.ts](packages/llm/src/schema/errors.ts) — 207 wierszy; deklaracje: `ProviderFailureClassification:5`, `HttpRequestDetails:7`, `HttpResponseDetails:13`, `HttpRateLimitDetails:18`, `HttpContext:25`
+- [packages/llm/src/schema/events.ts](packages/llm/src/schema/events.ts) — 618 wierszy; deklaracje: `Usage:51`, `UsageInput:76`, `StepStart:82`, `TextStart:89`, `TextDelta:97`
+- [packages/llm/src/schema/ids.ts](packages/llm/src/schema/ids.ts) — 43 wierszy; deklaracje: `ProtocolID:8`, `RouteID:12`, `ModelID:15`, `ProviderID:18`, `ResponseID:21`
+- [packages/llm/src/schema/index.ts](packages/llm/src/schema/index.ts) — 5 wierszy
+- [packages/llm/src/schema/messages.ts](packages/llm/src/schema/messages.ts) — 312 wierszy; deklaracje: `SystemPart:13`, `TextPart:32`, `MediaPart:41`, `ToolResultValue:78`, `ToolOutput:80`
+- [packages/llm/src/schema/options.ts](packages/llm/src/schema/options.ts) — 276 wierszy; deklaracje: `ProviderOptions:37`, `HttpOptions:53`, `Input:60`, `GenerationOptions:74`, `Input:86`
+- [packages/llm/src/tool-runtime.ts](packages/llm/src/tool-runtime.ts) — 78 wierszy; deklaracje: `ToolCallPart:4`, `ToolOutput:8`, `ToolResultValue:9`, `ToolSettlement:13`, `DispatchResult:18`
+- [packages/llm/src/tool.ts](packages/llm/src/tool.ts) — 253 wierszy; deklaracje: `ToolSchema:15`, `ToolExecuteContext:16`, `ToolExecute:21`, `ToolModelOutputInput:26`, `ToolToModelOutput:32`
+- [packages/llm/src/utils/record.ts](packages/llm/src/utils/record.ts) — 3 wierszy
+- [packages/llm/sst-env.d.ts](packages/llm/sst-env.d.ts) — 10 wierszy
+- [packages/llm/test/adapter.test.ts](packages/llm/test/adapter.test.ts) — 171 wierszy; deklaracje: `FakeBody:14`, `FakeEvent:22`
+- [packages/llm/test/auth-options.types.ts](packages/llm/test/auth-options.types.ts) — 168 wierszy; deklaracje: `BaseOptions:17`, `Model:22`
+- [packages/llm/test/auth.test.ts](packages/llm/test/auth.test.ts) — 103 wierszy
+- [packages/llm/test/cache-policy.test.ts](packages/llm/test/cache-policy.test.ts) — 262 wierszy
+- [packages/llm/test/continuation-scenarios.ts](packages/llm/test/continuation-scenarios.ts) — 104 wierszy; deklaracje: `ContinuationFeature:14`, `continuationRequest:41`
+- [packages/llm/test/endpoint.test.ts](packages/llm/test/endpoint.test.ts) — 58 wierszy
+- [packages/llm/test/executor.test.ts](packages/llm/test/executor.test.ts) — 458 wierszy
+- [packages/llm/test/exports.test.ts](packages/llm/test/exports.test.ts) — 76 wierszy
+- [packages/llm/test/fixtures/media/restroom.png](packages/llm/test/fixtures/media/restroom.png)
+- [packages/llm/test/fixtures/recordings/anthropic-messages-cache/writes-then-reads-cache-control-on-identical-second-call.json](packages/llm/test/fixtures/recordings/anthropic-messages-cache/writes-then-reads-cache-control-on-identical-second-call.json) — 48 wierszy
+- [packages/llm/test/fixtures/recordings/anthropic-messages/accepts-malformed-assistant-tool-order-with-default-patch.json](packages/llm/test/fixtures/recordings/anthropic-messages/accepts-malformed-assistant-tool-order-with-default-patch.json) — 29 wierszy
+- [packages/llm/test/fixtures/recordings/anthropic-messages/anthropic-opus-4-7-image-tool-result.json](packages/llm/test/fixtures/recordings/anthropic-messages/anthropic-opus-4-7-image-tool-result.json) — 43 wierszy
+- [packages/llm/test/fixtures/recordings/anthropic-messages/claude-opus-4-7-drives-a-tool-loop.json](packages/llm/test/fixtures/recordings/anthropic-messages/claude-opus-4-7-drives-a-tool-loop.json) — 56 wierszy
+- [packages/llm/test/fixtures/recordings/anthropic-messages/rejects-malformed-assistant-tool-order-without-patch.json](packages/llm/test/fixtures/recordings/anthropic-messages/rejects-malformed-assistant-tool-order-without-patch.json) — 29 wierszy
+- [packages/llm/test/fixtures/recordings/anthropic-messages/streams-text.json](packages/llm/test/fixtures/recordings/anthropic-messages/streams-text.json) — 29 wierszy
+- [packages/llm/test/fixtures/recordings/anthropic-messages/streams-tool-call.json](packages/llm/test/fixtures/recordings/anthropic-messages/streams-tool-call.json) — 29 wierszy
+- [packages/llm/test/fixtures/recordings/bedrock-converse/drives-a-tool-loop.json](packages/llm/test/fixtures/recordings/bedrock-converse/drives-a-tool-loop.json) — 55 wierszy
+- [packages/llm/test/fixtures/recordings/bedrock-converse/streams-a-tool-call.json](packages/llm/test/fixtures/recordings/bedrock-converse/streams-a-tool-call.json) — 29 wierszy
+- [packages/llm/test/fixtures/recordings/bedrock-converse/streams-text.json](packages/llm/test/fixtures/recordings/bedrock-converse/streams-text.json) — 29 wierszy
+- [packages/llm/test/fixtures/recordings/cloudflare-ai-gateway/cloudflare-ai-gateway-workers-ai-gpt-oss-20b-tools-tool-call.json](packages/llm/test/fixtures/recordings/cloudflare-ai-gateway/cloudflare-ai-gateway-workers-ai-gpt-oss-20b-tools-tool-call.json) — 32 wierszy
+- [packages/llm/test/fixtures/recordings/cloudflare-ai-gateway/cloudflare-ai-gateway-workers-ai-llama-3-1-8b-text.json](packages/llm/test/fixtures/recordings/cloudflare-ai-gateway/cloudflare-ai-gateway-workers-ai-llama-3-1-8b-text.json) — 32 wierszy
+- [packages/llm/test/fixtures/recordings/cloudflare-workers-ai/cloudflare-workers-ai-gpt-oss-20b-tools-tool-call.json](packages/llm/test/fixtures/recordings/cloudflare-workers-ai/cloudflare-workers-ai-gpt-oss-20b-tools-tool-call.json) — 32 wierszy
+- [packages/llm/test/fixtures/recordings/cloudflare-workers-ai/cloudflare-workers-ai-llama-3-1-8b-text.json](packages/llm/test/fixtures/recordings/cloudflare-workers-ai/cloudflare-workers-ai-llama-3-1-8b-text.json) — 32 wierszy
+- [packages/llm/test/fixtures/recordings/gemini-cache/reports-cachedcontenttokencount-on-identical-second-call.json](packages/llm/test/fixtures/recordings/gemini-cache/reports-cachedcontenttokencount-on-identical-second-call.json) — 46 wierszy
+- [packages/llm/test/fixtures/recordings/gemini/gemini-2-5-flash-image.json](packages/llm/test/fixtures/recordings/gemini/gemini-2-5-flash-image.json) — 32 wierszy
+- [packages/llm/test/fixtures/recordings/gemini/streams-text.json](packages/llm/test/fixtures/recordings/gemini/streams-text.json) — 28 wierszy
+- [packages/llm/test/fixtures/recordings/gemini/streams-tool-call.json](packages/llm/test/fixtures/recordings/gemini/streams-tool-call.json) — 28 wierszy
+- [packages/llm/test/fixtures/recordings/openai-chat/continues-after-tool-result.json](packages/llm/test/fixtures/recordings/openai-chat/continues-after-tool-result.json) — 28 wierszy
+- [packages/llm/test/fixtures/recordings/openai-chat/drives-a-tool-loop-end-to-end.json](packages/llm/test/fixtures/recordings/openai-chat/drives-a-tool-loop-end-to-end.json) — 46 wierszy
+- [packages/llm/test/fixtures/recordings/openai-chat/streams-text.json](packages/llm/test/fixtures/recordings/openai-chat/streams-text.json) — 28 wierszy
+- [packages/llm/test/fixtures/recordings/openai-chat/streams-tool-call.json](packages/llm/test/fixtures/recordings/openai-chat/streams-tool-call.json) — 28 wierszy
+- [packages/llm/test/fixtures/recordings/openai-compatible-chat/deepseek-streams-text.json](packages/llm/test/fixtures/recordings/openai-compatible-chat/deepseek-streams-text.json) — 28 wierszy
+- [packages/llm/test/fixtures/recordings/openai-compatible-chat/groq-llama-3-3-70b-drives-a-tool-loop.json](packages/llm/test/fixtures/recordings/openai-compatible-chat/groq-llama-3-3-70b-drives-a-tool-loop.json) — 53 wierszy
+- [packages/llm/test/fixtures/recordings/openai-compatible-chat/groq-streams-text.json](packages/llm/test/fixtures/recordings/openai-compatible-chat/groq-streams-text.json) — 28 wierszy
+- [packages/llm/test/fixtures/recordings/openai-compatible-chat/groq-streams-tool-call.json](packages/llm/test/fixtures/recordings/openai-compatible-chat/groq-streams-tool-call.json) — 28 wierszy
+- [packages/llm/test/fixtures/recordings/openai-compatible-chat/openrouter-claude-opus-4-7-drives-a-tool-loop.json](packages/llm/test/fixtures/recordings/openai-compatible-chat/openrouter-claude-opus-4-7-drives-a-tool-loop.json) — 54 wierszy
+- [packages/llm/test/fixtures/recordings/openai-compatible-chat/openrouter-gpt-4o-mini-drives-a-tool-loop.json](packages/llm/test/fixtures/recordings/openai-compatible-chat/openrouter-gpt-4o-mini-drives-a-tool-loop.json) — 53 wierszy
+- [packages/llm/test/fixtures/recordings/openai-compatible-chat/openrouter-gpt-5-5-drives-a-tool-loop.json](packages/llm/test/fixtures/recordings/openai-compatible-chat/openrouter-gpt-5-5-drives-a-tool-loop.json) — 54 wierszy
+- [packages/llm/test/fixtures/recordings/openai-compatible-chat/openrouter-streams-text.json](packages/llm/test/fixtures/recordings/openai-compatible-chat/openrouter-streams-text.json) — 28 wierszy
+- [packages/llm/test/fixtures/recordings/openai-compatible-chat/openrouter-streams-tool-call.json](packages/llm/test/fixtures/recordings/openai-compatible-chat/openrouter-streams-tool-call.json) — 28 wierszy
+- [packages/llm/test/fixtures/recordings/openai-compatible-chat/togetherai-streams-text.json](packages/llm/test/fixtures/recordings/openai-compatible-chat/togetherai-streams-text.json) — 28 wierszy
+- [packages/llm/test/fixtures/recordings/openai-compatible-chat/togetherai-streams-tool-call.json](packages/llm/test/fixtures/recordings/openai-compatible-chat/togetherai-streams-tool-call.json) — 28 wierszy
+- [packages/llm/test/fixtures/recordings/openai-responses-cache/reports-cached-tokens-on-identical-second-call.json](packages/llm/test/fixtures/recordings/openai-responses-cache/reports-cached-tokens-on-identical-second-call.json) — 46 wierszy
+- [packages/llm/test/fixtures/recordings/openai-responses/gpt-5-5-drives-a-tool-loop.json](packages/llm/test/fixtures/recordings/openai-responses/gpt-5-5-drives-a-tool-loop.json) — 54 wierszy
+- [packages/llm/test/fixtures/recordings/openai-responses/gpt-5-5-streams-text.json](packages/llm/test/fixtures/recordings/openai-responses/gpt-5-5-streams-text.json) — 28 wierszy
+- [packages/llm/test/fixtures/recordings/openai-responses/gpt-5-5-streams-tool-call.json](packages/llm/test/fixtures/recordings/openai-responses/gpt-5-5-streams-tool-call.json) — 28 wierszy
+- [packages/llm/test/fixtures/recordings/openai-responses/openai-responses-gpt-5-5-image-tool-result.json](packages/llm/test/fixtures/recordings/openai-responses/openai-responses-gpt-5-5-image-tool-result.json) — 42 wierszy
+- [packages/llm/test/fixtures/recordings/openai-responses/openai-responses-gpt-5-5-reasoning-continuation.json](packages/llm/test/fixtures/recordings/openai-responses/openai-responses-gpt-5-5-reasoning-continuation.json) — 58 wierszy
+- [packages/llm/test/fixtures/recordings/openai-responses/openai-responses-gpt-5-5-reasoning.json](packages/llm/test/fixtures/recordings/openai-responses/openai-responses-gpt-5-5-reasoning.json) — 32 wierszy
+- [packages/llm/test/generate-object.test.ts](packages/llm/test/generate-object.test.ts) — 184 wierszy; deklaracje: `OpenAIChatBody:12`
+- [packages/llm/test/lib/effect.ts](packages/llm/test/lib/effect.ts) — 50 wierszy; deklaracje: `Body:7`
+- [packages/llm/test/lib/http.ts](packages/llm/test/lib/http.ts) — 98 wierszy; deklaracje: `HandlerInput:8`, `Handler:17`, `RuntimeEnv:35`
+- [packages/llm/test/lib/openai-chunks.ts](packages/llm/test/lib/openai-chunks.ts) — 27 wierszy
+- [packages/llm/test/lib/sse.ts](packages/llm/test/lib/sse.ts) — 17 wierszy
+- [packages/llm/test/lib/tool-runtime.ts](packages/llm/test/lib/tool-runtime.ts) — 146 wierszy; deklaracje: `ContentPart:7`, `ProviderMetadata:8`, `ToolCallPart:9`, `ToolResultValue:11`, `Usage:12`
+- [packages/llm/test/llm.test.ts](packages/llm/test/llm.test.ts) — 199 wierszy
+- [packages/llm/test/prepare.test.ts](packages/llm/test/prepare.test.ts) — 178 wierszy
+- [packages/llm/test/provider-error.test.ts](packages/llm/test/provider-error.test.ts) — 30 wierszy
+- [packages/llm/test/provider.types.ts](packages/llm/test/provider.types.ts) — 41 wierszy
+- [packages/llm/test/provider/anthropic-messages-cache.recorded.test.ts](packages/llm/test/provider/anthropic-messages-cache.recorded.test.ts) — 53 wierszy
+- [packages/llm/test/provider/anthropic-messages.recorded.test.ts](packages/llm/test/provider/anthropic-messages.recorded.test.ts) — 45 wierszy
+- [packages/llm/test/provider/anthropic-messages.test.ts](packages/llm/test/provider/anthropic-messages.test.ts) — 895 wierszy; deklaracje: `AnthropicToolResult:31`
+- [packages/llm/test/provider/bedrock-converse-cache.recorded.test.ts](packages/llm/test/provider/bedrock-converse-cache.recorded.test.ts) — 54 wierszy
+- [packages/llm/test/provider/bedrock-converse.test.ts](packages/llm/test/provider/bedrock-converse.test.ts) — 744 wierszy
+- [packages/llm/test/provider/cloudflare.test.ts](packages/llm/test/provider/cloudflare.test.ts) — 230 wierszy
+- [packages/llm/test/provider/gemini-cache.recorded.test.ts](packages/llm/test/provider/gemini-cache.recorded.test.ts) — 48 wierszy
+- [packages/llm/test/provider/gemini.test.ts](packages/llm/test/provider/gemini.test.ts) — 584 wierszy
+- [packages/llm/test/provider/golden.recorded.test.ts](packages/llm/test/provider/golden.recorded.test.ts) — 223 wierszy
+- [packages/llm/test/provider/openai-chat.test.ts](packages/llm/test/provider/openai-chat.test.ts) — 674 wierszy
+- [packages/llm/test/provider/openai-compatible-chat.test.ts](packages/llm/test/provider/openai-compatible-chat.test.ts) — 238 wierszy
+- [packages/llm/test/provider/openai-responses-cache.recorded.test.ts](packages/llm/test/provider/openai-responses-cache.recorded.test.ts) — 46 wierszy
+- [packages/llm/test/provider/openai-responses.test.ts](packages/llm/test/provider/openai-responses.test.ts) — 1472 wierszy; deklaracje: `OpenAIToolOutput:29`
+- [packages/llm/test/provider/openrouter.test.ts](packages/llm/test/provider/openrouter.test.ts) — 56 wierszy
+- [packages/llm/test/recorded-golden.ts](packages/llm/test/recorded-golden.ts) — 97 wierszy; deklaracje: `Transport:9`, `ScenarioInput:11`, `TargetInput:23`
+- [packages/llm/test/recorded-runner.ts](packages/llm/test/recorded-runner.ts) — 100 wierszy; deklaracje: `RecordedBody:6`, `RecordedGroupOptions:8`, `RecordedCaseOptions:17`
+- [packages/llm/test/recorded-scenarios.ts](packages/llm/test/recorded-scenarios.ts) — 531 wierszy; deklaracje: `ContentPart:12`, `FinishReason:13`, `LLMRequest:14`, `Model:15`, `GoldenScenarioContext:187`
+- [packages/llm/test/recorded-test.ts](packages/llm/test/recorded-test.ts) — 94 wierszy; deklaracje: `RecordedCaseOptions:14`, `RecordedGroupOptions:15`, `RecordedEnv:22`, `RecordedTestsOptions:24`, `RecordedCaseOptions:28`
+- [packages/llm/test/recorded-utils.ts](packages/llm/test/recorded-utils.ts) — 56 wierszy
+- [packages/llm/test/recorded-websocket.ts](packages/llm/test/recorded-websocket.ts) — 26 wierszy
+- [packages/llm/test/response.test.ts](packages/llm/test/response.test.ts) — 98 wierszy
+- [packages/llm/test/route.test.ts](packages/llm/test/route.test.ts) — 43 wierszy
+- [packages/llm/test/schema.test.ts](packages/llm/test/schema.test.ts) — 86 wierszy
+- [packages/llm/test/tool-runtime.test.ts](packages/llm/test/tool-runtime.test.ts) — 818 wierszy
+- [packages/llm/test/tool-schema-projection.test.ts](packages/llm/test/tool-schema-projection.test.ts) — 117 wierszy
+- [packages/llm/test/tool-stream.test.ts](packages/llm/test/tool-stream.test.ts) — 99 wierszy
+- [packages/llm/test/tool.types.ts](packages/llm/test/tool.types.ts) — 40 wierszy
+- [packages/llm/tsconfig.json](packages/llm/tsconfig.json) — 15 wierszy
+- [packages/opencode/.gitignore](packages/opencode/.gitignore)
+- [packages/opencode/AGENTS.md](packages/opencode/AGENTS.md) — 131 wierszy; deklaracje: `Interface:24`, `Service:25`
+- [packages/opencode/Dockerfile](packages/opencode/Dockerfile)
+- [packages/opencode/README.md](packages/opencode/README.md) — 15 wierszy
+- [packages/opencode/bin/opencode](packages/opencode/bin/opencode)
+- [packages/opencode/bunfig.toml](packages/opencode/bunfig.toml)
+- [packages/opencode/git](packages/opencode/git)
+- [packages/opencode/migration/20260511173437_session-metadata/migration.sql](packages/opencode/migration/20260511173437_session-metadata/migration.sql) — 1 wierszy
+- [packages/opencode/migration/20260511173437_session-metadata/snapshot.json](packages/opencode/migration/20260511173437_session-metadata/snapshot.json) — 1500 wierszy
+- [packages/opencode/package.json](packages/opencode/package.json) — 158 wierszy
+- [packages/opencode/parsers-config.ts](packages/opencode/parsers-config.ts) — 1 wierszy
+- [packages/opencode/script/bench-search.ts](packages/opencode/script/bench-search.ts) — 94 wierszy
+- [packages/opencode/script/bench-test-suite.ts](packages/opencode/script/bench-test-suite.ts) — 52 wierszy
+- [packages/opencode/script/build-node.ts](packages/opencode/script/build-node.ts) — 32 wierszy
+- [packages/opencode/script/build.ts](packages/opencode/script/build.ts) — 246 wierszy
+- [packages/opencode/script/generate.ts](packages/opencode/script/generate.ts) — 14 wierszy
+- [packages/opencode/script/httpapi-exercise.ts](packages/opencode/script/httpapi-exercise.ts) — 1 wierszy
+- [packages/opencode/script/postinstall.mjs](packages/opencode/script/postinstall.mjs) — 189 wierszy; deklaracje: `supportsAvx2:31`, `isMusl:79`, `packageNames:96`, `resolveBinary:119`, `installPackage:126`
+- [packages/opencode/script/profile-test-files.ts](packages/opencode/script/profile-test-files.ts) — 42 wierszy
+- [packages/opencode/script/publish.ts](packages/opencode/script/publish.ts) — 213 wierszy; deklaracje: `published:10`, `publish:14`
+- [packages/opencode/script/run-workspace-server](packages/opencode/script/run-workspace-server)
+- [packages/opencode/script/schema.ts](packages/opencode/script/schema.ts) — 77 wierszy; deklaracje: `JsonSchema:8`, `generateEffect:11`, `normalize:26`, `restoreModelRefs:53`, `isRecord:64`
+- [packages/opencode/script/time.ts](packages/opencode/script/time.ts) — 6 wierszy
+- [packages/opencode/script/trace-imports.ts](packages/opencode/script/trace-imports.ts) — 153 wierszy; deklaracje: `resolveImport:12`, `isInternalImport:25`, `tryExtensions:29`, `extractImports:58`, `visit:61`
+- [packages/opencode/specs/effect/error-boundaries-plan.md](packages/opencode/specs/effect/error-boundaries-plan.md) — 235 wierszy; deklaracje: `ModelNotFoundError:59`, `Interface:66`
+- [packages/opencode/specs/effect/errors.md](packages/opencode/specs/effect/errors.md) — 207 wierszy; deklaracje: `SessionBusyError:25`, `Error:30`, `Interface:32`, `Unauthorized:76`, `Authorization:82`
+- [packages/opencode/specs/effect/facades.md](packages/opencode/specs/effect/facades.md) — 218 wierszy
+- [packages/opencode/specs/effect/guide.md](packages/opencode/specs/effect/guide.md) — 247 wierszy; deklaracje: `Interface:15`, `Service:19`, `SessionBusyError:120`, `Error:125`, `Interface:127`
+- [packages/opencode/specs/effect/instance-context.md](packages/opencode/specs/effect/instance-context.md) — 13 wierszy
+- [packages/opencode/specs/effect/loose-ends.md](packages/opencode/specs/effect/loose-ends.md) — 30 wierszy
+- [packages/opencode/specs/effect/migration.md](packages/opencode/specs/effect/migration.md) — 62 wierszy
+- [packages/opencode/specs/effect/routes.md](packages/opencode/specs/effect/routes.md) — 61 wierszy
+- [packages/opencode/specs/effect/schema.md](packages/opencode/specs/effect/schema.md) — 88 wierszy; deklaracje: `Info:15`, `NotFoundError:34`
+- [packages/opencode/specs/effect/server-package.md](packages/opencode/specs/effect/server-package.md) — 58 wierszy
+- [packages/opencode/specs/effect/todo.md](packages/opencode/specs/effect/todo.md) — 241 wierszy
+- [packages/opencode/specs/effect/tools.md](packages/opencode/specs/effect/tools.md) — 88 wierszy
+- [packages/opencode/specs/openapi-translation-cleanup.md](packages/opencode/specs/openapi-translation-cleanup.md) — 204 wierszy
+- [packages/opencode/specs/tui-plugins.md](packages/opencode/specs/tui-plugins.md) — 544 wierszy
+- [packages/opencode/specs/v2/api.ts](packages/opencode/specs/v2/api.ts) — 67 wierszy
+- [packages/opencode/specs/v2/message-shape.md](packages/opencode/specs/v2/message-shape.md) — 136 wierszy; deklaracje: `User:14`, `Assistant:27`, `PromptMessage:38`, `PromptEditor:62`, `Turn:91`
+- [packages/opencode/specs/v2/notifications.md](packages/opencode/specs/v2/notifications.md) — 13 wierszy
+- [packages/opencode/specs/v2/tui-command-shim.md](packages/opencode/specs/v2/tui-command-shim.md) — 67 wierszy
+- [packages/opencode/src/account/account.ts](packages/opencode/src/account/account.ts) — 481 wierszy; deklaracje: `AccountError:17`, `PollResult:32`, `AccountError:40`, `AccountOrgs:61`, `ActiveOrg:66`
+- [packages/opencode/src/account/repo.ts](packages/opencode/src/account/repo.ts) — 171 wierszy; deklaracje: `AccountRow:11`, `Interface:15`, `Service:38`
+- [packages/opencode/src/account/schema.ts](packages/opencode/src/account/schema.ts) — 99 wierszy; deklaracje: `AccountID:5`, `OrgID:8`, `AccessToken:11`, `RefreshToken:14`, `DeviceCode:17`
+- [packages/opencode/src/account/url.ts](packages/opencode/src/account/url.ts) — 8 wierszy
+- [packages/opencode/src/acp/agent.ts](packages/opencode/src/acp/agent.ts) — 95 wierszy; deklaracje: `Agent:3`, `AgentSideConnection:4`, `AuthenticateRequest:5`, `CancelNotification:6`, `CloseSessionRequest:7`
+- [packages/opencode/src/acp/config-option.ts](packages/opencode/src/acp/config-option.ts) — 206 wierszy; deklaracje: `ConfigOptionModel:5`, `ConfigOptionProvider:11`, `ConfigOptionMode:17`, `ModelSelection:23`, `buildModelSelectOption:31`
+- [packages/opencode/src/acp/content.ts](packages/opencode/src/acp/content.ts) — 269 wierszy; deklaracje: `PromptPart:6`, `ReplayPart:8`, `promptContentToParts:26`, `contentBlockToParts:30`, `partsToContentChunks:119`
+- [packages/opencode/src/acp/directory.ts](packages/opencode/src/acp/directory.ts) — 212 wierszy; deklaracje: `ModelOption:13`, `ModeOption:20`, `ModelVariants:26`, `DefaultModel:28`, `Snapshot:33`
+- [packages/opencode/src/acp/error.ts](packages/opencode/src/acp/error.ts) — 97 wierszy; deklaracje: `SessionNotFoundError:4`, `InvalidConfigOptionError:8`, `InvalidModelError:15`, `InvalidEffortError:20`, `InvalidModeError:24`
+- [packages/opencode/src/acp/event.ts](packages/opencode/src/acp/event.ts) — 421 wierszy; deklaracje: `Connection:24`, `GlobalEventEnvelope:26`, `GlobalEventStream:29`, `start:33`, `Subscription:39`
+- [packages/opencode/src/acp/permission.ts](packages/opencode/src/acp/permission.ts) — 254 wierszy; deklaracje: `PermissionEvent:16`, `Reply:17`, `Connection:18`, `Handler:26`, `permissionToolCall:118`
+- [packages/opencode/src/acp/profile.ts](packages/opencode/src/acp/profile.ts) — 42 wierszy; deklaracje: `mark:4`, `duration:9`, `measure:18`, `write:32`
+- [packages/opencode/src/acp/service.ts](packages/opencode/src/acp/service.ts) — 1226 wierszy; deklaracje: `AgentSideConnection:2`, `AuthenticateRequest:3`, `AuthenticateResponse:4`, `AuthMethod:5`, `CancelNotification:6`
+- [packages/opencode/src/acp/session.ts](packages/opencode/src/acp/session.ts) — 232 wierszy; deklaracje: `SelectedModel:9`, `KnownMessagePartMetadata:14`, `Info:24`, `StoreInput:35`, `RecordPartMetadataInput:45`
+- [packages/opencode/src/acp/tool.ts](packages/opencode/src/acp/tool.ts) — 364 wierszy; deklaracje: `ToolInput:4`, `ToolAttachment:6`, `CompletedToolState:12`, `RunningToolState:20`, `ErrorToolState:26`
+- [packages/opencode/src/acp/usage.ts](packages/opencode/src/acp/usage.ts) — 243 wierszy; deklaracje: `AssistantTokenCost:13`, `AssistantMessage:15`, `SessionMessage:19`, `MessagesInput:23`, `SDK:28`
+- [packages/opencode/src/agent/agent.ts](packages/opencode/src/agent/agent.ts) — 453 wierszy; deklaracje: `Info:56`, `Interface:64`, `State:82`, `Service:84`
+- [packages/opencode/src/agent/generate.txt](packages/opencode/src/agent/generate.txt)
+- [packages/opencode/src/agent/prompt/compaction.txt](packages/opencode/src/agent/prompt/compaction.txt)
+- [packages/opencode/src/agent/prompt/explore.txt](packages/opencode/src/agent/prompt/explore.txt)
+- [packages/opencode/src/agent/prompt/summary.txt](packages/opencode/src/agent/prompt/summary.txt)
+- [packages/opencode/src/agent/prompt/title.txt](packages/opencode/src/agent/prompt/title.txt)
+- [packages/opencode/src/agent/subagent-permissions.ts](packages/opencode/src/agent/subagent-permissions.ts) — 27 wierszy; deklaracje: `deriveSubagentSessionPermission:14`
+- [packages/opencode/src/audio.d.ts](packages/opencode/src/audio.d.ts) — 14 wierszy
+- [packages/opencode/src/auth/index.ts](packages/opencode/src/auth/index.ts) — 97 wierszy; deklaracje: `Oauth:14`, `Api:23`, `WellKnown:29`, `Info:36`, `AuthError:38`
+- [packages/opencode/src/background/job.ts](packages/opencode/src/background/job.ts) — 37 wierszy; deklaracje: `ExtendInput:8`, `Info:9`, `Interface:10`, `StartInput:11`, `Status:12`
+- [packages/opencode/src/bus/global.ts](packages/opencode/src/bus/global.ts) — 22 wierszy; deklaracje: `GlobalEvent:4`, `GlobalBusEmitter:11`
+- [packages/opencode/src/cli/bootstrap.ts](packages/opencode/src/cli/bootstrap.ts) — 11 wierszy; deklaracje: `bootstrap:4`
+- [packages/opencode/src/cli/cmd/account.ts](packages/opencode/src/cli/cmd/account.ts) — 264 wierszy; deklaracje: `OrgChoice:115`
+- [packages/opencode/src/cli/cmd/acp.ts](packages/opencode/src/cli/cmd/acp.ts) — 73 wierszy
+- [packages/opencode/src/cli/cmd/agent.ts](packages/opencode/src/cli/cmd/agent.ts) — 259 wierszy; deklaracje: `AgentMode:14`
+- [packages/opencode/src/cli/cmd/attach.ts](packages/opencode/src/cli/cmd/attach.ts) — 148 wierszy
+- [packages/opencode/src/cli/cmd/cmd.ts](packages/opencode/src/cli/cmd/cmd.ts) — 7 wierszy; deklaracje: `WithDoubleDash:3`, `cmd:5`
+- [packages/opencode/src/cli/cmd/db.ts](packages/opencode/src/cli/cmd/db.ts) — 62 wierszy
+- [packages/opencode/src/cli/cmd/debug/agent.handler.ts](packages/opencode/src/cli/cmd/debug/agent.handler.ts) — 193 wierszy; deklaracje: `resolveTools:88`, `parseToolParams:100`
+- [packages/opencode/src/cli/cmd/debug/agent.ts](packages/opencode/src/cli/cmd/debug/agent.ts) — 27 wierszy
+- [packages/opencode/src/cli/cmd/debug/config.ts](packages/opencode/src/cli/cmd/debug/config.ts) — 14 wierszy
+- [packages/opencode/src/cli/cmd/debug/file.ts](packages/opencode/src/cli/cmd/debug/file.ts) — 73 wierszy
+- [packages/opencode/src/cli/cmd/debug/index.ts](packages/opencode/src/cli/cmd/debug/index.ts) — 87 wierszy
+- [packages/opencode/src/cli/cmd/debug/lsp.ts](packages/opencode/src/cli/cmd/debug/lsp.ts) — 50 wierszy
+- [packages/opencode/src/cli/cmd/debug/ripgrep.ts](packages/opencode/src/cli/cmd/debug/ripgrep.ts) — 79 wierszy
+- [packages/opencode/src/cli/cmd/debug/scrap.ts](packages/opencode/src/cli/cmd/debug/scrap.ts) — 16 wierszy
+- [packages/opencode/src/cli/cmd/debug/skill.ts](packages/opencode/src/cli/cmd/debug/skill.ts) — 15 wierszy
+- [packages/opencode/src/cli/cmd/debug/snapshot.ts](packages/opencode/src/cli/cmd/debug/snapshot.ts) — 50 wierszy
+- [packages/opencode/src/cli/cmd/debug/startup.ts](packages/opencode/src/cli/cmd/debug/startup.ts) — 11 wierszy
+- [packages/opencode/src/cli/cmd/debug/v2.ts](packages/opencode/src/cli/cmd/debug/v2.ts) — 42 wierszy
+- [packages/opencode/src/cli/cmd/export.ts](packages/opencode/src/cli/cmd/export.ts) — 292 wierszy; deklaracje: `redact:11`, `data:15`, `span:20`, `diff:27`, `source:35`
+- [packages/opencode/src/cli/cmd/generate.ts](packages/opencode/src/cli/cmd/generate.ts) — 54 wierszy; deklaracje: `Args:3`
+- [packages/opencode/src/cli/cmd/github.handler.ts](packages/opencode/src/cli/cmd/github.handler.ts) — 1606 wierszy; deklaracje: `GitHubAuthor:38`, `GitHubComment:43`, `GitHubReviewComment:51`, `GitHubCommit:56`, `GitHubFile:65`
+- [packages/opencode/src/cli/cmd/github.shared.ts](packages/opencode/src/cli/cmd/github.shared.ts) — 30 wierszy; deklaracje: `extractResponseText:10`, `formatPromptTooLargeError:24`
+- [packages/opencode/src/cli/cmd/github.ts](packages/opencode/src/cli/cmd/github.ts) — 42 wierszy
+- [packages/opencode/src/cli/cmd/import.ts](packages/opencode/src/cli/cmd/import.ts) — 230 wierszy; deklaracje: `ShareData:20`, `parseShareUrl:28`, `shouldAttachShareAuthHeaders:33`, `formatImportFileError:41`, `transformShareData:60`
+- [packages/opencode/src/cli/cmd/mcp.ts](packages/opencode/src/cli/cmd/mcp.ts) — 840 wierszy; deklaracje: `getAuthStatusIcon:24`, `getAuthStatusText:35`, `McpEntry:46`, `McpConfigured:48`, `isMcpConfigured:49`
+- [packages/opencode/src/cli/cmd/models.ts](packages/opencode/src/cli/cmd/models.ts) — 66 wierszy
+- [packages/opencode/src/cli/cmd/plug.ts](packages/opencode/src/cli/cmd/plug.ts) — 230 wierszy; deklaracje: `Spin:15`, `PlugDeps:20`, `PlugInput:35`, `PlugCtx:41`, `cause:64`
+- [packages/opencode/src/cli/cmd/pr.ts](packages/opencode/src/cli/cmd/pr.ts) — 115 wierszy
+- [packages/opencode/src/cli/cmd/prompt-display.ts](packages/opencode/src/cli/cmd/prompt-display.ts) — 1 wierszy
+- [packages/opencode/src/cli/cmd/providers.ts](packages/opencode/src/cli/cmd/providers.ts) — 534 wierszy; deklaracje: `PluginAuth:21`, `resolvePluginProviders:212`
+- [packages/opencode/src/cli/cmd/run.ts](packages/opencode/src/cli/cmd/run.ts) — 1016 wierszy; deklaracje: `ModelInput:29`, `pick:31`, `resolveRunInput:40`, `FilePart:52`, `Inline:61`
+- [packages/opencode/src/cli/cmd/run/demo.ts](packages/opencode/src/cli/cmd/run/demo.ts) — 1274 wierszy; deklaracje: `PermissionKind:41`, `QuestionKind:42`, `permissionKind:44`, `questionKind:49`, `Ref:102`
+- [packages/opencode/src/cli/cmd/run/entry.body.ts](packages/opencode/src/cli/cmd/run/entry.body.ts) — 205 wierszy; deklaracje: `EntryFlags:4`, `cleanRunText:13`, `textBody:17`, `codeBody:28`, `markdownBody:40`
+- [packages/opencode/src/cli/cmd/run/footer.command.tsx](packages/opencode/src/cli/cmd/run/footer.command.tsx) — 1070 wierszy; deklaracje: `PanelEntry:10`, `CommandEntry:15`, `ModelEntry:26`, `VariantEntry:33`, `SkillEntry:38`
+- [packages/opencode/src/cli/cmd/run/footer.menu.tsx](packages/opencode/src/cli/cmd/run/footer.menu.tsx) — 351 wierszy; deklaracje: `RunFooterMenuItem:10`, `RunFooterMenuRow:17`, `maxOffset:22`, `previewMargin:26`, `revealOffset:30`
+- [packages/opencode/src/cli/cmd/run/footer.permission.tsx](packages/opencode/src/cli/cmd/run/footer.permission.tsx) — 472 wierszy; deklaracje: `PermissionOption:30`, `buttons:37`, `RejectField:69`, `RunPermissionBody:132`
+- [packages/opencode/src/cli/cmd/run/footer.prompt.tsx](packages/opencode/src/cli/cmd/run/footer.prompt.tsx) — 1306 wierszy; deklaracje: `Mention:39`, `Auto:41`, `SlashOption:48`, `PromptOption:54`, `MenuMode:56`
+- [packages/opencode/src/cli/cmd/run/footer.question.tsx](packages/opencode/src/cli/cmd/run/footer.question.tsx) — 573 wierszy; deklaracje: `RunQuestionBody:47`
+- [packages/opencode/src/cli/cmd/run/footer.subagent.tsx](packages/opencode/src/cli/cmd/run/footer.subagent.tsx) — 175 wierszy; deklaracje: `statusColor:15`, `statusIcon:31`, `RunFooterSubagentBody:47`
+- [packages/opencode/src/cli/cmd/run/footer.ts](packages/opencode/src/cli/cmd/run/footer.ts) — 1129 wierszy; deklaracje: `CycleResult:63`, `RunFooterOptions:70`, `createEmptySubagentState:113`, `eventPatch:122`, `RunFooter:167`
+- [packages/opencode/src/cli/cmd/run/footer.view.tsx](packages/opencode/src/cli/cmd/run/footer.view.tsx) — 945 wierszy; deklaracje: `OpenTuiKeymap:36`, `RunFooterViewProps:75`, `RunFooterView:118`
+- [packages/opencode/src/cli/cmd/run/footer.width.ts](packages/opencode/src/cli/cmd/run/footer.width.ts) — 27 wierszy; deklaracje: `footerWidthPolicy:10`
+- [packages/opencode/src/cli/cmd/run/permission.shared.ts](packages/opencode/src/cli/cmd/run/permission.shared.ts) — 256 wierszy; deklaracje: `Dict:20`, `PermissionStage:22`, `PermissionOption:23`, `PermissionBodyState:25`, `PermissionInfo:33`
+- [packages/opencode/src/cli/cmd/run/prompt.editor.ts](packages/opencode/src/cli/cmd/run/prompt.editor.ts) — 157 wierszy; deklaracje: `Mention:3`, `resolveEditorSlashValue:5`, `realignEditorPromptParts:14`, `slashHead:60`, `promptPartText:83`
+- [packages/opencode/src/cli/cmd/run/prompt.shared.ts](packages/opencode/src/cli/cmd/run/prompt.shared.ts) — 153 wierszy; deklaracje: `PromptHistoryState:15`, `PromptMove:21`, `promptCopy:28`, `promptSame:37`, `isExitCommand:46`
+- [packages/opencode/src/cli/cmd/run/question.shared.ts](packages/opencode/src/cli/cmd/run/question.shared.ts) — 340 wierszy; deklaracje: `QuestionBodyState:19`, `QuestionStep:29`, `createQuestionBodyState:34`, `questionSync:46`, `questionSingle:54`
+- [packages/opencode/src/cli/cmd/run/runtime.boot.ts](packages/opencode/src/cli/cmd/run/runtime.boot.ts) — 202 wierszy; deklaracje: `ModelInfo:17`, `SessionInfo:23`, `Config:29`, `BootService:30`, `Service:47`
+- [packages/opencode/src/cli/cmd/run/runtime.lifecycle.ts](packages/opencode/src/cli/cmd/run/runtime.lifecycle.ts) — 406 wierszy; deklaracje: `SplashState:37`, `CycleResult:42`, `FooterLabels:49`, `LifecycleInput:54`, `Lifecycle:80`
+- [packages/opencode/src/cli/cmd/run/runtime.queue.ts](packages/opencode/src/cli/cmd/run/runtime.queue.ts) — 349 wierszy; deklaracje: `Trace:16`, `Deferred:20`, `QueueInput:26`, `State:35`, `defer:43`

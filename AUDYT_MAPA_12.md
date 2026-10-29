@@ -1,0 +1,306 @@
+# opencode — mapa plików (12/23)
+
+Wykaz śledzonych plików z badanego commita. Liczba wierszy i nazwy deklaracji są wyciągane automatycznie z dostępnej kopii tekstowej; nie oznaczają ręcznej oceny pliku. Brak opisu oznacza, że zawartość nie była analizowana tą metodą (np. plik binarny, zasób lub pominięty plik).
+
+[Wróć do audytu](AUDYT_EDUKACYJNY.md) · [1](AUDYT_MAPA_01.md) · [2](AUDYT_MAPA_02.md) · [3](AUDYT_MAPA_03.md) · [4](AUDYT_MAPA_04.md) · [5](AUDYT_MAPA_05.md) · [6](AUDYT_MAPA_06.md) · [7](AUDYT_MAPA_07.md) · [8](AUDYT_MAPA_08.md) · [9](AUDYT_MAPA_09.md) · [10](AUDYT_MAPA_10.md) · [11](AUDYT_MAPA_11.md) · [12](AUDYT_MAPA_12.md) · [13](AUDYT_MAPA_13.md) · [14](AUDYT_MAPA_14.md) · [15](AUDYT_MAPA_15.md) · [16](AUDYT_MAPA_16.md) · [17](AUDYT_MAPA_17.md) · [18](AUDYT_MAPA_18.md) · [19](AUDYT_MAPA_19.md) · [20](AUDYT_MAPA_20.md) · [21](AUDYT_MAPA_21.md) · [22](AUDYT_MAPA_22.md) · [23](AUDYT_MAPA_23.md)
+
+- [packages/opencode/test/server/httpapi-cors.test.ts](packages/opencode/test/server/httpapi-cors.test.ts) — 122 wierszy
+- [packages/opencode/test/server/httpapi-error-middleware.test.ts](packages/opencode/test/server/httpapi-error-middleware.test.ts) — 122 wierszy; deklaracje: `expectUnknownErrorBody:13`
+- [packages/opencode/test/server/httpapi-event.test.ts](packages/opencode/test/server/httpapi-event.test.ts) — 94 wierszy
+- [packages/opencode/test/server/httpapi-exercise/assertions.ts](packages/opencode/test/server/httpapi-exercise/assertions.ts) — 64 wierszy; deklaracje: `parse:3`, `looksJson:12`, `stable:16`, `sort:20`, `array:30`
+- [packages/opencode/test/server/httpapi-exercise/backend.ts](packages/opencode/test/server/httpapi-exercise/backend.ts) — 144 wierszy; deklaracje: `CallOptions:7`, `call:14`, `callAuthProbe:20`, `CachedApp:43`, `disposeApps:47`
+- [packages/opencode/test/server/httpapi-exercise/dsl.ts](packages/opencode/test/server/httpapi-exercise/dsl.ts) — 210 wierszy; deklaracje: `ScenarioBuilder:17`, `route:197`, `controlledPtyInput:204`
+- [packages/opencode/test/server/httpapi-exercise/environment.ts](packages/opencode/test/server/httpapi-exercise/environment.ts) — 40 wierszy
+- [packages/opencode/test/server/httpapi-exercise/index.ts](packages/opencode/test/server/httpapi-exercise/index.ts) — 1802 wierszy; deklaracje: `cursor:40`, `data:44`, `locationData:51`
+- [packages/opencode/test/server/httpapi-exercise/report.ts](packages/opencode/test/server/httpapi-exercise/report.ts) — 66 wierszy; deklaracje: `printHeader:14`, `printResults:31`, `routeKey:64`
+- [packages/opencode/test/server/httpapi-exercise/routing.ts](packages/opencode/test/server/httpapi-exercise/routing.ts) — 96 wierszy; deklaracje: `ScenarioTimeout:4`, `routeKeys:25`, `routeKey:33`, `coverageResult:37`, `parseOptions:42`
+- [packages/opencode/test/server/httpapi-exercise/runner.ts](packages/opencode/test/server/httpapi-exercise/runner.ts) — 267 wierszy; deklaracje: `runScenario:17`, `runActive:32`, `runAuth:47`, `withContext:62`, `trace:200`
+- [packages/opencode/test/server/httpapi-exercise/runtime.ts](packages/opencode/test/server/httpapi-exercise/runtime.ts) — 52 wierszy; deklaracje: `Runtime:1`, `runtime:20`
+- [packages/opencode/test/server/httpapi-exercise/types.ts](packages/opencode/test/server/httpapi-exercise/types.ts) — 127 wierszy; deklaracje: `Method:13`, `OpenApiMethod:14`, `Mode:15`, `Comparison:16`, `CaptureMode:17`
+- [packages/opencode/test/server/httpapi-experimental.test.ts](packages/opencode/test/server/httpapi-experimental.test.ts) — 298 wierszy; deklaracje: `request:22`, `createSession:26`, `json:30`, `waitReady:34`, `insertAccount:56`
+- [packages/opencode/test/server/httpapi-file.test.ts](packages/opencode/test/server/httpapi-file.test.ts) — 83 wierszy; deklaracje: `request:12`
+- [packages/opencode/test/server/httpapi-global.test.ts](packages/opencode/test/server/httpapi-global.test.ts) — 90 wierszy
+- [packages/opencode/test/server/httpapi-instance-context.test.ts](packages/opencode/test/server/httpapi-instance-context.test.ts) — 352 wierszy
+- [packages/opencode/test/server/httpapi-instance-route-auth.test.ts](packages/opencode/test/server/httpapi-instance-route-auth.test.ts) — 81 wierszy; deklaracje: `app:12`, `basic:35`, `cancelBody:39`
+- [packages/opencode/test/server/httpapi-instance.test.ts](packages/opencode/test/server/httpapi-instance.test.ts) — 265 wierszy
+- [packages/opencode/test/server/httpapi-layer.ts](packages/opencode/test/server/httpapi-layer.ts) — 33 wierszy; deklaracje: `request:21`, `requestInDirectory:29`
+- [packages/opencode/test/server/httpapi-listen.test.ts](packages/opencode/test/server/httpapi-listen.test.ts) — 465 wierszy; deklaracje: `startListener:32`, `startNoAuthListener:40`, `authorization:48`, `socketURL:52`, `requestTicket:61`
+- [packages/opencode/test/server/httpapi-mcp-oauth.test.ts](packages/opencode/test/server/httpapi-mcp-oauth.test.ts) — 73 wierszy
+- [packages/opencode/test/server/httpapi-mcp.test.ts](packages/opencode/test/server/httpapi-mcp.test.ts) — 223 wierszy; deklaracje: `app:19`, `TestApp:22`, `TestHandler:23`
+- [packages/opencode/test/server/httpapi-mdns.test.ts](packages/opencode/test/server/httpapi-mdns.test.ts) — 79 wierszy; deklaracje: `Event:7`
+- [packages/opencode/test/server/httpapi-promptasync-context.test.ts](packages/opencode/test/server/httpapi-promptasync-context.test.ts) — 212 wierszy; deklaracje: `Capture:82`
+- [packages/opencode/test/server/httpapi-provider.test.ts](packages/opencode/test/server/httpapi-provider.test.ts) — 401 wierszy; deklaracje: `providerListHasFetch:25`, `hasProviderWithFetch:35`, `isRecord:41`, `providerList:45`, `providerByID:51`
+- [packages/opencode/test/server/httpapi-pty.test.ts](packages/opencode/test/server/httpapi-pty.test.ts) — 299 wierszy; deklaracje: `app:45`, `serverUrl:49`
+- [packages/opencode/test/server/httpapi-public-openapi.test.ts](packages/opencode/test/server/httpapi-public-openapi.test.ts) — 350 wierszy; deklaracje: `Method:5`, `OpenApiSchema:6`, `OpenApiResponse:16`, `OpenApiOperation:20`, `OpenApiPathItem:31`
+- [packages/opencode/test/server/httpapi-query-schema-drift.test.ts](packages/opencode/test/server/httpapi-query-schema-drift.test.ts) — 330 wierszy; deklaracje: `Method:35`, `QuerySchema:36`, `OpenApiSchema:37`, `OpenApiParameter:45`, `OpenApiOperation:46`
+- [packages/opencode/test/server/httpapi-reference.test.ts](packages/opencode/test/server/httpapi-reference.test.ts) — 63 wierszy
+- [packages/opencode/test/server/httpapi-schema-error-body.test.ts](packages/opencode/test/server/httpapi-schema-error-body.test.ts) — 166 wierszy
+- [packages/opencode/test/server/httpapi-sdk.test.ts](packages/opencode/test/server/httpapi-sdk.test.ts) — 913 wierszy; deklaracje: `ServerPath:46`, `Sdk:47`, `SdkResult:48`, `Captured:49`, `ProjectFixture:50`
+- [packages/opencode/test/server/httpapi-session.test.ts](packages/opencode/test/server/httpapi-session.test.ts) — 1090 wierszy; deklaracje: `pathFor:64`, `createSession:68`, `createTextMessage:72`, `request:210`, `json:218`
+- [packages/opencode/test/server/httpapi-sync.test.ts](packages/opencode/test/server/httpapi-sync.test.ts) — 149 wierszy
+- [packages/opencode/test/server/httpapi-ui.test.ts](packages/opencode/test/server/httpapi-ui.test.ts) — 457 wierszy; deklaracje: `authConfigLayer:46`, `restoreEnv:53`, `app:61`, `uiApp:89`, `routeOrderingApp:130`
+- [packages/opencode/test/server/httpapi-v2-location.test.ts](packages/opencode/test/server/httpapi-v2-location.test.ts) — 126 wierszy; deklaracje: `request:11`, `readEvent:61`, `readEventType:67`
+- [packages/opencode/test/server/httpapi-v2-pty.test.ts](packages/opencode/test/server/httpapi-v2-pty.test.ts) — 250 wierszy; deklaracje: `request:20`
+- [packages/opencode/test/server/httpapi-workspace-routing.test.ts](packages/opencode/test/server/httpapi-workspace-routing.test.ts) — 552 wierszy; deklaracje: `ProxiedRequest:62`, `TestHandler:69`
+- [packages/opencode/test/server/httpapi-workspace.test.ts](packages/opencode/test/server/httpapi-workspace.test.ts) — 506 wierszy; deklaracje: `request:34`, `requestDefault:38`, `requestServer:42`, `localAdapter:48`, `listedAdapter:72`
+- [packages/opencode/test/server/negative-tokens-regression.test.ts](packages/opencode/test/server/negative-tokens-regression.test.ts) — 84 wierszy; deklaracje: `seedNegativeTokenSession:27`
+- [packages/opencode/test/server/project-copy.test.ts](packages/opencode/test/server/project-copy.test.ts) — 127 wierszy; deklaracje: `request:34`, `json:38`, `ProjectDirectory:43`
+- [packages/opencode/test/server/project-init-git.test.ts](packages/opencode/test/server/project-init-git.test.ts) — 118 wierszy; deklaracje: `request:30`, `json:34`, `collectGlobalEvents:38`
+- [packages/opencode/test/server/proxy-util.test.ts](packages/opencode/test/server/proxy-util.test.ts) — 113 wierszy
+- [packages/opencode/test/server/sdk-error-shape.test.ts](packages/opencode/test/server/sdk-error-shape.test.ts) — 81 wierszy; deklaracje: `client:21`
+- [packages/opencode/test/server/sdk-v1-smoke.test.ts](packages/opencode/test/server/sdk-v1-smoke.test.ts) — 57 wierszy; deklaracje: `client:16`
+- [packages/opencode/test/server/session-actions.test.ts](packages/opencode/test/server/session-actions.test.ts) — 110 wierszy
+- [packages/opencode/test/server/session-diff-missing-patch.test.ts](packages/opencode/test/server/session-diff-missing-patch.test.ts) — 97 wierszy; deklaracje: `pathFor:35`
+- [packages/opencode/test/server/session-list.test.ts](packages/opencode/test/server/session-list.test.ts) — 302 wierszy
+- [packages/opencode/test/server/session-messages.test.ts](packages/opencode/test/server/session-messages.test.ts) — 180 wierszy; deklaracje: `request:80`, `json:84`
+- [packages/opencode/test/server/session-select.test.ts](packages/opencode/test/server/session-select.test.ts) — 67 wierszy
+- [packages/opencode/test/server/workspace-proxy.test.ts](packages/opencode/test/server/workspace-proxy.test.ts) — 181 wierszy; deklaracje: `serverUrl:10`, `TestHandler:22`, `listenServer:26`, `listenTestServer:33`, `echoWebSocket:44`
+- [packages/opencode/test/server/workspace-routing.test.ts](packages/opencode/test/server/workspace-routing.test.ts) — 101 wierszy
+- [packages/opencode/test/server/worktree-endpoint-repro.test.ts](packages/opencode/test/server/worktree-endpoint-repro.test.ts) — 307 wierszy; deklaracje: `TestServer:32`, `CreatedWorktree:33`, `ScopedWorktree:34`, `serverScoped:36`, `request:40`
+- [packages/opencode/test/session/compaction.test.ts](packages/opencode/test/session/compaction.test.ts) — 1975 wierszy; deklaracje: `createModel:59`, `createUserMessage:91`, `createAssistantMessage:113`, `createSummaryAssistantMessage:138`, `createCompactionMarker:174`
+- [packages/opencode/test/session/instruction.test.ts](packages/opencode/test/session/instruction.test.ts) — 264 wierszy; deklaracje: `loaded:75`
+- [packages/opencode/test/session/llm-native-recorded.test.ts](packages/opencode/test/session/llm-native-recorded.test.ts) — 413 wierszy; deklaracje: `RecordedScenario:41`, `decodeRecordOpenAIOAuth:81`, `isSelected:217`, `authLayer:240`, `loadFixture:249`
+- [packages/opencode/test/session/llm-native.test.ts](packages/opencode/test/session/llm-native.test.ts) — 761 wierszy; deklaracje: `responsesStream:84`, `NativeRequestInput:91`, `SessionAssistantPart:111`
+- [packages/opencode/test/session/llm.test.ts](packages/opencode/test/session/llm.test.ts) — 2249 wierszy; deklaracje: `ConfigModel:32`, `llmLayerWithExecutor:77`, `AISDKAdapterEvent:177`, `Capture:559`, `deferred:574`
+- [packages/opencode/test/session/message-v2.test.ts](packages/opencode/test/session/message-v2.test.ts) — 1729 wierszy; deklaracje: `userInfo:64`, `assistantInfo:77`, `basePart:106`
+- [packages/opencode/test/session/messages-pagination.test.ts](packages/opencode/test/session/messages-pagination.test.ts) — 1057 wierszy
+- [packages/opencode/test/session/processor-effect.test.ts](packages/opencode/test/session/processor-effect.test.ts) — 1171 wierszy; deklaracje: `providerCfg:73`, `agent:89`, `defer:98`
+- [packages/opencode/test/session/prompt.test.ts](packages/opencode/test/session/prompt.test.ts) — 2470 wierszy; deklaracje: `withSh:75`, `toolPart:93`, `CompletedToolPart:97`, `ErrorToolPart:98`, `completedTool:100`
+- [packages/opencode/test/session/retry.test.ts](packages/opencode/test/session/retry.test.ts) — 521 wierszy; deklaracje: `apiError:21`, `wrap:31`
+- [packages/opencode/test/session/revert-compact.test.ts](packages/opencode/test/session/revert-compact.test.ts) — 683 wierszy
+- [packages/opencode/test/session/schema-decoding.test.ts](packages/opencode/test/session/schema-decoding.test.ts) — 313 wierszy; deklaracje: `decodeUnknown:28`
+- [packages/opencode/test/session/session-schema.test.ts](packages/opencode/test/session/session-schema.test.ts) — 78 wierszy
+- [packages/opencode/test/session/session.test.ts](packages/opencode/test/session/session.test.ts) — 285 wierszy
+- [packages/opencode/test/session/snapshot-tool-race.test.ts](packages/opencode/test/session/snapshot-tool-race.test.ts) — 189 wierszy
+- [packages/opencode/test/session/structured-output-integration.test.ts](packages/opencode/test/session/structured-output-integration.test.ts) — 235 wierszy
+- [packages/opencode/test/session/structured-output.test.ts](packages/opencode/test/session/structured-output.test.ts) — 387 wierszy
+- [packages/opencode/test/session/system.test.ts](packages/opencode/test/session/system.test.ts) — 168 wierszy
+- [packages/opencode/test/session/tools.test.ts](packages/opencode/test/session/tools.test.ts) — 167 wierszy; deklaracje: `fakeMcp:38`
+- [packages/opencode/test/share/share-next.test.ts](packages/opencode/test/share/share-next.test.ts) — 324 wierszy; deklaracje: `requestLayer:36`, `integrationLayer:41`
+- [packages/opencode/test/skill/discovery.test.ts](packages/opencode/test/skill/discovery.test.ts) — 186 wierszy
+- [packages/opencode/test/skill/skill.test.ts](packages/opencode/test/skill/skill.test.ts) — 585 wierszy; deklaracje: `createGlobalSkill:35`
+- [packages/opencode/test/snapshot/snapshot.test.ts](packages/opencode/test/snapshot/snapshot.test.ts) — 1218 wierszy; deklaracje: `Bootstrapped:61`
+- [packages/opencode/test/storage/storage.test.ts](packages/opencode/test/storage/storage.test.ts) — 297 wierszy; deklaracje: `remap:32`, `remappedFs:38`
+- [packages/opencode/test/tool/__snapshots__/parameters.test.ts.snap](packages/opencode/test/tool/__snapshots__/parameters.test.ts.snap)
+- [packages/opencode/test/tool/__snapshots__/tool.test.ts.snap](packages/opencode/test/tool/__snapshots__/tool.test.ts.snap)
+- [packages/opencode/test/tool/apply_patch.test.ts](packages/opencode/test/tool/apply_patch.test.ts) — 549 wierszy; deklaracje: `AskInput:34`, `ToolCtx:53`
+- [packages/opencode/test/tool/code-mode-integration.test.ts](packages/opencode/test/tool/code-mode-integration.test.ts) — 331 wierszy; deklaracje: `Tool:18`, `RawJsonRpcClient:38`, `handleCall:103`, `buildTool:123`
+- [packages/opencode/test/tool/code-mode.test.ts](packages/opencode/test/tool/code-mode.test.ts) — 730 wierszy; deklaracje: `mcpTool:26`, `harness:40`, `serverNames:66`, `build:70`, `describeFor:85`
+- [packages/opencode/test/tool/edit.test.ts](packages/opencode/test/tool/edit.test.ts) — 574 wierszy; deklaracje: `Input:371`
+- [packages/opencode/test/tool/external-directory.test.ts](packages/opencode/test/tool/external-directory.test.ts) — 156 wierszy; deklaracje: `makeCtx:30`
+- [packages/opencode/test/tool/fixtures/large-image.png](packages/opencode/test/tool/fixtures/large-image.png)
+- [packages/opencode/test/tool/fixtures/models-api.json](packages/opencode/test/tool/fixtures/models-api.json)
+- [packages/opencode/test/tool/glob.test.ts](packages/opencode/test/tool/glob.test.ts) — 132 wierszy
+- [packages/opencode/test/tool/grep.test.ts](packages/opencode/test/tool/grep.test.ts) — 223 wierszy
+- [packages/opencode/test/tool/lsp.test.ts](packages/opencode/test/tool/lsp.test.ts) — 184 wierszy
+- [packages/opencode/test/tool/parameters.test.ts](packages/opencode/test/tool/parameters.test.ts) — 290 wierszy
+- [packages/opencode/test/tool/question.test.ts](packages/opencode/test/tool/question.test.ts) — 133 wierszy
+- [packages/opencode/test/tool/read.test.ts](packages/opencode/test/tool/read.test.ts) — 608 wierszy
+- [packages/opencode/test/tool/registry.test.ts](packages/opencode/test/tool/registry.test.ts) — 572 wierszy
+- [packages/opencode/test/tool/shell.test.ts](packages/opencode/test/tool/shell.test.ts) — 1199 wierszy; deklaracje: `ShellTestServices:40`
+- [packages/opencode/test/tool/skill.test.ts](packages/opencode/test/tool/skill.test.ts) — 134 wierszy
+- [packages/opencode/test/tool/task.test.ts](packages/opencode/test/tool/task.test.ts) — 1101 wierszy; deklaracje: `defer:61`, `stubOps:99`, `reply:116`
+- [packages/opencode/test/tool/tool-define.test.ts](packages/opencode/test/tool/tool-define.test.ts) — 154 wierszy; deklaracje: `makeCtx:14`, `makeTool:30`
+- [packages/opencode/test/tool/truncation.test.ts](packages/opencode/test/tool/truncation.test.ts) — 266 wierszy
+- [packages/opencode/test/tool/webfetch.test.ts](packages/opencode/test/tool/webfetch.test.ts) — 119 wierszy
+- [packages/opencode/test/tool/websearch.test.ts](packages/opencode/test/tool/websearch.test.ts) — 100 wierszy
+- [packages/opencode/test/tool/write.test.ts](packages/opencode/test/tool/write.test.ts) — 279 wierszy
+- [packages/opencode/test/util/data-url.test.ts](packages/opencode/test/util/data-url.test.ts) — 14 wierszy
+- [packages/opencode/test/util/error.test.ts](packages/opencode/test/util/error.test.ts) — 16 wierszy
+- [packages/opencode/test/util/filesystem.test.ts](packages/opencode/test/util/filesystem.test.ts) — 656 wierszy; deklaracje: `Config:231`
+- [packages/opencode/test/util/glob.test.ts](packages/opencode/test/util/glob.test.ts) — 164 wierszy
+- [packages/opencode/test/util/html.test.ts](packages/opencode/test/util/html.test.ts) — 15 wierszy
+- [packages/opencode/test/util/iife.test.ts](packages/opencode/test/util/iife.test.ts) — 36 wierszy
+- [packages/opencode/test/util/lazy.test.ts](packages/opencode/test/util/lazy.test.ts) — 50 wierszy
+- [packages/opencode/test/util/module.test.ts](packages/opencode/test/util/module.test.ts) — 59 wierszy
+- [packages/opencode/test/util/process.test.ts](packages/opencode/test/util/process.test.ts) — 128 wierszy; deklaracje: `node:7`
+- [packages/opencode/test/util/repository.test.ts](packages/opencode/test/util/repository.test.ts) — 93 wierszy
+- [packages/opencode/test/util/timeout.test.ts](packages/opencode/test/util/timeout.test.ts) — 21 wierszy
+- [packages/opencode/test/util/wildcard.test.ts](packages/opencode/test/util/wildcard.test.ts) — 90 wierszy
+- [packages/opencode/test/v2/session-message-updater.test.ts](packages/opencode/test/v2/session-message-updater.test.ts) — 269 wierszy
+- [packages/opencode/tsconfig.json](packages/opencode/tsconfig.json) — 16 wierszy
+- [packages/plugin/.gitignore](packages/plugin/.gitignore)
+- [packages/plugin/package.json](packages/plugin/package.json) — 54 wierszy
+- [packages/plugin/script/publish.ts](packages/plugin/script/publish.ts) — 38 wierszy; deklaracje: `published:9`
+- [packages/plugin/src/example-workspace.ts](packages/plugin/src/example-workspace.ts) — 34 wierszy
+- [packages/plugin/src/example.ts](packages/plugin/src/example.ts) — 18 wierszy
+- [packages/plugin/src/index.ts](packages/plugin/src/index.ts) — 335 wierszy; deklaracje: `ProviderContext:20`, `WorkspaceInfo:26`, `WorkspaceTarget:36`, `WorkspaceAdapter:47`, `PluginInput:56`
+- [packages/plugin/src/shell.ts](packages/plugin/src/shell.ts) — 136 wierszy; deklaracje: `ShellFunction:1`, `ShellExpression:3`, `BunShell:10`, `BunShellPromise:45`, `BunShellOutput:105`
+- [packages/plugin/src/tool.ts](packages/plugin/src/tool.ts) — 54 wierszy; deklaracje: `ToolContext:3`, `AskInput:22`, `ToolAttachment:29`, `ToolResult:36`, `tool:45`
+- [packages/plugin/src/tui.ts](packages/plugin/src/tui.ts) — 634 wierszy; deklaracje: `BindingConfig:23`, `CreateBindingLookupOptions:24`, `KeySequenceFormatPart:25`, `SequenceBindingLike:26`, `createBindingLookup:46`
+- [packages/plugin/src/v2/effect/PLAN.md](packages/plugin/src/v2/effect/PLAN.md) — 515 wierszy; deklaracje: `TransformDomain:65`, `Registration:115`, `EventMap:206`
+- [packages/plugin/src/v2/effect/README.md](packages/plugin/src/v2/effect/README.md) — 111 wierszy
+- [packages/plugin/src/v2/effect/agent.ts](packages/plugin/src/v2/effect/agent.ts) — 14 wierszy; deklaracje: `AgentDraft:4`, `AgentHooks:12`
+- [packages/plugin/src/v2/effect/aisdk.ts](packages/plugin/src/v2/effect/aisdk.ts) — 18 wierszy; deklaracje: `AISDKHooks:5`
+- [packages/plugin/src/v2/effect/catalog.ts](packages/plugin/src/v2/effect/catalog.ts) — 29 wierszy; deklaracje: `CatalogProviderRecord:4`, `CatalogDraft:9`, `CatalogHooks:27`
+- [packages/plugin/src/v2/effect/command.ts](packages/plugin/src/v2/effect/command.ts) — 13 wierszy; deklaracje: `CommandDraft:4`, `CommandHooks:11`
+- [packages/plugin/src/v2/effect/context.ts](packages/plugin/src/v2/effect/context.ts) — 22 wierszy; deklaracje: `PluginContext:12`
+- [packages/plugin/src/v2/effect/event.ts](packages/plugin/src/v2/effect/event.ts) — 10 wierszy; deklaracje: `EventMap:4`, `Event:8`
+- [packages/plugin/src/v2/effect/filesystem.ts](packages/plugin/src/v2/effect/filesystem.ts) — 17 wierszy; deklaracje: `FileSystem:4`
+- [packages/plugin/src/v2/effect/index.ts](packages/plugin/src/v2/effect/index.ts) — 3 wierszy
+- [packages/plugin/src/v2/effect/integration.ts](packages/plugin/src/v2/effect/integration.ts) — 63 wierszy; deklaracje: `IntegrationOAuthAuthorization:15`, `IntegrationOAuthMethodRegistration:28`, `IntegrationMethodRegistration:35`, `IntegrationDraft:46`, `IntegrationHooks:58`
+- [packages/plugin/src/v2/effect/location.ts](packages/plugin/src/v2/effect/location.ts) — 6 wierszy; deklaracje: `Location:1`
+- [packages/plugin/src/v2/effect/npm.ts](packages/plugin/src/v2/effect/npm.ts) — 11 wierszy; deklaracje: `Npm:3`
+- [packages/plugin/src/v2/effect/path.ts](packages/plugin/src/v2/effect/path.ts) — 8 wierszy; deklaracje: `Path:1`
+- [packages/plugin/src/v2/effect/plugin.ts](packages/plugin/src/v2/effect/plugin.ts) — 16 wierszy; deklaracje: `Plugin:4`, `define:9`, `PluginDomain:13`
+- [packages/plugin/src/v2/effect/reference.ts](packages/plugin/src/v2/effect/reference.ts) — 12 wierszy; deklaracje: `ReferenceDraft:4`, `ReferenceHooks:10`
+- [packages/plugin/src/v2/effect/registration.ts](packages/plugin/src/v2/effect/registration.ts) — 15 wierszy; deklaracje: `Registration:3`, `Reload:7`, `Hooks:11`
+- [packages/plugin/src/v2/effect/skill.ts](packages/plugin/src/v2/effect/skill.ts) — 11 wierszy; deklaracje: `SkillDraft:4`, `SkillHooks:9`
+- [packages/plugin/src/v2/options.ts](packages/plugin/src/v2/options.ts) — 1 wierszy; deklaracje: `PluginOptions:1`
+- [packages/plugin/src/v2/promise/README.md](packages/plugin/src/v2/promise/README.md) — 103 wierszy
+- [packages/plugin/src/v2/promise/agent.ts](packages/plugin/src/v2/promise/agent.ts) — 8 wierszy; deklaracje: `AgentHooks:6`
+- [packages/plugin/src/v2/promise/aisdk.ts](packages/plugin/src/v2/promise/aisdk.ts) — 18 wierszy; deklaracje: `AISDKHooks:5`
+- [packages/plugin/src/v2/promise/catalog.ts](packages/plugin/src/v2/promise/catalog.ts) — 8 wierszy; deklaracje: `CatalogHooks:6`
+- [packages/plugin/src/v2/promise/command.ts](packages/plugin/src/v2/promise/command.ts) — 8 wierszy; deklaracje: `CommandHooks:6`
+- [packages/plugin/src/v2/promise/context.ts](packages/plugin/src/v2/promise/context.ts) — 22 wierszy; deklaracje: `PluginContext:12`
+- [packages/plugin/src/v2/promise/index.ts](packages/plugin/src/v2/promise/index.ts) — 12 wierszy
+- [packages/plugin/src/v2/promise/integration.ts](packages/plugin/src/v2/promise/integration.ts) — 14 wierszy; deklaracje: `IntegrationHooks:7`
+- [packages/plugin/src/v2/promise/plugin.ts](packages/plugin/src/v2/promise/plugin.ts) — 15 wierszy; deklaracje: `Plugin:3`, `define:8`, `PluginDomain:12`
+- [packages/plugin/src/v2/promise/reference.ts](packages/plugin/src/v2/promise/reference.ts) — 8 wierszy; deklaracje: `ReferenceHooks:6`
+- [packages/plugin/src/v2/promise/registration.ts](packages/plugin/src/v2/promise/registration.ts) — 11 wierszy; deklaracje: `Registration:1`, `Reload:5`, `Hooks:9`
+- [packages/plugin/src/v2/promise/skill.ts](packages/plugin/src/v2/promise/skill.ts) — 8 wierszy; deklaracje: `SkillHooks:6`
+- [packages/plugin/sst-env.d.ts](packages/plugin/sst-env.d.ts) — 10 wierszy
+- [packages/plugin/tsconfig.json](packages/plugin/tsconfig.json) — 13 wierszy
+- [packages/protocol/package.json](packages/protocol/package.json) — 22 wierszy
+- [packages/protocol/src/api.ts](packages/protocol/src/api.ts) — 86 wierszy
+- [packages/protocol/src/errors.ts](packages/protocol/src/errors.ts) — 111 wierszy; deklaracje: `InvalidRequestError:3`, `UnauthorizedError:13`, `ConflictError:19`, `ServiceUnavailableError:28`, `UnknownError:37`
+- [packages/protocol/src/groups/agent.ts](packages/protocol/src/groups/agent.ts) — 20 wierszy
+- [packages/protocol/src/groups/command.ts](packages/protocol/src/groups/command.ts) — 27 wierszy
+- [packages/protocol/src/groups/credential.ts](packages/protocol/src/groups/credential.ts) — 37 wierszy
+- [packages/protocol/src/groups/event.ts](packages/protocol/src/groups/event.ts) — 56 wierszy; deklaracje: `OpenCodeEvent:55`, `OpenCodeEventEncoded:56`
+- [packages/protocol/src/groups/fs.ts](packages/protocol/src/groups/fs.ts) — 68 wierszy
+- [packages/protocol/src/groups/health.ts](packages/protocol/src/groups/health.ts) — 14 wierszy
+- [packages/protocol/src/groups/integration.ts](packages/protocol/src/groups/integration.ts) — 130 wierszy
+- [packages/protocol/src/groups/location.ts](packages/protocol/src/groups/location.ts) — 42 wierszy
+- [packages/protocol/src/groups/message.ts](packages/protocol/src/groups/message.ts) — 51 wierszy
+- [packages/protocol/src/groups/model.ts](packages/protocol/src/groups/model.ts) — 29 wierszy
+- [packages/protocol/src/groups/permission.ts](packages/protocol/src/groups/permission.ts) — 137 wierszy
+- [packages/protocol/src/groups/project-copy.ts](packages/protocol/src/groups/project-copy.ts) — 56 wierszy; deklaracje: `ProjectCopyError:9`
+- [packages/protocol/src/groups/provider.ts](packages/protocol/src/groups/provider.ts) — 45 wierszy
+- [packages/protocol/src/groups/pty.ts](packages/protocol/src/groups/pty.ts) — 143 wierszy; deklaracje: `hasPtyConnectTicketURL:17`
+- [packages/protocol/src/groups/question.ts](packages/protocol/src/groups/question.ts) — 84 wierszy
+- [packages/protocol/src/groups/reference.ts](packages/protocol/src/groups/reference.ts) — 27 wierszy
+- [packages/protocol/src/groups/session.ts](packages/protocol/src/groups/session.ts) — 379 wierszy; deklaracje: `SessionsCursor:81`
+- [packages/protocol/src/groups/skill.ts](packages/protocol/src/groups/skill.ts) — 27 wierszy
+- [packages/protocol/src/middleware/authorization.ts](packages/protocol/src/middleware/authorization.ts) — 6 wierszy; deklaracje: `Authorization:4`
+- [packages/protocol/src/middleware/schema-error.ts](packages/protocol/src/middleware/schema-error.ts) — 7 wierszy; deklaracje: `SchemaErrorMiddleware:4`
+- [packages/protocol/sst-env.d.ts](packages/protocol/sst-env.d.ts) — 10 wierszy
+- [packages/protocol/test/session-cursor.test.ts](packages/protocol/test/session-cursor.test.ts) — 26 wierszy
+- [packages/protocol/tsconfig.json](packages/protocol/tsconfig.json) — 8 wierszy
+- [packages/schema/AGENTS.md](packages/schema/AGENTS.md) — 88 wierszy; deklaracje: `Info:56`
+- [packages/schema/package.json](packages/schema/package.json) — 22 wierszy
+- [packages/schema/src/agent.ts](packages/schema/src/agent.ts) — 38 wierszy; deklaracje: `ID:11`, `Color:17`, `Info:19`
+- [packages/schema/src/catalog.ts](packages/schema/src/catalog.ts) — 6 wierszy
+- [packages/schema/src/command.ts](packages/schema/src/command.ts) — 15 wierszy; deklaracje: `Info:7`
+- [packages/schema/src/connection.ts](packages/schema/src/connection.ts) — 22 wierszy; deklaracje: `CredentialInfo:6`, `EnvInfo:13`, `Info:22`
+- [packages/schema/src/credential.ts](packages/schema/src/credential.ts) — 35 wierszy; deklaracje: `ID:13`, `OAuth:15`, `Key:25`, `Value:35`
+- [packages/schema/src/durable-event-manifest.ts](packages/schema/src/durable-event-manifest.ts) — 15 wierszy
+- [packages/schema/src/event-manifest.ts](packages/schema/src/event-manifest.ts) — 84 wierszy
+- [packages/schema/src/event.ts](packages/schema/src/event.ts) — 125 wierszy; deklaracje: `ID:13`, `Definition:15`, `Data:27`, `Payload:29`, `define:42`
+- [packages/schema/src/file-diff.ts](packages/schema/src/file-diff.ts) — 13 wierszy; deklaracje: `Info:13`
+- [packages/schema/src/filesystem-watcher.ts](packages/schema/src/filesystem-watcher.ts) — 13 wierszy
+- [packages/schema/src/filesystem.ts](packages/schema/src/filesystem.ts) — 40 wierszy; deklaracje: `Entry:14`, `Submatch:20`, `Match:27`, `FindInput:36`
+- [packages/schema/src/ide-event.ts](packages/schema/src/ide-event.ts) — 13 wierszy
+- [packages/schema/src/identifier.ts](packages/schema/src/identifier.ts) — 30 wierszy; deklaracje: `ascending:6`, `descending:10`, `create:14`
+- [packages/schema/src/index.ts](packages/schema/src/index.ts) — 28 wierszy
+- [packages/schema/src/installation-event.ts](packages/schema/src/installation-event.ts) — 20 wierszy
+- [packages/schema/src/integration-id.ts](packages/schema/src/integration-id.ts) — 7 wierszy; deklaracje: `IntegrationID:4`, `IntegrationMethodID:7`
+- [packages/schema/src/integration.ts](packages/schema/src/integration.ts) — 129 wierszy; deklaracje: `ID:12`, `MethodID:15`, `When:17`, `TextPrompt:24`, `SelectPrompt:33`
+- [packages/schema/src/legacy-event.ts](packages/schema/src/legacy-event.ts) — 1 wierszy
+- [packages/schema/src/llm.ts](packages/schema/src/llm.ts) — 28 wierszy; deklaracje: `ProviderMetadata:9`, `ToolTextContent:11`, `ToolFileContent:17`, `ToolContent:28`
+- [packages/schema/src/location.ts](packages/schema/src/location.ts) — 25 wierszy; deklaracje: `Ref:8`, `Info:14`, `response:23`
+- [packages/schema/src/lsp-event.ts](packages/schema/src/lsp-event.ts) — 7 wierszy
+- [packages/schema/src/mcp-event.ts](packages/schema/src/mcp-event.ts) — 21 wierszy
+- [packages/schema/src/model.ts](packages/schema/src/model.ts) — 106 wierszy; deklaracje: `ID:9`, `VariantID:12`, `Ref:19`, `Family:22`, `Capabilities:24`
+- [packages/schema/src/models-dev.ts](packages/schema/src/models-dev.ts) — 9 wierszy
+- [packages/schema/src/permission-saved.ts](packages/schema/src/permission-saved.ts) — 20 wierszy; deklaracje: `ID:12`, `Info:20`
+- [packages/schema/src/permission-v1.ts](packages/schema/src/permission-v1.ts) — 1 wierszy
+- [packages/schema/src/permission.ts](packages/schema/src/permission.ts) — 65 wierszy; deklaracje: `ID:14`, `Source:23`, `Request:38`, `Reply:41`, `Effect:55`
+- [packages/schema/src/plugin.ts](packages/schema/src/plugin.ts) — 13 wierszy; deklaracje: `ID:7`
+- [packages/schema/src/project-copy.ts](packages/schema/src/project-copy.ts) — 30 wierszy; deklaracje: `StrategyID:9`, `CreateInput:18`, `RemoveInput:25`, `Copy:30`
+- [packages/schema/src/project-directories.ts](packages/schema/src/project-directories.ts) — 10 wierszy
+- [packages/schema/src/project-id.ts](packages/schema/src/project-id.ts) — 8 wierszy; deklaracje: `ProjectID:8`
+- [packages/schema/src/project.ts](packages/schema/src/project.ts) — 44 wierszy; deklaracje: `ID:9`, `Icon:17`, `Commands:23`, `Time:29`, `Info:41`
+- [packages/schema/src/prompt-input.ts](packages/schema/src/prompt-input.ts) — 26 wierszy; deklaracje: `FileAttachment:7`, `Prompt:21`
+- [packages/schema/src/prompt.ts](packages/schema/src/prompt.ts) — 57 wierszy; deklaracje: `Source:5`, `FileAttachment:12`, `AgentAttachment:34`, `Prompt:40`
+- [packages/schema/src/provider.ts](packages/schema/src/provider.ts) — 72 wierszy; deklaracje: `ID:24`, `AISDK:26`, `Native:34`, `Api:44`, `Request:46`
+- [packages/schema/src/pty-ticket.ts](packages/schema/src/pty-ticket.ts) — 10 wierszy; deklaracje: `ConnectToken:10`
+- [packages/schema/src/pty.ts](packages/schema/src/pty.ts) — 58 wierszy; deklaracje: `ID:20`, `Info:32`, `CreateInput:47`, `UpdateInput:58`
+- [packages/schema/src/question-v1.ts](packages/schema/src/question-v1.ts) — 1 wierszy
+- [packages/schema/src/question.ts](packages/schema/src/question.ts) — 86 wierszy; deklaracje: `ID:20`, `Option:26`, `Info:41`, `Prompt:44`, `Tool:50`
+- [packages/schema/src/reference.ts](packages/schema/src/reference.ts) — 39 wierszy; deklaracje: `LocalSource:11`, `GitSource:19`, `Source:31`, `Info:33`
+- [packages/schema/src/revert.ts](packages/schema/src/revert.ts) — 24 wierszy; deklaracje: `FileDiff:15`, `State:24`
+- [packages/schema/src/schema.ts](packages/schema/src/schema.ts) — 30 wierszy; deklaracje: `RelativePath:7`, `AbsolutePath:10`
+- [packages/schema/src/server-event.ts](packages/schema/src/server-event.ts) — 8 wierszy
+- [packages/schema/src/session-compaction-event.ts](packages/schema/src/session-compaction-event.ts) — 13 wierszy
+- [packages/schema/src/session-delivery.ts](packages/schema/src/session-delivery.ts) — 6 wierszy; deklaracje: `Delivery:6`
+- [packages/schema/src/session-event.ts](packages/schema/src/session-event.ts) — 521 wierszy; deklaracje: `Source:25`, `UnknownError:52`, `AgentSwitched:63`, `ModelSwitched:74`, `Moved:85`
+- [packages/schema/src/session-id.ts](packages/schema/src/session-id.ts) — 15 wierszy; deklaracje: `SessionID:15`
+- [packages/schema/src/session-input.ts](packages/schema/src/session-input.ts) — 23 wierszy; deklaracje: `Delivery:12`, `Admitted:14`
+- [packages/schema/src/session-message.ts](packages/schema/src/session-message.ts) — 213 wierszy; deklaracje: `ID:16`, `UnknownError:18`, `AgentSwitched:30`, `ModelSwitched:37`, `User:44`
+- [packages/schema/src/session-status-event.ts](packages/schema/src/session-status-event.ts) — 51 wierszy; deklaracje: `Info:33`
+- [packages/schema/src/session-todo.ts](packages/schema/src/session-todo.ts) — 25 wierszy; deklaracje: `Info:16`
+- [packages/schema/src/session-v1.ts](packages/schema/src/session-v1.ts) — 1 wierszy
+- [packages/schema/src/session.ts](packages/schema/src/session.ts) — 51 wierszy; deklaracje: `ID:14`, `Info:18`, `ListAnchor:51`
+- [packages/schema/src/skill.ts](packages/schema/src/skill.ts) — 55 wierszy; deklaracje: `DirectorySource:7`, `UrlSource:13`, `Info:19`, `EmbeddedSource:28`, `Source:34`
+- [packages/schema/src/tui-event.ts](packages/schema/src/tui-event.ts) — 59 wierszy
+- [packages/schema/src/v1/legacy-event.ts](packages/schema/src/v1/legacy-event.ts) — 18 wierszy
+- [packages/schema/src/v1/permission.ts](packages/schema/src/v1/permission.ts) — 66 wierszy; deklaracje: `ID:14`, `Action:17`, `Rule:22`, `Ruleset:25`, `Request:36`
+- [packages/schema/src/v1/question.ts](packages/schema/src/v1/question.ts) — 66 wierszy
+- [packages/schema/src/v1/session.ts](packages/schema/src/v1/session.ts) — 676 wierszy; deklaracje: `MessageID:21`, `PartID:27`, `APIError:56`, `OutputFormatText:65`, `OutputFormatJsonSchema:69`
+- [packages/schema/src/vcs-event.ts](packages/schema/src/vcs-event.ts) — 14 wierszy
+- [packages/schema/src/workspace-event.ts](packages/schema/src/workspace-event.ts) — 32 wierszy; deklaracje: `ConnectionStatus:11`
+- [packages/schema/src/workspace-id.ts](packages/schema/src/workspace-id.ts) — 19 wierszy; deklaracje: `WorkspaceID:19`
+- [packages/schema/src/workspace.ts](packages/schema/src/workspace.ts) — 9 wierszy; deklaracje: `ID:7`
+- [packages/schema/src/worktree-event.ts](packages/schema/src/worktree-event.ts) — 22 wierszy
+- [packages/schema/sst-env.d.ts](packages/schema/sst-env.d.ts) — 10 wierszy
+- [packages/schema/test/compatibility.test.ts](packages/schema/test/compatibility.test.ts) — 10 wierszy
+- [packages/schema/test/contract-hygiene.test.ts](packages/schema/test/contract-hygiene.test.ts) — 67 wierszy
+- [packages/schema/test/event-manifest.test.ts](packages/schema/test/event-manifest.test.ts) — 53 wierszy
+- [packages/schema/test/event.test.ts](packages/schema/test/event.test.ts) — 37 wierszy
+- [packages/schema/test/legacy-event.test.ts](packages/schema/test/legacy-event.test.ts) — 53 wierszy
+- [packages/schema/test/v1-isolation.test.ts](packages/schema/test/v1-isolation.test.ts) — 28 wierszy
+- [packages/schema/tsconfig.json](packages/schema/tsconfig.json) — 8 wierszy
+- [packages/script/package.json](packages/script/package.json) — 15 wierszy
+- [packages/script/src/index.ts](packages/script/src/index.ts) — 77 wierszy
+- [packages/script/sst-env.d.ts](packages/script/sst-env.d.ts) — 10 wierszy
+- [packages/script/tsconfig.json](packages/script/tsconfig.json) — 8 wierszy
+- [packages/sdk-next/README.md](packages/sdk-next/README.md) — 29 wierszy
+- [packages/sdk-next/package.json](packages/sdk-next/package.json) — 25 wierszy
+- [packages/sdk-next/src/index.ts](packages/sdk-next/src/index.ts) — 17 wierszy
+- [packages/sdk-next/src/opencode.ts](packages/sdk-next/src/opencode.ts) — 49 wierszy; deklaracje: `Interface:45`, `Service:47`
+- [packages/sdk-next/src/tool.ts](packages/sdk-next/src/tool.ts) — 2 wierszy
+- [packages/sdk-next/sst-env.d.ts](packages/sdk-next/sst-env.d.ts) — 10 wierszy
+- [packages/sdk-next/test/embedded.test.ts](packages/sdk-next/test/embedded.test.ts) — 212 wierszy
+- [packages/sdk-next/test/import-boundaries.test.ts](packages/sdk-next/test/import-boundaries.test.ts) — 53 wierszy; deklaracje: `bundleInputs:18`, `within:50`
+- [packages/sdk-next/tsconfig.json](packages/sdk-next/tsconfig.json) — 8 wierszy
+- [packages/sdk/.gitignore](packages/sdk/.gitignore)
+- [packages/sdk/js/example/example.ts](packages/sdk/js/example/example.ts) — 56 wierszy
+- [packages/sdk/js/package.json](packages/sdk/js/package.json) — 36 wierszy
+- [packages/sdk/js/script/build.ts](packages/sdk/js/script/build.ts) — 119 wierszy
+- [packages/sdk/js/script/publish.ts](packages/sdk/js/script/publish.ts) — 45 wierszy; deklaracje: `published:10`, `transformExports:20`
+- [packages/sdk/js/src/client.ts](packages/sdk/js/src/client.ts) — 57 wierszy; deklaracje: `pick:9`, `rewrite:17`, `createOpencodeClient:33`
+- [packages/sdk/js/src/error-interceptor.ts](packages/sdk/js/src/error-interceptor.ts) — 51 wierszy; deklaracje: `wrapClientError:13`, `describe:45`
+- [packages/sdk/js/src/gen/client.gen.ts](packages/sdk/js/src/gen/client.gen.ts) — 22 wierszy; deklaracje: `CreateClientConfig:14`
+- [packages/sdk/js/src/gen/client/client.gen.ts](packages/sdk/js/src/gen/client/client.gen.ts) — 212 wierszy; deklaracje: `ReqInit:15`
+- [packages/sdk/js/src/gen/client/index.ts](packages/sdk/js/src/gen/client/index.ts) — 25 wierszy
+- [packages/sdk/js/src/gen/client/types.gen.ts](packages/sdk/js/src/gen/client/types.gen.ts) — 222 wierszy; deklaracje: `ResponseStyle:8`, `Config:10`, `RequestOptions:54`, `ResolvedRequestOptions:82`, `RequestResult:90`
+- [packages/sdk/js/src/gen/client/utils.gen.ts](packages/sdk/js/src/gen/client/utils.gen.ts) — 287 wierszy; deklaracje: `ErrInterceptor:191`, `ReqInterceptor:198`, `ResInterceptor:200`, `Interceptors:202`, `Middleware:250`
+- [packages/sdk/js/src/gen/core/auth.gen.ts](packages/sdk/js/src/gen/core/auth.gen.ts) — 41 wierszy; deklaracje: `AuthToken:3`, `Auth:5`
+- [packages/sdk/js/src/gen/core/bodySerializer.gen.ts](packages/sdk/js/src/gen/core/bodySerializer.gen.ts) — 74 wierszy; deklaracje: `QuerySerializer:5`, `BodySerializer:7`, `QuerySerializerOptions:9`
+- [packages/sdk/js/src/gen/core/params.gen.ts](packages/sdk/js/src/gen/core/params.gen.ts) — 144 wierszy; deklaracje: `Slot:3`, `Field:5`, `Fields:27`, `FieldsConfig:32`, `KeyMap:42`
+- [packages/sdk/js/src/gen/core/pathSerializer.gen.ts](packages/sdk/js/src/gen/core/pathSerializer.gen.ts) — 167 wierszy; deklaracje: `SerializeOptions:3`, `SerializePrimitiveOptions:5`, `SerializerOptions:10`, `ArrayStyle:18`, `ArraySeparatorStyle:19`
+- [packages/sdk/js/src/gen/core/queryKeySerializer.gen.ts](packages/sdk/js/src/gen/core/queryKeySerializer.gen.ts) — 111 wierszy; deklaracje: `JsonValue:6`
+- [packages/sdk/js/src/gen/core/serverSentEvents.gen.ts](packages/sdk/js/src/gen/core/serverSentEvents.gen.ts) — 210 wierszy; deklaracje: `ServerSentEventsOptions:5`, `StreamEvent:55`, `ServerSentEventsResult:62`
+- [packages/sdk/js/src/gen/core/types.gen.ts](packages/sdk/js/src/gen/core/types.gen.ts) — 91 wierszy; deklaracje: `Client:6`, `Config:25`, `IsExactlyNeverOrNeverUndefined:81`, `OmitNever:89`
+- [packages/sdk/js/src/gen/core/utils.gen.ts](packages/sdk/js/src/gen/core/utils.gen.ts) — 109 wierszy; deklaracje: `ArraySeparatorStyle:5`, `PathSerializer:11`
+- [packages/sdk/js/src/gen/sdk.gen.ts](packages/sdk/js/src/gen/sdk.gen.ts) — 1197 wierszy; deklaracje: `Options:206`, `_HeyApiClient:223`, `Global:233`, `Project:245`, `Pty:267`
+- [packages/sdk/js/src/gen/types.gen.ts](packages/sdk/js/src/gen/types.gen.ts) — 3907 wierszy; deklaracje: `EventServerInstanceDisposed:3`, `EventInstallationUpdated:10`, `EventInstallationUpdateAvailable:17`, `EventLspClientDiagnostics:24`, `EventLspUpdated:32`
+- [packages/sdk/js/src/index.ts](packages/sdk/js/src/index.ts) — 21 wierszy; deklaracje: `createOpencode:8`
+- [packages/sdk/js/src/process.ts](packages/sdk/js/src/process.ts) — 31 wierszy; deklaracje: `stop:5`, `bindAbort:14`
+- [packages/sdk/js/src/server.ts](packages/sdk/js/src/server.ts) — 134 wierszy; deklaracje: `ServerOptions:5`, `TuiOptions:13`, `createOpencodeServer:22`, `createOpencodeTui:102`
+- [packages/sdk/js/src/v2/client.ts](packages/sdk/js/src/v2/client.ts) — 93 wierszy; deklaracje: `pick:10`, `rewrite:18`, `createOpencodeClient:50`
+- [packages/sdk/js/src/v2/data.ts](packages/sdk/js/src/v2/data.ts) — 32 wierszy
+- [packages/sdk/js/src/v2/gen/client.gen.ts](packages/sdk/js/src/v2/gen/client.gen.ts) — 18 wierszy; deklaracje: `CreateClientConfig:14`
+- [packages/sdk/js/src/v2/gen/client/client.gen.ts](packages/sdk/js/src/v2/gen/client/client.gen.ts) — 285 wierszy; deklaracje: `ReqInit:17`
+- [packages/sdk/js/src/v2/gen/client/index.ts](packages/sdk/js/src/v2/gen/client/index.ts) — 25 wierszy

@@ -1,0 +1,306 @@
+# opencode — mapa plików (1/23)
+
+Wykaz śledzonych plików z badanego commita. Liczba wierszy i nazwy deklaracji są wyciągane automatycznie z dostępnej kopii tekstowej; nie oznaczają ręcznej oceny pliku. Brak opisu oznacza, że zawartość nie była analizowana tą metodą (np. plik binarny, zasób lub pominięty plik).
+
+[Wróć do audytu](AUDYT_EDUKACYJNY.md) · [1](AUDYT_MAPA_01.md) · [2](AUDYT_MAPA_02.md) · [3](AUDYT_MAPA_03.md) · [4](AUDYT_MAPA_04.md) · [5](AUDYT_MAPA_05.md) · [6](AUDYT_MAPA_06.md) · [7](AUDYT_MAPA_07.md) · [8](AUDYT_MAPA_08.md) · [9](AUDYT_MAPA_09.md) · [10](AUDYT_MAPA_10.md) · [11](AUDYT_MAPA_11.md) · [12](AUDYT_MAPA_12.md) · [13](AUDYT_MAPA_13.md) · [14](AUDYT_MAPA_14.md) · [15](AUDYT_MAPA_15.md) · [16](AUDYT_MAPA_16.md) · [17](AUDYT_MAPA_17.md) · [18](AUDYT_MAPA_18.md) · [19](AUDYT_MAPA_19.md) · [20](AUDYT_MAPA_20.md) · [21](AUDYT_MAPA_21.md) · [22](AUDYT_MAPA_22.md) · [23](AUDYT_MAPA_23.md)
+
+- [.dockerignore](.dockerignore)
+- [.editorconfig](.editorconfig)
+- [.gitattributes](.gitattributes)
+- [.github/CODEOWNERS](.github/CODEOWNERS)
+- [.github/ISSUE_TEMPLATE/bug-report.yml](.github/ISSUE_TEMPLATE/bug-report.yml) — 66 wierszy
+- [.github/ISSUE_TEMPLATE/config.yml](.github/ISSUE_TEMPLATE/config.yml) — 5 wierszy
+- [.github/ISSUE_TEMPLATE/feature-request.yml](.github/ISSUE_TEMPLATE/feature-request.yml) — 19 wierszy
+- [.github/TEAM_MEMBERS](.github/TEAM_MEMBERS)
+- [.github/actions/setup-bun/action.yml](.github/actions/setup-bun/action.yml) — 73 wierszy
+- [.github/actions/setup-git-committer/action.yml](.github/actions/setup-git-committer/action.yml) — 43 wierszy
+- [.github/publish-python-sdk.yml](.github/publish-python-sdk.yml) — 71 wierszy
+- [.github/pull_request_template.md](.github/pull_request_template.md) — 29 wierszy
+- [.github/workflows/close-issues.yml](.github/workflows/close-issues.yml) — 24 wierszy
+- [.github/workflows/close-prs.yml](.github/workflows/close-prs.yml) — 50 wierszy
+- [.github/workflows/compliance-close.yml](.github/workflows/compliance-close.yml) — 133 wierszy; deklaracje: `isExempt:53`
+- [.github/workflows/containers.yml](.github/workflows/containers.yml) — 45 wierszy
+- [.github/workflows/deploy.yml](.github/workflows/deploy.yml) — 49 wierszy
+- [.github/workflows/docs-locale-sync.yml](.github/workflows/docs-locale-sync.yml) — 100 wierszy
+- [.github/workflows/docs-update.yml](.github/workflows/docs-update.yml) — 72 wierszy
+- [.github/workflows/duplicate-issues.yml](.github/workflows/duplicate-issues.yml) — 221 wierszy
+- [.github/workflows/generate.yml](.github/workflows/generate.yml) — 51 wierszy
+- [.github/workflows/nix-eval.yml](.github/workflows/nix-eval.yml) — 95 wierszy
+- [.github/workflows/nix-hashes.yml](.github/workflows/nix-hashes.yml) — 162 wierszy
+- [.github/workflows/notify-discord.yml](.github/workflows/notify-discord.yml) — 14 wierszy
+- [.github/workflows/opencode.yml](.github/workflows/opencode.yml) — 34 wierszy
+- [.github/workflows/pr-management.yml](.github/workflows/pr-management.yml) — 95 wierszy
+- [.github/workflows/pr-standards.yml](.github/workflows/pr-standards.yml) — 351 wierszy; deklaracje: `addLabel:45`, `removeLabel:54`, `comment:67`, `addLabel:259`, `removeLabel:268`
+- [.github/workflows/publish-github-action.yml](.github/workflows/publish-github-action.yml) — 30 wierszy
+- [.github/workflows/publish-vscode.yml](.github/workflows/publish-vscode.yml) — 37 wierszy
+- [.github/workflows/publish.yml](.github/workflows/publish.yml) — 517 wierszy
+- [.github/workflows/release-github-action.yml](.github/workflows/release-github-action.yml) — 29 wierszy
+- [.github/workflows/review.yml](.github/workflows/review.yml) — 83 wierszy
+- [.github/workflows/stats.yml](.github/workflows/stats.yml) — 35 wierszy
+- [.github/workflows/storybook.yml](.github/workflows/storybook.yml) — 40 wierszy
+- [.github/workflows/test.yml](.github/workflows/test.yml) — 151 wierszy
+- [.github/workflows/triage.yml](.github/workflows/triage.yml) — 56 wierszy
+- [.github/workflows/typecheck.yml](.github/workflows/typecheck.yml) — 21 wierszy
+- [.github/workflows/unlock.yml](.github/workflows/unlock.yml) — 52 wierszy
+- [.gitignore](.gitignore)
+- [.gitleaksignore](.gitleaksignore)
+- [.husky/pre-push](.husky/pre-push)
+- [.opencode/.gitignore](.opencode/.gitignore)
+- [.opencode/agent/duplicate-pr.md](.opencode/agent/duplicate-pr.md) — 26 wierszy
+- [.opencode/agent/triage.md](.opencode/agent/triage.md) — 43 wierszy
+- [.opencode/command/ai-deps.md](.opencode/command/ai-deps.md) — 24 wierszy
+- [.opencode/command/changelog.md](.opencode/command/changelog.md) — 49 wierszy
+- [.opencode/command/commit.md](.opencode/command/commit.md) — 37 wierszy
+- [.opencode/command/issues.md](.opencode/command/issues.md) — 23 wierszy
+- [.opencode/command/learn.md](.opencode/command/learn.md) — 42 wierszy
+- [.opencode/command/rmslop.md](.opencode/command/rmslop.md) — 15 wierszy
+- [.opencode/command/spellcheck.md](.opencode/command/spellcheck.md) — 5 wierszy
+- [.opencode/command/translate.md](.opencode/command/translate.md) — 14 wierszy
+- [.opencode/env.d.ts](.opencode/env.d.ts) — 4 wierszy
+- [.opencode/glossary/README.md](.opencode/glossary/README.md) — 63 wierszy
+- [.opencode/glossary/ar.md](.opencode/glossary/ar.md) — 28 wierszy
+- [.opencode/glossary/br.md](.opencode/glossary/br.md) — 34 wierszy
+- [.opencode/glossary/bs.md](.opencode/glossary/bs.md) — 33 wierszy
+- [.opencode/glossary/da.md](.opencode/glossary/da.md) — 27 wierszy
+- [.opencode/glossary/de.md](.opencode/glossary/de.md) — 27 wierszy
+- [.opencode/glossary/es.md](.opencode/glossary/es.md) — 27 wierszy
+- [.opencode/glossary/fr.md](.opencode/glossary/fr.md) — 27 wierszy
+- [.opencode/glossary/ja.md](.opencode/glossary/ja.md) — 33 wierszy
+- [.opencode/glossary/ko.md](.opencode/glossary/ko.md) — 27 wierszy
+- [.opencode/glossary/no.md](.opencode/glossary/no.md) — 38 wierszy
+- [.opencode/glossary/pl.md](.opencode/glossary/pl.md) — 27 wierszy
+- [.opencode/glossary/ru.md](.opencode/glossary/ru.md) — 27 wierszy
+- [.opencode/glossary/th.md](.opencode/glossary/th.md) — 34 wierszy
+- [.opencode/glossary/tr.md](.opencode/glossary/tr.md) — 38 wierszy
+- [.opencode/glossary/zh-cn.md](.opencode/glossary/zh-cn.md) — 42 wierszy
+- [.opencode/glossary/zh-tw.md](.opencode/glossary/zh-tw.md) — 42 wierszy
+- [.opencode/opencode.jsonc](.opencode/opencode.jsonc)
+- [.opencode/plugins/smoke-theme.json](.opencode/plugins/smoke-theme.json) — 223 wierszy
+- [.opencode/plugins/tui-smoke.tsx](.opencode/plugins/tui-smoke.tsx) — 1019 wierszy; deklaracje: `SmokeBindings:38`, `Cfg:76`, `Route:83`, `State:88`, `createKeys:113`
+- [.opencode/skills/effect/SKILL.md](.opencode/skills/effect/SKILL.md) — 38 wierszy
+- [.opencode/skills/rtl-aware-development/SKILL.md](.opencode/skills/rtl-aware-development/SKILL.md) — 63 wierszy
+- [.opencode/themes/.gitignore](.opencode/themes/.gitignore)
+- [.opencode/themes/mytheme.json](.opencode/themes/mytheme.json) — 223 wierszy
+- [.opencode/tool/github-pr-search.ts](.opencode/tool/github-pr-search.ts) — 64 wierszy; deklaracje: `githubFetch:3`, `PR:19`
+- [.opencode/tool/github-triage.ts](.opencode/tool/github-triage.ts) — 60 wierszy; deklaracje: `pick:12`, `getIssueNumber:16`, `githubFetch:22`
+- [.opencode/tui.json](.opencode/tui.json) — 19 wierszy
+- [.oxlintrc.json](.oxlintrc.json) — 51 wierszy
+- [.prettierignore](.prettierignore)
+- [.vscode/launch.example.json](.vscode/launch.example.json) — 11 wierszy
+- [.vscode/settings.example.json](.vscode/settings.example.json) — 5 wierszy
+- [.zed/settings.json](.zed/settings.json) — 9 wierszy
+- [AGENTS.md](AGENTS.md) — 161 wierszy; deklaracje: `foo:86`, `foo:92`, `loadThing:104`, `requireConfig:110`
+- [CONTEXT.md](CONTEXT.md) — 225 wierszy
+- [CONTRIBUTING.md](CONTRIBUTING.md) — 272 wierszy
+- [LICENSE](LICENSE)
+- [README.ar.md](README.ar.md) — 129 wierszy
+- [README.bn.md](README.bn.md) — 129 wierszy
+- [README.br.md](README.br.md) — 129 wierszy
+- [README.bs.md](README.bs.md) — 129 wierszy
+- [README.da.md](README.da.md) — 129 wierszy
+- [README.de.md](README.de.md) — 129 wierszy
+- [README.es.md](README.es.md) — 129 wierszy
+- [README.fr.md](README.fr.md) — 129 wierszy
+- [README.gr.md](README.gr.md) — 129 wierszy
+- [README.it.md](README.it.md) — 129 wierszy
+- [README.ja.md](README.ja.md) — 129 wierszy
+- [README.ko.md](README.ko.md) — 129 wierszy
+- [README.md](README.md) — 129 wierszy
+- [README.no.md](README.no.md) — 129 wierszy
+- [README.pl.md](README.pl.md) — 129 wierszy
+- [README.ru.md](README.ru.md) — 129 wierszy
+- [README.th.md](README.th.md) — 129 wierszy
+- [README.tr.md](README.tr.md) — 129 wierszy
+- [README.uk.md](README.uk.md) — 130 wierszy
+- [README.vi.md](README.vi.md) — 129 wierszy
+- [README.zh.md](README.zh.md) — 128 wierszy
+- [README.zht.md](README.zht.md) — 128 wierszy
+- [SECURITY.md](SECURITY.md) — 47 wierszy
+- [STATS.md](STATS.md) — 217 wierszy
+- [artifacts/glm52-rise-video/.gitignore](artifacts/glm52-rise-video/.gitignore)
+- [artifacts/glm52-rise-video/bun.lock](artifacts/glm52-rise-video/bun.lock)
+- [artifacts/glm52-rise-video/out/flash-share.mp4](artifacts/glm52-rise-video/out/flash-share.mp4)
+- [artifacts/glm52-rise-video/out/glm-52-broke-out.mp4](artifacts/glm52-rise-video/out/glm-52-broke-out.mp4)
+- [artifacts/glm52-rise-video/out/june-totals.png](artifacts/glm52-rise-video/out/june-totals.png)
+- [artifacts/glm52-rise-video/out/minimax-climb.mp4](artifacts/glm52-rise-video/out/minimax-climb.mp4)
+- [artifacts/glm52-rise-video/out/novel-1984.mp4](artifacts/glm52-rise-video/out/novel-1984.mp4)
+- [artifacts/glm52-rise-video/out/nz-sheep.mp4](artifacts/glm52-rise-video/out/nz-sheep.mp4)
+- [artifacts/glm52-rise-video/package.json](artifacts/glm52-rise-video/package.json) — 24 wierszy
+- [artifacts/glm52-rise-video/public/book.jpg](artifacts/glm52-rise-video/public/book.jpg)
+- [artifacts/glm52-rise-video/public/sheep.jpg](artifacts/glm52-rise-video/public/sheep.jpg)
+- [artifacts/glm52-rise-video/src/data.ts](artifacts/glm52-rise-video/src/data.ts) — 156 wierszy; deklaracje: `Day:6`
+- [artifacts/glm52-rise-video/src/flash.tsx](artifacts/glm52-rise-video/src/flash.tsx) — 185 wierszy; deklaracje: `DataWordmark:32`, `FlashShare:54`
+- [artifacts/glm52-rise-video/src/index.tsx](artifacts/glm52-rise-video/src/index.tsx) — 36 wierszy; deklaracje: `Root:9`
+- [artifacts/glm52-rise-video/src/june.tsx](artifacts/glm52-rise-video/src/june.tsx) — 144 wierszy; deklaracje: `DataWordmark:21`, `DotBand:43`, `Metric:62`, `JuneTotals:82`
+- [artifacts/glm52-rise-video/src/minimax.tsx](artifacts/glm52-rise-video/src/minimax.tsx) — 201 wierszy; deklaracje: `DataWordmark:31`, `MiniMaxClimb:55`
+- [artifacts/glm52-rise-video/src/novel.tsx](artifacts/glm52-rise-video/src/novel.tsx) — 135 wierszy; deklaracje: `DataWordmark:17`, `NovelTokens:39`
+- [artifacts/glm52-rise-video/src/sheep.tsx](artifacts/glm52-rise-video/src/sheep.tsx) — 139 wierszy; deklaracje: `DataWordmark:18`, `NZSheep:40`
+- [artifacts/glm52-rise-video/src/video.tsx](artifacts/glm52-rise-video/src/video.tsx) — 254 wierszy; deklaracje: `DataWordmark:29`, `GLM52Rise:51`
+- [artifacts/glm52-rise-video/sst-env.d.ts](artifacts/glm52-rise-video/sst-env.d.ts) — 10 wierszy
+- [bun.lock](bun.lock)
+- [bunfig.toml](bunfig.toml)
+- [flake.lock](flake.lock)
+- [flake.nix](flake.nix)
+- [github/.gitignore](github/.gitignore)
+- [github/README.md](github/README.md) — 166 wierszy
+- [github/action.yml](github/action.yml) — 79 wierszy
+- [github/bun.lock](github/bun.lock)
+- [github/index.ts](github/index.ts) — 1072 wierszy; deklaracje: `GitHubAuthor:13`, `GitHubComment:18`, `GitHubReviewComment:26`, `GitHubCommit:31`, `GitHubFile:40`
+- [github/package.json](github/package.json) — 20 wierszy
+- [github/script/publish](github/script/publish)
+- [github/script/release](github/script/release)
+- [github/sst-env.d.ts](github/sst-env.d.ts) — 10 wierszy
+- [github/tsconfig.json](github/tsconfig.json) — 29 wierszy
+- [infra/app.ts](infra/app.ts) — 69 wierszy
+- [infra/console.ts](infra/console.ts) — 324 wierszy
+- [infra/enterprise.ts](infra/enterprise.ts) — 18 wierszy
+- [infra/lake.ts](infra/lake.ts) — 331 wierszy
+- [infra/monitoring.ts](infra/monitoring.ts) — 287 wierszy
+- [infra/secret.ts](infra/secret.ts) — 15 wierszy
+- [infra/stage.ts](infra/stage.ts) — 40 wierszy
+- [infra/stats.ts](infra/stats.ts) — 219 wierszy
+- [install](install)
+- [nix/desktop.nix](nix/desktop.nix)
+- [nix/hashes.json](nix/hashes.json) — 8 wierszy
+- [nix/node_modules.nix](nix/node_modules.nix)
+- [nix/opencode.nix](nix/opencode.nix)
+- [nix/scripts/canonicalize-node-modules.ts](nix/scripts/canonicalize-node-modules.ts) — 101 wierszy; deklaracje: `Entry:4`, `isDirectory:9`, `parseEntry:90`
+- [nix/scripts/normalize-bun-binaries.ts](nix/scripts/normalize-bun-binaries.ts) — 130 wierszy; deklaracje: `PackageManifest:4`, `collectPackages:50`, `readManifest:76`, `linkBinary:85`, `exists:106`
+- [package.json](package.json) — 168 wierszy
+- [packages/app/.gitignore](packages/app/.gitignore)
+- [packages/app/AGENTS.md](packages/app/AGENTS.md) — 50 wierszy
+- [packages/app/README.md](packages/app/README.md) — 50 wierszy
+- [packages/app/V1_API_MIGRATION.md](packages/app/V1_API_MIGRATION.md) — 220 wierszy
+- [packages/app/bunfig.toml](packages/app/bunfig.toml)
+- [packages/app/create-effect-simplification-spec.md](packages/app/create-effect-simplification-spec.md) — 515 wierszy
+- [packages/app/e2e/AGENTS.md](packages/app/e2e/AGENTS.md) — 16 wierszy
+- [packages/app/e2e/performance/AGENTS.md](packages/app/e2e/performance/AGENTS.md) — 13 wierszy
+- [packages/app/e2e/performance/README.md](packages/app/e2e/performance/README.md) — 79 wierszy
+- [packages/app/e2e/performance/benchmark.ts](packages/app/e2e/performance/benchmark.ts) — 144 wierszy; deklaracje: `BenchmarkFixtures:4`, `PerformancePageDiagnostics:10`, `benchmarkName:72`, `observePerformancePage:78`, `withBenchmarkPage:100`
+- [packages/app/e2e/performance/chrome-trace.ts](packages/app/e2e/performance/chrome-trace.ts) — 95 wierszy; deklaracje: `startChromeTrace:21`, `prepareChromeTrace:69`, `writeProtocolStream:84`
+- [packages/app/e2e/performance/playwright.config.ts](packages/app/e2e/performance/playwright.config.ts) — 20 wierszy
+- [packages/app/e2e/performance/playwright.uncapped.config.ts](packages/app/e2e/performance/playwright.uncapped.config.ts) — 13 wierszy
+- [packages/app/e2e/performance/timeline-stability/README.md](packages/app/e2e/performance/timeline-stability/README.md) — 61 wierszy
+- [packages/app/e2e/performance/timeline-stability/adverse.spec.ts](packages/app/e2e/performance/timeline-stability/adverse.spec.ts) — 250 wierszy; deklaracje: `TimelineMessage:18`, `history:220`, `lines:244`, `wideLines:248`
+- [packages/app/e2e/performance/timeline-stability/context-matrix.spec.ts](packages/app/e2e/performance/timeline-stability/context-matrix.spec.ts) — 192 wierszy
+- [packages/app/e2e/performance/timeline-stability/environment-matrix.spec.ts](packages/app/e2e/performance/timeline-stability/environment-matrix.spec.ts) — 113 wierszy; deklaracje: `lines:91`, `shellPlan:95`
+- [packages/app/e2e/performance/timeline-stability/file-matrix.spec.ts](packages/app/e2e/performance/timeline-stability/file-matrix.spec.ts) — 121 wierszy; deklaracje: `completedPart:81`, `patchFile:104`, `source:116`
+- [packages/app/e2e/performance/timeline-stability/file-mutation.spec.ts](packages/app/e2e/performance/timeline-stability/file-mutation.spec.ts) — 113 wierszy; deklaracje: `patchFile:97`, `source:109`
+- [packages/app/e2e/performance/timeline-stability/fixture.test.ts](packages/app/e2e/performance/timeline-stability/fixture.test.ts) — 68 wierszy; deklaracje: `PartSeed:9`
+- [packages/app/e2e/performance/timeline-stability/fixture.ts](packages/app/e2e/performance/timeline-stability/fixture.ts) — 568 wierszy; deklaracje: `TimelinePayload:30`, `DeepReadonly:43`, `TimelineEvent:49`, `EventPayload:50`, `ToolStatus:51`
+- [packages/app/e2e/performance/timeline-stability/interaction.spec.ts](packages/app/e2e/performance/timeline-stability/interaction.spec.ts) — 242 wierszy; deklaracje: `lines:233`, `source:237`
+- [packages/app/e2e/performance/timeline-stability/lifecycle.spec.ts](packages/app/e2e/performance/timeline-stability/lifecycle.spec.ts) — 157 wierszy; deklaracje: `lines:151`, `shellRegion:155`
+- [packages/app/e2e/performance/timeline-stability/oracle-browser.spec.ts](packages/app/e2e/performance/timeline-stability/oracle-browser.spec.ts) — 75 wierszy
+- [packages/app/e2e/performance/timeline-stability/playwright.config.ts](packages/app/e2e/performance/timeline-stability/playwright.config.ts) — 17 wierszy
+- [packages/app/e2e/performance/timeline-stability/scroll-interaction.spec.ts](packages/app/e2e/performance/timeline-stability/scroll-interaction.spec.ts) — 353 wierszy; deklaracje: `TimelineMessage:16`, `history:304`, `lines:322`, `rowPairPlan:326`, `anchorPlan:342`
+- [packages/app/e2e/performance/timeline-stability/shell-matrix.spec.ts](packages/app/e2e/performance/timeline-stability/shell-matrix.spec.ts) — 255 wierszy; deklaracje: `lines:253`
+- [packages/app/e2e/performance/timeline-stability/tool-mutation.spec.ts](packages/app/e2e/performance/timeline-stability/tool-mutation.spec.ts) — 106 wierszy
+- [packages/app/e2e/performance/timeline-stability/tools.spec.ts](packages/app/e2e/performance/timeline-stability/tools.spec.ts) — 198 wierszy; deklaracje: `questionInput:192`, `toolRegion:196`
+- [packages/app/e2e/performance/timeline-stability/transition-matrix.spec.ts](packages/app/e2e/performance/timeline-stability/transition-matrix.spec.ts) — 272 wierszy; deklaracje: `stablePairPlan:259`
+- [packages/app/e2e/performance/timeline/first-navigation-benchmark.spec.ts](packages/app/e2e/performance/timeline/first-navigation-benchmark.spec.ts) — 87 wierszy; deklaracje: `setup:76`, `messageSelector:85`
+- [packages/app/e2e/performance/timeline/first-navigation-metrics.ts](packages/app/e2e/performance/timeline/first-navigation-metrics.ts) — 32 wierszy; deklaracje: `FirstNavigationSample:1`, `category:10`, `summarizeFirstNavigation:17`
+- [packages/app/e2e/performance/timeline/first-navigation-probe.ts](packages/app/e2e/performance/timeline/first-navigation-probe.ts) — 86 wierszy; deklaracje: `FirstNavigationProbe:4`, `measureFirstNavigation:9`
+- [packages/app/e2e/performance/timeline/home-tab-navigation-benchmark.spec.ts](packages/app/e2e/performance/timeline/home-tab-navigation-benchmark.spec.ts) — 114 wierszy; deklaracje: `setup:106`, `messageSelector:112`
+- [packages/app/e2e/performance/timeline/navigation-milestones.ts](packages/app/e2e/performance/timeline/navigation-milestones.ts) — 128 wierszy; deklaracje: `NavigationMilestoneSample:3`, `summarizeNavigationMilestones:8`, `NavigationMilestoneProbe:30`, `measureNavigationMilestones:35`
+- [packages/app/e2e/performance/timeline/review-pane-scaling-benchmark.spec.ts](packages/app/e2e/performance/timeline/review-pane-scaling-benchmark.spec.ts) — 312 wierszy; deklaracje: `ReviewPaneScalingSample:12`, `ReviewPaneScalingProbe:22`, `measureBroadReviewSearch:94`, `createScalingDiffs:131`, `emptyReviewPatch:163`
+- [packages/app/e2e/performance/timeline/session-parent-hydration-benchmark.spec.ts](packages/app/e2e/performance/timeline/session-parent-hydration-benchmark.spec.ts) — 172 wierszy; deklaracje: `ParentHydrationBenchmarkMode:9`, `trial:82`
+- [packages/app/e2e/performance/timeline/session-tab-flash.spec.ts](packages/app/e2e/performance/timeline/session-tab-flash.spec.ts) — 67 wierszy
+- [packages/app/e2e/performance/timeline/session-tab-repaint-probe.ts](packages/app/e2e/performance/timeline/session-tab-repaint-probe.ts) — 251 wierszy; deklaracje: `CachedRepaintTrace:3`, `installCachedRepaintProbe:26`, `layoutShiftSample:169`, `waitForCachedRepaintWindow:174`, `collectCachedRepaintTrace:181`
+- [packages/app/e2e/performance/timeline/session-tab-switch-benchmark.spec.ts](packages/app/e2e/performance/timeline/session-tab-switch-benchmark.spec.ts) — 144 wierszy; deklaracje: `Result:14`, `trial:56`, `summarize:94`, `summarizeReviewPane:116`, `switchSession:125`
+- [packages/app/e2e/performance/timeline/session-tab-switch-metrics.ts](packages/app/e2e/performance/timeline/session-tab-switch-metrics.ts) — 59 wierszy; deklaracje: `SessionSwitchSample:1`, `classifySessionSwitch:18`, `isCorrectDestination:41`, `isStableSessionSwitch:51`, `isStableDestination:55`
+- [packages/app/e2e/performance/timeline/session-tab-switch-probe.ts](packages/app/e2e/performance/timeline/session-tab-switch-probe.ts) — 226 wierszy; deklaracje: `SessionSwitchProbe:4`, `installSessionSwitchProbe:9`, `waitForStableSessionSwitch:132`, `collectSessionSwitchResult:153`, `measureSessionSwitch:162`
+- [packages/app/e2e/performance/timeline/session-timeline-benchmark.fixture.ts](packages/app/e2e/performance/timeline/session-timeline-benchmark.fixture.ts) — 504 wierszy; deklaracje: `EventPayload:17`, `setupTimelineBenchmark:96`, `buildInitialStreamEvent:190`, `buildStreamDeltaEvents:205`, `performanceTurn:220`
+- [packages/app/e2e/performance/timeline/session-timeline-benchmark.spec.ts](packages/app/e2e/performance/timeline/session-timeline-benchmark.spec.ts) — 306 wierszy; deklaracje: `TimelineStreamOptions:17`, `ReviewPaneSample:23`, `ReviewPaneProbe:33`, `runTimelineStreamBenchmark:102`, `measureReviewPaneLoad:186`
+- [packages/app/e2e/performance/timeline/session-timeline-profile.ts](packages/app/e2e/performance/timeline/session-timeline-profile.ts) — 40 wierszy; deklaracje: `startTimelineProfile:3`
+- [packages/app/e2e/performance/timeline/session-timeline-stream-probe.ts](packages/app/e2e/performance/timeline/session-timeline-stream-probe.ts) — 547 wierszy; deklaracje: `TimelineProbeState:6`, `installTimelineStreamProbe:65`, `startTimelineStreamProbe:391`, `LayoutShiftEntry:399`, `layoutShiftValue:401`
+- [packages/app/e2e/performance/timeline/session-timeline-stress.fixture.ts](packages/app/e2e/performance/timeline/session-timeline-stress.fixture.ts) — 369 wierszy; deklaracje: `MessageInfo:31`, `MessagePart:32`, `Message:33`, `lorem:35`, `id:47`
+- [packages/app/e2e/performance/timeline/timeline-test-helpers.ts](packages/app/e2e/performance/timeline/timeline-test-helpers.ts) — 134 wierszy; deklaracje: `installTimelineSettings:6`, `mockStressTimeline:22`, `installStressSessionTabs:40`, `stressSessionHref:74`, `stressDraftHref:78`
+- [packages/app/e2e/performance/unit/chrome-trace-write.test.ts](packages/app/e2e/performance/unit/chrome-trace-write.test.ts) — 15 wierszy
+- [packages/app/e2e/performance/unit/first-navigation-metrics.test.ts](packages/app/e2e/performance/unit/first-navigation-metrics.test.ts) — 32 wierszy
+- [packages/app/e2e/performance/unit/mock-server.test.ts](packages/app/e2e/performance/unit/mock-server.test.ts) — 46 wierszy
+- [packages/app/e2e/performance/unit/navigation-milestones.test.ts](packages/app/e2e/performance/unit/navigation-milestones.test.ts) — 34 wierszy
+- [packages/app/e2e/performance/unit/session-tab-repaint-probe.test.ts](packages/app/e2e/performance/unit/session-tab-repaint-probe.test.ts) — 42 wierszy
+- [packages/app/e2e/performance/unit/session-tab-switch-metrics.test.ts](packages/app/e2e/performance/unit/session-tab-switch-metrics.test.ts) — 86 wierszy
+- [packages/app/e2e/performance/unit/session-tab-switch-probe.test.ts](packages/app/e2e/performance/unit/session-tab-switch-probe.test.ts) — 55 wierszy; deklaracje: `testPage:5`, `input:19`
+- [packages/app/e2e/performance/unit/session-timeline-stream-probe.test.ts](packages/app/e2e/performance/unit/session-timeline-stream-probe.test.ts) — 14 wierszy
+- [packages/app/e2e/performance/unit/session-timeline-visual-tracking.test.ts](packages/app/e2e/performance/unit/session-timeline-visual-tracking.test.ts) — 16 wierszy
+- [packages/app/e2e/performance/unit/timeline-test-helpers.test.ts](packages/app/e2e/performance/unit/timeline-test-helpers.test.ts) — 10 wierszy
+- [packages/app/e2e/performance/unit/visual-stability.test.ts](packages/app/e2e/performance/unit/visual-stability.test.ts) — 392 wierszy; deklaracje: `VisualStabilityTrace:5`, `trace:11`, `frame:362`, `region:370`, `viewport:390`
+- [packages/app/e2e/regression/cross-server-tab-close.spec.ts](packages/app/e2e/regression/cross-server-tab-close.spec.ts) — 153 wierszy; deklaracje: `session:68`, `mockServers:80`, `json:142`, `sse:151`
+- [packages/app/e2e/regression/file-browser-sidebar-tab-switch.spec.ts](packages/app/e2e/regression/file-browser-sidebar-tab-switch.spec.ts) — 187 wierszy; deklaracje: `Probed:96`, `writeProbe:98`, `readProbe:104`, `setup:110`
+- [packages/app/e2e/regression/new-session-panel-corner.spec.ts](packages/app/e2e/regression/new-session-panel-corner.spec.ts) — 83 wierszy
+- [packages/app/e2e/regression/open-file-expand-folder.spec.ts](packages/app/e2e/regression/open-file-expand-folder.spec.ts) — 132 wierszy
+- [packages/app/e2e/regression/project-picker-recent-search.spec.ts](packages/app/e2e/regression/project-picker-recent-search.spec.ts) — 60 wierszy; deklaracje: `openProjectDialog:19`
+- [packages/app/e2e/regression/prompt-input-v2-command-draft.spec.ts](packages/app/e2e/regression/prompt-input-v2-command-draft.spec.ts) — 50 wierszy
+- [packages/app/e2e/regression/prompt-thinking-level.spec.ts](packages/app/e2e/regression/prompt-thinking-level.spec.ts) — 84 wierszy; deklaracje: `idleComposer:81`
+- [packages/app/e2e/regression/remote-session-settings.spec.ts](packages/app/e2e/regression/remote-session-settings.spec.ts) — 302 wierszy; deklaracje: `PermissionResponse:145`, `configureServers:153`, `mockServers:164`, `session:256`, `provider:268`
+- [packages/app/e2e/regression/remote-tab-busy.spec.ts](packages/app/e2e/regression/remote-tab-busy.spec.ts) — 131 wierszy; deklaracje: `session:42`, `mockServers:54`, `json:116`, `sse:125`
+- [packages/app/e2e/regression/review-image-flash.spec.ts](packages/app/e2e/regression/review-image-flash.spec.ts) — 202 wierszy; deklaracje: `openReview:27`, `installReviewFlashProbe:145`, `waitForReviewFlashProbe:187`, `collectReviewFlashProbe:195`
+- [packages/app/e2e/regression/review-line-comment.spec.ts](packages/app/e2e/regression/review-line-comment.spec.ts) — 169 wierszy; deklaracje: `openReview:88`
+- [packages/app/e2e/regression/review-open-file.spec.ts](packages/app/e2e/regression/review-open-file.spec.ts) — 163 wierszy; deklaracje: `fileNode:144`, `fileDiff:154`
+- [packages/app/e2e/regression/review-state-persistence.spec.ts](packages/app/e2e/regression/review-state-persistence.spec.ts) — 153 wierszy; deklaracje: `selectMode:47`, `selectFile:52`, `expectSelectedFile:57`, `switchSession:61`, `setup:66`
+- [packages/app/e2e/regression/review-tab-switch.spec.ts](packages/app/e2e/regression/review-tab-switch.spec.ts) — 147 wierszy; deklaracje: `Probed:61`, `switchTab:63`, `writeProbe:67`, `readProbe:73`, `setup:77`
+- [packages/app/e2e/regression/review-terminal-stacked.spec.ts](packages/app/e2e/regression/review-terminal-stacked.spec.ts) — 306 wierszy; deklaracje: `selectMode:239`, `expectTree:246`, `expectMountedTree:251`, `expectStackGeometry:268`, `base64Encode:285`
+- [packages/app/e2e/regression/session-list-path-loading.spec.ts](packages/app/e2e/regression/session-list-path-loading.spec.ts) — 41 wierszy
+- [packages/app/e2e/regression/session-rename.spec.ts](packages/app/e2e/regression/session-rename.spec.ts) — 141 wierszy
+- [packages/app/e2e/regression/session-request-docks.spec.ts](packages/app/e2e/regression/session-request-docks.spec.ts) — 221 wierszy; deklaracje: `mockServer:168`
+- [packages/app/e2e/regression/session-timeline-accessibility.spec.ts](packages/app/e2e/regression/session-timeline-accessibility.spec.ts) — 22 wierszy; deklaracje: `lines:20`
+- [packages/app/e2e/regression/session-timeline-collapse-state.spec.ts](packages/app/e2e/regression/session-timeline-collapse-state.spec.ts) — 439 wierszy; deklaracje: `EventPayload:15`, `Window:21`, `configurePage:255`, `expectExpanded:270`, `readToolState:274`
+- [packages/app/e2e/regression/session-timeline-context-resize.spec.ts](packages/app/e2e/regression/session-timeline-context-resize.spec.ts) — 374 wierszy; deklaracje: `Message:20`, `configurePage:124`, `sampleExpansion:139`, `turn:214`, `contextTool:286`
+- [packages/app/e2e/regression/session-timeline-context-state.spec.ts](packages/app/e2e/regression/session-timeline-context-state.spec.ts) — 31 wierszy
+- [packages/app/e2e/regression/session-timeline-file-projection.spec.ts](packages/app/e2e/regression/session-timeline-file-projection.spec.ts) — 52 wierszy
+- [packages/app/e2e/regression/session-timeline-file-state.spec.ts](packages/app/e2e/regression/session-timeline-file-state.spec.ts) — 94 wierszy; deklaracje: `patchFile:59`, `editPart:71`, `diagnostic:86`, `source:90`
+- [packages/app/e2e/regression/session-timeline-history-root.spec.ts](packages/app/e2e/regression/session-timeline-history-root.spec.ts) — 242 wierszy; deklaracje: `timelineState:217`, `probeSamples:224`, `waitForProbeSamples:230`, `visibleContentHidden:238`
+- [packages/app/e2e/regression/session-timeline-lifecycle-state.spec.ts](packages/app/e2e/regression/session-timeline-lifecycle-state.spec.ts) — 111 wierszy; deklaracje: `lines:109`
+- [packages/app/e2e/regression/session-timeline-locale-projection.spec.ts](packages/app/e2e/regression/session-timeline-locale-projection.spec.ts) — 25 wierszy
+- [packages/app/e2e/regression/session-timeline-projection.spec.ts](packages/app/e2e/regression/session-timeline-projection.spec.ts) — 283 wierszy; deklaracje: `PartSeed:9`, `editPart:225`, `patchPart:245`, `patchFile:264`, `summaryDiff:276`
+- [packages/app/e2e/regression/session-timeline-reasoning-projection.spec.ts](packages/app/e2e/regression/session-timeline-reasoning-projection.spec.ts) — 93 wierszy
+- [packages/app/e2e/regression/session-timeline-reducer-projection.spec.ts](packages/app/e2e/regression/session-timeline-reducer-projection.spec.ts) — 43 wierszy
+- [packages/app/e2e/regression/session-timeline-shell-outline.spec.ts](packages/app/e2e/regression/session-timeline-shell-outline.spec.ts) — 228 wierszy; deklaracje: `captureCardEdges:161`
+- [packages/app/e2e/regression/session-timeline-tool-projection.spec.ts](packages/app/e2e/regression/session-timeline-tool-projection.spec.ts) — 99 wierszy; deklaracje: `questionInput:86`, `errorInput:90`
+- [packages/app/e2e/regression/session-timeline-tool-state.spec.ts](packages/app/e2e/regression/session-timeline-tool-state.spec.ts) — 77 wierszy
+- [packages/app/e2e/regression/session-timeline-transport.spec.ts](packages/app/e2e/regression/session-timeline-transport.spec.ts) — 154 wierszy; deklaracje: `stableTimelineRows:126`, `timelineRows:143`
+- [packages/app/e2e/regression/session-todo-dock-navigation.spec.ts](packages/app/e2e/regression/session-todo-dock-navigation.spec.ts) — 190 wierszy; deklaracje: `EventPayload:19`, `session:113`, `statusEvent:125`, `todoEvent:132`, `configurePage:139`
+- [packages/app/e2e/regression/subagent-child-navigation.spec.ts](packages/app/e2e/regression/subagent-child-navigation.spec.ts) — 203 wierszy; deklaracje: `EventPayload:15`, `setup:46`, `openChildFromParent:93`, `session:104`, `childSession:117`
+- [packages/app/e2e/regression/tab-navigate-mousedown.spec.ts](packages/app/e2e/regression/tab-navigate-mousedown.spec.ts) — 159 wierszy; deklaracje: `session:73`, `mockServer:85`, `json:148`, `sse:157`
+- [packages/app/e2e/regression/terminal-composer-focus.spec.ts](packages/app/e2e/regression/terminal-composer-focus.spec.ts) — 227 wierszy; deklaracje: `seedCachedTerminal:205`, `ptyLocation:221`, `ptyInfo:225`
+- [packages/app/e2e/regression/terminal-hidden.spec.ts](packages/app/e2e/regression/terminal-hidden.spec.ts) — 117 wierszy; deklaracje: `base64Encode:115`
+- [packages/app/e2e/regression/terminal-tab-switch.spec.ts](packages/app/e2e/regression/terminal-tab-switch.spec.ts) — 165 wierszy; deklaracje: `Probed:51`, `switchTab:53`, `writeProbe:57`, `readProbe:63`, `setup:67`
+- [packages/app/e2e/reproduction/timeline-suspense/index.html](packages/app/e2e/reproduction/timeline-suspense/index.html) — 34 wierszy
+- [packages/app/e2e/reproduction/timeline-suspense/main.tsx](packages/app/e2e/reproduction/timeline-suspense/main.tsx) — 315 wierszy; deklaracje: `MutationEvent:12`, `Snapshot:20`, `Window:62`, `App:73`, `Route:85`
+- [packages/app/e2e/reproduction/timeline-suspense/playwright.config.ts](packages/app/e2e/reproduction/timeline-suspense/playwright.config.ts) — 34 wierszy
+- [packages/app/e2e/reproduction/timeline-suspense/timeline-suspense.repro.ts](packages/app/e2e/reproduction/timeline-suspense/timeline-suspense.repro.ts) — 179 wierszy; deklaracje: `prepare:151`, `triggerBaselineSuspension:162`, `resolveSuspension:169`, `diagnostic:177`
+- [packages/app/e2e/reproduction/timeline-suspense/vite.config.ts](packages/app/e2e/reproduction/timeline-suspense/vite.config.ts) — 7 wierszy
+- [packages/app/e2e/smoke/session-timeline.fixture.ts](packages/app/e2e/smoke/session-timeline.fixture.ts) — 315 wierszy; deklaracje: `MessageInfo:31`, `MessagePart:32`, `Message:33`, `lorem:35`, `id:47`
+- [packages/app/e2e/smoke/session-timeline.spec.ts](packages/app/e2e/smoke/session-timeline.spec.ts) — 740 wierszy; deklaracje: `SmokeState:10`, `SmokeWindow:24`, `configureSmokePage:356`, `expectCanScrollToStart:493`, `timelineState:537`
+- [packages/app/e2e/tsconfig.json](packages/app/e2e/tsconfig.json) — 20 wierszy
+- [packages/app/e2e/user-story/model-selection-flow.spec.ts](packages/app/e2e/user-story/model-selection-flow.spec.ts) — 97 wierszy
+- [packages/app/e2e/utils/errors.ts](packages/app/e2e/utils/errors.ts) — 18 wierszy; deklaracje: `trackPageErrors:3`, `expectNoSmokeErrors:12`
+- [packages/app/e2e/utils/mock-server.ts](packages/app/e2e/utils/mock-server.ts) — 460 wierszy; deklaracje: `MockServerConfig:6`, `mockOpenCodeServer:33`, `location:317`, `currentPermission:324`, `currentSession:340`
+- [packages/app/e2e/utils/sse-transport.ts](packages/app/e2e/utils/sse-transport.ts) — 317 wierszy; deklaracje: `SseConnectionRecord:3`, `SseDeliveryAcknowledgement:14`, `SseEventOptions:23`, `SseTransport:30`, `BrowserCommand:45`
+- [packages/app/e2e/utils/visual-stability.ts](packages/app/e2e/utils/visual-stability.ts) — 54 wierszy; deklaracje: `startVisualStabilityProbe:13`, `stopVisualStabilityProbe:17`, `markVisualStability:24`, `analyzeVisualStability:28`, `analyzeVisualStabilityByMarker:32`
+- [packages/app/e2e/utils/visual-stability/analyzer.ts](packages/app/e2e/utils/visual-stability/analyzer.ts) — 209 wierszy; deklaracje: `analyzeVisualObservations:4`, `analyzeVisualTraceByMarker:168`, `regions:198`, `includes:207`
+- [packages/app/e2e/utils/visual-stability/capture.ts](packages/app/e2e/utils/visual-stability/capture.ts) — 51 wierszy; deklaracje: `VisualCapture:4`, `startVisualCapture:12`, `stopVisualCapture:42`
+- [packages/app/e2e/utils/visual-stability/index.ts](packages/app/e2e/utils/visual-stability/index.ts) — 8 wierszy
+- [packages/app/e2e/utils/visual-stability/invariant.ts](packages/app/e2e/utils/visual-stability/invariant.ts) — 112 wierszy; deklaracje: `RegionSet:3`, `VisualInvariant:5`, `VisualPlan:25`, `LegacyVisualStabilityOptions:33`, `visualPlan:53`
+- [packages/app/e2e/utils/visual-stability/model.ts](packages/app/e2e/utils/visual-stability/model.ts) — 47 wierszy; deklaracje: `VisualRegionSample:1`, `VisualViewportSample:19`, `VisualObservation:28`, `VisualMarker:36`, `VisualStabilityTrace:38`
+- [packages/app/e2e/utils/visual-stability/probe.ts](packages/app/e2e/utils/visual-stability/probe.ts) — 226 wierszy; deklaracje: `ProbeWindow:6`, `startVisualProbe:17`, `stopVisualProbe:195`, `markVisualProbe:214`, `stopCapture:222`
+- [packages/app/e2e/utils/visual-stability/regions.ts](packages/app/e2e/utils/visual-stability/regions.ts) — 18 wierszy; deklaracje: `VisualRegionDefinition:1`, `defineVisualRegions:7`, `mapVisualRegions:11`
+- [packages/app/e2e/utils/visual-stability/reporter.ts](packages/app/e2e/utils/visual-stability/reporter.ts) — 63 wierszy; deklaracje: `reportVisualStability:7`, `attachViolationFrames:30`
+- [packages/app/e2e/utils/visual-stability/scenario.ts](packages/app/e2e/utils/visual-stability/scenario.ts) — 20 wierszy; deklaracje: `runVisualStabilityScenario:7`
+- [packages/app/e2e/utils/waits.ts](packages/app/e2e/utils/waits.ts) — 11 wierszy; deklaracje: `expectAppVisible:5`, `expectSessionTitle:9`
+- [packages/app/happydom.ts](packages/app/happydom.ts) — 75 wierszy
+- [packages/app/index.html](packages/app/index.html) — 28 wierszy
+- [packages/app/package.json](packages/app/package.json) — 97 wierszy
+- [packages/app/playwright.config.ts](packages/app/playwright.config.ts) — 45 wierszy
+- [packages/app/public/_headers](packages/app/public/_headers)
+- [packages/app/public/apple-touch-icon-v3.png](packages/app/public/apple-touch-icon-v3.png)
+- [packages/app/public/apple-touch-icon.png](packages/app/public/apple-touch-icon.png)
+- [packages/app/public/assets/Inter.ttf](packages/app/public/assets/Inter.ttf)
+- [packages/app/public/assets/JetBrainsMonoNerdFontMono-Regular.woff2](packages/app/public/assets/JetBrainsMonoNerdFontMono-Regular.woff2)
+- [packages/app/public/favicon-96x96-v3.png](packages/app/public/favicon-96x96-v3.png)
+- [packages/app/public/favicon-96x96.png](packages/app/public/favicon-96x96.png)
+- [packages/app/public/favicon-v3.ico](packages/app/public/favicon-v3.ico)
+- [packages/app/public/favicon-v3.svg](packages/app/public/favicon-v3.svg)
+- [packages/app/public/favicon.ico](packages/app/public/favicon.ico)
+- [packages/app/public/favicon.svg](packages/app/public/favicon.svg)

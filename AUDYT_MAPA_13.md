@@ -1,0 +1,306 @@
+# opencode — mapa plików (13/23)
+
+Wykaz śledzonych plików z badanego commita. Liczba wierszy i nazwy deklaracji są wyciągane automatycznie z dostępnej kopii tekstowej; nie oznaczają ręcznej oceny pliku. Brak opisu oznacza, że zawartość nie była analizowana tą metodą (np. plik binarny, zasób lub pominięty plik).
+
+[Wróć do audytu](AUDYT_EDUKACYJNY.md) · [1](AUDYT_MAPA_01.md) · [2](AUDYT_MAPA_02.md) · [3](AUDYT_MAPA_03.md) · [4](AUDYT_MAPA_04.md) · [5](AUDYT_MAPA_05.md) · [6](AUDYT_MAPA_06.md) · [7](AUDYT_MAPA_07.md) · [8](AUDYT_MAPA_08.md) · [9](AUDYT_MAPA_09.md) · [10](AUDYT_MAPA_10.md) · [11](AUDYT_MAPA_11.md) · [12](AUDYT_MAPA_12.md) · [13](AUDYT_MAPA_13.md) · [14](AUDYT_MAPA_14.md) · [15](AUDYT_MAPA_15.md) · [16](AUDYT_MAPA_16.md) · [17](AUDYT_MAPA_17.md) · [18](AUDYT_MAPA_18.md) · [19](AUDYT_MAPA_19.md) · [20](AUDYT_MAPA_20.md) · [21](AUDYT_MAPA_21.md) · [22](AUDYT_MAPA_22.md) · [23](AUDYT_MAPA_23.md)
+
+- [packages/sdk/js/src/v2/gen/client/types.gen.ts](packages/sdk/js/src/v2/gen/client/types.gen.ts) — 202 wierszy; deklaracje: `ResponseStyle:8`, `Config:10`, `RequestOptions:54`, `ResolvedRequestOptions:82`, `RequestResult:90`
+- [packages/sdk/js/src/v2/gen/client/utils.gen.ts](packages/sdk/js/src/v2/gen/client/utils.gen.ts) — 289 wierszy; deklaracje: `ErrInterceptor:201`, `ReqInterceptor:208`, `ResInterceptor:210`, `Interceptors:212`, `Middleware:253`
+- [packages/sdk/js/src/v2/gen/core/auth.gen.ts](packages/sdk/js/src/v2/gen/core/auth.gen.ts) — 41 wierszy; deklaracje: `AuthToken:3`, `Auth:5`
+- [packages/sdk/js/src/v2/gen/core/bodySerializer.gen.ts](packages/sdk/js/src/v2/gen/core/bodySerializer.gen.ts) — 82 wierszy; deklaracje: `QuerySerializer:5`, `BodySerializer:7`, `QuerySerializerOptionsObject:9`, `QuerySerializerOptions:15`
+- [packages/sdk/js/src/v2/gen/core/params.gen.ts](packages/sdk/js/src/v2/gen/core/params.gen.ts) — 169 wierszy; deklaracje: `Slot:3`, `Field:5`, `Fields:38`, `FieldsConfig:43`, `KeyMap:53`
+- [packages/sdk/js/src/v2/gen/core/pathSerializer.gen.ts](packages/sdk/js/src/v2/gen/core/pathSerializer.gen.ts) — 167 wierszy; deklaracje: `SerializeOptions:3`, `SerializePrimitiveOptions:5`, `SerializerOptions:10`, `ArrayStyle:18`, `ArraySeparatorStyle:19`
+- [packages/sdk/js/src/v2/gen/core/queryKeySerializer.gen.ts](packages/sdk/js/src/v2/gen/core/queryKeySerializer.gen.ts) — 111 wierszy; deklaracje: `JsonValue:6`
+- [packages/sdk/js/src/v2/gen/core/serverSentEvents.gen.ts](packages/sdk/js/src/v2/gen/core/serverSentEvents.gen.ts) — 239 wierszy; deklaracje: `ServerSentEventsOptions:5`, `StreamEvent:67`, `ServerSentEventsResult:74`
+- [packages/sdk/js/src/v2/gen/core/types.gen.ts](packages/sdk/js/src/v2/gen/core/types.gen.ts) — 86 wierszy; deklaracje: `HttpMethod:6`, `Client:8`, `Config:20`, `IsExactlyNeverOrNeverUndefined:76`, `OmitNever:84`
+- [packages/sdk/js/src/v2/gen/core/utils.gen.ts](packages/sdk/js/src/v2/gen/core/utils.gen.ts) — 137 wierszy; deklaracje: `ArraySeparatorStyle:5`, `PathSerializer:11`, `getValidRequestBody:111`
+- [packages/sdk/js/src/v2/gen/sdk.gen.ts](packages/sdk/js/src/v2/gen/sdk.gen.ts) — 7219 wierszy; deklaracje: `Options:411`, `HeyApiClient:428`, `HeyApiRegistry:436`, `Auth:454`, `App:510`
+- [packages/sdk/js/src/v2/gen/types.gen.ts](packages/sdk/js/src/v2/gen/types.gen.ts) — 13625 wierszy; deklaracje: `ClientOptions:3`, `Event:7`, `QuestionReplied:98`, `QuestionRejected:104`, `OAuth:109`
+- [packages/sdk/js/src/v2/index.ts](packages/sdk/js/src/v2/index.ts) — 23 wierszy; deklaracje: `createOpencode:10`
+- [packages/sdk/js/src/v2/server.ts](packages/sdk/js/src/v2/server.ts) — 134 wierszy; deklaracje: `ServerOptions:5`, `TuiOptions:13`, `createOpencodeServer:22`, `createOpencodeTui:102`
+- [packages/sdk/js/sst-env.d.ts](packages/sdk/js/sst-env.d.ts) — 10 wierszy
+- [packages/sdk/js/test/session-history.test.ts](packages/sdk/js/test/session-history.test.ts) — 12 wierszy
+- [packages/sdk/js/tsconfig.json](packages/sdk/js/tsconfig.json) — 14 wierszy
+- [packages/sdk/openapi.json](packages/sdk/openapi.json)
+- [packages/server/package.json](packages/server/package.json) — 25 wierszy
+- [packages/server/src/api.ts](packages/server/src/api.ts) — 8 wierszy
+- [packages/server/src/auth.ts](packages/server/src/auth.ts) — 63 wierszy; deklaracje: `Credentials:5`, `DecodedCredentials:10`, `Info:15`, `Config:20`, `required:40`
+- [packages/server/src/cors.ts](packages/server/src/cors.ts) — 34 wierszy; deklaracje: `CorsOptions:5`, `isAllowedCorsOrigin:11`, `isAllowedRequestOrigin:22`, `sameHost:28`
+- [packages/server/src/handlers.ts](packages/server/src/handlers.ts) — 40 wierszy
+- [packages/server/src/handlers/agent.ts](packages/server/src/handlers/agent.ts) — 13 wierszy
+- [packages/server/src/handlers/command.ts](packages/server/src/handlers/command.ts) — 8 wierszy
+- [packages/server/src/handlers/credential.ts](packages/server/src/handlers/credential.ts) — 22 wierszy
+- [packages/server/src/handlers/event.ts](packages/server/src/handlers/event.ts) — 52 wierszy; deklaracje: `eventData:11`
+- [packages/server/src/handlers/fs.ts](packages/server/src/handlers/fs.ts) — 39 wierszy
+- [packages/server/src/handlers/health.ts](packages/server/src/handlers/health.ts) — 7 wierszy
+- [packages/server/src/handlers/integration.ts](packages/server/src/handlers/integration.ts) — 104 wierszy
+- [packages/server/src/handlers/location.ts](packages/server/src/handlers/location.ts) — 18 wierszy
+- [packages/server/src/handlers/message.ts](packages/server/src/handlers/message.ts) — 81 wierszy
+- [packages/server/src/handlers/model.ts](packages/server/src/handlers/model.ts) — 17 wierszy
+- [packages/server/src/handlers/permission.ts](packages/server/src/handlers/permission.ts) — 98 wierszy; deklaracje: `missingRequest:10`
+- [packages/server/src/handlers/project-copy.ts](packages/server/src/handlers/project-copy.ts) — 68 wierszy; deklaracje: `badRequest:42`, `message:57`
+- [packages/server/src/handlers/provider.ts](packages/server/src/handlers/provider.ts) — 32 wierszy
+- [packages/server/src/handlers/pty.ts](packages/server/src/handlers/pty.ts) — 223 wierszy
+- [packages/server/src/handlers/question.ts](packages/server/src/handlers/question.ts) — 62 wierszy; deklaracje: `missingRequest:8`
+- [packages/server/src/handlers/reference.ts](packages/server/src/handlers/reference.ts) — 8 wierszy
+- [packages/server/src/handlers/session.ts](packages/server/src/handlers/session.ts) — 385 wierszy
+- [packages/server/src/handlers/skill.ts](packages/server/src/handlers/skill.ts) — 8 wierszy
+- [packages/server/src/location.ts](packages/server/src/location.ts) — 60 wierszy; deklaracje: `LocationServices:9`, `LocationMiddleware:11`, `response:15`, `ref:29`, `decode:41`
+- [packages/server/src/middleware/authorization.ts](packages/server/src/middleware/authorization.ts) — 58 wierszy; deklaracje: `emptyCredential:12`, `decodeCredential:16`, `credentialFromRequest:29`
+- [packages/server/src/middleware/schema-error.ts](packages/server/src/middleware/schema-error.ts) — 20 wierszy; deklaracje: `truncateReason:9`
+- [packages/server/src/middleware/session-location.ts](packages/server/src/middleware/session-location.ts) — 67 wierszy; deklaracje: `SessionLocationMiddleware:15`
+- [packages/server/src/pty-environment.ts](packages/server/src/pty-environment.ts) — 19 wierszy; deklaracje: `Interface:6`, `Service:10`
+- [packages/server/src/routes.ts](packages/server/src/routes.ts) — 68 wierszy; deklaracje: `createRoutes:39`, `createEmbeddedRoutes:47`, `makeRoutes:51`
+- [packages/server/sst-env.d.ts](packages/server/sst-env.d.ts) — 10 wierszy
+- [packages/server/tsconfig.json](packages/server/tsconfig.json) — 8 wierszy
+- [packages/session-ui/AGENTS.md](packages/session-ui/AGENTS.md) — 7 wierszy
+- [packages/session-ui/package.json](packages/session-ui/package.json) — 67 wierszy
+- [packages/session-ui/src/components/apply-patch-file.test.ts](packages/session-ui/src/components/apply-patch-file.test.ts) — 43 wierszy
+- [packages/session-ui/src/components/apply-patch-file.ts](packages/session-ui/src/components/apply-patch-file.ts) — 78 wierszy; deklaracje: `Kind:3`, `Raw:5`, `ApplyPatchFile:18`, `kind:28`, `status:32`
+- [packages/session-ui/src/components/basic-tool.css](packages/session-ui/src/components/basic-tool.css) — 358 wierszy
+- [packages/session-ui/src/components/basic-tool.stories.tsx](packages/session-ui/src/components/basic-tool.stories.tsx) — 133 wierszy
+- [packages/session-ui/src/components/basic-tool.tsx](packages/session-ui/src/components/basic-tool.tsx) — 343 wierszy; deklaracje: `TriggerTitle:9`, `BasicToolProps:25`, `flushDeferredMounts:51`, `scheduleDeferredFlush:65`, `scheduleDeferredMount:72`
+- [packages/session-ui/src/components/dock-prompt.stories.tsx](packages/session-ui/src/components/dock-prompt.stories.tsx) — 62 wierszy
+- [packages/session-ui/src/components/dock-prompt.tsx](packages/session-ui/src/components/dock-prompt.tsx) — 23 wierszy; deklaracje: `DockPrompt:4`
+- [packages/session-ui/src/components/file-media.tsx](packages/session-ui/src/components/file-media.tsx) — 291 wierszy; deklaracje: `FileMediaOptions:14`, `mediaValue:26`, `FileMedia:32`
+- [packages/session-ui/src/components/file-search.tsx](packages/session-ui/src/components/file-search.tsx) — 72 wierszy; deklaracje: `FileSearchBar:5`
+- [packages/session-ui/src/components/file-ssr.tsx](packages/session-ui/src/components/file-ssr.tsx) — 197 wierszy; deklaracje: `DiffPreload:19`, `SSRDiffFileProps:21`, `DiffSSRViewer:25`, `FileSSRProps:192`, `FileSSR:194`
+- [packages/session-ui/src/components/file.css](packages/session-ui/src/components/file.css) — 46 wierszy
+- [packages/session-ui/src/components/file.tsx](packages/session-ui/src/components/file.tsx) — 1230 wierszy; deklaracje: `DiffLineAnnotation:6`, `FileContents:7`, `FileDiffMetadata:8`, `FileDiffOptions:10`, `FileOptions:12`
+- [packages/session-ui/src/components/line-comment-annotations.tsx](packages/session-ui/src/components/line-comment-annotations.tsx) — 637 wierszy; deklaracje: `LineCommentAnnotationMeta:10`, `LineCommentAnnotation:14`, `LineCommentAnnotationsProps:20`, `LineCommentAnnotationsWithSideProps:28`, `HoverCommentLine:32`
+- [packages/session-ui/src/components/line-comment-styles.ts](packages/session-ui/src/components/line-comment-styles.ts) — 292 wierszy; deklaracje: `installLineCommentStyles:277`
+- [packages/session-ui/src/components/line-comment.stories.tsx](packages/session-ui/src/components/line-comment.stories.tsx) — 115 wierszy
+- [packages/session-ui/src/components/line-comment.tsx](packages/session-ui/src/components/line-comment.tsx) — 439 wierszy; deklaracje: `LineCommentVariant:12`, `InlineGlyph:14`, `LineCommentAnchorProps:33`, `LineCommentProps:130`, `LineCommentAddProps:159`
+- [packages/session-ui/src/components/markdown-cache.tsx](packages/session-ui/src/components/markdown-cache.tsx) — 69 wierszy; deklaracje: `MarkdownCacheEntry:5`, `sanitizeMarkdown:35`, `getCachedMarkdown:40`, `touchCachedMarkdown:44`, `preloadMarkdown:55`
+- [packages/session-ui/src/components/markdown-code-state.test.ts](packages/session-ui/src/components/markdown-code-state.test.ts) — 32 wierszy
+- [packages/session-ui/src/components/markdown-code-state.ts](packages/session-ui/src/components/markdown-code-state.ts) — 22 wierszy; deklaracje: `RenderedCodeState:3`, `shouldResetCodeTokens:11`
+- [packages/session-ui/src/components/markdown-inline-code-kind.test.ts](packages/session-ui/src/components/markdown-inline-code-kind.test.ts) — 46 wierszy
+- [packages/session-ui/src/components/markdown-inline-code-kind.ts](packages/session-ui/src/components/markdown-inline-code-kind.ts) — 1915 wierszy; deklaracje: `inlineCodeKind:1891`, `hasPathExtension:1901`, `hasPathFileName:1909`
+- [packages/session-ui/src/components/markdown-projection.ts](packages/session-ui/src/components/markdown-projection.ts) — 11 wierszy; deklaracje: `completedProjection:3`, `canReusePendingBlock:7`
+- [packages/session-ui/src/components/markdown-stream.test.ts](packages/session-ui/src/components/markdown-stream.test.ts) — 231 wierszy
+- [packages/session-ui/src/components/markdown-stream.ts](packages/session-ui/src/components/markdown-stream.ts) — 122 wierszy; deklaracje: `Block:5`, `Projection:13`, `refs:18`, `language:23`, `openCode:27`
+- [packages/session-ui/src/components/markdown-worker-protocol.test.ts](packages/session-ui/src/components/markdown-worker-protocol.test.ts) — 87 wierszy
+- [packages/session-ui/src/components/markdown-worker-protocol.ts](packages/session-ui/src/components/markdown-worker-protocol.ts) — 54 wierszy; deklaracje: `MarkdownToken:3`, `MarkdownWorkerRequest:5`, `MarkdownWorkerResponse:11`, `MarkdownWorkerState:26`, `shouldReleaseMarkdownWorkerState:34`
+- [packages/session-ui/src/components/markdown-worker-queue.test.ts](packages/session-ui/src/components/markdown-worker-queue.test.ts) — 49 wierszy
+- [packages/session-ui/src/components/markdown-worker-queue.ts](packages/session-ui/src/components/markdown-worker-queue.ts) — 64 wierszy; deklaracje: `createLatestWorkerQueue:1`, `Slot:6`
+- [packages/session-ui/src/components/markdown-worker-transport.test.ts](packages/session-ui/src/components/markdown-worker-transport.test.ts) — 56 wierszy
+- [packages/session-ui/src/components/markdown-worker-transport.ts](packages/session-ui/src/components/markdown-worker-transport.ts) — 41 wierszy; deklaracje: `createWorkerTransport:1`
+- [packages/session-ui/src/components/markdown-worker.ts](packages/session-ui/src/components/markdown-worker.ts) — 220 wierszy; deklaracje: `MarkdownWorkerRequest:5`, `MarkdownWorkerResponse:6`, `MarkdownWorkerState:7`, `HighlightPending:12`, `ProjectPending:19`
+- [packages/session-ui/src/components/markdown.css](packages/session-ui/src/components/markdown.css) — 385 wierszy
+- [packages/session-ui/src/components/markdown.stories.tsx](packages/session-ui/src/components/markdown.stories.tsx) — 53 wierszy
+- [packages/session-ui/src/components/markdown.tsx](packages/session-ui/src/components/markdown.tsx) — 717 wierszy; deklaracje: `Accessor:5`, `ComponentProps:6`, `Setter:12`, `RenderedBlock:36`, `RenderResult:50`
+- [packages/session-ui/src/components/markdown.worker.ts](packages/session-ui/src/components/markdown.worker.ts) — 153 wierszy; deklaracje: `BundledLanguage:11`, `ThemedToken:12`, `Stream:18`, `parse:63`, `runProject:71`
+- [packages/session-ui/src/components/message-file.test.ts](packages/session-ui/src/components/message-file.test.ts) — 63 wierszy; deklaracje: `file:5`
+- [packages/session-ui/src/components/message-file.ts](packages/session-ui/src/components/message-file.ts) — 34 wierszy; deklaracje: `attached:5`, `inline:9`, `kind:13`, `typeLabel:26`
+- [packages/session-ui/src/components/message-nav.css](packages/session-ui/src/components/message-nav.css) — 127 wierszy
+- [packages/session-ui/src/components/message-nav.stories.tsx](packages/session-ui/src/components/message-nav.stories.tsx) — 7 wierszy
+- [packages/session-ui/src/components/message-nav.tsx](packages/session-ui/src/components/message-nav.tsx) — 102 wierszy; deklaracje: `MessageNav:7`
+- [packages/session-ui/src/components/message-part-text.ts](packages/session-ui/src/components/message-part-text.ts) — 3 wierszy; deklaracje: `readPartText:1`
+- [packages/session-ui/src/components/message-part.css](packages/session-ui/src/components/message-part.css) — 1582 wierszy
+- [packages/session-ui/src/components/message-part.stories.tsx](packages/session-ui/src/components/message-part.stories.tsx) — 7 wierszy
+- [packages/session-ui/src/components/message-part.test.ts](packages/session-ui/src/components/message-part.test.ts) — 28 wierszy
+- [packages/session-ui/src/components/message-part.tsx](packages/session-ui/src/components/message-part.tsx) — 2642 wierszy; deklaracje: `JSX:13`, `ComponentProps:14`, `writeClipboard:70`, `ShellSubmessage:94`, `Diagnostic:127`
+- [packages/session-ui/src/components/part-default-open.test.ts](packages/session-ui/src/components/part-default-open.test.ts) — 66 wierszy; deklaracje: `tool:49`
+- [packages/session-ui/src/components/part-default-open.ts](packages/session-ui/src/components/part-default-open.ts) — 26 wierszy; deklaracje: `deletionOnly:3`, `partDefaultOpen:19`
+- [packages/session-ui/src/components/session-diff.test.ts](packages/session-ui/src/components/session-diff.test.ts) — 135 wierszy
+- [packages/session-ui/src/components/session-diff.ts](packages/session-ui/src/components/session-diff.ts) — 145 wierszy; deklaracje: `LegacyDiff:6`, `SnapshotDiff:16`, `ReviewDiff:17`, `DiffSource:18`, `ViewDiff:20`
+- [packages/session-ui/src/components/session-retry.tsx](packages/session-ui/src/components/session-retry.tsx) — 74 wierszy; deklaracje: `SessionRetry:8`
+- [packages/session-ui/src/components/session-review.css](packages/session-ui/src/components/session-review.css) — 249 wierszy
+- [packages/session-ui/src/components/session-review.stories.tsx](packages/session-ui/src/components/session-review.stories.tsx) — 7 wierszy
+- [packages/session-ui/src/components/session-review.tsx](packages/session-ui/src/components/session-review.tsx) — 657 wierszy; deklaracje: `SessionReviewDiffStyle:32`, `SessionReviewComment:34`, `SessionReviewLineComment:41`, `SessionReviewCommentUpdate:48`, `SessionReviewCommentDelete:52`
+- [packages/session-ui/src/components/session-turn.css](packages/session-ui/src/components/session-turn.css) — 243 wierszy
+- [packages/session-ui/src/components/session-turn.stories.tsx](packages/session-ui/src/components/session-turn.stories.tsx) — 7 wierszy
+- [packages/session-ui/src/components/session-turn.tsx](packages/session-ui/src/components/session-turn.tsx) — 540 wierszy; deklaracje: `SnapshotFileDiff:3`, `record:30`, `unwrap:34`, `same:83`, `list:89`
+- [packages/session-ui/src/components/shell-submessage-motion.stories.tsx](packages/session-ui/src/components/shell-submessage-motion.stories.tsx) — 346 wierszy; deklaracje: `SpringSubmessage:104`
+- [packages/session-ui/src/components/shell-submessage.css](packages/session-ui/src/components/shell-submessage.css) — 23 wierszy
+- [packages/session-ui/src/components/timeline-playground.stories.tsx](packages/session-ui/src/components/timeline-playground.stories.tsx) — 2090 wierszy; deklaracje: `sum:195`, `average:199`, `record:457`, `normalize:461`, `mkUser:503`
+- [packages/session-ui/src/components/tool-count-label.css](packages/session-ui/src/components/tool-count-label.css) — 57 wierszy
+- [packages/session-ui/src/components/tool-count-label.tsx](packages/session-ui/src/components/tool-count-label.tsx) — 61 wierszy; deklaracje: `split:5`, `common:15`, `AnimatedCountLabel:27`
+- [packages/session-ui/src/components/tool-count-summary.css](packages/session-ui/src/components/tool-count-summary.css) — 102 wierszy
+- [packages/session-ui/src/components/tool-count-summary.stories.tsx](packages/session-ui/src/components/tool-count-summary.stories.tsx) — 235 wierszy; deklaracje: `rand:30`
+- [packages/session-ui/src/components/tool-count-summary.tsx](packages/session-ui/src/components/tool-count-summary.tsx) — 47 wierszy; deklaracje: `CountItem:5`, `AnimatedCountList:10`
+- [packages/session-ui/src/components/tool-error-card.css](packages/session-ui/src/components/tool-error-card.css) — 91 wierszy
+- [packages/session-ui/src/components/tool-error-card.stories.tsx](packages/session-ui/src/components/tool-error-card.stories.tsx) — 92 wierszy
+- [packages/session-ui/src/components/tool-error-card.tsx](packages/session-ui/src/components/tool-error-card.tsx) — 162 wierszy; deklaracje: `ToolErrorCardProps:10`, `ToolErrorCard:22`
+- [packages/session-ui/src/components/tool-status-title.css](packages/session-ui/src/components/tool-status-title.css) — 89 wierszy
+- [packages/session-ui/src/components/tool-status-title.tsx](packages/session-ui/src/components/tool-status-title.tsx) — 133 wierszy; deklaracje: `common:5`, `contentWidth:17`, `ToolStatusTitle:22`
+- [packages/session-ui/src/context/data.tsx](packages/session-ui/src/context/data.tsx) — 72 wierszy; deklaracje: `NormalizedProviderListResponse:6`, `Data:18`, `NavigateToSessionFn:45`, `SessionHrefFn:47`
+- [packages/session-ui/src/context/index.ts](packages/session-ui/src/context/index.ts) — 1 wierszy
+- [packages/session-ui/src/pierre/comment-hover.ts](packages/session-ui/src/pierre/comment-hover.ts) — 83 wierszy; deklaracje: `HoverCommentLine:1`, `createHoverCommentUtility:6`
+- [packages/session-ui/src/pierre/commented-lines.ts](packages/session-ui/src/pierre/commented-lines.ts) — 91 wierszy; deklaracje: `CommentSide:4`, `annotationIndex:6`, `clear:14`, `markCommentedDiffLines:22`, `markCommentedFileLines:66`
+- [packages/session-ui/src/pierre/diff-selection.ts](packages/session-ui/src/pierre/diff-selection.ts) — 71 wierszy; deklaracje: `DiffSelectionSide:3`, `findDiffSide:5`, `diffLineIndex:18`, `diffRowIndex:32`, `fixDiffSelection:45`
+- [packages/session-ui/src/pierre/file-find.ts](packages/session-ui/src/pierre/file-find.ts) — 485 wierszy; deklaracje: `FindHost:6`, `isEditable:19`, `hostForNode:26`, `installShortcuts:34`, `clearHighlightFind:79`
+- [packages/session-ui/src/pierre/file-runtime.ts](packages/session-ui/src/pierre/file-runtime.ts) — 114 wierszy; deklaracje: `ReadyWatcher:1`, `createReadyWatcher:6`, `clearReadyWatcher:10`, `getViewerHost:15`, `getViewerRoot:22`
+- [packages/session-ui/src/pierre/file-selection.ts](packages/session-ui/src/pierre/file-selection.ts) — 85 wierszy; deklaracje: `findElement:4`, `findFileLineNumber:10`, `findDiffLineNumber:22`, `findCodeSelectionSide:36`, `readShadowLineSelection:46`
+- [packages/session-ui/src/pierre/index.ts](packages/session-ui/src/pierre/index.ts) — 218 wierszy; deklaracje: `DiffProps:5`, `createDefaultOptions:188`
+- [packages/session-ui/src/pierre/media.ts](packages/session-ui/src/pierre/media.ts) — 110 wierszy; deklaracje: `MediaKind:3`, `MediaValue:8`, `mediaRecord:10`, `normalizeMimeType:20`, `fileExtension:29`
+- [packages/session-ui/src/pierre/selection-bridge.ts](packages/session-ui/src/pierre/selection-bridge.ts) — 132 wierszy; deklaracje: `SelectionKey:3`, `SelectionVars:4`, `PointerMode:6`, `Side:7`, `LineSpan:8`
+- [packages/session-ui/src/pierre/virtualizer.ts](packages/session-ui/src/pierre/virtualizer.ts) — 100 wierszy; deklaracje: `Target:3`, `Entry:9`, `scrollable:22`, `scrollRoot:26`, `target:35`
+- [packages/session-ui/src/pierre/worker.ts](packages/session-ui/src/pierre/worker.ts) — 55 wierszy; deklaracje: `WorkerPoolStyle:7`, `workerFactory:9`, `createPool:13`, `getWorkerPool:38`, `getWorkerPools:50`
+- [packages/session-ui/src/styles/index.css](packages/session-ui/src/styles/index.css) — 14 wierszy
+- [packages/session-ui/src/v2/components/attachment-card-v2.css](packages/session-ui/src/v2/components/attachment-card-v2.css) — 70 wierszy
+- [packages/session-ui/src/v2/components/attachment-card-v2.tsx](packages/session-ui/src/v2/components/attachment-card-v2.tsx) — 33 wierszy; deklaracje: `AttachmentCardV2:5`
+- [packages/session-ui/src/v2/components/basic-tool-v2.css](packages/session-ui/src/v2/components/basic-tool-v2.css) — 163 wierszy
+- [packages/session-ui/src/v2/components/basic-tool-v2.stories.tsx](packages/session-ui/src/v2/components/basic-tool-v2.stories.tsx) — 137 wierszy
+- [packages/session-ui/src/v2/components/basic-tool-v2.tsx](packages/session-ui/src/v2/components/basic-tool-v2.tsx) — 139 wierszy; deklaracje: `ChevronIcon:7`, `BasicToolV2TriggerTitle:26`, `BasicToolV2Props:37`, `BasicToolV2:47`
+- [packages/session-ui/src/v2/components/comment-card-v2.tsx](packages/session-ui/src/v2/components/comment-card-v2.tsx) — 64 wierszy; deklaracje: `CommentCardV2:7`
+- [packages/session-ui/src/v2/components/line-comment-annotations-v2.tsx](packages/session-ui/src/v2/components/line-comment-annotations-v2.tsx) — 227 wierszy; deklaracje: `LineCommentShape:8`, `LineCommentStateProps:9`, `LineCommentControllerV2Props:16`, `CommentProps:30`, `DraftProps:40`
+- [packages/session-ui/src/v2/components/prompt-input/attachments.css](packages/session-ui/src/v2/components/prompt-input/attachments.css) — 44 wierszy
+- [packages/session-ui/src/v2/components/prompt-input/attachments.ts](packages/session-ui/src/v2/components/prompt-input/attachments.ts) — 278 wierszy; deklaracje: `PromptTarget:63`, `PromptInputV2AttachmentConfig:69`, `createPromptInputV2Attachments:84`, `blobReference:224`, `attachmentMime:247`
+- [packages/session-ui/src/v2/components/prompt-input/index.tsx](packages/session-ui/src/v2/components/prompt-input/index.tsx) — 723 wierszy; deklaracje: `PromptInputV2Mode:35`, `PromptInputV2Props:37`, `PromptInputV2:49`, `renderPromptInputV2Editor:272`, `parsePromptInputV2Editor:301`
+- [packages/session-ui/src/v2/components/prompt-input/interaction.ts](packages/session-ui/src/v2/components/prompt-input/interaction.ts) — 482 wierszy; deklaracje: `PromptInputV2InteractionCommand:18`, `PromptInputV2InteractionEvent:19`, `PromptInputV2SelectControl:22`, `PromptInputV2ViewConfig:29`, `createPromptInputV2State:52`
+- [packages/session-ui/src/v2/components/prompt-input/machine.test.ts](packages/session-ui/src/v2/components/prompt-input/machine.test.ts) — 164 wierszy; deklaracje: `persisted:11`
+- [packages/session-ui/src/v2/components/prompt-input/machine.ts](packages/session-ui/src/v2/components/prompt-input/machine.ts) — 261 wierszy; deklaracje: `PromptInputV2InteractionState:3`, `PromptInputV2InteractionEvent:17`, `PromptInputV2InteractionCommand:35`, `PromptInputV2Transition:43`, `createPromptInputV2InteractionState:49`
+- [packages/session-ui/src/v2/components/prompt-input/prompt-input.stories.tsx](packages/session-ui/src/v2/components/prompt-input/prompt-input.stories.tsx) — 221 wierszy; deklaracje: `ControlledPromptInput:107`
+- [packages/session-ui/src/v2/components/prompt-input/store.test.ts](packages/session-ui/src/v2/components/prompt-input/store.test.ts) — 116 wierszy; deklaracje: `createPromptStore:6`
+- [packages/session-ui/src/v2/components/prompt-input/store.ts](packages/session-ui/src/v2/components/prompt-input/store.ts) — 152 wierszy; deklaracje: `PromptInputV2StoreTuple:13`, `PromptInputV2StoreInput:18`, `createPromptInputV2Store:20`, `PromptInputV2Store:94`, `insertText:96`
+- [packages/session-ui/src/v2/components/prompt-input/types.ts](packages/session-ui/src/v2/components/prompt-input/types.ts) — 106 wierszy; deklaracje: `PromptInputV2PartBase:3`, `PromptInputV2TextPart:9`, `PromptInputV2FilePart:13`, `PromptInputV2AgentPart:23`, `PromptInputV2Attachment:28`
+- [packages/session-ui/src/v2/components/session-file-panel-v2.tsx](packages/session-ui/src/v2/components/session-file-panel-v2.tsx) — 43 wierszy; deklaracje: `SessionFilePanelV2:4`, `SessionFilePanelV2Title:37`, `SessionFilePanelV2Empty:41`
+- [packages/session-ui/src/v2/components/session-progress-indicator-v2.css](packages/session-ui/src/v2/components/session-progress-indicator-v2.css) — 875 wierszy
+- [packages/session-ui/src/v2/components/session-progress-indicator-v2.stories.tsx](packages/session-ui/src/v2/components/session-progress-indicator-v2.stories.tsx) — 66 wierszy
+- [packages/session-ui/src/v2/components/session-progress-indicator-v2.tsx](packages/session-ui/src/v2/components/session-progress-indicator-v2.tsx) — 32 wierszy; deklaracje: `SessionProgressIndicatorV2:14`
+- [packages/session-ui/src/v2/components/session-review-empty-changes-v2.tsx](packages/session-ui/src/v2/components/session-review-empty-changes-v2.tsx) — 17 wierszy; deklaracje: `SessionReviewEmptyChangesV2:5`
+- [packages/session-ui/src/v2/components/session-review-empty-no-git-v2.tsx](packages/session-ui/src/v2/components/session-review-empty-no-git-v2.tsx) — 28 wierszy; deklaracje: `SessionReviewEmptyNoGitV2Props:6`, `SessionReviewEmptyNoGitV2:11`
+- [packages/session-ui/src/v2/components/session-review-file-preview-v2-virtualize.test.ts](packages/session-ui/src/v2/components/session-review-file-preview-v2-virtualize.test.ts) — 13 wierszy
+- [packages/session-ui/src/v2/components/session-review-file-preview-v2-virtualize.ts](packages/session-ui/src/v2/components/session-review-file-preview-v2-virtualize.ts) — 5 wierszy; deklaracje: `shouldVirtualizeReviewDiff:3`
+- [packages/session-ui/src/v2/components/session-review-file-preview-v2.tsx](packages/session-ui/src/v2/components/session-review-file-preview-v2.tsx) — 290 wierszy; deklaracje: `ReviewDiff:31`, `SessionReviewFilePreviewV2Props:33`, `statusLabel:48`, `statusType:54`, `selectionSide:60`
+- [packages/session-ui/src/v2/components/session-review-v2.css](packages/session-ui/src/v2/components/session-review-v2.css) — 527 wierszy
+- [packages/session-ui/src/v2/components/session-review-v2.tsx](packages/session-ui/src/v2/components/session-review-v2.tsx) — 347 wierszy; deklaracje: `SessionReviewExpandMode:22`, `SessionReviewV2Props:24`, `SessionReviewV2SidebarProps:41`, `SessionReviewV2Sidebar:62`, `SessionReviewV2:151`
+- [packages/session-ui/src/v2/components/tool-error-card-v2.css](packages/session-ui/src/v2/components/tool-error-card-v2.css) — 200 wierszy
+- [packages/session-ui/src/v2/components/tool-error-card-v2.stories.tsx](packages/session-ui/src/v2/components/tool-error-card-v2.stories.tsx) — 91 wierszy
+- [packages/session-ui/src/v2/components/tool-error-card-v2.tsx](packages/session-ui/src/v2/components/tool-error-card-v2.tsx) — 166 wierszy; deklaracje: `BanIcon:5`, `LoaderIcon:25`, `ChevronIcon:60`, `ToolErrorCardV2Props:79`, `ToolErrorCardV2:91`
+- [packages/session-ui/sst-env.d.ts](packages/session-ui/sst-env.d.ts) — 10 wierszy
+- [packages/session-ui/tsconfig.json](packages/session-ui/tsconfig.json) — 19 wierszy
+- [packages/slack/.env.example](packages/slack/.env.example)
+- [packages/slack/.gitignore](packages/slack/.gitignore)
+- [packages/slack/README.md](packages/slack/README.md) — 27 wierszy
+- [packages/slack/package.json](packages/slack/package.json) — 19 wierszy
+- [packages/slack/src/index.ts](packages/slack/src/index.ts) — 145 wierszy; deklaracje: `handleToolUpdate:41`
+- [packages/slack/sst-env.d.ts](packages/slack/sst-env.d.ts) — 10 wierszy
+- [packages/slack/tsconfig.json](packages/slack/tsconfig.json) — 8 wierszy
+- [packages/stats/AGENTS.md](packages/stats/AGENTS.md) — 1 wierszy
+- [packages/stats/README.md](packages/stats/README.md) — 16 wierszy
+- [packages/stats/app/.gitignore](packages/stats/app/.gitignore)
+- [packages/stats/app/app.config.ts](packages/stats/app/app.config.ts) — 5 wierszy
+- [packages/stats/app/package.json](packages/stats/app/package.json) — 40 wierszy
+- [packages/stats/app/public/banner.jpg](packages/stats/app/public/banner.jpg)
+- [packages/stats/app/public/banner.png](packages/stats/app/public/banner.png)
+- [packages/stats/app/src/app.css](packages/stats/app/src/app.css) — 123 wierszy
+- [packages/stats/app/src/app.tsx](packages/stats/app/src/app.tsx) — 35 wierszy; deklaracje: `AppMeta:10`, `App:15`
+- [packages/stats/app/src/asset/logo-ornate-dark.svg](packages/stats/app/src/asset/logo-ornate-dark.svg)
+- [packages/stats/app/src/asset/logo-ornate-light.svg](packages/stats/app/src/asset/logo-ornate-light.svg)
+- [packages/stats/app/src/component/locale-links.tsx](packages/stats/app/src/component/locale-links.tsx) — 17 wierszy; deklaracje: `LocaleLinks:6`
+- [packages/stats/app/src/component/model-compare-detail.tsx](packages/stats/app/src/component/model-compare-detail.tsx) — 1184 wierszy; deklaracje: `ModelUsagePoint:5`, `RetentionEntry:6`, `StatsModelComparisonInput:7`, `StatsModelComparisonEntry:8`, `ComparisonModelRef:18`
+- [packages/stats/app/src/context/i18n.tsx](packages/stats/app/src/context/i18n.tsx) — 27 wierszy; deklaracje: `resolve:6`
+- [packages/stats/app/src/context/language.tsx](packages/stats/app/src/context/language.tsx) — 70 wierszy; deklaracje: `Locale:17`, `initial:20`
+- [packages/stats/app/src/entry-client.tsx](packages/stats/app/src/entry-client.tsx) — 7 wierszy
+- [packages/stats/app/src/entry-server.tsx](packages/stats/app/src/entry-server.tsx) — 53 wierszy
+- [packages/stats/app/src/global.d.ts](packages/stats/app/src/global.d.ts) — 1 wierszy
+- [packages/stats/app/src/i18n.ts](packages/stats/app/src/i18n.ts) — 276 wierszy; deklaracje: `Key:250`, `Dict:251`, `dict:274`
+- [packages/stats/app/src/i18n/ar.ts](packages/stats/app/src/i18n/ar.ts) — 228 wierszy
+- [packages/stats/app/src/i18n/br.ts](packages/stats/app/src/i18n/br.ts) — 231 wierszy
+- [packages/stats/app/src/i18n/da.ts](packages/stats/app/src/i18n/da.ts) — 229 wierszy
+- [packages/stats/app/src/i18n/de.ts](packages/stats/app/src/i18n/de.ts) — 231 wierszy
+- [packages/stats/app/src/i18n/es.ts](packages/stats/app/src/i18n/es.ts) — 230 wierszy
+- [packages/stats/app/src/i18n/fr.ts](packages/stats/app/src/i18n/fr.ts) — 232 wierszy
+- [packages/stats/app/src/i18n/it.ts](packages/stats/app/src/i18n/it.ts) — 231 wierszy
+- [packages/stats/app/src/i18n/ja.ts](packages/stats/app/src/i18n/ja.ts) — 232 wierszy
+- [packages/stats/app/src/i18n/ko.ts](packages/stats/app/src/i18n/ko.ts) — 231 wierszy
+- [packages/stats/app/src/i18n/no.ts](packages/stats/app/src/i18n/no.ts) — 230 wierszy
+- [packages/stats/app/src/i18n/pl.ts](packages/stats/app/src/i18n/pl.ts) — 229 wierszy
+- [packages/stats/app/src/i18n/ru.ts](packages/stats/app/src/i18n/ru.ts) — 231 wierszy
+- [packages/stats/app/src/i18n/th.ts](packages/stats/app/src/i18n/th.ts) — 231 wierszy
+- [packages/stats/app/src/i18n/tr.ts](packages/stats/app/src/i18n/tr.ts) — 231 wierszy
+- [packages/stats/app/src/i18n/uk.ts](packages/stats/app/src/i18n/uk.ts) — 231 wierszy
+- [packages/stats/app/src/i18n/zh.ts](packages/stats/app/src/i18n/zh.ts) — 230 wierszy
+- [packages/stats/app/src/i18n/zht.ts](packages/stats/app/src/i18n/zht.ts) — 230 wierszy
+- [packages/stats/app/src/lib/comparison-pages.ts](packages/stats/app/src/lib/comparison-pages.ts) — 286 wierszy; deklaracje: `ComparisonFamilyDefinition:3`, `ResolvedComparisonFamily:12`, `resolveComparisonFamily:153`, `findComparisonFamily:161`, `comparisonFamilyCandidates:166`
+- [packages/stats/app/src/lib/language.ts](packages/stats/app/src/lib/language.ts) — 48 wierszy; deklaracje: `normalizeDataPathname:26`, `strip:38`, `route:42`, `localizedUrl:46`
+- [packages/stats/app/src/resource.d.ts](packages/stats/app/src/resource.d.ts) — 10 wierszy; deklaracje: `Resource:4`
+- [packages/stats/app/src/routes/\[lab\]/\[model\].tsx](packages/stats/app/src/routes/%5Blab%5D/%5Bmodel%5D.tsx) — 1482 wierszy; deklaracje: `CountryEntry:7`, `ModelPeerEntry:8`, `ModelUsagePoint:9`, `StatsModelData:10`, `ModelCatalogEntry:25`
+- [packages/stats/app/src/routes/\[lab\]/index.tsx](packages/stats/app/src/routes/%5Blab%5D/index.tsx) — 976 wierszy; deklaracje: `LabUsageModelEntry:6`, `MarketDay:7`, `ModelUsagePoint:8`, `StatsLabData:9`, `ModelCatalogEntry:23`
+- [packages/stats/app/src/routes/api/health.ts](packages/stats/app/src/routes/api/health.ts) — 3 wierszy; deklaracje: `GET:1`
+- [packages/stats/app/src/routes/api/newsletter.ts](packages/stats/app/src/routes/api/newsletter.ts) — 29 wierszy; deklaracje: `POST:5`
+- [packages/stats/app/src/routes/breadcrumb-select.tsx](packages/stats/app/src/routes/breadcrumb-select.tsx) — 71 wierszy; deklaracje: `BreadcrumbSelectOption:4`, `BreadcrumbSelect:10`
+- [packages/stats/app/src/routes/compare-cards.tsx](packages/stats/app/src/routes/compare-cards.tsx) — 170 wierszy; deklaracje: `ComparisonModelRef:5`, `ComparisonPair:13`, `modelRefFromCatalog:20`, `comparisonHref:29`, `canonicalComparisonHref:35`
+- [packages/stats/app/src/routes/compare-radar.tsx](packages/stats/app/src/routes/compare-radar.tsx) — 360 wierszy; deklaracje: `ComparisonRadarModel:10`, `ComparisonRadarProps:16`, `RadarAxis:21`, `RadarPoint:27`, `ComparisonRadar:32`
+- [packages/stats/app/src/routes/compare-selector.tsx](packages/stats/app/src/routes/compare-selector.tsx) — 83 wierszy; deklaracje: `ComparisonSelector:5`, `differentModelId:80`
+- [packages/stats/app/src/routes/compare/\[firstFamily\]/\[secondFamily\].tsx](packages/stats/app/src/routes/compare/%5BfirstFamily%5D/%5BsecondFamily%5D.tsx) — 47 wierszy; deklaracje: `ModelCompareFamily:8`
+- [packages/stats/app/src/routes/compare/\[firstLab\]/\[firstModel\]/\[secondLab\]/\[secondModel\].tsx](packages/stats/app/src/routes/compare/%5BfirstLab%5D/%5BfirstModel%5D/%5BsecondLab%5D/%5BsecondModel%5D.tsx) — 1 wierszy
+- [packages/stats/app/src/routes/compare/index.tsx](packages/stats/app/src/routes/compare/index.tsx) — 612 wierszy; deklaracje: `ComparisonModelRef:14`, `ComparisonPair:15`, `HeaderLink:27`, `ThemePreference:28`, `CompareSlot:65`
+- [packages/stats/app/src/routes/index.css](packages/stats/app/src/routes/index.css) — 8771 wierszy
+- [packages/stats/app/src/routes/index.tsx](packages/stats/app/src/routes/index.tsx) — 1728 wierszy; deklaracje: `CacheRatioEntry:7`, `CountryEntry:8`, `LeaderboardEntry:9`, `MarketDay:10`, `RetentionEntry:11`
+- [packages/stats/app/src/routes/model-catalog.ts](packages/stats/app/src/routes/model-catalog.ts) — 395 wierszy; deklaracje: `ModelCatalogCost:8`, `ModelCatalogEntry:15`, `ModelCatalogBenchmark:37`, `ModelCatalogLab:48`, `ModelCatalog:55`
+- [packages/stats/app/src/routes/section-heading.tsx](packages/stats/app/src/routes/section-heading.tsx) — 30 wierszy; deklaracje: `SectionHeading:1`
+- [packages/stats/app/src/routes/sitemap.xml.ts](packages/stats/app/src/routes/sitemap.xml.ts) — 113 wierszy; deklaracje: `SitemapEntry:14`, `GET:19`, `uniqueSitemapEntries:68`, `sitemapXml:77`, `sitemapDate:96`
+- [packages/stats/app/src/routes/stats-cache.ts](packages/stats/app/src/routes/stats-cache.ts) — 29 wierszy; deklaracje: `setStatsPageCacheHeaders:5`, `appendVary:12`
+- [packages/stats/app/src/routes/stats-shell.tsx](packages/stats/app/src/routes/stats-shell.tsx) — 538 wierszy; deklaracje: `HeaderLink:8`, `ThemePreference:17`, `isThemePreference:42`, `applyThemePreference:46`, `Header:56`
+- [packages/stats/app/src/routes/stats/api/health.ts](packages/stats/app/src/routes/stats/api/health.ts) — 1 wierszy
+- [packages/stats/app/src/routes/stats/api/newsletter.ts](packages/stats/app/src/routes/stats/api/newsletter.ts) — 1 wierszy
+- [packages/stats/app/src/stats-runtime.ts](packages/stats/app/src/stats-runtime.ts) — 5 wierszy; deklaracje: `runStatsEffect:3`
+- [packages/stats/app/sst-env.d.ts](packages/stats/app/sst-env.d.ts) — 10 wierszy
+- [packages/stats/app/tsconfig.json](packages/stats/app/tsconfig.json) — 22 wierszy
+- [packages/stats/app/vite.config.ts](packages/stats/app/vite.config.ts) — 24 wierszy
+- [packages/stats/core/drizzle.config.ts](packages/stats/core/drizzle.config.ts) — 21 wierszy
+- [packages/stats/core/migrations/20260522121617_common_dust/migration.sql](packages/stats/core/migrations/20260522121617_common_dust/migration.sql) — 42 wierszy
+- [packages/stats/core/migrations/20260522121617_common_dust/snapshot.json](packages/stats/core/migrations/20260522121617_common_dust/snapshot.json) — 623 wierszy
+- [packages/stats/core/migrations/20260523110335_cool_vin_gonzales/migration.sql](packages/stats/core/migrations/20260523110335_cool_vin_gonzales/migration.sql) — 94 wierszy
+- [packages/stats/core/migrations/20260523110335_cool_vin_gonzales/snapshot.json](packages/stats/core/migrations/20260523110335_cool_vin_gonzales/snapshot.json) — 2033 wierszy
+- [packages/stats/core/migrations/20260528012726_worthless_ultimo/migration.sql](packages/stats/core/migrations/20260528012726_worthless_ultimo/migration.sql) — 5 wierszy
+- [packages/stats/core/migrations/20260528012726_worthless_ultimo/snapshot.json](packages/stats/core/migrations/20260528012726_worthless_ultimo/snapshot.json) — 2097 wierszy
+- [packages/stats/core/migrations/20260528114447_misty_black_knight/migration.sql](packages/stats/core/migrations/20260528114447_misty_black_knight/migration.sql) — 3 wierszy
+- [packages/stats/core/migrations/20260528114447_misty_black_knight/snapshot.json](packages/stats/core/migrations/20260528114447_misty_black_knight/snapshot.json) — 2139 wierszy
+- [packages/stats/core/migrations/20260528121120_easy_multiple_man/migration.sql](packages/stats/core/migrations/20260528121120_easy_multiple_man/migration.sql) — 6 wierszy
+- [packages/stats/core/migrations/20260528121120_easy_multiple_man/snapshot.json](packages/stats/core/migrations/20260528121120_easy_multiple_man/snapshot.json) — 2055 wierszy
+- [packages/stats/core/migrations/20260620000000_unique_users/migration.sql](packages/stats/core/migrations/20260620000000_unique_users/migration.sql) — 3 wierszy
+- [packages/stats/core/migrations/20260826000000_model_retention/migration.sql](packages/stats/core/migrations/20260826000000_model_retention/migration.sql) — 18 wierszy
+- [packages/stats/core/migrations/20260903161929_parched_patriot/migration.sql](packages/stats/core/migrations/20260903161929_parched_patriot/migration.sql) — 1 wierszy
+- [packages/stats/core/migrations/20260903161929_parched_patriot/snapshot.json](packages/stats/core/migrations/20260903161929_parched_patriot/snapshot.json) — 2367 wierszy
+- [packages/stats/core/package.json](packages/stats/core/package.json) — 47 wierszy
+- [packages/stats/core/src/athena.ts](packages/stats/core/src/athena.ts) — 151 wierszy; deklaracje: `Row:6`, `AthenaData:15`, `AthenaQueryError:17`, `AthenaQueryTimeoutError:28`, `Service:40`
+- [packages/stats/core/src/config.ts](packages/stats/core/src/config.ts) — 23 wierszy; deklaracje: `AppConfigValue:5`, `AppConfig:17`
+- [packages/stats/core/src/database.ts](packages/stats/core/src/database.ts) — 94 wierszy; deklaracje: `DatabaseUrl:10`, `DatabaseSettings:12`, `DatabaseConfig:24`, `makeDrizzle:34`, `Drizzle:38`
+- [packages/stats/core/src/database/schema.ts](packages/stats/core/src/database/schema.ts) — 197 wierszy; deklaracje: `periodColumns:146`, `metricColumns:158`, `marketShareColumns:184`, `timestampColumns:192`
+- [packages/stats/core/src/domain/geo.ts](packages/stats/core/src/domain/geo.ts) — 254 wierszy; deklaracje: `StatBaseAggregate:20`, `GeoStatRow:23`, `GeoStatAggregate:24`, `GeoStatMetric:30`, `Service:42`
+- [packages/stats/core/src/domain/home.test.ts](packages/stats/core/src/domain/home.test.ts) — 48 wierszy; deklaracje: `cohorts:39`
+- [packages/stats/core/src/domain/home.ts](packages/stats/core/src/domain/home.ts) — 1133 wierszy; deklaracje: `UsageProduct:9`, `TokenProduct:10`, `UsageRange:11`, `UsagePoint:12`, `MarketDay:13`
+- [packages/stats/core/src/domain/inference.test.ts](packages/stats/core/src/domain/inference.test.ts) — 362 wierszy; deklaracje: `aggregate:350`
+- [packages/stats/core/src/domain/inference.ts](packages/stats/core/src/domain/inference.ts) — 497 wierszy; deklaracje: `StatBaseAggregate:24`, `StatDimension:27`, `StatsQuerySource:28`, `RetentionQuery:29`, `StatsQueryFamily:30`
+- [packages/stats/core/src/domain/model-normalization.ts](packages/stats/core/src/domain/model-normalization.ts) — 67 wierszy; deklaracje: `normalizeInferenceModel:33`, `modelAuthor:37`, `statModel:44`, `statProvider:51`
+- [packages/stats/core/src/domain/model.ts](packages/stats/core/src/domain/model.ts) — 263 wierszy; deklaracje: `StatBaseAggregate:20`, `ModelStatRow:23`, `ModelStatAggregate:24`, `ModelStatMetric:26`, `Service:45`
+- [packages/stats/core/src/domain/provider.ts](packages/stats/core/src/domain/provider.ts) — 216 wierszy; deklaracje: `StatBaseAggregate:19`, `ProviderStatRow:22`, `ProviderStatAggregate:23`, `ProviderStatMetric:24`, `Service:33`
+- [packages/stats/core/src/domain/retention.ts](packages/stats/core/src/domain/retention.ts) — 110 wierszy; deklaracje: `RetentionStatRow:7`, `RetentionStatAggregate:8`, `Service:19`, `RetentionStatRepo:28`, `rowsFromAggregates:86`
+- [packages/stats/core/src/domain/stat.ts](packages/stats/core/src/domain/stat.ts) — 292 wierszy; deklaracje: `StatGrain:7`, `StatBaseAggregate:9`, `StatBaseRow:37`, `toStatBaseRow:67`, `synthesizeAllTierRows:99`
+- [packages/stats/core/src/ensure-unique-users.ts](packages/stats/core/src/ensure-unique-users.ts) — 58 wierszy; deklaracje: `databaseUrl:30`, `hasUniqueUsersColumn:46`, `addUniqueUsersColumn:55`
+- [packages/stats/core/src/honeycomb-backfill.ts](packages/stats/core/src/honeycomb-backfill.ts) — 1007 wierszy; deklaracje: `StatBaseAggregate:22`, `Grain:29`, `MetricDimension:30`, `LookupDimension:31`, `ImportKey:32`
+- [packages/stats/core/src/index.ts](packages/stats/core/src/index.ts) — 12 wierszy
+- [packages/stats/core/src/migrate.ts](packages/stats/core/src/migrate.ts) — 4 wierszy
+- [packages/stats/core/src/r2-sql.test.ts](packages/stats/core/src/r2-sql.test.ts) — 18 wierszy
+- [packages/stats/core/src/r2-sql.ts](packages/stats/core/src/r2-sql.ts) — 119 wierszy; deklaracje: `R2SqlData:21`, `R2SqlQueryError:23`, `Service:39`, `R2Sql:44`
+- [packages/stats/core/src/resource.d.ts](packages/stats/core/src/resource.d.ts) — 39 wierszy; deklaracje: `Resource:4`
+- [packages/stats/core/src/runtime.ts](packages/stats/core/src/runtime.ts) — 18 wierszy; deklaracje: `RuntimeServices:18`
+- [packages/stats/core/src/stat-sync.ts](packages/stats/core/src/stat-sync.ts) — 195 wierszy; deklaracje: `SyncStatsResult:31`, `SyncStatsError:32`, `SyncStatsServices:33`, `fullPeriodStart:165`, `incrementalPeriodStart:178`
+- [packages/stats/core/sst-env.d.ts](packages/stats/core/sst-env.d.ts) — 10 wierszy
+- [packages/stats/core/tsconfig.json](packages/stats/core/tsconfig.json) — 11 wierszy
+- [packages/stats/server/Dockerfile](packages/stats/server/Dockerfile)
+- [packages/stats/server/package.json](packages/stats/server/package.json) — 33 wierszy
+- [packages/stats/server/src/ingest.ts](packages/stats/server/src/ingest.ts) — 166 wierszy; deklaracje: `IngestEvent:11`, `LakeRoute:12`, `FirehoseRecord:13`, `IngestError:15`, `Service:27`
+- [packages/stats/server/src/resource.d.ts](packages/stats/server/src/resource.d.ts) — 11 wierszy; deklaracje: `Resource:4`
+- [packages/stats/server/src/router.ts](packages/stats/server/src/router.ts) — 73 wierszy; deklaracje: `isAuthorized:56`, `countRecords:63`, `json:71`
+- [packages/stats/server/src/server.ts](packages/stats/server/src/server.ts) — 28 wierszy
+- [packages/stats/server/src/shutdown.ts](packages/stats/server/src/shutdown.ts) — 17 wierszy; deklaracje: `isShuttingDown:4`, `registerShutdownSignalHandlers:8`, `markShuttingDown:15`
+- [packages/stats/server/src/stat-sync.ts](packages/stats/server/src/stat-sync.ts) — 60 wierszy
+- [packages/stats/server/sst-env.d.ts](packages/stats/server/sst-env.d.ts) — 10 wierszy
+- [packages/stats/server/tsconfig.json](packages/stats/server/tsconfig.json) — 12 wierszy
+- [packages/storybook/.gitignore](packages/storybook/.gitignore)
+- [packages/storybook/.storybook/main.ts](packages/storybook/.storybook/main.ts) — 74 wierszy
+- [packages/storybook/.storybook/manager.ts](packages/storybook/.storybook/manager.ts) — 11 wierszy
+- [packages/storybook/.storybook/mocks/app/components/dialog-select-model-unpaid.tsx](packages/storybook/.storybook/mocks/app/components/dialog-select-model-unpaid.tsx) — 3 wierszy; deklaracje: `DialogSelectModelUnpaid:1`
+- [packages/storybook/.storybook/mocks/app/components/dialog-select-model.tsx](packages/storybook/.storybook/mocks/app/components/dialog-select-model.tsx) — 8 wierszy; deklaracje: `ModelSelectorPopover:3`
+- [packages/storybook/.storybook/mocks/app/context/command.ts](packages/storybook/.storybook/mocks/app/context/command.ts) — 29 wierszy; deklaracje: `formatKeybind:11`, `useCommand:15`
+- [packages/storybook/.storybook/mocks/app/context/comments.ts](packages/storybook/.storybook/mocks/app/context/comments.ts) — 34 wierszy; deklaracje: `Comment:3`, `useComments:15`
+- [packages/storybook/.storybook/mocks/app/context/file.ts](packages/storybook/.storybook/mocks/app/context/file.ts) — 47 wierszy; deklaracje: `FileSelection:1`, `SelectedLineRange:8`, `selectionFromLines:13`, `useFile:31`
+- [packages/storybook/.storybook/mocks/app/context/global-sync.ts](packages/storybook/.storybook/mocks/app/context/global-sync.ts) — 55 wierszy; deklaracje: `useServerSync:27`, `useQueryOptions:44`
+- [packages/storybook/.storybook/mocks/app/context/language.ts](packages/storybook/.storybook/mocks/app/context/language.ts) — 150 wierszy; deklaracje: `render:128`, `useLanguage:138`
+- [packages/storybook/.storybook/mocks/app/context/layout.ts](packages/storybook/.storybook/mocks/app/context/layout.ts) — 41 wierszy; deklaracje: `useLayout:30`
+- [packages/storybook/.storybook/mocks/app/context/local.ts](packages/storybook/.storybook/mocks/app/context/local.ts) — 41 wierszy; deklaracje: `useLocal:15`

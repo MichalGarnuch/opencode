@@ -1,0 +1,306 @@
+# opencode — mapa plików (5/23)
+
+Wykaz śledzonych plików z badanego commita. Liczba wierszy i nazwy deklaracji są wyciągane automatycznie z dostępnej kopii tekstowej; nie oznaczają ręcznej oceny pliku. Brak opisu oznacza, że zawartość nie była analizowana tą metodą (np. plik binarny, zasób lub pominięty plik).
+
+[Wróć do audytu](AUDYT_EDUKACYJNY.md) · [1](AUDYT_MAPA_01.md) · [2](AUDYT_MAPA_02.md) · [3](AUDYT_MAPA_03.md) · [4](AUDYT_MAPA_04.md) · [5](AUDYT_MAPA_05.md) · [6](AUDYT_MAPA_06.md) · [7](AUDYT_MAPA_07.md) · [8](AUDYT_MAPA_08.md) · [9](AUDYT_MAPA_09.md) · [10](AUDYT_MAPA_10.md) · [11](AUDYT_MAPA_11.md) · [12](AUDYT_MAPA_12.md) · [13](AUDYT_MAPA_13.md) · [14](AUDYT_MAPA_14.md) · [15](AUDYT_MAPA_15.md) · [16](AUDYT_MAPA_16.md) · [17](AUDYT_MAPA_17.md) · [18](AUDYT_MAPA_18.md) · [19](AUDYT_MAPA_19.md) · [20](AUDYT_MAPA_20.md) · [21](AUDYT_MAPA_21.md) · [22](AUDYT_MAPA_22.md) · [23](AUDYT_MAPA_23.md)
+
+- [packages/console/app/test/museSparkPolicy.test.ts](packages/console/app/test/museSparkPolicy.test.ts) — 31 wierszy
+- [packages/console/app/test/pricing.test.ts](packages/console/app/test/pricing.test.ts) — 16 wierszy
+- [packages/console/app/test/providerUsage.test.ts](packages/console/app/test/providerUsage.test.ts) — 126 wierszy
+- [packages/console/app/test/rateLimiter.test.ts](packages/console/app/test/rateLimiter.test.ts) — 19 wierszy
+- [packages/console/app/test/requestBody.test.ts](packages/console/app/test/requestBody.test.ts) — 137 wierszy
+- [packages/console/app/test/serverAction.test.ts](packages/console/app/test/serverAction.test.ts) — 34 wierszy
+- [packages/console/app/tsconfig.json](packages/console/app/tsconfig.json) — 21 wierszy
+- [packages/console/app/vite.config.ts](packages/console/app/vite.config.ts) — 28 wierszy
+- [packages/console/core/.gitignore](packages/console/core/.gitignore)
+- [packages/console/core/drizzle.config.ts](packages/console/core/drizzle.config.ts) — 20 wierszy
+- [packages/console/core/migrations/20250902065410_fluffy_raza/migration.sql](packages/console/core/migrations/20250902065410_fluffy_raza/migration.sql) — 89 wierszy
+- [packages/console/core/migrations/20250902065410_fluffy_raza/snapshot.json](packages/console/core/migrations/20250902065410_fluffy_raza/snapshot.json) — 967 wierszy
+- [packages/console/core/migrations/20250903035359_serious_whistler/migration.sql](packages/console/core/migrations/20250903035359_serious_whistler/migration.sql) — 2 wierszy
+- [packages/console/core/migrations/20250903035359_serious_whistler/snapshot.json](packages/console/core/migrations/20250903035359_serious_whistler/snapshot.json) — 967 wierszy
+- [packages/console/core/migrations/20250911133331_violet_loners/migration.sql](packages/console/core/migrations/20250911133331_violet_loners/migration.sql) — 1 wierszy
+- [packages/console/core/migrations/20250911133331_violet_loners/snapshot.json](packages/console/core/migrations/20250911133331_violet_loners/snapshot.json) — 981 wierszy
+- [packages/console/core/migrations/20250911141957_dusty_clint_barton/migration.sql](packages/console/core/migrations/20250911141957_dusty_clint_barton/migration.sql) — 1 wierszy
+- [packages/console/core/migrations/20250911141957_dusty_clint_barton/snapshot.json](packages/console/core/migrations/20250911141957_dusty_clint_barton/snapshot.json) — 1001 wierszy
+- [packages/console/core/migrations/20250911214917_first_mockingbird/migration.sql](packages/console/core/migrations/20250911214917_first_mockingbird/migration.sql) — 1 wierszy
+- [packages/console/core/migrations/20250911214917_first_mockingbird/snapshot.json](packages/console/core/migrations/20250911214917_first_mockingbird/snapshot.json) — 1015 wierszy
+- [packages/console/core/migrations/20250911231144_jazzy_skrulls/migration.sql](packages/console/core/migrations/20250911231144_jazzy_skrulls/migration.sql) — 1 wierszy
+- [packages/console/core/migrations/20250911231144_jazzy_skrulls/snapshot.json](packages/console/core/migrations/20250911231144_jazzy_skrulls/snapshot.json) — 1015 wierszy
+- [packages/console/core/migrations/20250912021148_parallel_gauntlet/migration.sql](packages/console/core/migrations/20250912021148_parallel_gauntlet/migration.sql) — 2 wierszy
+- [packages/console/core/migrations/20250912021148_parallel_gauntlet/snapshot.json](packages/console/core/migrations/20250912021148_parallel_gauntlet/snapshot.json) — 1043 wierszy
+- [packages/console/core/migrations/20250912161749_familiar_nightshade/migration.sql](packages/console/core/migrations/20250912161749_familiar_nightshade/migration.sql) — 1 wierszy
+- [packages/console/core/migrations/20250912161749_familiar_nightshade/snapshot.json](packages/console/core/migrations/20250912161749_familiar_nightshade/snapshot.json) — 1029 wierszy
+- [packages/console/core/migrations/20250914213824_eminent_ultimatum/migration.sql](packages/console/core/migrations/20250914213824_eminent_ultimatum/migration.sql) — 1 wierszy
+- [packages/console/core/migrations/20250914213824_eminent_ultimatum/snapshot.json](packages/console/core/migrations/20250914213824_eminent_ultimatum/snapshot.json) — 1043 wierszy
+- [packages/console/core/migrations/20250914222302_redundant_piledriver/migration.sql](packages/console/core/migrations/20250914222302_redundant_piledriver/migration.sql) — 1 wierszy
+- [packages/console/core/migrations/20250914222302_redundant_piledriver/snapshot.json](packages/console/core/migrations/20250914222302_redundant_piledriver/snapshot.json) — 1057 wierszy
+- [packages/console/core/migrations/20250914232505_needy_sue_storm/migration.sql](packages/console/core/migrations/20250914232505_needy_sue_storm/migration.sql) — 1 wierszy
+- [packages/console/core/migrations/20250914232505_needy_sue_storm/snapshot.json](packages/console/core/migrations/20250914232505_needy_sue_storm/snapshot.json) — 1073 wierszy
+- [packages/console/core/migrations/20250915150801_freezing_phil_sheldon/migration.sql](packages/console/core/migrations/20250915150801_freezing_phil_sheldon/migration.sql) — 3 wierszy
+- [packages/console/core/migrations/20250915150801_freezing_phil_sheldon/snapshot.json](packages/console/core/migrations/20250915150801_freezing_phil_sheldon/snapshot.json) — 1087 wierszy
+- [packages/console/core/migrations/20250915172014_bright_photon/migration.sql](packages/console/core/migrations/20250915172014_bright_photon/migration.sql) — 3 wierszy
+- [packages/console/core/migrations/20250915172014_bright_photon/snapshot.json](packages/console/core/migrations/20250915172014_bright_photon/snapshot.json) — 1129 wierszy
+- [packages/console/core/migrations/20250915172258_absurd_hobgoblin/migration.sql](packages/console/core/migrations/20250915172258_absurd_hobgoblin/migration.sql) — 2 wierszy
+- [packages/console/core/migrations/20250915172258_absurd_hobgoblin/snapshot.json](packages/console/core/migrations/20250915172258_absurd_hobgoblin/snapshot.json) — 1129 wierszy
+- [packages/console/core/migrations/20250919135159_demonic_princess_powerful/migration.sql](packages/console/core/migrations/20250919135159_demonic_princess_powerful/migration.sql) — 1 wierszy
+- [packages/console/core/migrations/20250919135159_demonic_princess_powerful/snapshot.json](packages/console/core/migrations/20250919135159_demonic_princess_powerful/snapshot.json) — 1143 wierszy
+- [packages/console/core/migrations/20250921042124_cloudy_revanche/migration.sql](packages/console/core/migrations/20250921042124_cloudy_revanche/migration.sql) — 1 wierszy
+- [packages/console/core/migrations/20250921042124_cloudy_revanche/snapshot.json](packages/console/core/migrations/20250921042124_cloudy_revanche/snapshot.json) — 1129 wierszy
+- [packages/console/core/migrations/20250923213126_cold_la_nuit/migration.sql](packages/console/core/migrations/20250923213126_cold_la_nuit/migration.sql) — 1 wierszy
+- [packages/console/core/migrations/20250923213126_cold_la_nuit/snapshot.json](packages/console/core/migrations/20250923213126_cold_la_nuit/snapshot.json) — 1143 wierszy
+- [packages/console/core/migrations/20250924230623_woozy_thaddeus_ross/migration.sql](packages/console/core/migrations/20250924230623_woozy_thaddeus_ross/migration.sql) — 1 wierszy
+- [packages/console/core/migrations/20250924230623_woozy_thaddeus_ross/snapshot.json](packages/console/core/migrations/20250924230623_woozy_thaddeus_ross/snapshot.json) — 1157 wierszy
+- [packages/console/core/migrations/20250928163425_nervous_iron_lad/migration.sql](packages/console/core/migrations/20250928163425_nervous_iron_lad/migration.sql) — 2 wierszy
+- [packages/console/core/migrations/20250928163425_nervous_iron_lad/snapshot.json](packages/console/core/migrations/20250928163425_nervous_iron_lad/snapshot.json) — 1185 wierszy
+- [packages/console/core/migrations/20250928235456_dazzling_cable/migration.sql](packages/console/core/migrations/20250928235456_dazzling_cable/migration.sql) — 1 wierszy
+- [packages/console/core/migrations/20250928235456_dazzling_cable/snapshot.json](packages/console/core/migrations/20250928235456_dazzling_cable/snapshot.json) — 1185 wierszy
+- [packages/console/core/migrations/20250929181457_supreme_jack_power/migration.sql](packages/console/core/migrations/20250929181457_supreme_jack_power/migration.sql) — 1 wierszy
+- [packages/console/core/migrations/20250929181457_supreme_jack_power/snapshot.json](packages/console/core/migrations/20250929181457_supreme_jack_power/snapshot.json) — 1171 wierszy
+- [packages/console/core/migrations/20250929224703_flawless_clea/migration.sql](packages/console/core/migrations/20250929224703_flawless_clea/migration.sql) — 2 wierszy
+- [packages/console/core/migrations/20250929224703_flawless_clea/snapshot.json](packages/console/core/migrations/20250929224703_flawless_clea/snapshot.json) — 1185 wierszy
+- [packages/console/core/migrations/20251002175032_nice_dreadnoughts/migration.sql](packages/console/core/migrations/20251002175032_nice_dreadnoughts/migration.sql) — 3 wierszy
+- [packages/console/core/migrations/20251002175032_nice_dreadnoughts/snapshot.json](packages/console/core/migrations/20251002175032_nice_dreadnoughts/snapshot.json) — 1233 wierszy
+- [packages/console/core/migrations/20251002223020_optimal_paibok/migration.sql](packages/console/core/migrations/20251002223020_optimal_paibok/migration.sql) — 2 wierszy
+- [packages/console/core/migrations/20251002223020_optimal_paibok/snapshot.json](packages/console/core/migrations/20251002223020_optimal_paibok/snapshot.json) — 1265 wierszy
+- [packages/console/core/migrations/20251003202205_early_black_crow/migration.sql](packages/console/core/migrations/20251003202205_early_black_crow/migration.sql) — 2 wierszy
+- [packages/console/core/migrations/20251003202205_early_black_crow/snapshot.json](packages/console/core/migrations/20251003202205_early_black_crow/snapshot.json) — 1237 wierszy
+- [packages/console/core/migrations/20251003210411_legal_joseph/migration.sql](packages/console/core/migrations/20251003210411_legal_joseph/migration.sql) — 1 wierszy
+- [packages/console/core/migrations/20251003210411_legal_joseph/snapshot.json](packages/console/core/migrations/20251003210411_legal_joseph/snapshot.json) — 1251 wierszy
+- [packages/console/core/migrations/20251004030300_numerous_prodigy/migration.sql](packages/console/core/migrations/20251004030300_numerous_prodigy/migration.sql) — 1 wierszy
+- [packages/console/core/migrations/20251004030300_numerous_prodigy/snapshot.json](packages/console/core/migrations/20251004030300_numerous_prodigy/snapshot.json) — 1231 wierszy
+- [packages/console/core/migrations/20251004045106_hot_wong/migration.sql](packages/console/core/migrations/20251004045106_hot_wong/migration.sql) — 3 wierszy
+- [packages/console/core/migrations/20251004045106_hot_wong/snapshot.json](packages/console/core/migrations/20251004045106_hot_wong/snapshot.json) — 1203 wierszy
+- [packages/console/core/migrations/20251007024345_careful_cerise/migration.sql](packages/console/core/migrations/20251007024345_careful_cerise/migration.sql) — 1 wierszy
+- [packages/console/core/migrations/20251007024345_careful_cerise/snapshot.json](packages/console/core/migrations/20251007024345_careful_cerise/snapshot.json) — 1203 wierszy
+- [packages/console/core/migrations/20251007043715_panoramic_harrier/migration.sql](packages/console/core/migrations/20251007043715_panoramic_harrier/migration.sql) — 3 wierszy
+- [packages/console/core/migrations/20251007043715_panoramic_harrier/snapshot.json](packages/console/core/migrations/20251007043715_panoramic_harrier/snapshot.json) — 1245 wierszy
+- [packages/console/core/migrations/20251007230438_ordinary_ultragirl/migration.sql](packages/console/core/migrations/20251007230438_ordinary_ultragirl/migration.sql) — 10 wierszy
+- [packages/console/core/migrations/20251007230438_ordinary_ultragirl/snapshot.json](packages/console/core/migrations/20251007230438_ordinary_ultragirl/snapshot.json) — 1359 wierszy
+- [packages/console/core/migrations/20251008161718_outgoing_outlaw_kid/migration.sql](packages/console/core/migrations/20251008161718_outgoing_outlaw_kid/migration.sql) — 11 wierszy
+- [packages/console/core/migrations/20251008161718_outgoing_outlaw_kid/snapshot.json](packages/console/core/migrations/20251008161718_outgoing_outlaw_kid/snapshot.json) — 1487 wierszy
+- [packages/console/core/migrations/20251009021849_white_doctor_doom/migration.sql](packages/console/core/migrations/20251009021849_white_doctor_doom/migration.sql) — 1 wierszy
+- [packages/console/core/migrations/20251009021849_white_doctor_doom/snapshot.json](packages/console/core/migrations/20251009021849_white_doctor_doom/snapshot.json) — 1501 wierszy
+- [packages/console/core/migrations/20251016175624_cynical_jack_flag/migration.sql](packages/console/core/migrations/20251016175624_cynical_jack_flag/migration.sql) — 1 wierszy
+- [packages/console/core/migrations/20251016175624_cynical_jack_flag/snapshot.json](packages/console/core/migrations/20251016175624_cynical_jack_flag/snapshot.json) — 1515 wierszy
+- [packages/console/core/migrations/20251016214520_short_bulldozer/migration.sql](packages/console/core/migrations/20251016214520_short_bulldozer/migration.sql) — 10 wierszy
+- [packages/console/core/migrations/20251016214520_short_bulldozer/snapshot.json](packages/console/core/migrations/20251016214520_short_bulldozer/snapshot.json) — 1637 wierszy
+- [packages/console/core/migrations/20251017015733_narrow_blindfold/migration.sql](packages/console/core/migrations/20251017015733_narrow_blindfold/migration.sql) — 3 wierszy
+- [packages/console/core/migrations/20251017015733_narrow_blindfold/snapshot.json](packages/console/core/migrations/20251017015733_narrow_blindfold/snapshot.json) — 1623 wierszy
+- [packages/console/core/migrations/20251017024232_slimy_energizer/migration.sql](packages/console/core/migrations/20251017024232_slimy_energizer/migration.sql) — 2 wierszy
+- [packages/console/core/migrations/20251017024232_slimy_energizer/snapshot.json](packages/console/core/migrations/20251017024232_slimy_energizer/snapshot.json) — 1635 wierszy
+- [packages/console/core/migrations/20251031163113_messy_jackal/migration.sql](packages/console/core/migrations/20251031163113_messy_jackal/migration.sql) — 2 wierszy
+- [packages/console/core/migrations/20251031163113_messy_jackal/snapshot.json](packages/console/core/migrations/20251031163113_messy_jackal/snapshot.json) — 1663 wierszy
+- [packages/console/core/migrations/20251125223403_famous_magik/migration.sql](packages/console/core/migrations/20251125223403_famous_magik/migration.sql) — 8 wierszy
+- [packages/console/core/migrations/20251125223403_famous_magik/snapshot.json](packages/console/core/migrations/20251125223403_famous_magik/snapshot.json) — 1743 wierszy
+- [packages/console/core/migrations/20251228182259_striped_forge/migration.sql](packages/console/core/migrations/20251228182259_striped_forge/migration.sql) — 12 wierszy
+- [packages/console/core/migrations/20251228182259_striped_forge/snapshot.json](packages/console/core/migrations/20251228182259_striped_forge/snapshot.json) — 1867 wierszy
+- [packages/console/core/migrations/20260105034337_broken_gamora/migration.sql](packages/console/core/migrations/20260105034337_broken_gamora/migration.sql) — 1 wierszy
+- [packages/console/core/migrations/20260105034337_broken_gamora/snapshot.json](packages/console/core/migrations/20260105034337_broken_gamora/snapshot.json) — 1887 wierszy
+- [packages/console/core/migrations/20260106204919_odd_misty_knight/migration.sql](packages/console/core/migrations/20260106204919_odd_misty_knight/migration.sql) — 6 wierszy
+- [packages/console/core/migrations/20260106204919_odd_misty_knight/snapshot.json](packages/console/core/migrations/20260106204919_odd_misty_knight/snapshot.json) — 1939 wierszy
+- [packages/console/core/migrations/20260107000117_flat_nightmare/migration.sql](packages/console/core/migrations/20260107000117_flat_nightmare/migration.sql) — 7 wierszy
+- [packages/console/core/migrations/20260107000117_flat_nightmare/snapshot.json](packages/console/core/migrations/20260107000117_flat_nightmare/snapshot.json) — 2037 wierszy
+- [packages/console/core/migrations/20260107022356_lame_calypso/migration.sql](packages/console/core/migrations/20260107022356_lame_calypso/migration.sql) — 2 wierszy
+- [packages/console/core/migrations/20260107022356_lame_calypso/snapshot.json](packages/console/core/migrations/20260107022356_lame_calypso/snapshot.json) — 2037 wierszy
+- [packages/console/core/migrations/20260107041522_tiny_captain_midlands/migration.sql](packages/console/core/migrations/20260107041522_tiny_captain_midlands/migration.sql) — 1 wierszy
+- [packages/console/core/migrations/20260107041522_tiny_captain_midlands/snapshot.json](packages/console/core/migrations/20260107041522_tiny_captain_midlands/snapshot.json) — 2037 wierszy
+- [packages/console/core/migrations/20260107055817_cuddly_diamondback/migration.sql](packages/console/core/migrations/20260107055817_cuddly_diamondback/migration.sql) — 1 wierszy
+- [packages/console/core/migrations/20260107055817_cuddly_diamondback/snapshot.json](packages/console/core/migrations/20260107055817_cuddly_diamondback/snapshot.json) — 2053 wierszy
+- [packages/console/core/migrations/20260108224422_charming_black_bolt/migration.sql](packages/console/core/migrations/20260108224422_charming_black_bolt/migration.sql) — 13 wierszy
+- [packages/console/core/migrations/20260108224422_charming_black_bolt/snapshot.json](packages/console/core/migrations/20260108224422_charming_black_bolt/snapshot.json) — 2203 wierszy
+- [packages/console/core/migrations/20260109000245_huge_omega_red/migration.sql](packages/console/core/migrations/20260109000245_huge_omega_red/migration.sql) — 6 wierszy
+- [packages/console/core/migrations/20260109000245_huge_omega_red/snapshot.json](packages/console/core/migrations/20260109000245_huge_omega_red/snapshot.json) — 2153 wierszy
+- [packages/console/core/migrations/20260109001625_mean_frank_castle/migration.sql](packages/console/core/migrations/20260109001625_mean_frank_castle/migration.sql) — 2 wierszy
+- [packages/console/core/migrations/20260109001625_mean_frank_castle/snapshot.json](packages/console/core/migrations/20260109001625_mean_frank_castle/snapshot.json) — 2153 wierszy
+- [packages/console/core/migrations/20260109014234_noisy_domino/migration.sql](packages/console/core/migrations/20260109014234_noisy_domino/migration.sql) — 1 wierszy
+- [packages/console/core/migrations/20260109014234_noisy_domino/snapshot.json](packages/console/core/migrations/20260109014234_noisy_domino/snapshot.json) — 2167 wierszy
+- [packages/console/core/migrations/20260109040130_bumpy_mephistopheles/migration.sql](packages/console/core/migrations/20260109040130_bumpy_mephistopheles/migration.sql) — 1 wierszy
+- [packages/console/core/migrations/20260109040130_bumpy_mephistopheles/snapshot.json](packages/console/core/migrations/20260109040130_bumpy_mephistopheles/snapshot.json) — 2181 wierszy
+- [packages/console/core/migrations/20260113215232_jazzy_green_goblin/migration.sql](packages/console/core/migrations/20260113215232_jazzy_green_goblin/migration.sql) — 1 wierszy
+- [packages/console/core/migrations/20260113215232_jazzy_green_goblin/snapshot.json](packages/console/core/migrations/20260113215232_jazzy_green_goblin/snapshot.json) — 2195 wierszy
+- [packages/console/core/migrations/20260113223840_aromatic_agent_zero/migration.sql](packages/console/core/migrations/20260113223840_aromatic_agent_zero/migration.sql) — 1 wierszy
+- [packages/console/core/migrations/20260113223840_aromatic_agent_zero/snapshot.json](packages/console/core/migrations/20260113223840_aromatic_agent_zero/snapshot.json) — 2209 wierszy
+- [packages/console/core/migrations/20260116213606_gigantic_hardball/migration.sql](packages/console/core/migrations/20260116213606_gigantic_hardball/migration.sql) — 1 wierszy
+- [packages/console/core/migrations/20260116213606_gigantic_hardball/snapshot.json](packages/console/core/migrations/20260116213606_gigantic_hardball/snapshot.json) — 2223 wierszy
+- [packages/console/core/migrations/20260116224745_numerous_annihilus/migration.sql](packages/console/core/migrations/20260116224745_numerous_annihilus/migration.sql) — 1 wierszy
+- [packages/console/core/migrations/20260116224745_numerous_annihilus/snapshot.json](packages/console/core/migrations/20260116224745_numerous_annihilus/snapshot.json) — 2209 wierszy
+- [packages/console/core/migrations/20260122190905_moaning_karnak/migration.sql](packages/console/core/migrations/20260122190905_moaning_karnak/migration.sql) — 1 wierszy
+- [packages/console/core/migrations/20260122190905_moaning_karnak/snapshot.json](packages/console/core/migrations/20260122190905_moaning_karnak/snapshot.json) — 2223 wierszy
+- [packages/console/core/migrations/20260222233442_clever_toxin/migration.sql](packages/console/core/migrations/20260222233442_clever_toxin/migration.sql) — 1 wierszy
+- [packages/console/core/migrations/20260222233442_clever_toxin/snapshot.json](packages/console/core/migrations/20260222233442_clever_toxin/snapshot.json) — 2237 wierszy
+- [packages/console/core/migrations/20260224043338_nifty_starjammers/migration.sql](packages/console/core/migrations/20260224043338_nifty_starjammers/migration.sql) — 19 wierszy
+- [packages/console/core/migrations/20260224043338_nifty_starjammers/snapshot.json](packages/console/core/migrations/20260224043338_nifty_starjammers/snapshot.json) — 2463 wierszy
+- [packages/console/core/migrations/20260414235536_lame_wild_child/migration.sql](packages/console/core/migrations/20260414235536_lame_wild_child/migration.sql) — 6 wierszy
+- [packages/console/core/migrations/20260414235536_lame_wild_child/snapshot.json](packages/console/core/migrations/20260414235536_lame_wild_child/snapshot.json) — 2515 wierszy
+- [packages/console/core/migrations/20260415002256_perpetual_karen_page/migration.sql](packages/console/core/migrations/20260415002256_perpetual_karen_page/migration.sql) — 1 wierszy
+- [packages/console/core/migrations/20260415002256_perpetual_karen_page/snapshot.json](packages/console/core/migrations/20260415002256_perpetual_karen_page/snapshot.json) — 2515 wierszy
+- [packages/console/core/migrations/20260415002534_far_smasher/migration.sql](packages/console/core/migrations/20260415002534_far_smasher/migration.sql) — 1 wierszy
+- [packages/console/core/migrations/20260415002534_far_smasher/snapshot.json](packages/console/core/migrations/20260415002534_far_smasher/snapshot.json) — 2515 wierszy
+- [packages/console/core/migrations/20260417071612_tidy_diamondback/migration.sql](packages/console/core/migrations/20260417071612_tidy_diamondback/migration.sql) — 6 wierszy
+- [packages/console/core/migrations/20260417071612_tidy_diamondback/snapshot.json](packages/console/core/migrations/20260417071612_tidy_diamondback/snapshot.json) — 2567 wierszy
+- [packages/console/core/migrations/20260418195905_shocking_marvel_zombies/migration.sql](packages/console/core/migrations/20260418195905_shocking_marvel_zombies/migration.sql) — 6 wierszy
+- [packages/console/core/migrations/20260418195905_shocking_marvel_zombies/snapshot.json](packages/console/core/migrations/20260418195905_shocking_marvel_zombies/snapshot.json) — 2619 wierszy
+- [packages/console/core/migrations/20260420184535_aromatic_molten_man/migration.sql](packages/console/core/migrations/20260420184535_aromatic_molten_man/migration.sql) — 6 wierszy
+- [packages/console/core/migrations/20260420184535_aromatic_molten_man/snapshot.json](packages/console/core/migrations/20260420184535_aromatic_molten_man/snapshot.json) — 2671 wierszy
+- [packages/console/core/migrations/20260420185813_supreme_roxanne_simpson/migration.sql](packages/console/core/migrations/20260420185813_supreme_roxanne_simpson/migration.sql) — 3 wierszy
+- [packages/console/core/migrations/20260420185813_supreme_roxanne_simpson/snapshot.json](packages/console/core/migrations/20260420185813_supreme_roxanne_simpson/snapshot.json) — 2657 wierszy
+- [packages/console/core/migrations/20260420191234_deep_scarecrow/migration.sql](packages/console/core/migrations/20260420191234_deep_scarecrow/migration.sql) — 1 wierszy
+- [packages/console/core/migrations/20260420191234_deep_scarecrow/snapshot.json](packages/console/core/migrations/20260420191234_deep_scarecrow/snapshot.json) — 2605 wierszy
+- [packages/console/core/migrations/20260421020842_bizarre_living_tribunal/migration.sql](packages/console/core/migrations/20260421020842_bizarre_living_tribunal/migration.sql) — 5 wierszy
+- [packages/console/core/migrations/20260421020842_bizarre_living_tribunal/snapshot.json](packages/console/core/migrations/20260421020842_bizarre_living_tribunal/snapshot.json) — 2657 wierszy
+- [packages/console/core/migrations/20260421023950_nebulous_weapon_omega/migration.sql](packages/console/core/migrations/20260421023950_nebulous_weapon_omega/migration.sql) — 3 wierszy
+- [packages/console/core/migrations/20260421023950_nebulous_weapon_omega/snapshot.json](packages/console/core/migrations/20260421023950_nebulous_weapon_omega/snapshot.json) — 2619 wierszy
+- [packages/console/core/migrations/20260427053132_smiling_puppet_master/migration.sql](packages/console/core/migrations/20260427053132_smiling_puppet_master/migration.sql) — 1 wierszy
+- [packages/console/core/migrations/20260427053132_smiling_puppet_master/snapshot.json](packages/console/core/migrations/20260427053132_smiling_puppet_master/snapshot.json) — 2619 wierszy
+- [packages/console/core/migrations/20260511220522_fine_shaman/migration.sql](packages/console/core/migrations/20260511220522_fine_shaman/migration.sql) — 7 wierszy
+- [packages/console/core/migrations/20260511220522_fine_shaman/snapshot.json](packages/console/core/migrations/20260511220522_fine_shaman/snapshot.json) — 2685 wierszy
+- [packages/console/core/migrations/20260513163955_tearful_whistler/migration.sql](packages/console/core/migrations/20260513163955_tearful_whistler/migration.sql) — 7 wierszy
+- [packages/console/core/migrations/20260513163955_tearful_whistler/snapshot.json](packages/console/core/migrations/20260513163955_tearful_whistler/snapshot.json) — 2765 wierszy
+- [packages/console/core/migrations/20260513173355_groovy_jane_foster/migration.sql](packages/console/core/migrations/20260513173355_groovy_jane_foster/migration.sql) — 47 wierszy
+- [packages/console/core/migrations/20260513173355_groovy_jane_foster/snapshot.json](packages/console/core/migrations/20260513173355_groovy_jane_foster/snapshot.json) — 3229 wierszy
+- [packages/console/core/migrations/20260516082200_long_spirit/migration.sql](packages/console/core/migrations/20260516082200_long_spirit/migration.sql) — 20 wierszy
+- [packages/console/core/migrations/20260516082200_long_spirit/snapshot.json](packages/console/core/migrations/20260516082200_long_spirit/snapshot.json) — 3063 wierszy
+- [packages/console/core/migrations/20260516110447_classy_wilson_fisk/migration.sql](packages/console/core/migrations/20260516110447_classy_wilson_fisk/migration.sql) — 4 wierszy
+- [packages/console/core/migrations/20260516110447_classy_wilson_fisk/snapshot.json](packages/console/core/migrations/20260516110447_classy_wilson_fisk/snapshot.json) — 3029 wierszy
+- [packages/console/core/migrations/20260516112143_cynical_dexter_bennett/migration.sql](packages/console/core/migrations/20260516112143_cynical_dexter_bennett/migration.sql) — 3 wierszy
+- [packages/console/core/migrations/20260516112143_cynical_dexter_bennett/snapshot.json](packages/console/core/migrations/20260516112143_cynical_dexter_bennett/snapshot.json) — 3013 wierszy
+- [packages/console/core/migrations/20260516222132_referral_code_length/migration.sql](packages/console/core/migrations/20260516222132_referral_code_length/migration.sql) — 2 wierszy
+- [packages/console/core/migrations/20260516222132_referral_code_length/snapshot.json](packages/console/core/migrations/20260516222132_referral_code_length/snapshot.json) — 3013 wierszy
+- [packages/console/core/migrations/20260517075207_famous_chat/migration.sql](packages/console/core/migrations/20260517075207_famous_chat/migration.sql) — 1 wierszy
+- [packages/console/core/migrations/20260517075207_famous_chat/snapshot.json](packages/console/core/migrations/20260517075207_famous_chat/snapshot.json) — 2765 wierszy
+- [packages/console/core/migrations/20260518181630_secret_strong_guy/migration.sql](packages/console/core/migrations/20260518181630_secret_strong_guy/migration.sql) — 2 wierszy
+- [packages/console/core/migrations/20260518181630_secret_strong_guy/snapshot.json](packages/console/core/migrations/20260518181630_secret_strong_guy/snapshot.json) — 3013 wierszy
+- [packages/console/core/migrations/20260520164350_quick_red_hulk/migration.sql](packages/console/core/migrations/20260520164350_quick_red_hulk/migration.sql) — 13 wierszy
+- [packages/console/core/migrations/20260520164350_quick_red_hulk/snapshot.json](packages/console/core/migrations/20260520164350_quick_red_hulk/snapshot.json) — 3079 wierszy
+- [packages/console/core/migrations/20260626161712_oval_callisto/migration.sql](packages/console/core/migrations/20260626161712_oval_callisto/migration.sql) — 1 wierszy
+- [packages/console/core/migrations/20260626161712_oval_callisto/snapshot.json](packages/console/core/migrations/20260626161712_oval_callisto/snapshot.json) — 3093 wierszy
+- [packages/console/core/migrations/20260721182121_wet_pestilence/migration.sql](packages/console/core/migrations/20260721182121_wet_pestilence/migration.sql) — 3 wierszy
+- [packages/console/core/migrations/20260721182121_wet_pestilence/snapshot.json](packages/console/core/migrations/20260721182121_wet_pestilence/snapshot.json) — 3135 wierszy
+- [packages/console/core/migrations/20260803084635_married_misty_knight/migration.sql](packages/console/core/migrations/20260803084635_married_misty_knight/migration.sql) — 2 wierszy
+- [packages/console/core/migrations/20260803084635_married_misty_knight/snapshot.json](packages/console/core/migrations/20260803084635_married_misty_knight/snapshot.json) — 3167 wierszy
+- [packages/console/core/migrations/20260819012908_flashy_arclight/migration.sql](packages/console/core/migrations/20260819012908_flashy_arclight/migration.sql) — 1 wierszy
+- [packages/console/core/migrations/20260819012908_flashy_arclight/snapshot.json](packages/console/core/migrations/20260819012908_flashy_arclight/snapshot.json) — 3181 wierszy
+- [packages/console/core/migrations/20260819031011_oval_morlocks/migration.sql](packages/console/core/migrations/20260819031011_oval_morlocks/migration.sql) — 1 wierszy
+- [packages/console/core/migrations/20260819031011_oval_morlocks/snapshot.json](packages/console/core/migrations/20260819031011_oval_morlocks/snapshot.json) — 3181 wierszy
+- [packages/console/core/migrations/20260901161032_workspace_migrated_at/migration.sql](packages/console/core/migrations/20260901161032_workspace_migrated_at/migration.sql) — 1 wierszy
+- [packages/console/core/migrations/20260901161032_workspace_migrated_at/snapshot.json](packages/console/core/migrations/20260901161032_workspace_migrated_at/snapshot.json) — 3195 wierszy
+- [packages/console/core/package.json](packages/console/core/package.json) — 52 wierszy
+- [packages/console/core/script/black-cancel-waitlist.ts](packages/console/core/script/black-cancel-waitlist.ts) — 39 wierszy
+- [packages/console/core/script/black-gift.ts](packages/console/core/script/black-gift.ts) — 115 wierszy
+- [packages/console/core/script/black-onboard-waitlist.ts](packages/console/core/script/black-onboard-waitlist.ts) — 38 wierszy
+- [packages/console/core/script/black-select-workspaces.ts](packages/console/core/script/black-select-workspaces.ts) — 41 wierszy
+- [packages/console/core/script/black-stats.ts](packages/console/core/script/black-stats.ts) — 312 wierszy; deklaracje: `formatMicroCents:274`, `formatDate:278`, `formatWeek:283`, `startOfMonth:287`, `isoWeekStart:291`
+- [packages/console/core/script/black-transfer.ts](packages/console/core/script/black-transfer.ts) — 163 wierszy
+- [packages/console/core/script/create-api-key.ts](packages/console/core/script/create-api-key.ts) — 146 wierszy; deklaracje: `createSecretKey:113`, `parseArgs:120`, `requiredValue:142`
+- [packages/console/core/script/create-coupon.ts](packages/console/core/script/create-coupon.ts) — 24 wierszy
+- [packages/console/core/script/credit-workspace.ts](packages/console/core/script/credit-workspace.ts) — 35 wierszy
+- [packages/console/core/script/disable-reload.ts](packages/console/core/script/disable-reload.ts) — 34 wierszy
+- [packages/console/core/script/freeze-workspace.ts](packages/console/core/script/freeze-workspace.ts) — 39 wierszy
+- [packages/console/core/script/lookup-user.ts](packages/console/core/script/lookup-user.ts) — 386 wierszy; deklaracje: `printWorkspace:109`, `formatMicroCents:291`, `formatDate:296`, `formatMonthlyUsage:301`, `formatRetryTime:307`
+- [packages/console/core/script/promote-limits.ts](packages/console/core/script/promote-limits.ts) — 22 wierszy
+- [packages/console/core/script/promote-models.ts](packages/console/core/script/promote-models.ts) — 33 wierszy
+- [packages/console/core/script/pull-models.ts](packages/console/core/script/pull-models.ts) — 33 wierszy
+- [packages/console/core/script/reset-db.ts](packages/console/core/script/reset-db.ts) — 13 wierszy
+- [packages/console/core/script/update-limits.ts](packages/console/core/script/update-limits.ts) — 30 wierszy
+- [packages/console/core/script/update-models.ts](packages/console/core/script/update-models.ts) — 43 wierszy
+- [packages/console/core/src/account.ts](packages/console/core/src/account.ts) — 82 wierszy
+- [packages/console/core/src/actor.ts](packages/console/core/src/actor.ts) — 98 wierszy; deklaracje: `Account:6`, `Public:14`, `User:19`, `System:29`, `Info:36`
+- [packages/console/core/src/aws.ts](packages/console/core/src/aws.ts) — 65 wierszy
+- [packages/console/core/src/billing.ts](packages/console/core/src/billing.ts) — 586 wierszy
+- [packages/console/core/src/black.ts](packages/console/core/src/black.ts) — 40 wierszy
+- [packages/console/core/src/context.ts](packages/console/core/src/context.ts) — 21 wierszy; deklaracje: `NotFound:4`, `create:6`
+- [packages/console/core/src/drizzle/index.ts](packages/console/core/src/drizzle/index.ts) — 85 wierszy; deklaracje: `Transaction:12`, `TxOrDb:29`, `use:36`, `fn:56`, `effect:60`
+- [packages/console/core/src/drizzle/types.ts](packages/console/core/src/drizzle/types.ts) — 33 wierszy
+- [packages/console/core/src/identifier.ts](packages/console/core/src/identifier.ts) — 33 wierszy; deklaracje: `create:22`, `schema:30`
+- [packages/console/core/src/key.ts](packages/console/core/src/key.ts) — 92 wierszy
+- [packages/console/core/src/lite.ts](packages/console/core/src/lite.ts) — 20 wierszy
+- [packages/console/core/src/model.ts](packages/console/core/src/model.ts) — 239 wierszy; deklaracje: `Format:12`
+- [packages/console/core/src/provider.ts](packages/console/core/src/provider.ts) — 57 wierszy
+- [packages/console/core/src/quota.ts](packages/console/core/src/quota.ts) — 65 wierszy
+- [packages/console/core/src/referral.ts](packages/console/core/src/referral.ts) — 537 wierszy; deklaracje: `normalizeCode:21`, `generateCode:28`, `ensureCode:32`, `createFromAccount:288`, `create:365`
+- [packages/console/core/src/schema/account.sql.ts](packages/console/core/src/schema/account.sql.ts) — 11 wierszy
+- [packages/console/core/src/schema/auth.sql.ts](packages/console/core/src/schema/auth.sql.ts) — 20 wierszy
+- [packages/console/core/src/schema/benchmark.sql.ts](packages/console/core/src/schema/benchmark.sql.ts) — 14 wierszy
+- [packages/console/core/src/schema/billing.sql.ts](packages/console/core/src/schema/billing.sql.ts) — 154 wierszy
+- [packages/console/core/src/schema/ip.sql.ts](packages/console/core/src/schema/ip.sql.ts) — 63 wierszy
+- [packages/console/core/src/schema/key.sql.ts](packages/console/core/src/schema/key.sql.ts) — 16 wierszy
+- [packages/console/core/src/schema/model.sql.ts](packages/console/core/src/schema/model.sql.ts) — 13 wierszy
+- [packages/console/core/src/schema/provider.sql.ts](packages/console/core/src/schema/provider.sql.ts) — 14 wierszy
+- [packages/console/core/src/schema/referral.sql.ts](packages/console/core/src/schema/referral.sql.ts) — 38 wierszy
+- [packages/console/core/src/schema/user.sql.ts](packages/console/core/src/schema/user.sql.ts) — 29 wierszy
+- [packages/console/core/src/schema/workspace.sql.ts](packages/console/core/src/schema/workspace.sql.ts) — 27 wierszy; deklaracje: `workspaceIndexes:21`
+- [packages/console/core/src/subscription.ts](packages/console/core/src/subscription.ts) — 155 wierszy
+- [packages/console/core/src/user.ts](packages/console/core/src/user.ts) — 234 wierszy
+- [packages/console/core/src/util/crypto.ts](packages/console/core/src/util/crypto.ts) — 8 wierszy; deklaracje: `safeEqual:3`
+- [packages/console/core/src/util/date.ts](packages/console/core/src/util/date.ts) — 38 wierszy; deklaracje: `getWeekBounds:1`, `getMonthlyBounds:11`, `anchor:18`, `shift:23`
+- [packages/console/core/src/util/env.cloudflare.ts](packages/console/core/src/util/env.cloudflare.ts) — 1 wierszy
+- [packages/console/core/src/util/fn.ts](packages/console/core/src/util/fn.ts) — 11 wierszy; deklaracje: `fn:3`
+- [packages/console/core/src/util/log.ts](packages/console/core/src/util/log.ts) — 55 wierszy; deklaracje: `create:8`, `provide:35`, `use:48`
+- [packages/console/core/src/util/memo.ts](packages/console/core/src/util/memo.ts) — 18 wierszy; deklaracje: `memo:1`
+- [packages/console/core/src/util/price.ts](packages/console/core/src/util/price.ts) — 7 wierszy; deklaracje: `centsToMicroCents:1`, `microCentsToCents:5`
+- [packages/console/core/src/workspace.ts](packages/console/core/src/workspace.ts) — 164 wierszy; deklaracje: `Region:15`
+- [packages/console/core/sst-env.d.ts](packages/console/core/sst-env.d.ts) — 10 wierszy
+- [packages/console/core/test/date.test.ts](packages/console/core/test/date.test.ts) — 76 wierszy
+- [packages/console/core/test/model.test.ts](packages/console/core/test/model.test.ts) — 64 wierszy
+- [packages/console/core/test/subscription.test.ts](packages/console/core/test/subscription.test.ts) — 106 wierszy
+- [packages/console/core/tsconfig.json](packages/console/core/tsconfig.json) — 11 wierszy
+- [packages/console/function/package.json](packages/console/function/package.json) — 30 wierszy
+- [packages/console/function/src/auth-redirect.test.ts](packages/console/function/src/auth-redirect.test.ts) — 18 wierszy
+- [packages/console/function/src/auth-redirect.ts](packages/console/function/src/auth-redirect.ts) — 18 wierszy
+- [packages/console/function/src/auth.ts](packages/console/function/src/auth.ts) — 239 wierszy; deklaracje: `Env:22`
+- [packages/console/function/src/log-processor.ts](packages/console/function/src/log-processor.ts) — 211 wierszy; deklaracje: `getLakeIngest:89`, `toLakeEvent:97`, `ipPrefix:162`, `string:183`, `boolean:190`
+- [packages/console/function/src/stat.ts](packages/console/function/src/stat.ts) — 43 wierszy; deklaracje: `Result:4`
+- [packages/console/function/sst-env.d.ts](packages/console/function/sst-env.d.ts) — 10 wierszy
+- [packages/console/function/tsconfig.json](packages/console/function/tsconfig.json) — 11 wierszy
+- [packages/console/mail/emails/components.tsx](packages/console/mail/emails/components.tsx) — 72 wierszy; deklaracje: `Text:6`, `Title:10`, `A:14`, `Span:18`, `Wbr:22`
+- [packages/console/mail/emails/styles.ts](packages/console/mail/emails/styles.ts) — 91 wierszy
+- [packages/console/mail/emails/templates/InviteEmail.tsx](packages/console/mail/emails/templates/InviteEmail.tsx) — 82 wierszy; deklaracje: `InviteEmailProps:20`
+- [packages/console/mail/emails/templates/static/JetBrainsMono-Medium.woff2](packages/console/mail/emails/templates/static/JetBrainsMono-Medium.woff2)
+- [packages/console/mail/emails/templates/static/JetBrainsMono-Regular.woff2](packages/console/mail/emails/templates/static/JetBrainsMono-Regular.woff2)
+- [packages/console/mail/emails/templates/static/ibm-plex-mono-latin-400.woff2](packages/console/mail/emails/templates/static/ibm-plex-mono-latin-400.woff2)
+- [packages/console/mail/emails/templates/static/ibm-plex-mono-latin-500.woff2](packages/console/mail/emails/templates/static/ibm-plex-mono-latin-500.woff2)
+- [packages/console/mail/emails/templates/static/ibm-plex-mono-latin-600.woff2](packages/console/mail/emails/templates/static/ibm-plex-mono-latin-600.woff2)
+- [packages/console/mail/emails/templates/static/ibm-plex-mono-latin-700.woff2](packages/console/mail/emails/templates/static/ibm-plex-mono-latin-700.woff2)
+- [packages/console/mail/emails/templates/static/logo.png](packages/console/mail/emails/templates/static/logo.png)
+- [packages/console/mail/emails/templates/static/right-arrow.png](packages/console/mail/emails/templates/static/right-arrow.png)
+- [packages/console/mail/emails/templates/static/rubik-latin.woff2](packages/console/mail/emails/templates/static/rubik-latin.woff2)
+- [packages/console/mail/emails/templates/static/zen-logo.png](packages/console/mail/emails/templates/static/zen-logo.png)
+- [packages/console/mail/package.json](packages/console/mail/package.json) — 22 wierszy
+- [packages/console/mail/sst-env.d.ts](packages/console/mail/sst-env.d.ts) — 10 wierszy
+- [packages/console/resource/bun.lock](packages/console/resource/bun.lock)
+- [packages/console/resource/package.json](packages/console/resource/package.json) — 22 wierszy
+- [packages/console/resource/resource.cloudflare.ts](packages/console/resource/resource.cloudflare.ts) — 24 wierszy
+- [packages/console/resource/resource.node.ts](packages/console/resource/resource.node.ts) — 71 wierszy
+- [packages/console/resource/sst-env.d.ts](packages/console/resource/sst-env.d.ts) — 10 wierszy
+- [packages/console/resource/tsconfig.json](packages/console/resource/tsconfig.json) — 9 wierszy
+- [packages/console/support/package.json](packages/console/support/package.json) — 29 wierszy
+- [packages/console/support/src/app.css](packages/console/support/src/app.css) — 133 wierszy
+- [packages/console/support/src/app.tsx](packages/console/support/src/app.tsx) — 21 wierszy; deklaracje: `App:7`
+- [packages/console/support/src/component/result.tsx](packages/console/support/src/component/result.tsx) — 119 wierszy; deklaracje: `Result:4`, `WorkspaceView:30`, `DataTable:56`, `renderCell:87`, `isLinkCell:112`
+- [packages/console/support/src/entry-client.tsx](packages/console/support/src/entry-client.tsx) — 4 wierszy
+- [packages/console/support/src/entry-server.tsx](packages/console/support/src/entry-server.tsx) — 26 wierszy
+- [packages/console/support/src/global.d.ts](packages/console/support/src/global.d.ts) — 1 wierszy
+- [packages/console/support/src/lib/lookup.ts](packages/console/support/src/lib/lookup.ts) — 479 wierszy; deklaracje: `LookupResult:23`, `WorkspaceSection:30`, `lookup:41`, `loadWorkspace:132`, `formatLiteUsage:391`
+- [packages/console/support/src/routes/index.tsx](packages/console/support/src/routes/index.tsx) — 22 wierszy; deklaracje: `SupportPage:3`
+- [packages/console/support/src/routes/lookup.tsx](packages/console/support/src/routes/lookup.tsx) — 39 wierszy; deklaracje: `LookupPage:20`
+- [packages/console/support/sst-env.d.ts](packages/console/support/sst-env.d.ts) — 10 wierszy
+- [packages/console/support/tsconfig.json](packages/console/support/tsconfig.json) — 21 wierszy
+- [packages/console/support/vite.config.ts](packages/console/support/vite.config.ts) — 25 wierszy
+- [packages/containers/README.md](packages/containers/README.md) — 38 wierszy
+- [packages/containers/base/Dockerfile](packages/containers/base/Dockerfile)
+- [packages/containers/bun-node/Dockerfile](packages/containers/bun-node/Dockerfile)
+- [packages/containers/publish/Dockerfile](packages/containers/publish/Dockerfile)
+- [packages/containers/rust/Dockerfile](packages/containers/rust/Dockerfile)
+- [packages/containers/script/build.ts](packages/containers/script/build.ts) — 77 wierszy
+- [packages/containers/tauri-linux/Dockerfile](packages/containers/tauri-linux/Dockerfile)
+- [packages/containers/tsconfig.json](packages/containers/tsconfig.json) — 8 wierszy
+- [packages/core/bunfig.toml](packages/core/bunfig.toml)
+- [packages/core/drizzle.config.ts](packages/core/drizzle.config.ts) — 10 wierszy
+- [packages/core/package.json](packages/core/package.json) — 132 wierszy
+- [packages/core/schema.json](packages/core/schema.json) — 2071 wierszy
+- [packages/core/script/fix-node-pty.ts](packages/core/script/fix-node-pty.ts) — 28 wierszy
+- [packages/core/script/migration.ts](packages/core/script/migration.ts) — 196 wierszy; deklaracje: `generate:30`, `check:64`, `drizzle:94`, `generatedMigrations:108`, `generatedSql:115`
+- [packages/core/src/account.ts](packages/core/src/account.ts) — 101 wierszy; deklaracje: `ID:7`, `OrgID:10`, `AccessToken:13`, `RefreshToken:16`, `DeviceCode:19`
+- [packages/core/src/account/sql.ts](packages/core/src/account/sql.ts) — 39 wierszy
+- [packages/core/src/agent.ts](packages/core/src/agent.ts) — 111 wierszy; deklaracje: `ID:9`, `Info:15`, `Selection:17`, `Data:22`, `Draft:27`
+- [packages/core/src/aisdk.ts](packages/core/src/aisdk.ts) — 235 wierszy; deklaracje: `SDK:10`, `SDKEvent:12`, `LanguageEvent:19`, `wrapSSE:26`, `prepareOptions:74`

@@ -1,0 +1,306 @@
+# opencode — mapa plików (3/23)
+
+Wykaz śledzonych plików z badanego commita. Liczba wierszy i nazwy deklaracji są wyciągane automatycznie z dostępnej kopii tekstowej; nie oznaczają ręcznej oceny pliku. Brak opisu oznacza, że zawartość nie była analizowana tą metodą (np. plik binarny, zasób lub pominięty plik).
+
+[Wróć do audytu](AUDYT_EDUKACYJNY.md) · [1](AUDYT_MAPA_01.md) · [2](AUDYT_MAPA_02.md) · [3](AUDYT_MAPA_03.md) · [4](AUDYT_MAPA_04.md) · [5](AUDYT_MAPA_05.md) · [6](AUDYT_MAPA_06.md) · [7](AUDYT_MAPA_07.md) · [8](AUDYT_MAPA_08.md) · [9](AUDYT_MAPA_09.md) · [10](AUDYT_MAPA_10.md) · [11](AUDYT_MAPA_11.md) · [12](AUDYT_MAPA_12.md) · [13](AUDYT_MAPA_13.md) · [14](AUDYT_MAPA_14.md) · [15](AUDYT_MAPA_15.md) · [16](AUDYT_MAPA_16.md) · [17](AUDYT_MAPA_17.md) · [18](AUDYT_MAPA_18.md) · [19](AUDYT_MAPA_19.md) · [20](AUDYT_MAPA_20.md) · [21](AUDYT_MAPA_21.md) · [22](AUDYT_MAPA_22.md) · [23](AUDYT_MAPA_23.md)
+
+- [packages/app/src/i18n/sr.ts](packages/app/src/i18n/sr.ts) — 1161 wierszy
+- [packages/app/src/i18n/sv.ts](packages/app/src/i18n/sv.ts) — 1160 wierszy
+- [packages/app/src/i18n/tg.ts](packages/app/src/i18n/tg.ts) — 1164 wierszy
+- [packages/app/src/i18n/th.ts](packages/app/src/i18n/th.ts) — 1238 wierszy
+- [packages/app/src/i18n/tk.ts](packages/app/src/i18n/tk.ts) — 1159 wierszy
+- [packages/app/src/i18n/tr.ts](packages/app/src/i18n/tr.ts) — 1260 wierszy; deklaracje: `Keys:3`
+- [packages/app/src/i18n/uk.ts](packages/app/src/i18n/uk.ts) — 1267 wierszy
+- [packages/app/src/i18n/ur.ts](packages/app/src/i18n/ur.ts) — 1164 wierszy
+- [packages/app/src/i18n/uz.ts](packages/app/src/i18n/uz.ts) — 1171 wierszy
+- [packages/app/src/i18n/vi.ts](packages/app/src/i18n/vi.ts) — 1169 wierszy
+- [packages/app/src/i18n/zh.ts](packages/app/src/i18n/zh.ts) — 1227 wierszy; deklaracje: `Keys:3`
+- [packages/app/src/i18n/zht.ts](packages/app/src/i18n/zht.ts) — 1223 wierszy; deklaracje: `Keys:3`
+- [packages/app/src/index.css](packages/app/src/index.css) — 330 wierszy
+- [packages/app/src/index.ts](packages/app/src/index.ts) — 30 wierszy; deklaracje: `WslDistroProbe:16`, `WslInstalledDistro:17`, `WslJob:18`, `WslOnlineDistro:19`, `WslOpencodeCheck:20`
+- [packages/app/src/pages/directory-layout.tsx](packages/app/src/pages/directory-layout.tsx) — 123 wierszy; deklaracje: `DirectoryDataProvider:16`, `ProjectDirString:78`, `decodeDirectory:80`, `Layout:86`
+- [packages/app/src/pages/error-description.test.ts](packages/app/src/pages/error-description.test.ts) — 17 wierszy
+- [packages/app/src/pages/error-description.ts](packages/app/src/pages/error-description.ts) — 11 wierszy; deklaracje: `errorDescriptionKey:1`
+- [packages/app/src/pages/error.tsx](packages/app/src/pages/error.tsx) — 372 wierszy; deklaracje: `InitError:12`, `Translator:17`, `isIssue:20`, `isInitError:30`, `safeJson:40`
+- [packages/app/src/pages/home-session-archive.test.ts](packages/app/src/pages/home-session-archive.test.ts) — 51 wierszy
+- [packages/app/src/pages/home-session-archive.ts](packages/app/src/pages/home-session-archive.ts) — 27 wierszy; deklaracje: `HomeSession:4`, `archiveHomeSession:9`
+- [packages/app/src/pages/home-session-open.test.ts](packages/app/src/pages/home-session-open.test.ts) — 31 wierszy
+- [packages/app/src/pages/home-session-open.ts](packages/app/src/pages/home-session-open.ts) — 14 wierszy; deklaracje: `shouldOpenSessionInBackground:1`
+- [packages/app/src/pages/home.tsx](packages/app/src/pages/home.tsx) — 50 wierszy; deklaracje: `NewHome:11`
+- [packages/app/src/pages/home/home-controller.ts](packages/app/src/pages/home/home-controller.ts) — 121 wierszy; deklaracje: `createHomeController:9`, `setSelection:45`, `openProjectNewSession:49`, `HomeController:121`
+- [packages/app/src/pages/home/home-projects-controller.tsx](packages/app/src/pages/home/home-projects-controller.tsx) — 128 wierszy; deklaracje: `createHomeProjectsController:18`, `directories:35`, `canRevealProject:39`, `HomeProjectsController:128`
+- [packages/app/src/pages/home/home-projects-view.tsx](packages/app/src/pages/home/home-projects-view.tsx) — 619 wierszy; deklaracje: `HomeProjectsViewProps:30`, `HomeProjectsView:63`, `HomeUtilityNav:157`, `HomeServerRow:185`, `HomeProjectsContextMenuProps:303`
+- [packages/app/src/pages/home/home-projects.tsx](packages/app/src/pages/home/home-projects.tsx) — 40 wierszy; deklaracje: `HomeProjects:5`
+- [packages/app/src/pages/home/home-scroll-controller.ts](packages/app/src/pages/home/home-scroll-controller.ts) — 145 wierszy; deklaracje: `createHomeScrollController:9`, `queuePositionUpdate:44`, `updatePositionCache:56`, `update:72`, `bindResizeObserver:87`
+- [packages/app/src/pages/home/home-session-search-controller.ts](packages/app/src/pages/home/home-session-search-controller.ts) — 114 wierszy; deklaracje: `HomeSessionSearchSource:11`, `createHomeSessionSearchController:13`, `focus:63`, `close:68`, `select:72`
+- [packages/app/src/pages/home/home-sessions-controller.tsx](packages/app/src/pages/home/home-sessions-controller.tsx) — 320 wierszy; deklaracje: `HomeSessionEvents:12`, `HomeSessionRecord:27`, `HomeSessionGroup:33`, `OpenSessionOptions:39`, `createHomeSessionsController:41`
+- [packages/app/src/pages/home/home-sessions-view.tsx](packages/app/src/pages/home/home-sessions-view.tsx) — 550 wierszy; deklaracje: `HomeSessionGroup:17`, `HomeSessionRecord:18`, `OpenSessionOptions:19`, `isBackgroundOpen:28`, `HomeSessionsViewProps:39`
+- [packages/app/src/pages/home/home-sessions.tsx](packages/app/src/pages/home/home-sessions.tsx) — 47 wierszy; deklaracje: `HomeSessions:6`
+- [packages/app/src/pages/home/legacy-home.tsx](packages/app/src/pages/home/legacy-home.tsx) — 142 wierszy; deklaracje: `LegacyHome:16`, `openProject:40`, `chooseProject:47`
+- [packages/app/src/pages/layout-new.tsx](packages/app/src/pages/layout-new.tsx) — 49 wierszy; deklaracje: `NewLayout:9`
+- [packages/app/src/pages/layout.tsx](packages/app/src/pages/layout.tsx) — 2444 wierszy; deklaracje: `Accessor:12`, `WorkspaceSidebarContext:81`, `LegacyLayout:86`, `cycleTheme:331`, `cycleColorScheme:344`
+- [packages/app/src/pages/layout/deep-links.ts](packages/app/src/pages/layout/deep-links.ts) — 50 wierszy; deklaracje: `OpenCodeWindow:39`
+- [packages/app/src/pages/layout/helpers.test.ts](packages/app/src/pages/layout/helpers.test.ts) — 347 wierszy
+- [packages/app/src/pages/layout/helpers.ts](packages/app/src/pages/layout/helpers.ts) — 142 wierszy; deklaracje: `SessionStore:7`, `compareSessionTime:12`, `hasProjectPermissions:29`, `toggleHomeProjectSelection:52`, `closeHomeProject:61`
+- [packages/app/src/pages/layout/inline-editor.tsx](packages/app/src/pages/layout/inline-editor.tsx) — 126 wierszy; deklaracje: `createInlineEditorController:5`
+- [packages/app/src/pages/layout/project-avatar-state.ts](packages/app/src/pages/layout/project-avatar-state.ts) — 49 wierszy; deklaracje: `useSessionTabAvatarState:8`
+- [packages/app/src/pages/layout/session-tab-avatar.tsx](packages/app/src/pages/layout/session-tab-avatar.tsx) — 60 wierszy; deklaracje: `SessionTabAvatar:10`, `SessionTabAvatarView:33`
+- [packages/app/src/pages/layout/sidebar-items.tsx](packages/app/src/pages/layout/sidebar-items.tsx) — 335 wierszy; deklaracje: `SessionItemProps:76`
+- [packages/app/src/pages/layout/sidebar-project.tsx](packages/app/src/pages/layout/sidebar-project.tsx) — 377 wierszy; deklaracje: `ProjectSidebarContext:16`
+- [packages/app/src/pages/layout/sidebar-shell.tsx](packages/app/src/pages/layout/sidebar-shell.tsx) — 125 wierszy; deklaracje: `DragEvent:8`
+- [packages/app/src/pages/layout/sidebar-workspace.tsx](packages/app/src/pages/layout/sidebar-workspace.tsx) — 488 wierszy; deklaracje: `InlineEditorComponent:26`, `WorkspaceSidebarContext:37`
+- [packages/app/src/pages/new-session.tsx](packages/app/src/pages/new-session.tsx) — 49 wierszy; deklaracje: `NewSessionPage:11`
+- [packages/app/src/pages/new-session/new-session-draft-controller.ts](packages/app/src/pages/new-session/new-session-draft-controller.ts) — 64 wierszy; deklaracje: `createNewSessionDraftController:13`, `NewSessionDraftController:64`
+- [packages/app/src/pages/new-session/new-session-view.tsx](packages/app/src/pages/new-session/new-session-view.tsx) — 162 wierszy; deklaracje: `PromptProjectController:15`, `NewSessionView:29`, `NewSessionStatus:77`, `ProviderTip:95`
+- [packages/app/src/pages/new-session/new-session-workspace-controller.test.ts](packages/app/src/pages/new-session/new-session-workspace-controller.test.ts) — 43 wierszy
+- [packages/app/src/pages/new-session/new-session-workspace-controller.ts](packages/app/src/pages/new-session/new-session-workspace-controller.ts) — 77 wierszy; deklaracje: `resolveNewSessionWorktree:8`, `normalizeNewSessionWorktree:20`, `resolveNewSessionBranch:25`, `createNewSessionWorkspaceController:34`, `NewSessionWorkspaceController:77`
+- [packages/app/src/pages/new-session/use-new-session-commands.tsx](packages/app/src/pages/new-session/use-new-session-commands.tsx) — 44 wierszy; deklaracje: `useNewSessionCommands:6`
+- [packages/app/src/pages/session.tsx](packages/app/src/pages/session.tsx) — 2391 wierszy; deklaracje: `ParentProps:19`, `FollowupItem:107`, `FollowupEdit:108`, `ChangeMode:111`, `VcsMode:112`
+- [packages/app/src/pages/session/composer/index.ts](packages/app/src/pages/session/composer/index.ts) — 4 wierszy
+- [packages/app/src/pages/session/composer/prompt-model-selection.ts](packages/app/src/pages/session/composer/prompt-model-selection.ts) — 132 wierszy; deklaracje: `createPromptModelSelection:11`
+- [packages/app/src/pages/session/composer/session-composer-controls.ts](packages/app/src/pages/session/composer/session-composer-controls.ts) — 133 wierszy; deklaracje: `createPromptInputController:20`, `createPromptProjectControls:63`
+- [packages/app/src/pages/session/composer/session-composer-region-controller.ts](packages/app/src/pages/session/composer/session-composer-region-controller.ts) — 145 wierszy; deklaracje: `SessionComposerFollowupDock:10`, `SessionComposerRevertDock:17`, `createSessionComposerRegionController:24`, `SessionComposerRegionController:145`
+- [packages/app/src/pages/session/composer/session-composer-region.tsx](packages/app/src/pages/session/composer/session-composer-region.tsx) — 168 wierszy; deklaracje: `SessionComposerRegion:11`
+- [packages/app/src/pages/session/composer/session-composer-state.test.ts](packages/app/src/pages/session/composer/session-composer-state.test.ts) — 138 wierszy
+- [packages/app/src/pages/session/composer/session-composer-state.ts](packages/app/src/pages/session/composer/session-composer-state.ts) — 204 wierszy; deklaracje: `createSessionComposerController:28`, `SessionComposerController:204`
+- [packages/app/src/pages/session/composer/session-followup-dock.tsx](packages/app/src/pages/session/composer/session-followup-dock.tsx) — 105 wierszy; deklaracje: `SessionFollowupDock:8`
+- [packages/app/src/pages/session/composer/session-permission-dock.tsx](packages/app/src/pages/session/composer/session-permission-dock.tsx) — 74 wierszy; deklaracje: `SessionPermissionDock:8`
+- [packages/app/src/pages/session/composer/session-question-dock.tsx](packages/app/src/pages/session/composer/session-question-dock.tsx) — 640 wierszy; deklaracje: `Mark:19`, `Option:31`
+- [packages/app/src/pages/session/composer/session-request-tree.ts](packages/app/src/pages/session/composer/session-request-tree.ts) — 52 wierszy; deklaracje: `sessionTreeRequest:3`, `sessionPermissionRequest:36`, `sessionQuestionRequest:45`
+- [packages/app/src/pages/session/composer/session-revert-dock.stories.tsx](packages/app/src/pages/session/composer/session-revert-dock.stories.tsx) — 124 wierszy; deklaracje: `Stage:55`
+- [packages/app/src/pages/session/composer/session-revert-dock.tsx](packages/app/src/pages/session/composer/session-revert-dock.tsx) — 184 wierszy; deklaracje: `SessionRevertDock:12`
+- [packages/app/src/pages/session/composer/session-todo-dock.tsx](packages/app/src/pages/session/composer/session-todo-dock.tsx) — 277 wierszy; deklaracje: `dot:19`, `SessionTodoDock:44`, `TodoList:219`
+- [packages/app/src/pages/session/composer/todo-panel-motion.stories.tsx](packages/app/src/pages/session/composer/todo-panel-motion.stories.tsx) — 622 wierszy
+- [packages/app/src/pages/session/file-tab-scroll.test.ts](packages/app/src/pages/session/file-tab-scroll.test.ts) — 40 wierszy
+- [packages/app/src/pages/session/file-tab-scroll.ts](packages/app/src/pages/session/file-tab-scroll.ts) — 67 wierszy; deklaracje: `Input:1`
+- [packages/app/src/pages/session/file-tabs.tsx](packages/app/src/pages/session/file-tabs.tsx) — 800 wierszy; deklaracje: `SessionFileViewProps:27`, `FileCommentMenu:33`, `FileCommentMenuV2:66`, `ScrollPos:90`, `createScrollSync:92`
+- [packages/app/src/pages/session/handoff.ts](packages/app/src/pages/session/handoff.ts) — 36 wierszy; deklaracje: `HandoffSession:3`
+- [packages/app/src/pages/session/helpers.test.ts](packages/app/src/pages/session/helpers.test.ts) — 214 wierszy
+- [packages/app/src/pages/session/helpers.ts](packages/app/src/pages/session/helpers.ts) — 209 wierszy; deklaracje: `Tabs:11`, `TabsInput:16`, `shouldShowFileTree:27`, `Sizing:209`
+- [packages/app/src/pages/session/message-gesture.test.ts](packages/app/src/pages/session/message-gesture.test.ts) — 62 wierszy
+- [packages/app/src/pages/session/message-gesture.ts](packages/app/src/pages/session/message-gesture.ts) — 21 wierszy
+- [packages/app/src/pages/session/message-id-from-hash.ts](packages/app/src/pages/session/message-id-from-hash.ts) — 6 wierszy
+- [packages/app/src/pages/session/new-session-layout.ts](packages/app/src/pages/session/new-session-layout.ts) — 2 wierszy
+- [packages/app/src/pages/session/review-tab.tsx](packages/app/src/pages/session/review-tab.tsx) — 172 wierszy; deklaracje: `DiffStyle:16`, `ReviewDiff:18`, `SessionReviewTabProps:20`, `SessionReviewTab:47`
+- [packages/app/src/pages/session/session-archive.ts](packages/app/src/pages/session/session-archive.ts) — 74 wierszy; deklaracje: `useSessionArchive:14`
+- [packages/app/src/pages/session/session-layout.ts](packages/app/src/pages/session/session-layout.ts) — 30 wierszy
+- [packages/app/src/pages/session/session-lineage.ts](packages/app/src/pages/session/session-lineage.ts) — 69 wierszy; deklaracje: `LineageStore:4`, `Resolution:6`, `createSessionLineage:28`
+- [packages/app/src/pages/session/session-model-helpers.test.ts](packages/app/src/pages/session/session-model-helpers.test.ts) — 151 wierszy
+- [packages/app/src/pages/session/session-model-helpers.ts](packages/app/src/pages/session/session-model-helpers.ts) — 63 wierszy; deklaracje: `Local:3`, `ModelSelection:10`, `PromptState:21`
+- [packages/app/src/pages/session/session-ownership.ts](packages/app/src/pages/session/session-ownership.ts) — 37 wierszy; deklaracje: `createSessionOwnership:3`
+- [packages/app/src/pages/session/session-panel-layout.test.ts](packages/app/src/pages/session/session-panel-layout.test.ts) — 19 wierszy
+- [packages/app/src/pages/session/session-panel-layout.ts](packages/app/src/pages/session/session-panel-layout.ts) — 6 wierszy; deklaracje: `sessionPanelLayout:1`
+- [packages/app/src/pages/session/session-panel-width.test.ts](packages/app/src/pages/session/session-panel-width.test.ts) — 52 wierszy
+- [packages/app/src/pages/session/session-panel-width.ts](packages/app/src/pages/session/session-panel-width.ts) — 19 wierszy; deklaracje: `sessionPanelWidthMax:9`, `clampSessionPanelWidth:16`
+- [packages/app/src/pages/session/session-side-panel.tsx](packages/app/src/pages/session/session-side-panel.tsx) — 867 wierszy; deklaracje: `DragEvent:15`, `Sizing:54`, `ReviewDiff:60`, `RenderDiff:61`, `renderDiff:64`
+- [packages/app/src/pages/session/terminal-label.ts](packages/app/src/pages/session/terminal-label.ts) — 16 wierszy
+- [packages/app/src/pages/session/terminal-panel-v2.tsx](packages/app/src/pages/session/terminal-panel-v2.tsx) — 352 wierszy; deklaracje: `TerminalPanelV2:30`
+- [packages/app/src/pages/session/terminal-panel.test.ts](packages/app/src/pages/session/terminal-panel.test.ts) — 25 wierszy
+- [packages/app/src/pages/session/terminal-panel.tsx](packages/app/src/pages/session/terminal-panel.tsx) — 343 wierszy; deklaracje: `TerminalPanel:25`
+- [packages/app/src/pages/session/timeline/measure.test.ts](packages/app/src/pages/session/timeline/measure.test.ts) — 30 wierszy
+- [packages/app/src/pages/session/timeline/measure.ts](packages/app/src/pages/session/timeline/measure.ts) — 5 wierszy; deklaracje: `scheduleConnectedMeasure:1`
+- [packages/app/src/pages/session/timeline/message-timeline.tsx](packages/app/src/pages/session/timeline/message-timeline.tsx) — 1847 wierszy; deklaracje: `Accessor:11`, `JSX:12`, `UserActions:28`, `FramedTimelineRow:87`, `TimelineRowByTag:88`
+- [packages/app/src/pages/session/timeline/model.test.ts](packages/app/src/pages/session/timeline/model.test.ts) — 95 wierszy
+- [packages/app/src/pages/session/timeline/model.ts](packages/app/src/pages/session/timeline/model.ts) — 129 wierszy; deklaracje: `createTimelineModel:10`, `clearRefresh:89`, `selectUserMessages:97`, `isTimelineReady:101`, `selectVisibleUserMessages:105`
+- [packages/app/src/pages/session/timeline/observe-element-offset.test.ts](packages/app/src/pages/session/timeline/observe-element-offset.test.ts) — 199 wierszy; deklaracje: `frames:195`
+- [packages/app/src/pages/session/timeline/observe-element-offset.ts](packages/app/src/pages/session/timeline/observe-element-offset.ts) — 73 wierszy; deklaracje: `observeElementOffsetReconnectAware:3`, `mutationNodesContainElement:71`
+- [packages/app/src/pages/session/timeline/projection.test.ts](packages/app/src/pages/session/timeline/projection.test.ts) — 96 wierszy
+- [packages/app/src/pages/session/timeline/projection.ts](packages/app/src/pages/session/timeline/projection.ts) — 81 wierszy; deklaracje: `createTimelineProjection:9`
+- [packages/app/src/pages/session/timeline/row-reconciliation.ts](packages/app/src/pages/session/timeline/row-reconciliation.ts) — 56 wierszy; deklaracje: `ContextRow:3`, `PriorContext:4`, `reuseTimelineRows:6`, `stabilizeContextKey:31`
+- [packages/app/src/pages/session/timeline/rows-current.test.ts](packages/app/src/pages/session/timeline/rows-current.test.ts) — 207 wierszy
+- [packages/app/src/pages/session/timeline/rows.ts](packages/app/src/pages/session/timeline/rows.ts) — 346 wierszy; deklaracje: `TimelineRowMap:11`, `constructSessionMessageRows:36`, `constructMessageRows:101`, `reasoningHeading:234`, `cleanHeading:261`
+- [packages/app/src/pages/session/timeline/summary-diffs.test.ts](packages/app/src/pages/session/timeline/summary-diffs.test.ts) — 42 wierszy
+- [packages/app/src/pages/session/timeline/summary-diffs.ts](packages/app/src/pages/session/timeline/summary-diffs.ts) — 20 wierszy; deklaracje: `uniqueSummaryDiffs:4`, `isSummaryDiff:18`
+- [packages/app/src/pages/session/timeline/timeline-row.ts](packages/app/src/pages/session/timeline/timeline-row.ts) — 80 wierszy; deklaracje: `SummaryDiff:5`, `TurnGap:8`, `CommentStrip:11`, `UserMessage:14`, `TurnDivider:18`
+- [packages/app/src/pages/session/timeline/virtual-items.ts](packages/app/src/pages/session/timeline/virtual-items.ts) — 3 wierszy; deklaracje: `filterVirtualIndexes:1`
+- [packages/app/src/pages/session/usage-exceeded-dialogs.tsx](packages/app/src/pages/session/usage-exceeded-dialogs.tsx) — 104 wierszy; deklaracje: `goUpsellKeys:18`, `useUsageExceededDialogs:36`
+- [packages/app/src/pages/session/use-composer-commands.tsx](packages/app/src/pages/session/use-composer-commands.tsx) — 83 wierszy
+- [packages/app/src/pages/session/use-session-commands.tsx](packages/app/src/pages/session/use-session-commands.tsx) — 657 wierszy; deklaracje: `SessionCommandContext:25`
+- [packages/app/src/pages/session/use-session-hash-scroll.test.ts](packages/app/src/pages/session/use-session-hash-scroll.test.ts) — 16 wierszy
+- [packages/app/src/pages/session/use-session-hash-scroll.ts](packages/app/src/pages/session/use-session-hash-scroll.ts) — 202 wierszy
+- [packages/app/src/pages/session/v2/review-diff-kinds.test.ts](packages/app/src/pages/session/v2/review-diff-kinds.test.ts) — 70 wierszy
+- [packages/app/src/pages/session/v2/review-diff-kinds.ts](packages/app/src/pages/session/v2/review-diff-kinds.ts) — 62 wierszy; deklaracje: `RenderDiff:6`, `normalizePath:8`, `filterRenderableDiff:12`, `reviewDiffNeedsLoad:16`, `reviewRootDirectory:21`
+- [packages/app/src/pages/session/v2/review-panel-v2-state.ts](packages/app/src/pages/session/v2/review-panel-v2-state.ts) — 41 wierszy; deklaracje: `SessionReviewExpandMode:5`, `createReviewPanelV2State:11`, `ReviewPanelV2State:41`
+- [packages/app/src/pages/session/v2/review-panel-v2.tsx](packages/app/src/pages/session/v2/review-panel-v2.tsx) — 255 wierszy; deklaracje: `RenderDiff:29`, `ReviewDiff:34`, `ReviewPanelV2Props:36`, `ReviewPanelV2:57`, `ReviewPanelV2Sidebar:171`
+- [packages/app/src/pages/session/v2/session-file-browser-tab.tsx](packages/app/src/pages/session/v2/session-file-browser-tab.tsx) — 182 wierszy; deklaracje: `SessionFileBrowserState:19`, `SessionFileBrowserTab:27`
+- [packages/app/src/pages/session/v2/session-file-list-v2.tsx](packages/app/src/pages/session/v2/session-file-list-v2.tsx) — 166 wierszy; deklaracje: `applyFileListKeyDown:12`, `SessionFileListV2:41`
+- [packages/app/src/sst-env.d.ts](packages/app/src/sst-env.d.ts) — 12 wierszy; deklaracje: `ImportMetaEnv:7`, `ImportMeta:10`
+- [packages/app/src/theme-preload.test.ts](packages/app/src/theme-preload.test.ts) — 46 wierszy
+- [packages/app/src/updater.ts](packages/app/src/updater.ts) — 17 wierszy; deklaracje: `UpdaterState:3`, `UpdaterPlatform:13`
+- [packages/app/src/utils/agent.ts](packages/app/src/utils/agent.ts) — 44 wierszy; deklaracje: `tone:23`, `agentColor:29`, `messageAgentColor:34`
+- [packages/app/src/utils/aim.ts](packages/app/src/utils/aim.ts) — 138 wierszy; deklaracje: `Point:1`, `createAim:3`
+- [packages/app/src/utils/base64.ts](packages/app/src/utils/base64.ts) — 10 wierszy; deklaracje: `decode64:3`
+- [packages/app/src/utils/comment-note.ts](packages/app/src/utils/comment-note.ts) — 88 wierszy; deklaracje: `PromptComment:3`, `selection:11`, `createCommentMetadata:26`, `readCommentMetadata:38`, `formatCommentNote:56`
+- [packages/app/src/utils/diffs.test.ts](packages/app/src/utils/diffs.test.ts) — 75 wierszy
+- [packages/app/src/utils/diffs.ts](packages/app/src/utils/diffs.ts) — 50 wierszy; deklaracje: `Diff:5`, `diff:7`, `object:17`, `diffs:21`, `message:29`
+- [packages/app/src/utils/draft-store.ts](packages/app/src/utils/draft-store.ts) — 171 wierszy; deklaracje: `BlobReference:3`, `Driver:5`, `DraftStore:13`, `blobUrl:16`, `blobID:24`
+- [packages/app/src/utils/file-manager.ts](packages/app/src/utils/file-manager.ts) — 24 wierszy; deklaracje: `FileManagerOS:1`, `fileManagerApp:3`
+- [packages/app/src/utils/id.ts](packages/app/src/utils/id.ts) — 93 wierszy; deklaracje: `Prefix:14`, `ascending:16`, `descending:20`, `generateID:25`, `create:37`
+- [packages/app/src/utils/menu-dismiss-controller.ts](packages/app/src/utils/menu-dismiss-controller.ts) — 30 wierszy; deklaracje: `createMenuDismissController:2`
+- [packages/app/src/utils/path-key.ts](packages/app/src/utils/path-key.ts) — 24 wierszy; deklaracje: `PathKey:1`
+- [packages/app/src/utils/persist.test.ts](packages/app/src/utils/persist.test.ts) — 211 wierszy; deklaracje: `PersistTestingType:4`, `PersistType:5`, `RemovePersistedType:6`, `MemoryStorage:8`
+- [packages/app/src/utils/persist.ts](packages/app/src/utils/persist.ts) — 704 wierszy; deklaracje: `InitType:9`, `PersistedWithReady:10`, `PersistTarget:17`, `CacheEntry:36`, `cacheDelete:40`
+- [packages/app/src/utils/prompt.test.ts](packages/app/src/utils/prompt.test.ts) — 54 wierszy
+- [packages/app/src/utils/prompt.ts](packages/app/src/utils/prompt.ts) — 204 wierszy; deklaracje: `Inline:5`, `selectionFromFileUrl:27`, `textPartValue:42`, `extractPromptFromParts:57`
+- [packages/app/src/utils/refcount.test.ts](packages/app/src/utils/refcount.test.ts) — 49 wierszy
+- [packages/app/src/utils/refcount.ts](packages/app/src/utils/refcount.ts) — 32 wierszy; deklaracje: `createRefCountMap:3`
+- [packages/app/src/utils/runtime-adapters.test.ts](packages/app/src/utils/runtime-adapters.test.ts) — 64 wierszy; deklaracje: `SpeechCtor:50`, `WebkitCtor:52`
+- [packages/app/src/utils/runtime-adapters.ts](packages/app/src/utils/runtime-adapters.ts) — 39 wierszy; deklaracje: `RecordValue:1`
+- [packages/app/src/utils/same.ts](packages/app/src/utils/same.ts) — 6 wierszy; deklaracje: `same:1`
+- [packages/app/src/utils/scoped-cache.test.ts](packages/app/src/utils/scoped-cache.test.ts) — 69 wierszy
+- [packages/app/src/utils/scoped-cache.ts](packages/app/src/utils/scoped-cache.ts) — 104 wierszy; deklaracje: `ScopedCacheOptions:1`, `Entry:8`, `createScopedCache:13`
+- [packages/app/src/utils/search-keydown.ts](packages/app/src/utils/search-keydown.ts) — 116 wierszy; deklaracje: `handleDocumentSearchKeydown:3`, `searchKeyAction:66`, `moveSelection:81`, `setBoundarySelection:103`, `updateValue:111`
+- [packages/app/src/utils/server-compat.test.ts](packages/app/src/utils/server-compat.test.ts) — 236 wierszy; deklaracje: `setup:5`
+- [packages/app/src/utils/server-compat.ts](packages/app/src/utils/server-compat.ts) — 518 wierszy; deklaracje: `LegacyClient:19`, `LegacyFor:20`, `CompatibleSessionApi:21`, `CompatiblePermissionApi:33`, `CompatibleApi:38`
+- [packages/app/src/utils/server-errors.test.ts](packages/app/src/utils/server-errors.test.ts) — 175 wierszy; deklaracje: `fill:6`, `useLanguageMock:15`
+- [packages/app/src/utils/server-errors.ts](packages/app/src/utils/server-errors.ts) — 109 wierszy; deklaracje: `ConfigInvalidError:1`, `ProviderModelNotFoundError:10`, `Translator:19`, `tr:21`, `formatServerError:28`
+- [packages/app/src/utils/server-health.test.ts](packages/app/src/utils/server-health.test.ts) — 178 wierszy; deklaracje: `abortFromInput:9`
+- [packages/app/src/utils/server-health.ts](packages/app/src/utils/server-health.ts) — 172 wierszy; deklaracje: `ServerHealth:8`, `CheckServerHealthOptions:10`, `cacheKey:26`, `timeoutSignal:30`, `wait:45`
+- [packages/app/src/utils/server-protocol.test.ts](packages/app/src/utils/server-protocol.test.ts) — 40 wierszy
+- [packages/app/src/utils/server-protocol.ts](packages/app/src/utils/server-protocol.ts) — 35 wierszy; deklaracje: `ServerProtocol:4`, `headers:6`, `probe:13`, `detectServerProtocol:24`
+- [packages/app/src/utils/server-scope.test.ts](packages/app/src/utils/server-scope.test.ts) — 61 wierszy
+- [packages/app/src/utils/server-scope.ts](packages/app/src/utils/server-scope.ts) — 73 wierszy; deklaracje: `ServerScope:3`, `SessionRouteKey:4`, `SessionStateKey:5`, `ScopedKey:6`, `fragment:10`
+- [packages/app/src/utils/server.test.ts](packages/app/src/utils/server.test.ts) — 23 wierszy
+- [packages/app/src/utils/server.ts](packages/app/src/utils/server.ts) — 62 wierszy; deklaracje: `authTokenFromCredentials:6`, `authFromToken:10`, `createSdkForServer:21`, `createApiForServer:44`, `ServerApi:62`
+- [packages/app/src/utils/session-export.test.ts](packages/app/src/utils/session-export.test.ts) — 61 wierszy
+- [packages/app/src/utils/session-export.ts](packages/app/src/utils/session-export.ts) — 61 wierszy; deklaracje: `SessionExportData:4`, `SessionExportClient:12`, `fetchSessionExport:19`, `sessionExportFilename:41`, `downloadSessionExport:50`
+- [packages/app/src/utils/session-message.test.ts](packages/app/src/utils/session-message.test.ts) — 214 wierszy
+- [packages/app/src/utils/session-message.ts](packages/app/src/utils/session-message.ts) — 366 wierszy; deklaracje: `compareMessages:15`, `record:23`, `normalizeToolInput:27`, `normalizeToolMetadata:33`, `normalizeSessionMessages:48`
+- [packages/app/src/utils/session-route.test.ts](packages/app/src/utils/session-route.test.ts) — 71 wierszy
+- [packages/app/src/utils/session-route.ts](packages/app/src/utils/session-route.ts) — 39 wierszy; deklaracje: `sessionHref:5`, `legacySessionHref:9`, `requireServerKey:13`, `legacySessionServer:19`, `SessionParent:28`
+- [packages/app/src/utils/session-title.ts](packages/app/src/utils/session-title.ts) — 19 wierszy; deklaracje: `Info:3`, `withTimestampedFallback:11`, `sessionTitle:15`
+- [packages/app/src/utils/session.test.ts](packages/app/src/utils/session.test.ts) — 114 wierszy; deklaracje: `sessionInfo:90`, `currentSession:104`
+- [packages/app/src/utils/session.ts](packages/app/src/utils/session.ts) — 38 wierszy; deklaracje: `normalizeSessionInfo:5`, `listAllSessions:30`
+- [packages/app/src/utils/solid-dnd.tsx](packages/app/src/utils/solid-dnd.tsx) — 49 wierszy; deklaracje: `DragEvent:5`
+- [packages/app/src/utils/sound.ts](packages/app/src/utils/sound.ts) — 102 wierszy; deklaracje: `getFiles:4`, `SoundOption:61`, `SoundID:62`, `getLoads:64`, `soundSrc:78`
+- [packages/app/src/utils/terminal-websocket-url.test.ts](packages/app/src/utils/terminal-websocket-url.test.ts) — 80 wierszy
+- [packages/app/src/utils/terminal-websocket-url.ts](packages/app/src/utils/terminal-websocket-url.ts) — 35 wierszy; deklaracje: `terminalWebSocketURL:3`
+- [packages/app/src/utils/terminal-writer.test.ts](packages/app/src/utils/terminal-writer.test.ts) — 64 wierszy
+- [packages/app/src/utils/terminal-writer.ts](packages/app/src/utils/terminal-writer.ts) — 65 wierszy; deklaracje: `terminalWriter:1`
+- [packages/app/src/utils/time.ts](packages/app/src/utils/time.ts) — 22 wierszy; deklaracje: `TimeKey:1`, `Translate:7`, `getRelativeTime:9`
+- [packages/app/src/utils/toast.tsx](packages/app/src/utils/toast.tsx) — 47 wierszy; deklaracje: `ToastOptions:6`, `ToastVariant:7`, `setV2Toast:13`, `ToastRegion:17`, `showToast:22`
+- [packages/app/src/utils/uuid.test.ts](packages/app/src/utils/uuid.test.ts) — 78 wierszy
+- [packages/app/src/utils/uuid.ts](packages/app/src/utils/uuid.ts) — 12 wierszy; deklaracje: `uuid:3`
+- [packages/app/src/utils/worktree.test.ts](packages/app/src/utils/worktree.test.ts) — 58 wierszy
+- [packages/app/src/utils/worktree.ts](packages/app/src/utils/worktree.ts) — 76 wierszy; deklaracje: `State:6`, `deferred:27`
+- [packages/app/src/wsl/add-server-probes.ts](packages/app/src/wsl/add-server-probes.ts) — 57 wierszy; deklaracje: `AddServerProbePlan:8`, `WslAddServerView:9`, `useWslAddServerProbes:13`
+- [packages/app/src/wsl/context.tsx](packages/app/src/wsl/context.tsx) — 36 wierszy
+- [packages/app/src/wsl/dialog-add-server.tsx](packages/app/src/wsl/dialog-add-server.tsx) — 463 wierszy; deklaracje: `isWslRuntimeMissing:18`, `translate:23`, `DialogWslServerProps:28`, `DialogAddWslServer:32`, `useWslAddServerController:254`
+- [packages/app/src/wsl/dialog-add-wsl-server.css](packages/app/src/wsl/dialog-add-wsl-server.css) — 392 wierszy
+- [packages/app/src/wsl/settings-model.test.ts](packages/app/src/wsl/settings-model.test.ts) — 231 wierszy; deklaracje: `readyState:16`
+- [packages/app/src/wsl/settings-model.ts](packages/app/src/wsl/settings-model.ts) — 341 wierszy; deklaracje: `AddServerText:11`, `DistroStatusTone:16`, `DistroStatus:18`, `AddServerPrimaryButton:23`, `AddServerRuntimeState:32`
+- [packages/app/src/wsl/settings.tsx](packages/app/src/wsl/settings.tsx) — 173 wierszy; deklaracje: `Controller:20`, `isWslServer:22`, `AddServerMenu:26`, `useFilteredWslServers:57`, `WslServerSettings:69`
+- [packages/app/src/wsl/types.ts](packages/app/src/wsl/types.ts) — 85 wierszy; deklaracje: `WslRuntimeCheck:1`, `WslInstalledDistro:7`, `WslOnlineDistro:13`, `WslDistroProbe:18`, `WslOpencodeCheck:26`
+- [packages/app/sst-env.d.ts](packages/app/sst-env.d.ts) — 10 wierszy
+- [packages/app/test-browser/command-palette.test.ts](packages/app/test-browser/command-palette.test.ts) — 78 wierszy
+- [packages/app/test-browser/motion-spring.test.ts](packages/app/test-browser/motion-spring.test.ts) — 20 wierszy
+- [packages/app/test-browser/prompt-attachments.test.ts](packages/app/test-browser/prompt-attachments.test.ts) — 175 wierszy; deklaracje: `images:173`
+- [packages/app/test-browser/prompt-persistence.test.ts](packages/app/test-browser/prompt-persistence.test.ts) — 113 wierszy
+- [packages/app/test-browser/prompt-scope.test.ts](packages/app/test-browser/prompt-scope.test.ts) — 14 wierszy
+- [packages/app/test-browser/prompt-submission-state.test.ts](packages/app/test-browser/prompt-submission-state.test.ts) — 73 wierszy
+- [packages/app/test-browser/prompt-transient-state.test.ts](packages/app/test-browser/prompt-transient-state.test.ts) — 38 wierszy
+- [packages/app/test-browser/review-panel-v2-state.test.ts](packages/app/test-browser/review-panel-v2-state.test.ts) — 65 wierszy
+- [packages/app/test-browser/session-lineage.test.ts](packages/app/test-browser/session-lineage.test.ts) — 231 wierszy; deklaracje: `Lineage:5`, `createFixture:14`
+- [packages/app/test-browser/session-ownership.test.ts](packages/app/test-browser/session-ownership.test.ts) — 45 wierszy
+- [packages/app/test-browser/settings-keybinds.test.ts](packages/app/test-browser/settings-keybinds.test.ts) — 107 wierszy; deklaracje: `setup:5`, `modKey:60`
+- [packages/app/test-browser/solid-router-cleanup.test.ts](packages/app/test-browser/solid-router-cleanup.test.ts) — 64 wierszy
+- [packages/app/test-browser/solid-virtual.test.ts](packages/app/test-browser/solid-virtual.test.ts) — 112 wierszy
+- [packages/app/test-browser/toast-owner.test.ts](packages/app/test-browser/toast-owner.test.ts) — 64 wierszy
+- [packages/app/tsconfig.json](packages/app/tsconfig.json) — 26 wierszy
+- [packages/app/vendor/opencode-ai-client-1.17.13-v2.tgz](packages/app/vendor/opencode-ai-client-1.17.13-v2.tgz)
+- [packages/app/vite.config.ts](packages/app/vite.config.ts) — 33 wierszy
+- [packages/app/vite.js](packages/app/vite.js) — 48 wierszy
+- [packages/cli/bin/lildax.cjs](packages/cli/bin/lildax.cjs)
+- [packages/cli/bunfig.toml](packages/cli/bunfig.toml)
+- [packages/cli/package.json](packages/cli/package.json) — 36 wierszy
+- [packages/cli/script/build.ts](packages/cli/script/build.ts) — 116 wierszy
+- [packages/cli/script/generate.ts](packages/cli/script/generate.ts) — 7 wierszy
+- [packages/cli/script/publish.ts](packages/cli/script/publish.ts) — 53 wierszy; deklaracje: `published:10`, `publish:14`
+- [packages/cli/src/commands/commands.ts](packages/cli/src/commands/commands.ts) — 52 wierszy
+- [packages/cli/src/commands/handlers/api.test.ts](packages/cli/src/commands/handlers/api.test.ts) — 35 wierszy
+- [packages/cli/src/commands/handlers/api.ts](packages/cli/src/commands/handlers/api.ts) — 85 wierszy; deklaracje: `Operation:9`, `OpenApi:13`, `resolveOperation:45`, `rawRequest:55`, `resolveRequest:60`
+- [packages/cli/src/commands/handlers/debug/agents.ts](packages/cli/src/commands/handlers/debug/agents.ts) — 21 wierszy
+- [packages/cli/src/commands/handlers/default.ts](packages/cli/src/commands/handlers/default.ts) — 13 wierszy
+- [packages/cli/src/commands/handlers/migrate.ts](packages/cli/src/commands/handlers/migrate.ts) — 5 wierszy
+- [packages/cli/src/commands/handlers/serve.ts](packages/cli/src/commands/handlers/serve.ts) — 46 wierszy; deklaracje: `listen:30`, `bind:39`
+- [packages/cli/src/commands/handlers/service/password.ts](packages/cli/src/commands/handlers/service/password.ts) — 16 wierszy
+- [packages/cli/src/commands/handlers/service/restart.ts](packages/cli/src/commands/handlers/service/restart.ts) — 14 wierszy
+- [packages/cli/src/commands/handlers/service/start.ts](packages/cli/src/commands/handlers/service/start.ts) — 12 wierszy
+- [packages/cli/src/commands/handlers/service/status.ts](packages/cli/src/commands/handlers/service/status.ts) — 13 wierszy
+- [packages/cli/src/commands/handlers/service/stop.ts](packages/cli/src/commands/handlers/service/stop.ts) — 11 wierszy
+- [packages/cli/src/framework/runtime.ts](packages/cli/src/framework/runtime.ts) — 79 wierszy; deklaracje: `Input:6`, `RuntimeHandler:13`, `Loader:14`, `ProvidedCommand:17`, `Handlers:19`
+- [packages/cli/src/framework/spec.ts](packages/cli/src/framework/spec.ts) — 42 wierszy; deklaracje: `Options:3`, `Node:9`, `Any:19`, `Children:20`, `make:22`
+- [packages/cli/src/index.ts](packages/cli/src/index.ts) — 32 wierszy
+- [packages/cli/src/services/daemon.ts](packages/cli/src/services/daemon.ts) — 192 wierszy; deklaracje: `Interface:11`, `Service:21`, `Registration:29`, `sameRegistration:31`
+- [packages/cli/src/tui.ts](packages/cli/src/tui.ts) — 37 wierszy; deklaracje: `runTui:7`
+- [packages/cli/sst-env.d.ts](packages/cli/sst-env.d.ts) — 10 wierszy
+- [packages/cli/tsconfig.json](packages/cli/tsconfig.json) — 10 wierszy
+- [packages/client/README.md](packages/client/README.md) — 27 wierszy
+- [packages/client/package.json](packages/client/package.json) — 39 wierszy
+- [packages/client/script/build.ts](packages/client/script/build.ts) — 30 wierszy
+- [packages/client/src/contract.ts](packages/client/src/contract.ts) — 53 wierszy; deklaracje: `LocationMiddleware:5`, `SessionLocationMiddleware:9`
+- [packages/client/src/effect.ts](packages/client/src/effect.ts) — 25 wierszy
+- [packages/client/src/generated-effect/.httpapi-codegen.json](packages/client/src/generated-effect/.httpapi-codegen.json) — 5 wierszy
+- [packages/client/src/generated-effect/client-error.ts](packages/client/src/generated-effect/client-error.ts) — 5 wierszy; deklaracje: `ClientError:3`
+- [packages/client/src/generated-effect/client.ts](packages/client/src/generated-effect/client.ts) — 706 wierszy; deklaracje: `RawClient:9`, `Endpoint1_0Request:21`, `Endpoint1_0Input:22`, `Endpoint2_0Request:28`, `Endpoint2_0Input:29`
+- [packages/client/src/generated-effect/index.ts](packages/client/src/generated-effect/index.ts) — 2 wierszy
+- [packages/client/src/generated/.httpapi-codegen.json](packages/client/src/generated/.httpapi-codegen.json) — 6 wierszy
+- [packages/client/src/generated/client-error.ts](packages/client/src/generated/client-error.ts) — 11 wierszy; deklaracje: `ClientErrorReason:1`, `ClientError:3`
+- [packages/client/src/generated/client.ts](packages/client/src/generated/client.ts) — 1029 wierszy; deklaracje: `ClientOptions:118`, `RequestOptions:124`, `RequestDescriptor:129`, `make:140`, `appendQuery:993`
+- [packages/client/src/generated/index.ts](packages/client/src/generated/index.ts) — 3 wierszy
+- [packages/client/src/generated/types.ts](packages/client/src/generated/types.ts) — 2807 wierszy; deklaracje: `JsonValue:3`, `UnauthorizedError:11`, `InvalidRequestError:15`, `InvalidCursorError:24`, `SessionNotFoundError:28`
+- [packages/client/src/index.ts](packages/client/src/index.ts) — 2 wierszy
+- [packages/client/sst-env.d.ts](packages/client/sst-env.d.ts) — 10 wierszy
+- [packages/client/test/contract-identity.test.ts](packages/client/test/contract-identity.test.ts) — 58 wierszy
+- [packages/client/test/effect.test.ts](packages/client/test/effect.test.ts) — 246 wierszy
+- [packages/client/test/import-boundaries.test.ts](packages/client/test/import-boundaries.test.ts) — 68 wierszy; deklaracje: `bundleInputs:33`, `within:65`
+- [packages/client/test/promise.test.ts](packages/client/test/promise.test.ts) — 255 wierszy
+- [packages/client/tsconfig.json](packages/client/tsconfig.json) — 9 wierszy
+- [packages/codemode/AGENTS.md](packages/codemode/AGENTS.md) — 23 wierszy
+- [packages/codemode/README.md](packages/codemode/README.md) — 369 wierszy; deklaracje: `Result:128`, `Success:130`, `Failure:138`
+- [packages/codemode/codemode.md](packages/codemode/codemode.md) — 176 wierszy
+- [packages/codemode/package.json](packages/codemode/package.json) — 26 wierszy
+- [packages/codemode/src/codemode.ts](packages/codemode/src/codemode.ts) — 159 wierszy; deklaracje: `ExecutionLimits:10`, `DiscoveryOptions:20`, `ToolTree:25`, `ResolvedExecutionLimits:29`, `ExecuteOptions:36`
+- [packages/codemode/src/index.ts](packages/codemode/src/index.ts) — 4 wierszy
+- [packages/codemode/src/interpreter/model.ts](packages/codemode/src/interpreter/model.ts) — 201 wierszy; deklaracje: `SourcePosition:4`, `SourceLocation:9`, `AstNode:14`, `ProgramNode:20`, `Binding:25`
+- [packages/codemode/src/interpreter/runtime.ts](packages/codemode/src/interpreter/runtime.ts) — 3465 wierszy; deklaracje: `HostTools:11`, `SafeObject:12`, `Services:13`, `AstNode:25`, `Binding:27`
+- [packages/codemode/src/openapi/TODO.md](packages/codemode/src/openapi/TODO.md) — 19 wierszy
+- [packages/codemode/src/openapi/index.ts](packages/codemode/src/openapi/index.ts) — 130 wierszy
+- [packages/codemode/src/openapi/runtime.ts](packages/codemode/src/openapi/runtime.ts) — 326 wierszy
+- [packages/codemode/src/openapi/spec.ts](packages/codemode/src/openapi/spec.ts) — 511 wierszy; deklaracje: `PlannedField:102`
+- [packages/codemode/src/openapi/types.ts](packages/codemode/src/openapi/types.ts) — 112 wierszy; deklaracje: `Document:6`, `Operation:9`, `SecurityScheme:18`, `Credential:29`, `AuthResolver:40`
+- [packages/codemode/src/stdlib/collections.ts](packages/codemode/src/stdlib/collections.ts) — 51 wierszy
+- [packages/codemode/src/stdlib/console.ts](packages/codemode/src/stdlib/console.ts) — 4 wierszy
+- [packages/codemode/src/stdlib/date.ts](packages/codemode/src/stdlib/date.ts) — 94 wierszy
+- [packages/codemode/src/stdlib/json.ts](packages/codemode/src/stdlib/json.ts) — 42 wierszy; deklaracje: `AstNode:2`
+- [packages/codemode/src/stdlib/math.ts](packages/codemode/src/stdlib/math.ts) — 65 wierszy
+- [packages/codemode/src/stdlib/number.ts](packages/codemode/src/stdlib/number.ts) — 66 wierszy
+- [packages/codemode/src/stdlib/object.ts](packages/codemode/src/stdlib/object.ts) — 77 wierszy
+- [packages/codemode/src/stdlib/promise.ts](packages/codemode/src/stdlib/promise.ts) — 6 wierszy
+- [packages/codemode/src/stdlib/regexp.ts](packages/codemode/src/stdlib/regexp.ts) — 74 wierszy
+- [packages/codemode/src/stdlib/string.ts](packages/codemode/src/stdlib/string.ts) — 52 wierszy
+- [packages/codemode/src/stdlib/url.ts](packages/codemode/src/stdlib/url.ts) — 90 wierszy
+- [packages/codemode/src/stdlib/value.ts](packages/codemode/src/stdlib/value.ts) — 86 wierszy
+- [packages/codemode/src/tool-error.ts](packages/codemode/src/tool-error.ts) — 11 wierszy; deklaracje: `ToolError:4`
+- [packages/codemode/src/tool-runtime.ts](packages/codemode/src/tool-runtime.ts) — 806 wierszy; deklaracje: `HostTool:24`, `HostTools:26`, `Services:30`, `ServicesOf:32`, `ToolCall:48`
+- [packages/codemode/src/tool-schema.ts](packages/codemode/src/tool-schema.ts) — 301 wierszy; deklaracje: `RenderContext:37`, `InputProperty:221`
+- [packages/codemode/src/tool.ts](packages/codemode/src/tool.ts) — 96 wierszy; deklaracje: `JsonSchema:10`, `SchemaType:33`, `Definition:36`, `InputType:45`, `ResultType:48`
+- [packages/codemode/src/values.ts](packages/codemode/src/values.ts) — 49 wierszy; deklaracje: `SandboxPromise:3`, `SandboxDate:11`, `SandboxRegExp:15`, `SandboxMap:22`, `SandboxSet:26`
+- [packages/codemode/sst-env.d.ts](packages/codemode/sst-env.d.ts) — 10 wierszy
+- [packages/codemode/test/codemode.test.ts](packages/codemode/test/codemode.test.ts) — 1163 wierszy; deklaracje: `UnsafeHostError:8`
+- [packages/codemode/test/enumeration.test.ts](packages/codemode/test/enumeration.test.ts) — 159 wierszy
+- [packages/codemode/test/fixtures/openapi-happy-path.json](packages/codemode/test/fixtures/openapi-happy-path.json) — 230 wierszy
+- [packages/codemode/test/fixtures/opencode-v2-openapi.json](packages/codemode/test/fixtures/opencode-v2-openapi.json) — 23730 wierszy
+- [packages/codemode/test/openapi.test.ts](packages/codemode/test/openapi.test.ts) — 964 wierszy; deklaracje: `Document:8`, `Recorded:10`
+- [packages/codemode/test/parity.test.ts](packages/codemode/test/parity.test.ts) — 425 wierszy
+- [packages/codemode/test/promise.test.ts](packages/codemode/test/promise.test.ts) — 456 wierszy; deklaracje: `Trace:9`
+- [packages/codemode/test/signature.test.ts](packages/codemode/test/signature.test.ts) — 449 wierszy
+- [packages/codemode/test/stdlib.test.ts](packages/codemode/test/stdlib.test.ts) — 715 wierszy; deklaracje: `throwsTypeError:397`
+- [packages/codemode/tsconfig.json](packages/codemode/tsconfig.json) — 7 wierszy
+- [packages/console/app/.gitignore](packages/console/app/.gitignore)
+- [packages/console/app/.opencode/agent/css.md](packages/console/app/.opencode/agent/css.md) — 149 wierszy
+- [packages/console/app/README.md](packages/console/app/README.md) — 32 wierszy
+- [packages/console/app/package.json](packages/console/app/package.json) — 49 wierszy
+- [packages/console/app/public/apple-touch-icon-v3.png](packages/console/app/public/apple-touch-icon-v3.png)
+- [packages/console/app/public/apple-touch-icon.png](packages/console/app/public/apple-touch-icon.png)
+- [packages/console/app/public/email](packages/console/app/public/email)

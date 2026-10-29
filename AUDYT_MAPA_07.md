@@ -1,0 +1,306 @@
+# opencode — mapa plików (7/23)
+
+Wykaz śledzonych plików z badanego commita. Liczba wierszy i nazwy deklaracji są wyciągane automatycznie z dostępnej kopii tekstowej; nie oznaczają ręcznej oceny pliku. Brak opisu oznacza, że zawartość nie była analizowana tą metodą (np. plik binarny, zasób lub pominięty plik).
+
+[Wróć do audytu](AUDYT_EDUKACYJNY.md) · [1](AUDYT_MAPA_01.md) · [2](AUDYT_MAPA_02.md) · [3](AUDYT_MAPA_03.md) · [4](AUDYT_MAPA_04.md) · [5](AUDYT_MAPA_05.md) · [6](AUDYT_MAPA_06.md) · [7](AUDYT_MAPA_07.md) · [8](AUDYT_MAPA_08.md) · [9](AUDYT_MAPA_09.md) · [10](AUDYT_MAPA_10.md) · [11](AUDYT_MAPA_11.md) · [12](AUDYT_MAPA_12.md) · [13](AUDYT_MAPA_13.md) · [14](AUDYT_MAPA_14.md) · [15](AUDYT_MAPA_15.md) · [16](AUDYT_MAPA_16.md) · [17](AUDYT_MAPA_17.md) · [18](AUDYT_MAPA_18.md) · [19](AUDYT_MAPA_19.md) · [20](AUDYT_MAPA_20.md) · [21](AUDYT_MAPA_21.md) · [22](AUDYT_MAPA_22.md) · [23](AUDYT_MAPA_23.md)
+
+- [packages/core/src/v1/config/config.ts](packages/core/src/v1/config/config.ts) — 192 wierszy; deklaracje: `Layout:20`, `Info:192`
+- [packages/core/src/v1/config/console-state.ts](packages/core/src/v1/config/console-state.ts) — 16 wierszy; deklaracje: `ConsoleState:6`
+- [packages/core/src/v1/config/error.ts](packages/core/src/v1/config/error.ts) — 39 wierszy
+- [packages/core/src/v1/config/formatter.ts](packages/core/src/v1/config/formatter.ts) — 13 wierszy; deklaracje: `Info:13`
+- [packages/core/src/v1/config/layout.ts](packages/core/src/v1/config/layout.ts) — 6 wierszy; deklaracje: `Layout:6`
+- [packages/core/src/v1/config/lsp.ts](packages/core/src/v1/config/lsp.ts) — 80 wierszy; deklaracje: `Info:80`
+- [packages/core/src/v1/config/mcp.ts](packages/core/src/v1/config/mcp.ts) — 63 wierszy; deklaracje: `Local:24`, `OAuth:42`, `Remote:60`, `Info:63`
+- [packages/core/src/v1/config/migrate.ts](packages/core/src/v1/config/migrate.ts) — 254 wierszy; deklaracje: `isV1:30`, `migrate:35`, `permissions:74`, `normalizeAction:93`, `agents:97`
+- [packages/core/src/v1/config/permission.ts](packages/core/src/v1/config/permission.ts) — 50 wierszy; deklaracje: `Action:6`, `Object:9`, `Rule:12`, `_Info:49`, `Info:50`
+- [packages/core/src/v1/config/plugin.ts](packages/core/src/v1/config/plugin.ts) — 9 wierszy; deklaracje: `Options:6`, `Spec:9`
+- [packages/core/src/v1/config/provider-options.ts](packages/core/src/v1/config/provider-options.ts) — 227 wierszy; deklaracje: `Options:3`, `ProviderResult:5`, `Lowerer:12`, `get:17`, `direct:162`
+- [packages/core/src/v1/config/provider.ts](packages/core/src/v1/config/provider.ts) — 132 wierszy; deklaracje: `Info:132`
+- [packages/core/src/v1/config/server.ts](packages/core/src/v1/config/server.ts) — 19 wierszy; deklaracje: `Server:19`
+- [packages/core/src/v1/config/skills.ts](packages/core/src/v1/config/skills.ts) — 13 wierszy; deklaracje: `Info:13`
+- [packages/core/src/v1/permission.ts](packages/core/src/v1/permission.ts) — 33 wierszy; deklaracje: `RejectedError:7`, `CorrectedError:13`, `DeniedError:21`, `NotFoundError:29`, `Error:33`
+- [packages/core/src/v1/session.ts](packages/core/src/v1/session.ts) — 68 wierszy; deklaracje: `APIError:63`
+- [packages/core/src/v2-schema.ts](packages/core/src/v2-schema.ts) — 3 wierszy
+- [packages/core/src/workspace.ts](packages/core/src/workspace.ts) — 6 wierszy; deklaracje: `ID:6`
+- [packages/core/sst-env.d.ts](packages/core/sst-env.d.ts) — 10 wierszy
+- [packages/core/test/agent.test.ts](packages/core/test/agent.test.ts) — 131 wierszy
+- [packages/core/test/application-tools.test.ts](packages/core/test/application-tools.test.ts) — 287 wierszy
+- [packages/core/test/background-job.test.ts](packages/core/test/background-job.test.ts) — 106 wierszy
+- [packages/core/test/catalog.test.ts](packages/core/test/catalog.test.ts) — 353 wierszy; deklaracje: `required:17`
+- [packages/core/test/command.test.ts](packages/core/test/command.test.ts) — 56 wierszy
+- [packages/core/test/config/agent.test.ts](packages/core/test/config/agent.test.ts) — 349 wierszy; deklaracje: `loadHomePermissions:303`
+- [packages/core/test/config/command.test.ts](packages/core/test/config/command.test.ts) — 83 wierszy
+- [packages/core/test/config/config.test.ts](packages/core/test/config/config.test.ts) — 798 wierszy; deklaracje: `testLayer:24`
+- [packages/core/test/config/fixtures/plugin/directory-plugin.ts](packages/core/test/config/fixtures/plugin/directory-plugin.ts) — 13 wierszy
+- [packages/core/test/config/plugin.test.ts](packages/core/test/config/plugin.test.ts) — 248 wierszy
+- [packages/core/test/config/provider-options.test.ts](packages/core/test/config/provider-options.test.ts) — 224 wierszy
+- [packages/core/test/config/provider.test.ts](packages/core/test/config/provider.test.ts) — 269 wierszy; deklaracje: `required:22`, `withEnv:27`, `request:48`
+- [packages/core/test/config/skill.test.ts](packages/core/test/config/skill.test.ts) — 80 wierszy
+- [packages/core/test/credential.test.ts](packages/core/test/credential.test.ts) — 36 wierszy
+- [packages/core/test/database-migration.test.ts](packages/core/test/database-migration.test.ts) — 707 wierszy; deklaracje: `text:49`
+- [packages/core/test/effect/cross-spawn-spawner.test.ts](packages/core/test/effect/cross-spawn-spawner.test.ts) — 426 wierszy; deklaracje: `js:15`, `decodeByteStream:19`, `alive:34`, `tmpdir:43`, `gone:53`
+- [packages/core/test/effect/keyed-mutex.test.ts](packages/core/test/effect/keyed-mutex.test.ts) — 73 wierszy
+- [packages/core/test/effect/layer-node/layer-node-types.test.ts](packages/core/test/effect/layer-node/layer-node-types.test.ts) — 143 wierszy; deklaracje: `A:6`, `B:7`, `C:8`, `LayerError:9`, `OtherError:12`
+- [packages/core/test/effect/layer-node/layer-node.test.ts](packages/core/test/effect/layer-node/layer-node.test.ts) — 261 wierszy; deklaracje: `Value:5`, `Greeting:6`, `Left:7`, `Right:8`, `Database:9`
+- [packages/core/test/effect/layer-node/node-build.test.ts](packages/core/test/effect/layer-node/node-build.test.ts) — 125 wierszy; deklaracje: `Value:13`, `Result:14`, `CycleA:15`, `CycleB:16`
+- [packages/core/test/effect/observability.test.ts](packages/core/test/effect/observability.test.ts) — 109 wierszy
+- [packages/core/test/event.test.ts](packages/core/test/event.test.ts) — 1124 wierszy
+- [packages/core/test/file-mutation.test.ts](packages/core/test/file-mutation.test.ts) — 368 wierszy; deklaracje: `provide:16`, `withTmp:29`, `instrumentWrites:354`
+- [packages/core/test/filesystem/filesystem.test.ts](packages/core/test/filesystem/filesystem.test.ts) — 387 wierszy
+- [packages/core/test/filesystem/ignore.test.ts](packages/core/test/filesystem/ignore.test.ts) — 10 wierszy
+- [packages/core/test/filesystem/search.test.ts](packages/core/test/filesystem/search.test.ts) — 44 wierszy
+- [packages/core/test/filesystem/watcher.test.ts](packages/core/test/filesystem/watcher.test.ts) — 266 wierszy; deklaracje: `WatcherEvent:20`, `provide:38`, `withTmp:51`, `wait:72`, `maybeNextUpdate:88`
+- [packages/core/test/fixture/effect-flock-worker.ts](packages/core/test/fixture/effect-flock-worker.ts) — 60 wierszy; deklaracje: `Msg:8`, `sleep:17`, `job:35`
+- [packages/core/test/fixture/flock-worker.ts](packages/core/test/fixture/flock-worker.ts) — 72 wierszy; deklaracje: `Msg:4`, `sleep:17`, `input:23`, `job:32`, `main:56`
+- [packages/core/test/fixture/git.ts](packages/core/test/fixture/git.ts) — 49 wierszy; deklaracje: `gitRemote:10`, `commit:32`, `branch:39`, `git:47`
+- [packages/core/test/fixture/location.ts](packages/core/test/fixture/location.ts) — 26 wierszy; deklaracje: `location:7`
+- [packages/core/test/fixture/tmpdir.ts](packages/core/test/fixture/tmpdir.ts) — 25 wierszy; deklaracje: `remove:15`
+- [packages/core/test/fixtures/recordings/session-runner/openai-chat-streams-text.json](packages/core/test/fixtures/recordings/session-runner/openai-chat-streams-text.json) — 27 wierszy
+- [packages/core/test/git.test.ts](packages/core/test/git.test.ts) — 164 wierszy; deklaracje: `withRemote:58`, `read:69`, `initRepo:73`
+- [packages/core/test/github-copilot/convert-to-copilot-messages.test.ts](packages/core/test/github-copilot/convert-to-copilot-messages.test.ts) — 523 wierszy
+- [packages/core/test/github-copilot/copilot-chat-model.test.ts](packages/core/test/github-copilot/copilot-chat-model.test.ts) — 592 wierszy; deklaracje: `convertReadableStreamToArray:5`, `createMockFetch:76`, `createModel:94`
+- [packages/core/test/github-copilot/openai-responses-language-model.test.ts](packages/core/test/github-copilot/openai-responses-language-model.test.ts) — 206 wierszy; deklaracje: `createMockFetch:8`, `createModel:14`
+- [packages/core/test/global.test.ts](packages/core/test/global.test.ts) — 16 wierszy
+- [packages/core/test/instruction-context.test.ts](packages/core/test/instruction-context.test.ts) — 323 wierszy
+- [packages/core/test/integration.test.ts](packages/core/test/integration.test.ts) — 349 wierszy
+- [packages/core/test/legacy-event-schema.test.ts](packages/core/test/legacy-event-schema.test.ts) — 16 wierszy
+- [packages/core/test/lib/effect.ts](packages/core/test/lib/effect.ts) — 53 wierszy; deklaracje: `Body:7`
+- [packages/core/test/lib/tool.ts](packages/core/test/lib/tool.ts) — 20 wierszy
+- [packages/core/test/location-filesystem.test.ts](packages/core/test/location-filesystem.test.ts) — 69 wierszy
+- [packages/core/test/location-layer.test.ts](packages/core/test/location-layer.test.ts) — 226 wierszy
+- [packages/core/test/location-mutation.test.ts](packages/core/test/location-mutation.test.ts) — 178 wierszy; deklaracje: `provide:13`, `withTmp:24`
+- [packages/core/test/location.test.ts](packages/core/test/location.test.ts) — 42 wierszy
+- [packages/core/test/model.test.ts](packages/core/test/model.test.ts) — 23 wierszy
+- [packages/core/test/models.test.ts](packages/core/test/models.test.ts) — 290 wierszy; deklaracje: `MockState:72`
+- [packages/core/test/move-session.test.ts](packages/core/test/move-session.test.ts) — 235 wierszy; deklaracje: `abs:37`, `initRepo:41`
+- [packages/core/test/npm-config.test.ts](packages/core/test/npm-config.test.ts) — 51 wierszy
+- [packages/core/test/npm.test.ts](packages/core/test/npm.test.ts) — 84 wierszy
+- [packages/core/test/oauth-page.test.ts](packages/core/test/oauth-page.test.ts) — 15 wierszy
+- [packages/core/test/patch.test.ts](packages/core/test/patch.test.ts) — 68 wierszy
+- [packages/core/test/permission.test.ts](packages/core/test/permission.test.ts) — 315 wierszy; deklaracje: `setup:40`, `setRules:67`, `assertion:78`, `waitForRequest:88`
+- [packages/core/test/plugin.test.ts](packages/core/test/plugin.test.ts) — 71 wierszy
+- [packages/core/test/plugin/command.test.ts](packages/core/test/plugin/command.test.ts) — 47 wierszy
+- [packages/core/test/plugin/fixture.ts](packages/core/test/plugin/fixture.ts) — 52 wierszy
+- [packages/core/test/plugin/fixtures/config-effect-plugin.ts](packages/core/test/plugin/fixtures/config-effect-plugin.ts) — 15 wierszy
+- [packages/core/test/plugin/fixtures/config-promise-plugin.ts](packages/core/test/plugin/fixtures/config-promise-plugin.ts) — 13 wierszy
+- [packages/core/test/plugin/fixtures/invalid-plugin.ts](packages/core/test/plugin/fixtures/invalid-plugin.ts) — 1 wierszy
+- [packages/core/test/plugin/fixtures/models-dev.json](packages/core/test/plugin/fixtures/models-dev.json) — 14 wierszy
+- [packages/core/test/plugin/fixtures/provider-factory.ts](packages/core/test/plugin/fixtures/provider-factory.ts) — 9 wierszy; deklaracje: `createFixtureProvider:1`
+- [packages/core/test/plugin/host.ts](packages/core/test/plugin/host.ts) — 303 wierszy; deklaracje: `Overrides:11`, `host:13`, `agentHost:55`, `catalogHost:79`, `integrationHost:143`
+- [packages/core/test/plugin/models-dev.test.ts](packages/core/test/plugin/models-dev.test.ts) — 170 wierszy
+- [packages/core/test/plugin/promise.test.ts](packages/core/test/plugin/promise.test.ts) — 67 wierszy
+- [packages/core/test/plugin/provider-alibaba.test.ts](packages/core/test/plugin/provider-alibaba.test.ts) — 92 wierszy
+- [packages/core/test/plugin/provider-amazon-bedrock.test.ts](packages/core/test/plugin/provider-amazon-bedrock.test.ts) — 629 wierszy; deklaracje: `required:23`, `withEnv:28`, `fakeSelectorSdk:49`, `bedrockBaseURL:62`, `bedrockFetch:67`
+- [packages/core/test/plugin/provider-anthropic.test.ts](packages/core/test/plugin/provider-anthropic.test.ts) — 94 wierszy; deklaracje: `required:22`
+- [packages/core/test/plugin/provider-azure-cognitive-services.test.ts](packages/core/test/plugin/provider-azure-cognitive-services.test.ts) — 199 wierszy; deklaracje: `required:23`, `withEnv:28`, `fakeSelectorSdk:49`
+- [packages/core/test/plugin/provider-azure.test.ts](packages/core/test/plugin/provider-azure.test.ts) — 293 wierszy; deklaracje: `required:23`, `withEnv:28`, `fakeSelectorSdk:49`
+- [packages/core/test/plugin/provider-cerebras.test.ts](packages/core/test/plugin/provider-cerebras.test.ts) — 136 wierszy
+- [packages/core/test/plugin/provider-cloudflare-ai-gateway.test.ts](packages/core/test/plugin/provider-cloudflare-ai-gateway.test.ts) — 426 wierszy; deklaracje: `withEnv:21`, `captureAiGatewayOptions:46`, `resetCalls:65`, `cloudflareEnv:71`
+- [packages/core/test/plugin/provider-cloudflare-workers-ai.test.ts](packages/core/test/plugin/provider-cloudflare-workers-ai.test.ts) — 279 wierszy; deklaracje: `required:23`, `withEnv:28`, `fakeSelectorSdk:49`, `cloudflareLanguage:62`, `CloudflareConfig:68`
+- [packages/core/test/plugin/provider-cohere.test.ts](packages/core/test/plugin/provider-cohere.test.ts) — 123 wierszy; deklaracje: `fakeSelectorSdk:23`
+- [packages/core/test/plugin/provider-deepinfra.test.ts](packages/core/test/plugin/provider-deepinfra.test.ts) — 159 wierszy; deklaracje: `resetDeepInfraMock:36`
+- [packages/core/test/plugin/provider-dynamic.test.ts](packages/core/test/plugin/provider-dynamic.test.ts) — 184 wierszy; deklaracje: `npmEntrypoint:23`, `tempEntrypoint:37`
+- [packages/core/test/plugin/provider-gateway.test.ts](packages/core/test/plugin/provider-gateway.test.ts) — 115 wierszy
+- [packages/core/test/plugin/provider-github-copilot.test.ts](packages/core/test/plugin/provider-github-copilot.test.ts) — 278 wierszy; deklaracje: `required:23`, `fakeSelectorSdk:28`
+- [packages/core/test/plugin/provider-gitlab.test.ts](packages/core/test/plugin/provider-gitlab.test.ts) — 308 wierszy; deklaracje: `withEnv:23`
+- [packages/core/test/plugin/provider-google-vertex-anthropic.test.ts](packages/core/test/plugin/provider-google-vertex-anthropic.test.ts) — 264 wierszy; deklaracje: `withEnv:23`, `selector:44`
+- [packages/core/test/plugin/provider-google-vertex.test.ts](packages/core/test/plugin/provider-google-vertex.test.ts) — 387 wierszy; deklaracje: `required:25`, `withEnv:30`, `fakeSelectorSdk:51`
+- [packages/core/test/plugin/provider-google.test.ts](packages/core/test/plugin/provider-google.test.ts) — 80 wierszy
+- [packages/core/test/plugin/provider-groq.test.ts](packages/core/test/plugin/provider-groq.test.ts) — 121 wierszy
+- [packages/core/test/plugin/provider-kilo.test.ts](packages/core/test/plugin/provider-kilo.test.ts) — 99 wierszy
+- [packages/core/test/plugin/provider-llmgateway.test.ts](packages/core/test/plugin/provider-llmgateway.test.ts) — 80 wierszy
+- [packages/core/test/plugin/provider-mistral.test.ts](packages/core/test/plugin/provider-mistral.test.ts) — 129 wierszy
+- [packages/core/test/plugin/provider-nvidia.test.ts](packages/core/test/plugin/provider-nvidia.test.ts) — 97 wierszy
+- [packages/core/test/plugin/provider-openai-compatible.test.ts](packages/core/test/plugin/provider-openai-compatible.test.ts) — 107 wierszy
+- [packages/core/test/plugin/provider-openai.test.ts](packages/core/test/plugin/provider-openai.test.ts) — 176 wierszy; deklaracje: `required:25`, `fakeSelectorSdk:30`
+- [packages/core/test/plugin/provider-opencode.test.ts](packages/core/test/plugin/provider-opencode.test.ts) — 483 wierszy; deklaracje: `required:31`, `eventually:36`, `withEnv:50`
+- [packages/core/test/plugin/provider-openrouter.test.ts](packages/core/test/plugin/provider-openrouter.test.ts) — 113 wierszy
+- [packages/core/test/plugin/provider-perplexity.test.ts](packages/core/test/plugin/provider-perplexity.test.ts) — 122 wierszy; deklaracje: `fakeSelectorSdk:22`
+- [packages/core/test/plugin/provider-sap-ai-core.test.ts](packages/core/test/plugin/provider-sap-ai-core.test.ts) — 159 wierszy; deklaracje: `withEnv:28`, `model:49`
+- [packages/core/test/plugin/provider-snowflake-cortex.test.ts](packages/core/test/plugin/provider-snowflake-cortex.test.ts) — 261 wierszy; deklaracje: `withEnv:22`, `FetchLike:173`
+- [packages/core/test/plugin/provider-togetherai.test.ts](packages/core/test/plugin/provider-togetherai.test.ts) — 129 wierszy; deklaracje: `fakeSelectorSdk:22`
+- [packages/core/test/plugin/provider-venice.test.ts](packages/core/test/plugin/provider-venice.test.ts) — 115 wierszy; deklaracje: `fakeSelectorSdk:22`
+- [packages/core/test/plugin/provider-vercel.test.ts](packages/core/test/plugin/provider-vercel.test.ts) — 83 wierszy
+- [packages/core/test/plugin/provider-xai.test.ts](packages/core/test/plugin/provider-xai.test.ts) — 125 wierszy; deklaracje: `fakeSelectorSdk:22`
+- [packages/core/test/plugin/provider-zenmux.test.ts](packages/core/test/plugin/provider-zenmux.test.ts) — 110 wierszy; deklaracje: `required:20`
+- [packages/core/test/plugin/skill.test.ts](packages/core/test/plugin/skill.test.ts) — 25 wierszy
+- [packages/core/test/plugin/variant.test.ts](packages/core/test/plugin/variant.test.ts) — 67 wierszy
+- [packages/core/test/policy.test.ts](packages/core/test/policy.test.ts) — 85 wierszy
+- [packages/core/test/preload.test.ts](packages/core/test/preload.test.ts) — 5 wierszy
+- [packages/core/test/preload.ts](packages/core/test/preload.ts) — 6 wierszy
+- [packages/core/test/process/process.test.ts](packages/core/test/process/process.test.ts) — 368 wierszy
+- [packages/core/test/project-copy.test.ts](packages/core/test/project-copy.test.ts) — 400 wierszy; deklaracje: `abs:24`, `initRepo:30`, `setup:39`, `stored:63`
+- [packages/core/test/project-directories.test.ts](packages/core/test/project-directories.test.ts) — 61 wierszy; deklaracje: `setup:17`
+- [packages/core/test/project.test.ts](packages/core/test/project.test.ts) — 221 wierszy; deklaracje: `remoteID:15`, `abs:19`, `real:23`, `initRepo:27`, `rootCommit:37`
+- [packages/core/test/provider-groq.test.ts](packages/core/test/provider-groq.test.ts) — 28 wierszy
+- [packages/core/test/provider-mistral.test.ts](packages/core/test/provider-mistral.test.ts) — 308 wierszy
+- [packages/core/test/provider-xai-responses.test.ts](packages/core/test/provider-xai-responses.test.ts) — 85 wierszy
+- [packages/core/test/pty/info-schema.test.ts](packages/core/test/pty/info-schema.test.ts) — 32 wierszy
+- [packages/core/test/pty/protocol.test.ts](packages/core/test/pty/protocol.test.ts) — 27 wierszy
+- [packages/core/test/pty/pty-session.test.ts](packages/core/test/pty/pty-session.test.ts) — 240 wierszy; deklaracje: `PtyEvent:14`
+- [packages/core/test/pty/ticket.test.ts](packages/core/test/pty/ticket.test.ts) — 62 wierszy
+- [packages/core/test/question.test.ts](packages/core/test/question.test.ts) — 114 wierszy
+- [packages/core/test/reference-guidance.test.ts](packages/core/test/reference-guidance.test.ts) — 76 wierszy
+- [packages/core/test/reference.test.ts](packages/core/test/reference.test.ts) — 78 wierszy
+- [packages/core/test/repository-cache.test.ts](packages/core/test/repository-cache.test.ts) — 153 wierszy; deklaracje: `cacheLayer:125`, `withRemote:131`, `read:142`, `exists:146`
+- [packages/core/test/repository.test.ts](packages/core/test/repository.test.ts) — 71 wierszy
+- [packages/core/test/ripgrep.test.ts](packages/core/test/ripgrep.test.ts) — 85 wierszy
+- [packages/core/test/session-compaction.test.ts](packages/core/test/session-compaction.test.ts) — 47 wierszy
+- [packages/core/test/session-create.test.ts](packages/core/test/session-create.test.ts) — 425 wierszy
+- [packages/core/test/session-history.test.ts](packages/core/test/session-history.test.ts) — 165 wierszy
+- [packages/core/test/session-projector.test.ts](packages/core/test/session-projector.test.ts) — 567 wierszy
+- [packages/core/test/session-prompt.test.ts](packages/core/test/session-prompt.test.ts) — 584 wierszy
+- [packages/core/test/session-run-coordinator.test.ts](packages/core/test/session-run-coordinator.test.ts) — 418 wierszy
+- [packages/core/test/session-runner-message.test.ts](packages/core/test/session-runner-message.test.ts) — 501 wierszy
+- [packages/core/test/session-runner-model.test.ts](packages/core/test/session-runner-model.test.ts) — 347 wierszy; deklaracje: `Api:16`
+- [packages/core/test/session-runner-recorded.test.ts](packages/core/test/session-runner-recorded.test.ts) — 193 wierszy
+- [packages/core/test/session-runner-tool-events.test.ts](packages/core/test/session-runner-tool-events.test.ts) — 136 wierszy
+- [packages/core/test/session-runner-tool-registry.test.ts](packages/core/test/session-runner-tool-registry.test.ts) — 452 wierszy
+- [packages/core/test/session-runner.test.ts](packages/core/test/session-runner.test.ts) — 3466 wierszy; deklaracje: `LLMClientShape:9`, `LLMRequest:10`, `FragmentKind:396`, `FragmentFixture:398`
+- [packages/core/test/session-todo.test.ts](packages/core/test/session-todo.test.ts) — 94 wierszy
+- [packages/core/test/session-tool-progress.test.ts](packages/core/test/session-tool-progress.test.ts) — 158 wierszy
+- [packages/core/test/shared-schema.test.ts](packages/core/test/shared-schema.test.ts) — 206 wierszy
+- [packages/core/test/shell.test.ts](packages/core/test/shell.test.ts) — 108 wierszy
+- [packages/core/test/skill-discovery.test.ts](packages/core/test/skill-discovery.test.ts) — 165 wierszy; deklaracje: `pull:15`
+- [packages/core/test/skill.test.ts](packages/core/test/skill.test.ts) — 125 wierszy; deklaracje: `write:30`
+- [packages/core/test/skill/guidance.test.ts](packages/core/test/skill/guidance.test.ts) — 144 wierszy
+- [packages/core/test/snapshot.test.ts](packages/core/test/snapshot.test.ts) — 178 wierszy; deklaracje: `snapshotLayer:169`, `read:176`
+- [packages/core/test/state.test.ts](packages/core/test/state.test.ts) — 115 wierszy
+- [packages/core/test/system-context/builtins.test.ts](packages/core/test/system-context/builtins.test.ts) — 129 wierszy
+- [packages/core/test/system-context/index.test.ts](packages/core/test/system-context/index.test.ts) — 307 wierszy
+- [packages/core/test/system-context/registry.test.ts](packages/core/test/system-context/registry.test.ts) — 114 wierszy
+- [packages/core/test/tool-apply-patch.test.ts](packages/core/test/tool-apply-patch.test.ts) — 436 wierszy
+- [packages/core/test/tool-bash.test.ts](packages/core/test/tool-bash.test.ts) — 437 wierszy
+- [packages/core/test/tool-edit.test.ts](packages/core/test/tool-edit.test.ts) — 434 wierszy
+- [packages/core/test/tool-output-store.test.ts](packages/core/test/tool-output-store.test.ts) — 247 wierszy
+- [packages/core/test/tool-question.test.ts](packages/core/test/tool-question.test.ts) — 162 wierszy
+- [packages/core/test/tool-read-filesystem.test.ts](packages/core/test/tool-read-filesystem.test.ts) — 118 wierszy
+- [packages/core/test/tool-read.test.ts](packages/core/test/tool-read.test.ts) — 674 wierszy
+- [packages/core/test/tool-skill.test.ts](packages/core/test/tool-skill.test.ts) — 149 wierszy
+- [packages/core/test/tool-todowrite.test.ts](packages/core/test/tool-todowrite.test.ts) — 125 wierszy
+- [packages/core/test/tool-webfetch.test.ts](packages/core/test/tool-webfetch.test.ts) — 281 wierszy
+- [packages/core/test/tool-websearch.test.ts](packages/core/test/tool-websearch.test.ts) — 316 wierszy; deklaracje: `Request:64`
+- [packages/core/test/tool-write.test.ts](packages/core/test/tool-write.test.ts) — 305 wierszy
+- [packages/core/test/util/effect-flock.test.ts](packages/core/test/util/effect-flock.test.ts) — 392 wierszy; deklaracje: `lock:14`, `sleep:18`, `exists:22`, `readJson:29`, `Msg:37`
+- [packages/core/test/util/flock.test.ts](packages/core/test/util/flock.test.ts) — 428 wierszy; deklaracje: `Msg:9`, `tmpdir:25`, `lock:35`, `sleep:39`, `exists:45`
+- [packages/core/test/util/which.test.ts](packages/core/test/util/which.test.ts) — 100 wierszy; deklaracje: `cmd:7`, `env:18`, `envPath:25`, `same:32`
+- [packages/core/tsconfig.json](packages/core/tsconfig.json) — 7 wierszy
+- [packages/desktop/.gitignore](packages/desktop/.gitignore)
+- [packages/desktop/AGENTS.md](packages/desktop/AGENTS.md) — 14 wierszy
+- [packages/desktop/README.md](packages/desktop/README.md) — 19 wierszy
+- [packages/desktop/electron-builder.config.test.ts](packages/desktop/electron-builder.config.test.ts) — 91 wierszy
+- [packages/desktop/electron-builder.config.ts](packages/desktop/electron-builder.config.ts) — 160 wierszy; deklaracje: `signWindows:21`, `getConfig:121`
+- [packages/desktop/electron.vite.config.ts](packages/desktop/electron.vite.config.ts) — 106 wierszy
+- [packages/desktop/icons/README.md](packages/desktop/icons/README.md) — 14 wierszy
+- [packages/desktop/icons/beta/128x128.png](packages/desktop/icons/beta/128x128.png)
+- [packages/desktop/icons/beta/128x128@2x.png](packages/desktop/icons/beta/128x128%402x.png)
+- [packages/desktop/icons/beta/32x32.png](packages/desktop/icons/beta/32x32.png)
+- [packages/desktop/icons/beta/64x64.png](packages/desktop/icons/beta/64x64.png)
+- [packages/desktop/icons/beta/Square107x107Logo.png](packages/desktop/icons/beta/Square107x107Logo.png)
+- [packages/desktop/icons/beta/Square142x142Logo.png](packages/desktop/icons/beta/Square142x142Logo.png)
+- [packages/desktop/icons/beta/Square150x150Logo.png](packages/desktop/icons/beta/Square150x150Logo.png)
+- [packages/desktop/icons/beta/Square284x284Logo.png](packages/desktop/icons/beta/Square284x284Logo.png)
+- [packages/desktop/icons/beta/Square30x30Logo.png](packages/desktop/icons/beta/Square30x30Logo.png)
+- [packages/desktop/icons/beta/Square310x310Logo.png](packages/desktop/icons/beta/Square310x310Logo.png)
+- [packages/desktop/icons/beta/Square44x44Logo.png](packages/desktop/icons/beta/Square44x44Logo.png)
+- [packages/desktop/icons/beta/Square71x71Logo.png](packages/desktop/icons/beta/Square71x71Logo.png)
+- [packages/desktop/icons/beta/Square89x89Logo.png](packages/desktop/icons/beta/Square89x89Logo.png)
+- [packages/desktop/icons/beta/StoreLogo.png](packages/desktop/icons/beta/StoreLogo.png)
+- [packages/desktop/icons/beta/android/mipmap-anydpi-v26/ic_launcher.xml](packages/desktop/icons/beta/android/mipmap-anydpi-v26/ic_launcher.xml) — 5 wierszy
+- [packages/desktop/icons/beta/android/mipmap-hdpi/ic_launcher.png](packages/desktop/icons/beta/android/mipmap-hdpi/ic_launcher.png)
+- [packages/desktop/icons/beta/android/mipmap-hdpi/ic_launcher_foreground.png](packages/desktop/icons/beta/android/mipmap-hdpi/ic_launcher_foreground.png)
+- [packages/desktop/icons/beta/android/mipmap-hdpi/ic_launcher_round.png](packages/desktop/icons/beta/android/mipmap-hdpi/ic_launcher_round.png)
+- [packages/desktop/icons/beta/android/mipmap-mdpi/ic_launcher.png](packages/desktop/icons/beta/android/mipmap-mdpi/ic_launcher.png)
+- [packages/desktop/icons/beta/android/mipmap-mdpi/ic_launcher_foreground.png](packages/desktop/icons/beta/android/mipmap-mdpi/ic_launcher_foreground.png)
+- [packages/desktop/icons/beta/android/mipmap-mdpi/ic_launcher_round.png](packages/desktop/icons/beta/android/mipmap-mdpi/ic_launcher_round.png)
+- [packages/desktop/icons/beta/android/mipmap-xhdpi/ic_launcher.png](packages/desktop/icons/beta/android/mipmap-xhdpi/ic_launcher.png)
+- [packages/desktop/icons/beta/android/mipmap-xhdpi/ic_launcher_foreground.png](packages/desktop/icons/beta/android/mipmap-xhdpi/ic_launcher_foreground.png)
+- [packages/desktop/icons/beta/android/mipmap-xhdpi/ic_launcher_round.png](packages/desktop/icons/beta/android/mipmap-xhdpi/ic_launcher_round.png)
+- [packages/desktop/icons/beta/android/mipmap-xxhdpi/ic_launcher.png](packages/desktop/icons/beta/android/mipmap-xxhdpi/ic_launcher.png)
+- [packages/desktop/icons/beta/android/mipmap-xxhdpi/ic_launcher_foreground.png](packages/desktop/icons/beta/android/mipmap-xxhdpi/ic_launcher_foreground.png)
+- [packages/desktop/icons/beta/android/mipmap-xxhdpi/ic_launcher_round.png](packages/desktop/icons/beta/android/mipmap-xxhdpi/ic_launcher_round.png)
+- [packages/desktop/icons/beta/android/mipmap-xxxhdpi/ic_launcher.png](packages/desktop/icons/beta/android/mipmap-xxxhdpi/ic_launcher.png)
+- [packages/desktop/icons/beta/android/mipmap-xxxhdpi/ic_launcher_foreground.png](packages/desktop/icons/beta/android/mipmap-xxxhdpi/ic_launcher_foreground.png)
+- [packages/desktop/icons/beta/android/mipmap-xxxhdpi/ic_launcher_round.png](packages/desktop/icons/beta/android/mipmap-xxxhdpi/ic_launcher_round.png)
+- [packages/desktop/icons/beta/android/values/ic_launcher_background.xml](packages/desktop/icons/beta/android/values/ic_launcher_background.xml) — 4 wierszy
+- [packages/desktop/icons/beta/dock.png](packages/desktop/icons/beta/dock.png)
+- [packages/desktop/icons/beta/icon.icns](packages/desktop/icons/beta/icon.icns)
+- [packages/desktop/icons/beta/icon.ico](packages/desktop/icons/beta/icon.ico)
+- [packages/desktop/icons/beta/icon.png](packages/desktop/icons/beta/icon.png)
+- [packages/desktop/icons/beta/ios/AppIcon-20x20@1x.png](packages/desktop/icons/beta/ios/AppIcon-20x20%401x.png)
+- [packages/desktop/icons/beta/ios/AppIcon-20x20@2x-1.png](packages/desktop/icons/beta/ios/AppIcon-20x20%402x-1.png)
+- [packages/desktop/icons/beta/ios/AppIcon-20x20@2x.png](packages/desktop/icons/beta/ios/AppIcon-20x20%402x.png)
+- [packages/desktop/icons/beta/ios/AppIcon-20x20@3x.png](packages/desktop/icons/beta/ios/AppIcon-20x20%403x.png)
+- [packages/desktop/icons/beta/ios/AppIcon-29x29@1x.png](packages/desktop/icons/beta/ios/AppIcon-29x29%401x.png)
+- [packages/desktop/icons/beta/ios/AppIcon-29x29@2x-1.png](packages/desktop/icons/beta/ios/AppIcon-29x29%402x-1.png)
+- [packages/desktop/icons/beta/ios/AppIcon-29x29@2x.png](packages/desktop/icons/beta/ios/AppIcon-29x29%402x.png)
+- [packages/desktop/icons/beta/ios/AppIcon-29x29@3x.png](packages/desktop/icons/beta/ios/AppIcon-29x29%403x.png)
+- [packages/desktop/icons/beta/ios/AppIcon-40x40@1x.png](packages/desktop/icons/beta/ios/AppIcon-40x40%401x.png)
+- [packages/desktop/icons/beta/ios/AppIcon-40x40@2x-1.png](packages/desktop/icons/beta/ios/AppIcon-40x40%402x-1.png)
+- [packages/desktop/icons/beta/ios/AppIcon-40x40@2x.png](packages/desktop/icons/beta/ios/AppIcon-40x40%402x.png)
+- [packages/desktop/icons/beta/ios/AppIcon-40x40@3x.png](packages/desktop/icons/beta/ios/AppIcon-40x40%403x.png)
+- [packages/desktop/icons/beta/ios/AppIcon-512@2x.png](packages/desktop/icons/beta/ios/AppIcon-512%402x.png)
+- [packages/desktop/icons/beta/ios/AppIcon-60x60@2x.png](packages/desktop/icons/beta/ios/AppIcon-60x60%402x.png)
+- [packages/desktop/icons/beta/ios/AppIcon-60x60@3x.png](packages/desktop/icons/beta/ios/AppIcon-60x60%403x.png)
+- [packages/desktop/icons/beta/ios/AppIcon-76x76@1x.png](packages/desktop/icons/beta/ios/AppIcon-76x76%401x.png)
+- [packages/desktop/icons/beta/ios/AppIcon-76x76@2x.png](packages/desktop/icons/beta/ios/AppIcon-76x76%402x.png)
+- [packages/desktop/icons/beta/ios/AppIcon-83.5x83.5@2x.png](packages/desktop/icons/beta/ios/AppIcon-83.5x83.5%402x.png)
+- [packages/desktop/icons/dev/128x128.png](packages/desktop/icons/dev/128x128.png)
+- [packages/desktop/icons/dev/128x128@2x.png](packages/desktop/icons/dev/128x128%402x.png)
+- [packages/desktop/icons/dev/32x32.png](packages/desktop/icons/dev/32x32.png)
+- [packages/desktop/icons/dev/64x64.png](packages/desktop/icons/dev/64x64.png)
+- [packages/desktop/icons/dev/Square107x107Logo.png](packages/desktop/icons/dev/Square107x107Logo.png)
+- [packages/desktop/icons/dev/Square142x142Logo.png](packages/desktop/icons/dev/Square142x142Logo.png)
+- [packages/desktop/icons/dev/Square150x150Logo.png](packages/desktop/icons/dev/Square150x150Logo.png)
+- [packages/desktop/icons/dev/Square284x284Logo.png](packages/desktop/icons/dev/Square284x284Logo.png)
+- [packages/desktop/icons/dev/Square30x30Logo.png](packages/desktop/icons/dev/Square30x30Logo.png)
+- [packages/desktop/icons/dev/Square310x310Logo.png](packages/desktop/icons/dev/Square310x310Logo.png)
+- [packages/desktop/icons/dev/Square44x44Logo.png](packages/desktop/icons/dev/Square44x44Logo.png)
+- [packages/desktop/icons/dev/Square71x71Logo.png](packages/desktop/icons/dev/Square71x71Logo.png)
+- [packages/desktop/icons/dev/Square89x89Logo.png](packages/desktop/icons/dev/Square89x89Logo.png)
+- [packages/desktop/icons/dev/StoreLogo.png](packages/desktop/icons/dev/StoreLogo.png)
+- [packages/desktop/icons/dev/android/mipmap-anydpi-v26/ic_launcher.xml](packages/desktop/icons/dev/android/mipmap-anydpi-v26/ic_launcher.xml) — 5 wierszy
+- [packages/desktop/icons/dev/android/mipmap-hdpi/ic_launcher.png](packages/desktop/icons/dev/android/mipmap-hdpi/ic_launcher.png)
+- [packages/desktop/icons/dev/android/mipmap-hdpi/ic_launcher_foreground.png](packages/desktop/icons/dev/android/mipmap-hdpi/ic_launcher_foreground.png)
+- [packages/desktop/icons/dev/android/mipmap-hdpi/ic_launcher_round.png](packages/desktop/icons/dev/android/mipmap-hdpi/ic_launcher_round.png)
+- [packages/desktop/icons/dev/android/mipmap-mdpi/ic_launcher.png](packages/desktop/icons/dev/android/mipmap-mdpi/ic_launcher.png)
+- [packages/desktop/icons/dev/android/mipmap-mdpi/ic_launcher_foreground.png](packages/desktop/icons/dev/android/mipmap-mdpi/ic_launcher_foreground.png)
+- [packages/desktop/icons/dev/android/mipmap-mdpi/ic_launcher_round.png](packages/desktop/icons/dev/android/mipmap-mdpi/ic_launcher_round.png)
+- [packages/desktop/icons/dev/android/mipmap-xhdpi/ic_launcher.png](packages/desktop/icons/dev/android/mipmap-xhdpi/ic_launcher.png)
+- [packages/desktop/icons/dev/android/mipmap-xhdpi/ic_launcher_foreground.png](packages/desktop/icons/dev/android/mipmap-xhdpi/ic_launcher_foreground.png)
+- [packages/desktop/icons/dev/android/mipmap-xhdpi/ic_launcher_round.png](packages/desktop/icons/dev/android/mipmap-xhdpi/ic_launcher_round.png)
+- [packages/desktop/icons/dev/android/mipmap-xxhdpi/ic_launcher.png](packages/desktop/icons/dev/android/mipmap-xxhdpi/ic_launcher.png)
+- [packages/desktop/icons/dev/android/mipmap-xxhdpi/ic_launcher_foreground.png](packages/desktop/icons/dev/android/mipmap-xxhdpi/ic_launcher_foreground.png)
+- [packages/desktop/icons/dev/android/mipmap-xxhdpi/ic_launcher_round.png](packages/desktop/icons/dev/android/mipmap-xxhdpi/ic_launcher_round.png)
+- [packages/desktop/icons/dev/android/mipmap-xxxhdpi/ic_launcher.png](packages/desktop/icons/dev/android/mipmap-xxxhdpi/ic_launcher.png)
+- [packages/desktop/icons/dev/android/mipmap-xxxhdpi/ic_launcher_foreground.png](packages/desktop/icons/dev/android/mipmap-xxxhdpi/ic_launcher_foreground.png)
+- [packages/desktop/icons/dev/android/mipmap-xxxhdpi/ic_launcher_round.png](packages/desktop/icons/dev/android/mipmap-xxxhdpi/ic_launcher_round.png)
+- [packages/desktop/icons/dev/android/values/ic_launcher_background.xml](packages/desktop/icons/dev/android/values/ic_launcher_background.xml) — 4 wierszy
+- [packages/desktop/icons/dev/dock.png](packages/desktop/icons/dev/dock.png)
+- [packages/desktop/icons/dev/icon.icns](packages/desktop/icons/dev/icon.icns)
+- [packages/desktop/icons/dev/icon.ico](packages/desktop/icons/dev/icon.ico)
+- [packages/desktop/icons/dev/icon.png](packages/desktop/icons/dev/icon.png)
+- [packages/desktop/icons/dev/ios/AppIcon-20x20@1x.png](packages/desktop/icons/dev/ios/AppIcon-20x20%401x.png)
+- [packages/desktop/icons/dev/ios/AppIcon-20x20@2x-1.png](packages/desktop/icons/dev/ios/AppIcon-20x20%402x-1.png)
+- [packages/desktop/icons/dev/ios/AppIcon-20x20@2x.png](packages/desktop/icons/dev/ios/AppIcon-20x20%402x.png)
+- [packages/desktop/icons/dev/ios/AppIcon-20x20@3x.png](packages/desktop/icons/dev/ios/AppIcon-20x20%403x.png)
+- [packages/desktop/icons/dev/ios/AppIcon-29x29@1x.png](packages/desktop/icons/dev/ios/AppIcon-29x29%401x.png)
+- [packages/desktop/icons/dev/ios/AppIcon-29x29@2x-1.png](packages/desktop/icons/dev/ios/AppIcon-29x29%402x-1.png)
+- [packages/desktop/icons/dev/ios/AppIcon-29x29@2x.png](packages/desktop/icons/dev/ios/AppIcon-29x29%402x.png)
+- [packages/desktop/icons/dev/ios/AppIcon-29x29@3x.png](packages/desktop/icons/dev/ios/AppIcon-29x29%403x.png)
+- [packages/desktop/icons/dev/ios/AppIcon-40x40@1x.png](packages/desktop/icons/dev/ios/AppIcon-40x40%401x.png)
+- [packages/desktop/icons/dev/ios/AppIcon-40x40@2x-1.png](packages/desktop/icons/dev/ios/AppIcon-40x40%402x-1.png)
+- [packages/desktop/icons/dev/ios/AppIcon-40x40@2x.png](packages/desktop/icons/dev/ios/AppIcon-40x40%402x.png)
+- [packages/desktop/icons/dev/ios/AppIcon-40x40@3x.png](packages/desktop/icons/dev/ios/AppIcon-40x40%403x.png)
+- [packages/desktop/icons/dev/ios/AppIcon-512@2x.png](packages/desktop/icons/dev/ios/AppIcon-512%402x.png)
+- [packages/desktop/icons/dev/ios/AppIcon-60x60@2x.png](packages/desktop/icons/dev/ios/AppIcon-60x60%402x.png)
+- [packages/desktop/icons/dev/ios/AppIcon-60x60@3x.png](packages/desktop/icons/dev/ios/AppIcon-60x60%403x.png)
+- [packages/desktop/icons/dev/ios/AppIcon-76x76@1x.png](packages/desktop/icons/dev/ios/AppIcon-76x76%401x.png)
+- [packages/desktop/icons/dev/ios/AppIcon-76x76@2x.png](packages/desktop/icons/dev/ios/AppIcon-76x76%402x.png)
+- [packages/desktop/icons/dev/ios/AppIcon-83.5x83.5@2x.png](packages/desktop/icons/dev/ios/AppIcon-83.5x83.5%402x.png)
+- [packages/desktop/icons/prod/128x128.png](packages/desktop/icons/prod/128x128.png)
+- [packages/desktop/icons/prod/128x128@2x.png](packages/desktop/icons/prod/128x128%402x.png)
+- [packages/desktop/icons/prod/32x32.png](packages/desktop/icons/prod/32x32.png)
+- [packages/desktop/icons/prod/64x64.png](packages/desktop/icons/prod/64x64.png)
+- [packages/desktop/icons/prod/Square107x107Logo.png](packages/desktop/icons/prod/Square107x107Logo.png)
+- [packages/desktop/icons/prod/Square142x142Logo.png](packages/desktop/icons/prod/Square142x142Logo.png)

@@ -1,0 +1,306 @@
+# opencode — mapa plików (8/23)
+
+Wykaz śledzonych plików z badanego commita. Liczba wierszy i nazwy deklaracji są wyciągane automatycznie z dostępnej kopii tekstowej; nie oznaczają ręcznej oceny pliku. Brak opisu oznacza, że zawartość nie była analizowana tą metodą (np. plik binarny, zasób lub pominięty plik).
+
+[Wróć do audytu](AUDYT_EDUKACYJNY.md) · [1](AUDYT_MAPA_01.md) · [2](AUDYT_MAPA_02.md) · [3](AUDYT_MAPA_03.md) · [4](AUDYT_MAPA_04.md) · [5](AUDYT_MAPA_05.md) · [6](AUDYT_MAPA_06.md) · [7](AUDYT_MAPA_07.md) · [8](AUDYT_MAPA_08.md) · [9](AUDYT_MAPA_09.md) · [10](AUDYT_MAPA_10.md) · [11](AUDYT_MAPA_11.md) · [12](AUDYT_MAPA_12.md) · [13](AUDYT_MAPA_13.md) · [14](AUDYT_MAPA_14.md) · [15](AUDYT_MAPA_15.md) · [16](AUDYT_MAPA_16.md) · [17](AUDYT_MAPA_17.md) · [18](AUDYT_MAPA_18.md) · [19](AUDYT_MAPA_19.md) · [20](AUDYT_MAPA_20.md) · [21](AUDYT_MAPA_21.md) · [22](AUDYT_MAPA_22.md) · [23](AUDYT_MAPA_23.md)
+
+- [packages/desktop/icons/prod/Square150x150Logo.png](packages/desktop/icons/prod/Square150x150Logo.png)
+- [packages/desktop/icons/prod/Square284x284Logo.png](packages/desktop/icons/prod/Square284x284Logo.png)
+- [packages/desktop/icons/prod/Square30x30Logo.png](packages/desktop/icons/prod/Square30x30Logo.png)
+- [packages/desktop/icons/prod/Square310x310Logo.png](packages/desktop/icons/prod/Square310x310Logo.png)
+- [packages/desktop/icons/prod/Square44x44Logo.png](packages/desktop/icons/prod/Square44x44Logo.png)
+- [packages/desktop/icons/prod/Square71x71Logo.png](packages/desktop/icons/prod/Square71x71Logo.png)
+- [packages/desktop/icons/prod/Square89x89Logo.png](packages/desktop/icons/prod/Square89x89Logo.png)
+- [packages/desktop/icons/prod/StoreLogo.png](packages/desktop/icons/prod/StoreLogo.png)
+- [packages/desktop/icons/prod/android/mipmap-anydpi-v26/ic_launcher.xml](packages/desktop/icons/prod/android/mipmap-anydpi-v26/ic_launcher.xml) — 5 wierszy
+- [packages/desktop/icons/prod/android/mipmap-hdpi/ic_launcher.png](packages/desktop/icons/prod/android/mipmap-hdpi/ic_launcher.png)
+- [packages/desktop/icons/prod/android/mipmap-hdpi/ic_launcher_foreground.png](packages/desktop/icons/prod/android/mipmap-hdpi/ic_launcher_foreground.png)
+- [packages/desktop/icons/prod/android/mipmap-hdpi/ic_launcher_round.png](packages/desktop/icons/prod/android/mipmap-hdpi/ic_launcher_round.png)
+- [packages/desktop/icons/prod/android/mipmap-mdpi/ic_launcher.png](packages/desktop/icons/prod/android/mipmap-mdpi/ic_launcher.png)
+- [packages/desktop/icons/prod/android/mipmap-mdpi/ic_launcher_foreground.png](packages/desktop/icons/prod/android/mipmap-mdpi/ic_launcher_foreground.png)
+- [packages/desktop/icons/prod/android/mipmap-mdpi/ic_launcher_round.png](packages/desktop/icons/prod/android/mipmap-mdpi/ic_launcher_round.png)
+- [packages/desktop/icons/prod/android/mipmap-xhdpi/ic_launcher.png](packages/desktop/icons/prod/android/mipmap-xhdpi/ic_launcher.png)
+- [packages/desktop/icons/prod/android/mipmap-xhdpi/ic_launcher_foreground.png](packages/desktop/icons/prod/android/mipmap-xhdpi/ic_launcher_foreground.png)
+- [packages/desktop/icons/prod/android/mipmap-xhdpi/ic_launcher_round.png](packages/desktop/icons/prod/android/mipmap-xhdpi/ic_launcher_round.png)
+- [packages/desktop/icons/prod/android/mipmap-xxhdpi/ic_launcher.png](packages/desktop/icons/prod/android/mipmap-xxhdpi/ic_launcher.png)
+- [packages/desktop/icons/prod/android/mipmap-xxhdpi/ic_launcher_foreground.png](packages/desktop/icons/prod/android/mipmap-xxhdpi/ic_launcher_foreground.png)
+- [packages/desktop/icons/prod/android/mipmap-xxhdpi/ic_launcher_round.png](packages/desktop/icons/prod/android/mipmap-xxhdpi/ic_launcher_round.png)
+- [packages/desktop/icons/prod/android/mipmap-xxxhdpi/ic_launcher.png](packages/desktop/icons/prod/android/mipmap-xxxhdpi/ic_launcher.png)
+- [packages/desktop/icons/prod/android/mipmap-xxxhdpi/ic_launcher_foreground.png](packages/desktop/icons/prod/android/mipmap-xxxhdpi/ic_launcher_foreground.png)
+- [packages/desktop/icons/prod/android/mipmap-xxxhdpi/ic_launcher_round.png](packages/desktop/icons/prod/android/mipmap-xxxhdpi/ic_launcher_round.png)
+- [packages/desktop/icons/prod/android/values/ic_launcher_background.xml](packages/desktop/icons/prod/android/values/ic_launcher_background.xml) — 4 wierszy
+- [packages/desktop/icons/prod/dock.png](packages/desktop/icons/prod/dock.png)
+- [packages/desktop/icons/prod/icon.icns](packages/desktop/icons/prod/icon.icns)
+- [packages/desktop/icons/prod/icon.ico](packages/desktop/icons/prod/icon.ico)
+- [packages/desktop/icons/prod/icon.png](packages/desktop/icons/prod/icon.png)
+- [packages/desktop/icons/prod/ios/AppIcon-20x20@1x.png](packages/desktop/icons/prod/ios/AppIcon-20x20%401x.png)
+- [packages/desktop/icons/prod/ios/AppIcon-20x20@2x-1.png](packages/desktop/icons/prod/ios/AppIcon-20x20%402x-1.png)
+- [packages/desktop/icons/prod/ios/AppIcon-20x20@2x.png](packages/desktop/icons/prod/ios/AppIcon-20x20%402x.png)
+- [packages/desktop/icons/prod/ios/AppIcon-20x20@3x.png](packages/desktop/icons/prod/ios/AppIcon-20x20%403x.png)
+- [packages/desktop/icons/prod/ios/AppIcon-29x29@1x.png](packages/desktop/icons/prod/ios/AppIcon-29x29%401x.png)
+- [packages/desktop/icons/prod/ios/AppIcon-29x29@2x-1.png](packages/desktop/icons/prod/ios/AppIcon-29x29%402x-1.png)
+- [packages/desktop/icons/prod/ios/AppIcon-29x29@2x.png](packages/desktop/icons/prod/ios/AppIcon-29x29%402x.png)
+- [packages/desktop/icons/prod/ios/AppIcon-29x29@3x.png](packages/desktop/icons/prod/ios/AppIcon-29x29%403x.png)
+- [packages/desktop/icons/prod/ios/AppIcon-40x40@1x.png](packages/desktop/icons/prod/ios/AppIcon-40x40%401x.png)
+- [packages/desktop/icons/prod/ios/AppIcon-40x40@2x-1.png](packages/desktop/icons/prod/ios/AppIcon-40x40%402x-1.png)
+- [packages/desktop/icons/prod/ios/AppIcon-40x40@2x.png](packages/desktop/icons/prod/ios/AppIcon-40x40%402x.png)
+- [packages/desktop/icons/prod/ios/AppIcon-40x40@3x.png](packages/desktop/icons/prod/ios/AppIcon-40x40%403x.png)
+- [packages/desktop/icons/prod/ios/AppIcon-512@2x.png](packages/desktop/icons/prod/ios/AppIcon-512%402x.png)
+- [packages/desktop/icons/prod/ios/AppIcon-60x60@2x.png](packages/desktop/icons/prod/ios/AppIcon-60x60%402x.png)
+- [packages/desktop/icons/prod/ios/AppIcon-60x60@3x.png](packages/desktop/icons/prod/ios/AppIcon-60x60%403x.png)
+- [packages/desktop/icons/prod/ios/AppIcon-76x76@1x.png](packages/desktop/icons/prod/ios/AppIcon-76x76%401x.png)
+- [packages/desktop/icons/prod/ios/AppIcon-76x76@2x.png](packages/desktop/icons/prod/ios/AppIcon-76x76%402x.png)
+- [packages/desktop/icons/prod/ios/AppIcon-83.5x83.5@2x.png](packages/desktop/icons/prod/ios/AppIcon-83.5x83.5%402x.png)
+- [packages/desktop/package.json](packages/desktop/package.json) — 76 wierszy
+- [packages/desktop/resources/entitlements.plist](packages/desktop/resources/entitlements.plist)
+- [packages/desktop/resources/linux/opencode-desktop.desktop](packages/desktop/resources/linux/opencode-desktop.desktop)
+- [packages/desktop/scripts/copy-bundles.ts](packages/desktop/scripts/copy-bundles.ts) — 12 wierszy
+- [packages/desktop/scripts/copy-icons.ts](packages/desktop/scripts/copy-icons.ts) — 12 wierszy
+- [packages/desktop/scripts/copy-metainfo.ts](packages/desktop/scripts/copy-metainfo.ts) — 47 wierszy
+- [packages/desktop/scripts/finalize-latest-json.ts](packages/desktop/scripts/finalize-latest-json.ts) — 219 wierszy; deklaracje: `Asset:43`, `Release:48`, `Item:55`, `Yml:59`, `parse:64`
+- [packages/desktop/scripts/finalize-latest-yml.ts](packages/desktop/scripts/finalize-latest-yml.ts) — 124 wierszy; deklaracje: `FileEntry:15`, `LatestYml:22`, `parse:28`, `serialize:61`, `read:73`
+- [packages/desktop/scripts/prebuild.ts](packages/desktop/scripts/prebuild.ts) — 11 wierszy
+- [packages/desktop/scripts/predev.ts](packages/desktop/scripts/predev.ts) — 9 wierszy
+- [packages/desktop/scripts/prepare.ts](packages/desktop/scripts/prepare.ts) — 9 wierszy
+- [packages/desktop/scripts/utils.ts](packages/desktop/scripts/utils.ts) — 97 wierszy; deklaracje: `Channel:8`, `resolveChannel:10`, `nativeTarget:57`, `getCurrentCli:65`, `downloadCliToResources:72`
+- [packages/desktop/src/main/apps.ts](packages/desktop/src/main/apps.ts) — 136 wierszy; deklaracje: `checkAppExists:13`, `resolveAppPath:19`, `checkMacosApp:24`, `resolveWindowsAppPath:39`
+- [packages/desktop/src/main/attachment-picker.test.ts](packages/desktop/src/main/attachment-picker.test.ts) — 87 wierszy
+- [packages/desktop/src/main/attachment-picker.ts](packages/desktop/src/main/attachment-picker.ts) — 57 wierszy; deklaracje: `createPickedFileAuthorizations:7`, `assertAttachmentBudget:34`, `readAttachment:40`
+- [packages/desktop/src/main/background-cli.ts](packages/desktop/src/main/background-cli.ts) — 125 wierszy; deklaracje: `Logger:14`, `startBackgroundCli:19`, `installCli:60`, `run:80`, `serviceUrl:110`
+- [packages/desktop/src/main/constants.ts](packages/desktop/src/main/constants.ts) — 7 wierszy; deklaracje: `Channel:3`
+- [packages/desktop/src/main/debug.ts](packages/desktop/src/main/debug.ts) — 95 wierszy; deklaracje: `setForceFocus:16`, `readDocumentNodeId:69`, `readNodeIds:84`
+- [packages/desktop/src/main/desktop-menu-actions.ts](packages/desktop/src/main/desktop-menu-actions.ts) — 84 wierszy; deklaracje: `DesktopMenuActionHandlers:5`, `runDesktopMenuAction:10`, `setZoom:80`
+- [packages/desktop/src/main/draft-store.test.ts](packages/desktop/src/main/draft-store.test.ts) — 16 wierszy
+- [packages/desktop/src/main/draft-store.ts](packages/desktop/src/main/draft-store.ts) — 82 wierszy; deklaracje: `createDesktopDraftStore:16`
+- [packages/desktop/src/main/env.d.ts](packages/desktop/src/main/env.d.ts) — 19 wierszy; deklaracje: `ImportMetaEnv:1`, `ImportMeta:5`, `Listener:12`, `Info:16`
+- [packages/desktop/src/main/external-url.test.ts](packages/desktop/src/main/external-url.test.ts) — 29 wierszy
+- [packages/desktop/src/main/external-url.ts](packages/desktop/src/main/external-url.ts) — 19 wierszy; deklaracje: `resolveExternalURL:3`, `resolveLocalFilePath:10`
+- [packages/desktop/src/main/index.test.ts](packages/desktop/src/main/index.test.ts) — 37 wierszy
+- [packages/desktop/src/main/index.ts](packages/desktop/src/main/index.ts) — 424 wierszy; deklaracje: `SidecarListener:32`, `useEnvProxy:72`, `emitDeepLinks:81`, `killSidecar:88`, `ensureLoopbackNoProxy:95`
+- [packages/desktop/src/main/initialization.ts](packages/desktop/src/main/initialization.ts) — 6 wierszy; deklaracje: `forwardInitializationFailure:3`
+- [packages/desktop/src/main/install-state.test.ts](packages/desktop/src/main/install-state.test.ts) — 19 wierszy
+- [packages/desktop/src/main/install-state.ts](packages/desktop/src/main/install-state.ts) — 8 wierszy; deklaracje: `hasExistingAppState:1`
+- [packages/desktop/src/main/ipc.ts](packages/desktop/src/main/ipc.ts) — 308 wierszy; deklaracje: `Deps:35`, `registerIpcHandlers:57`, `sendMenuCommand:302`, `sendDeepLinks:306`
+- [packages/desktop/src/main/logging.ts](packages/desktop/src/main/logging.ts) — 210 wierszy; deklaracje: `initLogging:22`, `initCrashReporter:36`, `startNetLog:44`, `exportDebugLogs:51`, `write:75`
+- [packages/desktop/src/main/menu.ts](packages/desktop/src/main/menu.ts) — 69 wierszy; deklaracje: `DesktopMenuEntry:6`, `DesktopMenuRole:7`, `Deps:15`, `createMenu:21`, `nativeItem:37`
+- [packages/desktop/src/main/migrate.ts](packages/desktop/src/main/migrate.ts) — 91 wierszy; deklaracje: `tauriDir:13`, `tauriAppId:30`, `migrateFile:39`, `migrate:69`
+- [packages/desktop/src/main/native-translations.ts](packages/desktop/src/main/native-translations.ts) — 24 wierszy; deklaracje: `DesktopNativeBundle:5`, `DesktopNativeKey:6`, `setNativeTranslations:11`, `nativeT:22`
+- [packages/desktop/src/main/onboarding.ts](packages/desktop/src/main/onboarding.ts) — 45 wierszy; deklaracje: `initializeOldLayoutEligibility:12`, `isOldLayoutEligible:23`, `isFirstLaunchOnboardingPending:27`, `finishFirstLaunchOnboarding:33`
+- [packages/desktop/src/main/server.ts](packages/desktop/src/main/server.ts) — 239 wierszy; deklaracje: `HealthCheck:10`, `SidecarMessage:12`, `SidecarListener:17`, `SpawnLocalServerOptions:23`, `getDefaultServerUrl:30`
+- [packages/desktop/src/main/shell-env.test.ts](packages/desktop/src/main/shell-env.test.ts) — 50 wierszy
+- [packages/desktop/src/main/shell-env.ts](packages/desktop/src/main/shell-env.ts) — 101 wierszy; deklaracje: `Probe:7`, `ShellEnvLogger:8`, `resolveUserShell:12`, `getUserShell:17`, `parseShellEnv:25`
+- [packages/desktop/src/main/sidecar.ts](packages/desktop/src/main/sidecar.ts) — 157 wierszy; deklaracje: `NodeHttpWithEnvProxy:4`, `NodeTlsWithSystemCertificates:8`, `StartCommand:13`, `StopCommand:21`, `SidecarCommand:22`
+- [packages/desktop/src/main/store-cleanup.test.ts](packages/desktop/src/main/store-cleanup.test.ts) — 93 wierszy; deklaracje: `tempRoot:9`, `writeStore:15`
+- [packages/desktop/src/main/store-cleanup.ts](packages/desktop/src/main/store-cleanup.ts) — 94 wierszy; deklaracje: `StoreKind:8`, `StoreCandidate:9`, `cleanupStoreFiles:17`, `deleteStoreFileIfEmpty:64`, `storeKind:76`
+- [packages/desktop/src/main/store-keys.ts](packages/desktop/src/main/store-keys.ts) — 7 wierszy
+- [packages/desktop/src/main/store.ts](packages/desktop/src/main/store.ts) — 35 wierszy; deklaracje: `getStore:15`, `removeStoreFileIfEmpty:28`, `removeStoreFile:32`
+- [packages/desktop/src/main/unresponsive.ts](packages/desktop/src/main/unresponsive.ts) — 70 wierszy; deklaracje: `createUnresponsiveSampler:8`
+- [packages/desktop/src/main/updater-controller.test.ts](packages/desktop/src/main/updater-controller.test.ts) — 111 wierszy; deklaracje: `setup:4`
+- [packages/desktop/src/main/updater-controller.ts](packages/desktop/src/main/updater-controller.ts) — 97 wierszy; deklaracje: `UpdaterReadyRecord:5`, `UpdaterBackend:7`, `UpdaterPersistence:13`, `createUpdaterController:19`, `UpdaterController:97`
+- [packages/desktop/src/main/updater-subscriptions.test.ts](packages/desktop/src/main/updater-subscriptions.test.ts) — 16 wierszy
+- [packages/desktop/src/main/updater-subscriptions.ts](packages/desktop/src/main/updater-subscriptions.ts) — 20 wierszy; deklaracje: `createUpdaterSubscriptions:1`
+- [packages/desktop/src/main/updater.ts](packages/desktop/src/main/updater.ts) — 94 wierszy; deklaracje: `setupAutoUpdater:13`, `showUpdaterDialog:63`
+- [packages/desktop/src/main/window-registry.test.ts](packages/desktop/src/main/window-registry.test.ts) — 91 wierszy; deklaracje: `setup:4`
+- [packages/desktop/src/main/window-registry.ts](packages/desktop/src/main/window-registry.ts) — 47 wierszy; deklaracje: `createWindowRegistry:3`
+- [packages/desktop/src/main/window-state.ts](packages/desktop/src/main/window-state.ts) — 29 wierszy; deklaracje: `WebContentsURLState:3`, `WindowURLState:8`, `safeWebContentsURL:13`, `safeWindowURL:22`
+- [packages/desktop/src/main/windows.ts](packages/desktop/src/main/windows.ts) — 564 wierszy; deklaracje: `setRelaunchHandler:68`, `setAppQuitting:72`, `setBackgroundColor:76`, `getBackgroundColor:84`, `iconsDir:88`
+- [packages/desktop/src/main/wsl/ipc.ts](packages/desktop/src/main/wsl/ipc.ts) — 104 wierszy; deklaracje: `registerWslIpcHandlers:8`, `registerUnavailableWslIpcHandlers:70`
+- [packages/desktop/src/main/wsl/policy.ts](packages/desktop/src/main/wsl/policy.ts) — 33 wierszy; deklaracje: `wslServerIdToRestart:3`, `clearWslDistroState:7`, `wslTerminalArgs:19`, `requireWslIpcString:23`, `requireWslIpcStrings:28`
+- [packages/desktop/src/main/wsl/runtime.ts](packages/desktop/src/main/wsl/runtime.ts) — 405 wierszy; deklaracje: `WslCommandLine:9`, `WslCommandResult:14`, `RunWslOptions:21`, `wslArgs:37`, `runWsl:41`
+- [packages/desktop/src/main/wsl/servers.test.ts](packages/desktop/src/main/wsl/servers.test.ts) — 231 wierszy; deklaracje: `waitFor:209`, `testControllerOptions:217`
+- [packages/desktop/src/main/wsl/servers.ts](packages/desktop/src/main/wsl/servers.ts) — 523 wierszy; deklaracje: `RunningSidecar:33`, `SpawnSidecar:40`, `ControllerLogger:42`, `WslServersControllerOptions:47`, `WslServersController:56`
+- [packages/desktop/src/main/wsl/sidecar.ts](packages/desktop/src/main/wsl/sidecar.ts) — 134 wierszy; deklaracje: `WslSidecar:10`, `spawnWslSidecar:17`, `allocatePort:93`, `forwardLines:109`, `startupFailure:127`
+- [packages/desktop/src/main/wsl/startup.ts](packages/desktop/src/main/wsl/startup.ts) — 37 wierszy; deklaracje: `wslServerIdsToStartOnInitialize:3`, `expectOpencodeVersion:7`, `pollWslHealth:20`, `abortableDelay:27`
+- [packages/desktop/src/preload/index.ts](packages/desktop/src/preload/index.ts) — 138 wierszy
+- [packages/desktop/src/preload/types.ts](packages/desktop/src/preload/types.ts) — 116 wierszy; deklaracje: `ServerReadyData:19`, `WslServersAPI:25`, `UpdaterAPI:26`, `LinuxDisplayBackend:32`, `TitlebarTheme:33`
+- [packages/desktop/src/renderer/cli.ts](packages/desktop/src/renderer/cli.ts) — 12 wierszy; deklaracje: `installCli:3`
+- [packages/desktop/src/renderer/env.d.ts](packages/desktop/src/renderer/env.d.ts) — 10 wierszy; deklaracje: `Window:4`
+- [packages/desktop/src/renderer/html.test.ts](packages/desktop/src/renderer/html.test.ts) — 62 wierszy
+- [packages/desktop/src/renderer/i18n/am.ts](packages/desktop/src/renderer/i18n/am.ts) — 26 wierszy
+- [packages/desktop/src/renderer/i18n/ar.ts](packages/desktop/src/renderer/i18n/ar.ts) — 30 wierszy
+- [packages/desktop/src/renderer/i18n/az.ts](packages/desktop/src/renderer/i18n/az.ts) — 31 wierszy
+- [packages/desktop/src/renderer/i18n/bg.ts](packages/desktop/src/renderer/i18n/bg.ts) — 28 wierszy
+- [packages/desktop/src/renderer/i18n/bn.ts](packages/desktop/src/renderer/i18n/bn.ts) — 27 wierszy
+- [packages/desktop/src/renderer/i18n/br.ts](packages/desktop/src/renderer/i18n/br.ts) — 30 wierszy
+- [packages/desktop/src/renderer/i18n/bs.ts](packages/desktop/src/renderer/i18n/bs.ts) — 31 wierszy
+- [packages/desktop/src/renderer/i18n/ca.ts](packages/desktop/src/renderer/i18n/ca.ts) — 28 wierszy
+- [packages/desktop/src/renderer/i18n/cs.ts](packages/desktop/src/renderer/i18n/cs.ts) — 28 wierszy
+- [packages/desktop/src/renderer/i18n/da.ts](packages/desktop/src/renderer/i18n/da.ts) — 31 wierszy
+- [packages/desktop/src/renderer/i18n/de.ts](packages/desktop/src/renderer/i18n/de.ts) — 31 wierszy
+- [packages/desktop/src/renderer/i18n/dv.ts](packages/desktop/src/renderer/i18n/dv.ts) — 28 wierszy
+- [packages/desktop/src/renderer/i18n/dz.ts](packages/desktop/src/renderer/i18n/dz.ts) — 28 wierszy
+- [packages/desktop/src/renderer/i18n/el.ts](packages/desktop/src/renderer/i18n/el.ts) — 28 wierszy
+- [packages/desktop/src/renderer/i18n/en.ts](packages/desktop/src/renderer/i18n/en.ts) — 30 wierszy
+- [packages/desktop/src/renderer/i18n/es.ts](packages/desktop/src/renderer/i18n/es.ts) — 30 wierszy
+- [packages/desktop/src/renderer/i18n/et.ts](packages/desktop/src/renderer/i18n/et.ts) — 28 wierszy
+- [packages/desktop/src/renderer/i18n/fa.ts](packages/desktop/src/renderer/i18n/fa.ts) — 28 wierszy
+- [packages/desktop/src/renderer/i18n/fi.ts](packages/desktop/src/renderer/i18n/fi.ts) — 28 wierszy
+- [packages/desktop/src/renderer/i18n/fo.ts](packages/desktop/src/renderer/i18n/fo.ts) — 28 wierszy
+- [packages/desktop/src/renderer/i18n/fr.ts](packages/desktop/src/renderer/i18n/fr.ts) — 31 wierszy
+- [packages/desktop/src/renderer/i18n/hi.ts](packages/desktop/src/renderer/i18n/hi.ts) — 28 wierszy
+- [packages/desktop/src/renderer/i18n/hr.ts](packages/desktop/src/renderer/i18n/hr.ts) — 28 wierszy
+- [packages/desktop/src/renderer/i18n/hu.ts](packages/desktop/src/renderer/i18n/hu.ts) — 28 wierszy
+- [packages/desktop/src/renderer/i18n/hy.ts](packages/desktop/src/renderer/i18n/hy.ts) — 28 wierszy
+- [packages/desktop/src/renderer/i18n/id.ts](packages/desktop/src/renderer/i18n/id.ts) — 31 wierszy
+- [packages/desktop/src/renderer/i18n/index.ts](packages/desktop/src/renderer/i18n/index.ts) — 211 wierszy; deklaracje: `DesktopNativeLocale:5`, `Locale:72`, `RawDictionary:74`, `Dictionary:75`, `detectLocale:77`
+- [packages/desktop/src/renderer/i18n/is.ts](packages/desktop/src/renderer/i18n/is.ts) — 28 wierszy
+- [packages/desktop/src/renderer/i18n/it.ts](packages/desktop/src/renderer/i18n/it.ts) — 28 wierszy
+- [packages/desktop/src/renderer/i18n/ja.ts](packages/desktop/src/renderer/i18n/ja.ts) — 31 wierszy
+- [packages/desktop/src/renderer/i18n/ka.ts](packages/desktop/src/renderer/i18n/ka.ts) — 28 wierszy
+- [packages/desktop/src/renderer/i18n/km.ts](packages/desktop/src/renderer/i18n/km.ts) — 28 wierszy
+- [packages/desktop/src/renderer/i18n/ko.ts](packages/desktop/src/renderer/i18n/ko.ts) — 30 wierszy
+- [packages/desktop/src/renderer/i18n/lo.ts](packages/desktop/src/renderer/i18n/lo.ts) — 27 wierszy
+- [packages/desktop/src/renderer/i18n/lt.ts](packages/desktop/src/renderer/i18n/lt.ts) — 28 wierszy
+- [packages/desktop/src/renderer/i18n/lv.ts](packages/desktop/src/renderer/i18n/lv.ts) — 28 wierszy
+- [packages/desktop/src/renderer/i18n/mk.ts](packages/desktop/src/renderer/i18n/mk.ts) — 28 wierszy
+- [packages/desktop/src/renderer/i18n/mn.ts](packages/desktop/src/renderer/i18n/mn.ts) — 28 wierszy
+- [packages/desktop/src/renderer/i18n/ms.ts](packages/desktop/src/renderer/i18n/ms.ts) — 28 wierszy
+- [packages/desktop/src/renderer/i18n/my.ts](packages/desktop/src/renderer/i18n/my.ts) — 28 wierszy
+- [packages/desktop/src/renderer/i18n/ne.ts](packages/desktop/src/renderer/i18n/ne.ts) — 28 wierszy
+- [packages/desktop/src/renderer/i18n/nl.ts](packages/desktop/src/renderer/i18n/nl.ts) — 28 wierszy
+- [packages/desktop/src/renderer/i18n/no.ts](packages/desktop/src/renderer/i18n/no.ts) — 31 wierszy
+- [packages/desktop/src/renderer/i18n/pa.ts](packages/desktop/src/renderer/i18n/pa.ts) — 28 wierszy
+- [packages/desktop/src/renderer/i18n/pl.ts](packages/desktop/src/renderer/i18n/pl.ts) — 31 wierszy
+- [packages/desktop/src/renderer/i18n/ro.ts](packages/desktop/src/renderer/i18n/ro.ts) — 28 wierszy
+- [packages/desktop/src/renderer/i18n/ru.ts](packages/desktop/src/renderer/i18n/ru.ts) — 30 wierszy
+- [packages/desktop/src/renderer/i18n/si.ts](packages/desktop/src/renderer/i18n/si.ts) — 27 wierszy
+- [packages/desktop/src/renderer/i18n/sk.ts](packages/desktop/src/renderer/i18n/sk.ts) — 28 wierszy
+- [packages/desktop/src/renderer/i18n/sl.ts](packages/desktop/src/renderer/i18n/sl.ts) — 28 wierszy
+- [packages/desktop/src/renderer/i18n/sq.ts](packages/desktop/src/renderer/i18n/sq.ts) — 28 wierszy
+- [packages/desktop/src/renderer/i18n/sr.ts](packages/desktop/src/renderer/i18n/sr.ts) — 28 wierszy
+- [packages/desktop/src/renderer/i18n/sv.ts](packages/desktop/src/renderer/i18n/sv.ts) — 28 wierszy
+- [packages/desktop/src/renderer/i18n/tg.ts](packages/desktop/src/renderer/i18n/tg.ts) — 28 wierszy
+- [packages/desktop/src/renderer/i18n/th.ts](packages/desktop/src/renderer/i18n/th.ts) — 29 wierszy
+- [packages/desktop/src/renderer/i18n/tk.ts](packages/desktop/src/renderer/i18n/tk.ts) — 28 wierszy
+- [packages/desktop/src/renderer/i18n/tr.ts](packages/desktop/src/renderer/i18n/tr.ts) — 31 wierszy
+- [packages/desktop/src/renderer/i18n/uk.ts](packages/desktop/src/renderer/i18n/uk.ts) — 31 wierszy
+- [packages/desktop/src/renderer/i18n/ur.ts](packages/desktop/src/renderer/i18n/ur.ts) — 28 wierszy
+- [packages/desktop/src/renderer/i18n/uz.ts](packages/desktop/src/renderer/i18n/uz.ts) — 28 wierszy
+- [packages/desktop/src/renderer/i18n/vi.ts](packages/desktop/src/renderer/i18n/vi.ts) — 27 wierszy
+- [packages/desktop/src/renderer/i18n/zh.ts](packages/desktop/src/renderer/i18n/zh.ts) — 28 wierszy
+- [packages/desktop/src/renderer/i18n/zht.ts](packages/desktop/src/renderer/i18n/zht.ts) — 28 wierszy
+- [packages/desktop/src/renderer/index.html](packages/desktop/src/renderer/index.html) — 21 wierszy
+- [packages/desktop/src/renderer/index.tsx](packages/desktop/src/renderer/index.tsx) — 452 wierszy; deklaracje: `Locale:9`, `Platform:10`, `DesktopWindowState:68`, `windowLastActiveUrlKey:85`, `getLastActiveUrl:89`
+- [packages/desktop/src/renderer/initialization.test.ts](packages/desktop/src/renderer/initialization.test.ts) — 73 wierszy
+- [packages/desktop/src/renderer/initialization.ts](packages/desktop/src/renderer/initialization.ts) — 22 wierszy; deklaracje: `initializationData:1`, `markLocalServerStartup:6`, `initializationReady:18`
+- [packages/desktop/src/renderer/onboarding.tsx](packages/desktop/src/renderer/onboarding.tsx) — 54 wierszy; deklaracje: `DesktopFirstLaunchOnboarding:4`, `runFirstLaunchOnboarding:13`
+- [packages/desktop/src/renderer/styles.css](packages/desktop/src/renderer/styles.css) — 0 wierszy
+- [packages/desktop/src/renderer/webview-zoom.ts](packages/desktop/src/renderer/webview-zoom.ts) — 138 wierszy
+- [packages/desktop/src/renderer/window-fullscreen.ts](packages/desktop/src/renderer/window-fullscreen.ts) — 8 wierszy
+- [packages/desktop/src/renderer/wsl/connections.test.ts](packages/desktop/src/renderer/wsl/connections.test.ts) — 47 wierszy; deklaracje: `runtime:21`
+- [packages/desktop/src/renderer/wsl/connections.ts](packages/desktop/src/renderer/wsl/connections.ts) — 28 wierszy; deklaracje: `readyWslConnections:3`, `availableStartupServer:23`
+- [packages/desktop/sst-env.d.ts](packages/desktop/sst-env.d.ts) — 10 wierszy
+- [packages/desktop/tsconfig.json](packages/desktop/tsconfig.json) — 23 wierszy
+- [packages/docs/LICENSE](packages/docs/LICENSE)
+- [packages/docs/README.md](packages/docs/README.md) — 44 wierszy
+- [packages/docs/ai-tools/claude-code.mdx](packages/docs/ai-tools/claude-code.mdx)
+- [packages/docs/ai-tools/cursor.mdx](packages/docs/ai-tools/cursor.mdx)
+- [packages/docs/ai-tools/windsurf.mdx](packages/docs/ai-tools/windsurf.mdx)
+- [packages/docs/development.mdx](packages/docs/development.mdx)
+- [packages/docs/docs.json](packages/docs/docs.json) — 53 wierszy
+- [packages/docs/essentials/code.mdx](packages/docs/essentials/code.mdx)
+- [packages/docs/essentials/images.mdx](packages/docs/essentials/images.mdx)
+- [packages/docs/essentials/markdown.mdx](packages/docs/essentials/markdown.mdx)
+- [packages/docs/essentials/navigation.mdx](packages/docs/essentials/navigation.mdx)
+- [packages/docs/essentials/reusable-snippets.mdx](packages/docs/essentials/reusable-snippets.mdx)
+- [packages/docs/essentials/settings.mdx](packages/docs/essentials/settings.mdx)
+- [packages/docs/favicon-v3.svg](packages/docs/favicon-v3.svg)
+- [packages/docs/favicon.svg](packages/docs/favicon.svg)
+- [packages/docs/images/checks-passed.png](packages/docs/images/checks-passed.png)
+- [packages/docs/images/hero-dark.png](packages/docs/images/hero-dark.png)
+- [packages/docs/images/hero-light.png](packages/docs/images/hero-light.png)
+- [packages/docs/index.mdx](packages/docs/index.mdx)
+- [packages/docs/logo/dark.svg](packages/docs/logo/dark.svg)
+- [packages/docs/logo/light.svg](packages/docs/logo/light.svg)
+- [packages/docs/openapi.json](packages/docs/openapi.json)
+- [packages/docs/quickstart.mdx](packages/docs/quickstart.mdx)
+- [packages/docs/snippets/snippet-intro.mdx](packages/docs/snippets/snippet-intro.mdx)
+- [packages/effect-drizzle-sqlite/AGENTS.md](packages/effect-drizzle-sqlite/AGENTS.md) — 19 wierszy
+- [packages/effect-drizzle-sqlite/examples/basic.ts](packages/effect-drizzle-sqlite/examples/basic.ts) — 92 wierszy; deklaracje: `User:15`, `DatabaseShape:18`, `Database:22`, `UserStoreError:26`, `UserStoreShape:33`
+- [packages/effect-drizzle-sqlite/examples/migrations/20240101000000_create_users/migration.sql](packages/effect-drizzle-sqlite/examples/migrations/20240101000000_create_users/migration.sql) — 4 wierszy
+- [packages/effect-drizzle-sqlite/package.json](packages/effect-drizzle-sqlite/package.json) — 28 wierszy
+- [packages/effect-drizzle-sqlite/src/effect-sqlite/driver.ts](packages/effect-drizzle-sqlite/src/effect-sqlite/driver.ts) — 77 wierszy; deklaracje: `EffectSQLiteDatabase:15`, `EffectDrizzleSQLiteConfig:23`
+- [packages/effect-drizzle-sqlite/src/effect-sqlite/index.ts](packages/effect-drizzle-sqlite/src/effect-sqlite/index.ts) — 4 wierszy
+- [packages/effect-drizzle-sqlite/src/effect-sqlite/migrator.ts](packages/effect-drizzle-sqlite/src/effect-sqlite/migrator.ts) — 14 wierszy; deklaracje: `migrate:8`
+- [packages/effect-drizzle-sqlite/src/effect-sqlite/session.ts](packages/effect-drizzle-sqlite/src/effect-sqlite/session.ts) — 218 wierszy; deklaracje: `EffectSQLiteQueryEffectHKT:22`, `EffectSQLiteRunResult:27`, `EffectSQLiteSessionOptions:29`, `EffectSQLiteSession:35`, `EffectSQLiteTransaction:206`
+- [packages/effect-drizzle-sqlite/src/index.ts](packages/effect-drizzle-sqlite/src/index.ts) — 6 wierszy
+- [packages/effect-drizzle-sqlite/src/internal/drizzle-utils.ts](packages/effect-drizzle-sqlite/src/internal/drizzle-utils.ts) — 127 wierszy; deklaracje: `getTableColumnsRuntime:21`, `getViewSelectedFieldsRuntime:25`, `jitCompatCheck:29`, `orderSelectedFields:38`, `mapUpdateSet:52`
+- [packages/effect-drizzle-sqlite/src/sqlite-core/effect/count.ts](packages/effect-drizzle-sqlite/src/sqlite-core/effect/count.ts) — 58 wierszy; deklaracje: `buildSQLiteEmbeddedCount:10`, `buildSQLiteCount:14`, `SQLiteEffectCountBuilder:18`, `SQLiteEffectCountBuilder:23`
+- [packages/effect-drizzle-sqlite/src/sqlite-core/effect/db.ts](packages/effect-drizzle-sqlite/src/sqlite-core/effect/db.ts) — 296 wierszy; deklaracje: `SQLiteEffectDatabase:30`, `select:116`, `select:117`, `select:120`, `selectDistinct:131`
+- [packages/effect-drizzle-sqlite/src/sqlite-core/effect/delete.ts](packages/effect-drizzle-sqlite/src/sqlite-core/effect/delete.ts) — 261 wierszy; deklaracje: `SQLiteEffectDeleteWithout:21`, `SQLiteEffectDeleteReturningAll:39`, `SQLiteEffectDeleteReturning:55`, `SQLiteEffectDeleteExecute:72`, `SQLiteEffectDeletePrepare:76`
+- [packages/effect-drizzle-sqlite/src/sqlite-core/effect/index.ts](packages/effect-drizzle-sqlite/src/sqlite-core/effect/index.ts) — 10 wierszy
+- [packages/effect-drizzle-sqlite/src/sqlite-core/effect/insert.ts](packages/effect-drizzle-sqlite/src/sqlite-core/effect/insert.ts) — 349 wierszy; deklaracje: `SQLiteEffectInsertWithout:28`, `SQLiteEffectInsertReturning:46`, `SQLiteEffectInsertReturningAll:63`, `SQLiteEffectInsertDynamic:79`, `SQLiteEffectInsertOnConflictDoUpdateConfig:86`
+- [packages/effect-drizzle-sqlite/src/sqlite-core/effect/query.ts](packages/effect-drizzle-sqlite/src/sqlite-core/effect/query.ts) — 198 wierszy; deklaracje: `BuildQueryResult:6`, `BuildRelationalQueryResult:7`, `DBQueryConfig:8`, `TableRelationalConfig:10`, `TablesRelationalConfig:11`
+- [packages/effect-drizzle-sqlite/src/sqlite-core/effect/raw.ts](packages/effect-drizzle-sqlite/src/sqlite-core/effect/raw.ts) — 49 wierszy; deklaracje: `SQLiteEffectRawAction:10`, `SQLiteEffectRaw:12`, `SQLiteEffectRaw:17`
+- [packages/effect-drizzle-sqlite/src/sqlite-core/effect/select.ts](packages/effect-drizzle-sqlite/src/sqlite-core/effect/select.ts) — 279 wierszy; deklaracje: `SQLiteEffectSelectPrepare:32`, `SQLiteEffectSelectBuilder:47`, `SQLiteEffectSelectHKT:137`, `SQLiteEffectSelectBase:153`, `SQLiteEffectSelectBase:181`
+- [packages/effect-drizzle-sqlite/src/sqlite-core/effect/session.ts](packages/effect-drizzle-sqlite/src/sqlite-core/effect/session.ts) — 490 wierszy; deklaracje: `MigrationConfigWithInit:32`, `SQLiteEffectExecuteMethod:34`, `SQLiteEffectPreparedQuery:36`, `SQLiteEffectSession:306`, `SQLiteEffectTransaction:406`
+- [packages/effect-drizzle-sqlite/src/sqlite-core/effect/update.ts](packages/effect-drizzle-sqlite/src/sqlite-core/effect/update.ts) — 402 wierszy; deklaracje: `SQLiteEffectUpdateWithout:28`, `SQLiteEffectUpdateWithJoins:47`, `SQLiteEffectUpdateReturningAll:66`, `SQLiteEffectUpdateReturning:83`, `SQLiteEffectUpdateExecute:101`
+- [packages/effect-drizzle-sqlite/src/up-migrations/effect-sqlite.ts](packages/effect-drizzle-sqlite/src/up-migrations/effect-sqlite.ts) — 102 wierszy; deklaracje: `SQLiteMigrationTableRow:12`, `upgradeFromV0:74`
+- [packages/effect-drizzle-sqlite/src/up-migrations/sqlite.ts](packages/effect-drizzle-sqlite/src/up-migrations/sqlite.ts) — 253 wierszy; deklaracje: `SQLiteMigrationTableRow:11`, `AsyncSQLiteDatabaseWithSession:13`, `SQLiteMigrationBackfillEntry:20`, `unmatchedMigrationError:28`, `prepareSQLiteMigrationBackfill:39`
+- [packages/effect-drizzle-sqlite/src/up-migrations/utils.ts](packages/effect-drizzle-sqlite/src/up-migrations/utils.ts) — 45 wierszy; deklaracje: `UpgradeResult:2`
+- [packages/effect-drizzle-sqlite/sst-env.d.ts](packages/effect-drizzle-sqlite/sst-env.d.ts) — 10 wierszy
+- [packages/effect-drizzle-sqlite/test/sqlite.test.ts](packages/effect-drizzle-sqlite/test/sqlite.test.ts) — 172 wierszy
+- [packages/effect-drizzle-sqlite/tsconfig.json](packages/effect-drizzle-sqlite/tsconfig.json) — 15 wierszy
+- [packages/effect-sqlite-node/package.json](packages/effect-sqlite-node/package.json) — 22 wierszy
+- [packages/effect-sqlite-node/src/index.ts](packages/effect-sqlite-node/src/index.ts) — 168 wierszy; deklaracje: `TypeId:21`, `SqliteClient:23`, `SqliteClientConfig:32`, `SqliteConnection:45`
+- [packages/effect-sqlite-node/sst-env.d.ts](packages/effect-sqlite-node/sst-env.d.ts) — 10 wierszy
+- [packages/effect-sqlite-node/tsconfig.json](packages/effect-sqlite-node/tsconfig.json) — 15 wierszy
+- [packages/enterprise/.gitignore](packages/enterprise/.gitignore)
+- [packages/enterprise/README.md](packages/enterprise/README.md) — 32 wierszy
+- [packages/enterprise/package.json](packages/enterprise/package.json) — 46 wierszy
+- [packages/enterprise/public/apple-touch-icon-v3.png](packages/enterprise/public/apple-touch-icon-v3.png)
+- [packages/enterprise/public/apple-touch-icon.png](packages/enterprise/public/apple-touch-icon.png)
+- [packages/enterprise/public/favicon-96x96-v3.png](packages/enterprise/public/favicon-96x96-v3.png)
+- [packages/enterprise/public/favicon-96x96.png](packages/enterprise/public/favicon-96x96.png)
+- [packages/enterprise/public/favicon-v3.ico](packages/enterprise/public/favicon-v3.ico)
+- [packages/enterprise/public/favicon-v3.svg](packages/enterprise/public/favicon-v3.svg)
+- [packages/enterprise/public/favicon.ico](packages/enterprise/public/favicon.ico)
+- [packages/enterprise/public/favicon.svg](packages/enterprise/public/favicon.svg)
+- [packages/enterprise/public/site.webmanifest](packages/enterprise/public/site.webmanifest)
+- [packages/enterprise/public/social-share-zen.png](packages/enterprise/public/social-share-zen.png)
+- [packages/enterprise/public/social-share.png](packages/enterprise/public/social-share.png)
+- [packages/enterprise/public/web-app-manifest-192x192.png](packages/enterprise/public/web-app-manifest-192x192.png)
+- [packages/enterprise/public/web-app-manifest-512x512.png](packages/enterprise/public/web-app-manifest-512x512.png)
+- [packages/enterprise/script/scrap.ts](packages/enterprise/script/scrap.ts) — 15 wierszy
+- [packages/enterprise/src/app.css](packages/enterprise/src/app.css) — 2 wierszy
+- [packages/enterprise/src/app.tsx](packages/enterprise/src/app.tsx) — 97 wierszy; deklaracje: `resolveTemplate:16`, `detectLocaleFromHeader:25`, `detectLocale:35`, `UiI18nBridge:58`, `App:77`
+- [packages/enterprise/src/core/share.ts](packages/enterprise/src/core/share.ts) — 232 wierszy; deklaracje: `fn:6`, `Info:16`, `Data:40`, `Snapshot:42`, `Compaction:46`
+- [packages/enterprise/src/core/storage.ts](packages/enterprise/src/core/storage.ts) — 129 wierszy; deklaracje: `Adapter:5`, `createAdapter:12`, `s3:66`, `r2:77`, `resolve:93`
+- [packages/enterprise/src/custom-elements.d.ts](packages/enterprise/src/custom-elements.d.ts) — 17 wierszy; deklaracje: `IntrinsicElements:11`
+- [packages/enterprise/src/entry-client.tsx](packages/enterprise/src/entry-client.tsx) — 4 wierszy
+- [packages/enterprise/src/entry-server.tsx](packages/enterprise/src/entry-server.tsx) — 38 wierszy
+- [packages/enterprise/src/global.d.ts](packages/enterprise/src/global.d.ts) — 5 wierszy; deklaracje: `APIEvent:4`
+- [packages/enterprise/src/routes/\[...404\].tsx](packages/enterprise/src/routes/%5B...404%5D.tsx) — 25 wierszy; deklaracje: `NotFound:3`
+- [packages/enterprise/src/routes/api/\[...path\].ts](packages/enterprise/src/routes/api/%5B...path%5D.ts) — 171 wierszy; deklaracje: `GET:157`, `POST:161`, `PUT:165`, `DELETE:169`
+- [packages/enterprise/src/routes/index.tsx](packages/enterprise/src/routes/index.tsx) — 3 wierszy
+- [packages/enterprise/src/routes/share.tsx](packages/enterprise/src/routes/share.tsx) — 5 wierszy; deklaracje: `Share:3`
+- [packages/enterprise/src/routes/share/\[shareID\].tsx](packages/enterprise/src/routes/share/%5BshareID%5D.tsx) — 417 wierszy; deklaracje: `SessionDataMissingError:35`, `setActiveMessage:211`
+- [packages/enterprise/sst-env.d.ts](packages/enterprise/sst-env.d.ts) — 10 wierszy
+- [packages/enterprise/test-debug.ts](packages/enterprise/test-debug.ts) — 40 wierszy; deklaracje: `test:4`
+- [packages/enterprise/test/core/share.test.ts](packages/enterprise/test/core/share.test.ts) — 292 wierszy
+- [packages/enterprise/test/core/storage.test.ts](packages/enterprise/test/core/storage.test.ts) — 64 wierszy
+- [packages/enterprise/tsconfig.json](packages/enterprise/tsconfig.json) — 20 wierszy
+- [packages/enterprise/vite.config.ts](packages/enterprise/vite.config.ts) — 37 wierszy
+- [packages/function/package.json](packages/function/package.json) — 23 wierszy
+- [packages/function/src/api.ts](packages/function/src/api.ts) — 388 wierszy; deklaracje: `Env:10`, `SyncServer:16`
+- [packages/function/src/github.ts](packages/function/src/github.ts) — 14 wierszy; deklaracje: `parseRepositoryClaim:3`
+- [packages/function/sst-env.d.ts](packages/function/sst-env.d.ts) — 10 wierszy
+- [packages/function/test/github.test.ts](packages/function/test/github.test.ts) — 39 wierszy
+- [packages/function/tsconfig.json](packages/function/tsconfig.json) — 9 wierszy
+- [packages/http-recorder/LICENSE](packages/http-recorder/LICENSE)
+- [packages/http-recorder/README.md](packages/http-recorder/README.md) — 217 wierszy; deklaracje: `RecorderOptions:192`
+- [packages/http-recorder/package.json](packages/http-recorder/package.json) — 60 wierszy
+- [packages/http-recorder/script/build.ts](packages/http-recorder/script/build.ts) — 20 wierszy
+- [packages/http-recorder/script/pack.ts](packages/http-recorder/script/pack.ts) — 35 wierszy
+- [packages/http-recorder/script/verify-package.ts](packages/http-recorder/script/verify-package.ts) — 75 wierszy
+- [packages/http-recorder/src/cassette.ts](packages/http-recorder/src/cassette.ts) — 179 wierszy; deklaracje: `CassetteNotFoundError:9`, `UnsafeCassetteError:17`, `Interface:28`, `Service:39`
+- [packages/http-recorder/src/effect.ts](packages/http-recorder/src/effect.ts) — 25 wierszy
+- [packages/http-recorder/src/index.ts](packages/http-recorder/src/index.ts) — 18 wierszy; deklaracje: `CassetteMetadata:9`, `RecorderOptions:11`, `RedactOptions:13`, `RequestMatcher:15`, `RequestSnapshot:17`
+- [packages/http-recorder/src/internal-effect.ts](packages/http-recorder/src/internal-effect.ts) — 189 wierszy; deklaracje: `RecordReplayMode:23`, `RecordReplayOptions:25`
+- [packages/http-recorder/src/internal.ts](packages/http-recorder/src/internal.ts) — 15 wierszy; deklaracje: `WebSocketConnection:7`, `WebSocketExecutor:8`, `WebSocketRecordReplayOptions:9`, `WebSocketRequest:10`
+- [packages/http-recorder/src/matching.ts](packages/http-recorder/src/matching.ts) — 106 wierszy
+- [packages/http-recorder/src/recorder.ts](packages/http-recorder/src/recorder.ts) — 62 wierszy; deklaracje: `ReplayState:20`
+- [packages/http-recorder/src/redaction.ts](packages/http-recorder/src/redaction.ts) — 117 wierszy; deklaracje: `UrlRedactor:66`, `SecretFinding:104`
+- [packages/http-recorder/src/redactor.ts](packages/http-recorder/src/redactor.ts) — 135 wierszy; deklaracje: `Redactor:13`, `HeaderOptions:27`, `UrlOptions:46`, `DefaultRedactorOverrides:65`
+- [packages/http-recorder/src/schema.ts](packages/http-recorder/src/schema.ts) — 87 wierszy; deklaracje: `Interaction:68`, `Cassette:84`
+- [packages/http-recorder/src/socket.ts](packages/http-recorder/src/socket.ts) — 326 wierszy; deklaracje: `ActiveReplay:17`, `ActiveRecording:24`, `Frame:32`

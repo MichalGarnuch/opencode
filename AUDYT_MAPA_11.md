@@ -1,0 +1,306 @@
+# opencode — mapa plików (11/23)
+
+Wykaz śledzonych plików z badanego commita. Liczba wierszy i nazwy deklaracji są wyciągane automatycznie z dostępnej kopii tekstowej; nie oznaczają ręcznej oceny pliku. Brak opisu oznacza, że zawartość nie była analizowana tą metodą (np. plik binarny, zasób lub pominięty plik).
+
+[Wróć do audytu](AUDYT_EDUKACYJNY.md) · [1](AUDYT_MAPA_01.md) · [2](AUDYT_MAPA_02.md) · [3](AUDYT_MAPA_03.md) · [4](AUDYT_MAPA_04.md) · [5](AUDYT_MAPA_05.md) · [6](AUDYT_MAPA_06.md) · [7](AUDYT_MAPA_07.md) · [8](AUDYT_MAPA_08.md) · [9](AUDYT_MAPA_09.md) · [10](AUDYT_MAPA_10.md) · [11](AUDYT_MAPA_11.md) · [12](AUDYT_MAPA_12.md) · [13](AUDYT_MAPA_13.md) · [14](AUDYT_MAPA_14.md) · [15](AUDYT_MAPA_15.md) · [16](AUDYT_MAPA_16.md) · [17](AUDYT_MAPA_17.md) · [18](AUDYT_MAPA_18.md) · [19](AUDYT_MAPA_19.md) · [20](AUDYT_MAPA_20.md) · [21](AUDYT_MAPA_21.md) · [22](AUDYT_MAPA_22.md) · [23](AUDYT_MAPA_23.md)
+
+- [packages/opencode/src/tool/truncation-dir.ts](packages/opencode/src/tool/truncation-dir.ts) — 4 wierszy
+- [packages/opencode/src/tool/webfetch.ts](packages/opencode/src/tool/webfetch.ts) — 192 wierszy; deklaracje: `extractTextFromHTML:158`, `convertHTMLToMarkdown:182`
+- [packages/opencode/src/tool/webfetch.txt](packages/opencode/src/tool/webfetch.txt)
+- [packages/opencode/src/tool/websearch.ts](packages/opencode/src/tool/websearch.ts) — 143 wierszy; deklaracje: `WebSearchProvider:28`, `selectWebSearchProvider:30`, `webSearchProviderLabel:39`, `webSearchModelName:45`, `parallelAuthHeaders:54`
+- [packages/opencode/src/tool/websearch.txt](packages/opencode/src/tool/websearch.txt)
+- [packages/opencode/src/tool/write.ts](packages/opencode/src/tool/write.ts) — 104 wierszy
+- [packages/opencode/src/tool/write.txt](packages/opencode/src/tool/write.txt)
+- [packages/opencode/src/util/archive.ts](packages/opencode/src/util/archive.ts) — 17 wierszy; deklaracje: `extractZip:4`
+- [packages/opencode/src/util/bom.ts](packages/opencode/src/util/bom.ts) — 27 wierszy; deklaracje: `split:7`, `join:12`
+- [packages/opencode/src/util/data-url.ts](packages/opencode/src/util/data-url.ts) — 9 wierszy; deklaracje: `decodeDataUrl:1`
+- [packages/opencode/src/util/defer.ts](packages/opencode/src/util/defer.ts) — 10 wierszy; deklaracje: `defer:1`
+- [packages/opencode/src/util/effect-http-client.ts](packages/opencode/src/util/effect-http-client.ts) — 11 wierszy
+- [packages/opencode/src/util/error.ts](packages/opencode/src/util/error.ts) — 1 wierszy
+- [packages/opencode/src/util/filesystem.ts](packages/opencode/src/util/filesystem.ts) — 251 wierszy; deklaracje: `exists:12`, `isDir:16`, `stat:24`, `statAsync:28`, `size:35`
+- [packages/opencode/src/util/html.ts](packages/opencode/src/util/html.ts) — 8 wierszy; deklaracje: `escapeHtml:1`
+- [packages/opencode/src/util/iife.ts](packages/opencode/src/util/iife.ts) — 3 wierszy; deklaracje: `iife:1`
+- [packages/opencode/src/util/lazy.ts](packages/opencode/src/util/lazy.ts) — 20 wierszy; deklaracje: `lazy:1`
+- [packages/opencode/src/util/local-context.ts](packages/opencode/src/util/local-context.ts) — 25 wierszy; deklaracje: `NotFound:3`, `create:9`
+- [packages/opencode/src/util/locale.ts](packages/opencode/src/util/locale.ts) — 2 wierszy
+- [packages/opencode/src/util/media.ts](packages/opencode/src/util/media.ts) — 26 wierszy; deklaracje: `isPdfAttachment:3`, `isMedia:7`, `isImageAttachment:11`, `sniffAttachmentMime:15`
+- [packages/opencode/src/util/process.ts](packages/opencode/src/util/process.ts) — 177 wierszy; deklaracje: `Stdio:7`, `Shell:8`, `Options:10`, `RunOptions:22`, `Result:26`
+- [packages/opencode/src/util/proxy-env.ts](packages/opencode/src/util/proxy-env.ts) — 72 wierszy; deklaracje: `getProxyForUrl:36`, `shouldProxy:50`, `env:68`
+- [packages/opencode/src/util/queue.ts](packages/opencode/src/util/queue.ts) — 32 wierszy; deklaracje: `AsyncQueue:1`, `work:21`
+- [packages/opencode/src/util/record.ts](packages/opencode/src/util/record.ts) — 1 wierszy
+- [packages/opencode/src/util/repository.ts](packages/opencode/src/util/repository.ts) — 232 wierszy; deklaracje: `BaseReference:6`, `RemoteReference:16`, `FileReference:20`, `Reference:25`, `InvalidRepositoryReferenceError:27`
+- [packages/opencode/src/util/rpc.ts](packages/opencode/src/util/rpc.ts) — 66 wierszy; deklaracje: `Definition:1`, `listen:5`, `emit:15`, `client:19`
+- [packages/opencode/src/util/signal.ts](packages/opencode/src/util/signal.ts) — 12 wierszy; deklaracje: `signal:1`
+- [packages/opencode/src/util/timeout.ts](packages/opencode/src/util/timeout.ts) — 13 wierszy; deklaracje: `withTimeout:1`
+- [packages/opencode/src/util/token.ts](packages/opencode/src/util/token.ts) — 1 wierszy
+- [packages/opencode/src/util/wildcard.ts](packages/opencode/src/util/wildcard.ts) — 59 wierszy; deklaracje: `match:3`, `all:21`, `allStructured:33`, `matchSequence:47`
+- [packages/opencode/src/worktree/index.ts](packages/opencode/src/worktree/index.ts) — 623 wierszy; deklaracje: `Info:28`, `CreateInput:36`, `RemoveInput:41`, `ResetInput:46`, `NotGitError:48`
+- [packages/opencode/sst-env.d.ts](packages/opencode/sst-env.d.ts) — 10 wierszy
+- [packages/opencode/test/AGENTS.md](packages/opencode/test/AGENTS.md) — 204 wierszy
+- [packages/opencode/test/EFFECT_TEST_MIGRATION.md](packages/opencode/test/EFFECT_TEST_MIGRATION.md) — 169 wierszy
+- [packages/opencode/test/account/repo.test.ts](packages/opencode/test/account/repo.test.ts) — 355 wierszy
+- [packages/opencode/test/account/service.test.ts](packages/opencode/test/account/service.test.ts) — 524 wierszy
+- [packages/opencode/test/acp/config-option.test.ts](packages/opencode/test/acp/config-option.test.ts) — 240 wierszy; deklaracje: `ConfigOptionProvider:10`
+- [packages/opencode/test/acp/content.test.ts](packages/opencode/test/acp/content.test.ts) — 235 wierszy
+- [packages/opencode/test/acp/directory.test.ts](packages/opencode/test/acp/directory.test.ts) — 188 wierszy
+- [packages/opencode/test/acp/error.test.ts](packages/opencode/test/acp/error.test.ts) — 67 wierszy
+- [packages/opencode/test/acp/event.test.ts](packages/opencode/test/acp/event.test.ts) — 785 wierszy; deklaracje: `SessionUpdateParams:11`, `ToolSessionUpdateParams:12`, `GlobalEventEnvelope:15`, `DeltaPartType:18`, `makeSessionService:33`
+- [packages/opencode/test/acp/permission.test.ts](packages/opencode/test/acp/permission.test.ts) — 401 wierszy; deklaracje: `PermissionEvent:18`, `PermissionReplyParams:19`, `SessionUpdateParams:20`, `makeSessionService:40`, `createHarness:46`
+- [packages/opencode/test/acp/service-session.test.ts](packages/opencode/test/acp/service-session.test.ts) — 1654 wierszy; deklaracje: `createEventStream:27`, `idleEvent:53`, `deferred:64`, `assistantInfo:1619`, `categories:1633`
+- [packages/opencode/test/acp/session.test.ts](packages/opencode/test/acp/session.test.ts) — 201 wierszy
+- [packages/opencode/test/acp/tool.test.ts](packages/opencode/test/acp/tool.test.ts) — 298 wierszy
+- [packages/opencode/test/acp/usage.test.ts](packages/opencode/test/acp/usage.test.ts) — 318 wierszy
+- [packages/opencode/test/agent/agent.test.ts](packages/opencode/test/agent/agent.test.ts) — 755 wierszy; deklaracje: `evalPerm:28`, `load:33`
+- [packages/opencode/test/agent/plan-mode-subagent-bypass.test.ts](packages/opencode/test/agent/plan-mode-subagent-bypass.test.ts) — 160 wierszy; deklaracje: `testAgent:12`
+- [packages/opencode/test/agent/plugin-agent-regression.test.ts](packages/opencode/test/agent/plugin-agent-regression.test.ts) — 51 wierszy
+- [packages/opencode/test/auth/auth.test.ts](packages/opencode/test/auth/auth.test.ts) — 75 wierszy
+- [packages/opencode/test/background/job.test.ts](packages/opencode/test/background/job.test.ts) — 244 wierszy
+- [packages/opencode/test/cli/account.test.ts](packages/opencode/test/cli/account.test.ts) — 30 wierszy
+- [packages/opencode/test/cli/acp/acp-test-client.ts](packages/opencode/test/cli/acp/acp-test-client.ts) — 97 wierszy; deklaracje: `JsonRpcRequest:6`, `JsonRpcResponse:13`, `JsonRpcNotification:20`, `AcpClient:26`, `createAcpClient:36`
+- [packages/opencode/test/cli/acp/config-options.test.ts](packages/opencode/test/cli/acp/config-options.test.ts) — 103 wierszy
+- [packages/opencode/test/cli/acp/helpers.ts](packages/opencode/test/cli/acp/helpers.ts) — 96 wierszy; deklaracje: `AcpClient:11`, `createAcpClient:14`, `initialize:20`, `newSession:32`, `verifierConfig:38`
+- [packages/opencode/test/cli/acp/initialize-auth.test.ts](packages/opencode/test/cli/acp/initialize-auth.test.ts) — 61 wierszy
+- [packages/opencode/test/cli/acp/lifecycle.test.ts](packages/opencode/test/cli/acp/lifecycle.test.ts) — 118 wierszy
+- [packages/opencode/test/cli/acp/prompt-content.test.ts](packages/opencode/test/cli/acp/prompt-content.test.ts) — 97 wierszy; deklaracje: `promptContentConfig:77`
+- [packages/opencode/test/cli/acp/skills.test.ts](packages/opencode/test/cli/acp/skills.test.ts) — 38 wierszy
+- [packages/opencode/test/cli/cmd/tui/attention.test.ts](packages/opencode/test/cli/cmd/tui/attention.test.ts) — 484 wierszy; deklaracje: `FocusEvent:6`, `AttentionConfig:8`, `FakeRenderer:10`, `FakeAudioEngine:45`, `FakeKV:69`
+- [packages/opencode/test/cli/effect-cmd-instance-als.test.ts](packages/opencode/test/cli/effect-cmd-instance-als.test.ts) — 40 wierszy
+- [packages/opencode/test/cli/error.test.ts](packages/opencode/test/cli/error.test.ts) — 95 wierszy
+- [packages/opencode/test/cli/github-action.test.ts](packages/opencode/test/cli/github-action.test.ts) — 199 wierszy; deklaracje: `createTextPart:8`, `createReasoningPart:18`, `createToolPart:29`, `createStepStartPart:63`, `createStepFinishPart:72`
+- [packages/opencode/test/cli/github-remote.test.ts](packages/opencode/test/cli/github-remote.test.ts) — 90 wierszy
+- [packages/opencode/test/cli/help/__snapshots__/help-snapshots.test.ts.snap](packages/opencode/test/cli/help/__snapshots__/help-snapshots.test.ts.snap)
+- [packages/opencode/test/cli/help/help-snapshots.test.ts](packages/opencode/test/cli/help/help-snapshots.test.ts) — 140 wierszy; deklaracje: `normalize:29`
+- [packages/opencode/test/cli/import.test.ts](packages/opencode/test/cli/import.test.ts) — 90 wierszy; deklaracje: `ShareData:7`
+- [packages/opencode/test/cli/mcp-add.test.ts](packages/opencode/test/cli/mcp-add.test.ts) — 74 wierszy
+- [packages/opencode/test/cli/plugin-auth-picker.test.ts](packages/opencode/test/cli/plugin-auth-picker.test.ts) — 120 wierszy; deklaracje: `hookWithAuth:5`, `hookWithoutAuth:14`
+- [packages/opencode/test/cli/run/entry.body.test.ts](packages/opencode/test/cli/run/entry.body.test.ts) — 536 wierszy; deklaracje: `commit:6`, `toolPart:10`, `toolCommit:22`, `structured:42`
+- [packages/opencode/test/cli/run/footer.menu.test.ts](packages/opencode/test/cli/run/footer.menu.test.ts) — 43 wierszy; deklaracje: `mount:5`
+- [packages/opencode/test/cli/run/footer.view.test.tsx](packages/opencode/test/cli/run/footer.view.test.tsx) — 1411 wierszy; deklaracje: `command:40`, `model:50`, `provider:107`, `subagent:122`, `footerState:139`
+- [packages/opencode/test/cli/run/footer.width.test.ts](packages/opencode/test/cli/run/footer.width.test.ts) — 35 wierszy
+- [packages/opencode/test/cli/run/permission.shared.test.ts](packages/opencode/test/cli/run/permission.shared.test.ts) — 144 wierszy; deklaracje: `req:13`
+- [packages/opencode/test/cli/run/prompt.editor.test.ts](packages/opencode/test/cli/run/prompt.editor.test.ts) — 101 wierszy
+- [packages/opencode/test/cli/run/prompt.shared.test.ts](packages/opencode/test/cli/run/prompt.shared.test.ts) — 101 wierszy; deklaracje: `prompt:11`
+- [packages/opencode/test/cli/run/question.shared.test.ts](packages/opencode/test/cli/run/question.shared.test.ts) — 115 wierszy; deklaracje: `req:15`
+- [packages/opencode/test/cli/run/run-process.test.ts](packages/opencode/test/cli/run/run-process.test.ts) — 338 wierszy
+- [packages/opencode/test/cli/run/runtime.boot.test.ts](packages/opencode/test/cli/run/runtime.boot.test.ts) — 283 wierszy; deklaracje: `model:8`, `config:59`
+- [packages/opencode/test/cli/run/runtime.queue.test.ts](packages/opencode/test/cli/run/runtime.queue.test.ts) — 481 wierszy; deklaracje: `footer:5`
+- [packages/opencode/test/cli/run/runtime.stdin.test.ts](packages/opencode/test/cli/run/runtime.stdin.test.ts) — 71 wierszy; deklaracje: `stream:5`
+- [packages/opencode/test/cli/run/runtime.test.ts](packages/opencode/test/cli/run/runtime.test.ts) — 238 wierszy; deklaracje: `SessionMessage:6`, `defer:67`, `ok:75`, `footer:84`
+- [packages/opencode/test/cli/run/scrollback.surface.test.ts](packages/opencode/test/cli/run/scrollback.surface.test.ts) — 1092 wierszy; deklaracje: `ClaimedCommit:9`, `claim:27`, `renderCommit:41`, `render:45`, `renderRows:49`
+- [packages/opencode/test/cli/run/session-data.test.ts](packages/opencode/test/cli/run/session-data.test.ts) — 593 wierszy; deklaracje: `reduce:6`, `assistant:16`, `user:38`, `text:51`, `reasoning:67`
+- [packages/opencode/test/cli/run/session-replay.test.ts](packages/opencode/test/cli/run/session-replay.test.ts) — 691 wierszy; deklaracje: `userMessage:6`, `assistantInfo:33`, `assistantMessage:69`, `runningToolMessage:162`, `shellUserMessage:187`
+- [packages/opencode/test/cli/run/session.shared.test.ts](packages/opencode/test/cli/run/session.shared.test.ts) — 247 wierszy; deklaracje: `RunSession:6`, `SessionMessages:7`, `Message:10`, `Part:11`, `TextPart:12`
+- [packages/opencode/test/cli/run/stream.test.ts](packages/opencode/test/cli/run/stream.test.ts) — 56 wierszy; deklaracje: `footer:5`
+- [packages/opencode/test/cli/run/stream.transport.test.ts](packages/opencode/test/cli/run/stream.transport.test.ts) — 2363 wierszy; deklaracje: `EventStream:6`, `GlobalEventStream:7`, `SdkEvent:8`, `SessionMessage:9`, `SessionChild:10`
+- [packages/opencode/test/cli/run/subagent-data.test.ts](packages/opencode/test/cli/run/subagent-data.test.ts) — 547 wierszy; deklaracje: `SessionMessage:12`, `ChildMessage:13`, `visible:15`, `reduce:42`, `taskMessage:52`
+- [packages/opencode/test/cli/run/theme.test.ts](packages/opencode/test/cli/run/theme.test.ts) — 177 wierszy; deklaracje: `terminalColors:7`, `renderer:22`, `expectRgba:41`, `expectIndexed:50`, `spread:56`
+- [packages/opencode/test/cli/run/variant.shared.test.ts](packages/opencode/test/cli/run/variant.shared.test.ts) — 218 wierszy; deklaracje: `userMessage:83`, `remap:104`, `remappedFs:116`
+- [packages/opencode/test/cli/serve/serve-process.test.ts](packages/opencode/test/cli/serve/serve-process.test.ts) — 61 wierszy
+- [packages/opencode/test/cli/smokes/read-only.test.ts](packages/opencode/test/cli/smokes/read-only.test.ts) — 115 wierszy
+- [packages/opencode/test/cli/tui/attach.test.ts](packages/opencode/test/cli/tui/attach.test.ts) — 11 wierszy
+- [packages/opencode/test/cli/tui/editor-context-zed.test.ts](packages/opencode/test/cli/tui/editor-context-zed.test.ts) — 379 wierszy; deklaracje: `ZedFixtureOptions:19`, `writeZedFixture:29`, `utf8ByteOffset:62`
+- [packages/opencode/test/cli/tui/editor-context.test.tsx](packages/opencode/test/cli/tui/editor-context.test.tsx) — 297 wierszy; deklaracje: `nextTick:20`, `mountEditorContext:24`, `createWebSocketImpl:56`, `sendSelection:71`, `expectedSelection:88`
+- [packages/opencode/test/cli/tui/plugin-add.test.ts](packages/opencode/test/cli/tui/plugin-add.test.ts) — 110 wierszy
+- [packages/opencode/test/cli/tui/plugin-install.test.ts](packages/opencode/test/cli/tui/plugin-install.test.ts) — 87 wierszy
+- [packages/opencode/test/cli/tui/plugin-lifecycle.test.ts](packages/opencode/test/cli/tui/plugin-lifecycle.test.ts) — 224 wierszy
+- [packages/opencode/test/cli/tui/plugin-loader-entrypoint.test.ts](packages/opencode/test/cli/tui/plugin-loader-entrypoint.test.ts) — 485 wierszy
+- [packages/opencode/test/cli/tui/plugin-loader-pure.test.ts](packages/opencode/test/cli/tui/plugin-loader-pure.test.ts) — 72 wierszy
+- [packages/opencode/test/cli/tui/plugin-loader.test.ts](packages/opencode/test/cli/tui/plugin-loader.test.ts) — 1332 wierszy; deklaracje: `Row:18`, `Data:123`, `row:138`, `load:142`
+- [packages/opencode/test/cli/tui/plugin-toggle.test.ts](packages/opencode/test/cli/tui/plugin-toggle.test.ts) — 264 wierszy
+- [packages/opencode/test/cli/tui/thread.test.ts](packages/opencode/test/cli/tui/thread.test.ts) — 101 wierszy; deklaracje: `check:25`
+- [packages/opencode/test/config/agent-color.test.ts](packages/opencode/test/config/agent-color.test.ts) — 47 wierszy
+- [packages/opencode/test/config/config.test.ts](packages/opencode/test/config/config.test.ts) — 2234 wierszy; deklaracje: `remoteConfigClient:68`, `writeConfig:154`, `withProcessEnv:238`, `withProcessEnvs:242`, `check:264`
+- [packages/opencode/test/config/entry-name.test.ts](packages/opencode/test/config/entry-name.test.ts) — 57 wierszy
+- [packages/opencode/test/config/fixtures/empty-frontmatter.md](packages/opencode/test/config/fixtures/empty-frontmatter.md) — 4 wierszy
+- [packages/opencode/test/config/fixtures/frontmatter.md](packages/opencode/test/config/fixtures/frontmatter.md) — 28 wierszy
+- [packages/opencode/test/config/fixtures/markdown-header.md](packages/opencode/test/config/fixtures/markdown-header.md) — 11 wierszy
+- [packages/opencode/test/config/fixtures/no-frontmatter.md](packages/opencode/test/config/fixtures/no-frontmatter.md) — 1 wierszy
+- [packages/opencode/test/config/fixtures/v2-compat/README.md](packages/opencode/test/config/fixtures/v2-compat/README.md) — 40 wierszy
+- [packages/opencode/test/config/fixtures/v2-compat/read/agents-commands-precedence-input.jsonc](packages/opencode/test/config/fixtures/v2-compat/read/agents-commands-precedence-input.jsonc)
+- [packages/opencode/test/config/fixtures/v2-compat/read/agents-commands-precedence-output.json](packages/opencode/test/config/fixtures/v2-compat/read/agents-commands-precedence-output.json) — 29 wierszy
+- [packages/opencode/test/config/fixtures/v2-compat/read/agents-input.jsonc](packages/opencode/test/config/fixtures/v2-compat/read/agents-input.jsonc)
+- [packages/opencode/test/config/fixtures/v2-compat/read/agents-output.json](packages/opencode/test/config/fixtures/v2-compat/read/agents-output.json) — 24 wierszy
+- [packages/opencode/test/config/fixtures/v2-compat/read/commands-input.jsonc](packages/opencode/test/config/fixtures/v2-compat/read/commands-input.jsonc)
+- [packages/opencode/test/config/fixtures/v2-compat/read/commands-output.json](packages/opencode/test/config/fixtures/v2-compat/read/commands-output.json) — 17 wierszy
+- [packages/opencode/test/config/fixtures/v2-compat/read/ignored-fields-input.jsonc](packages/opencode/test/config/fixtures/v2-compat/read/ignored-fields-input.jsonc)
+- [packages/opencode/test/config/fixtures/v2-compat/read/ignored-fields-output.json](packages/opencode/test/config/fixtures/v2-compat/read/ignored-fields-output.json) — 3 wierszy
+- [packages/opencode/test/config/fixtures/v2-compat/read/lsp-input.jsonc](packages/opencode/test/config/fixtures/v2-compat/read/lsp-input.jsonc)
+- [packages/opencode/test/config/fixtures/v2-compat/read/lsp-output.json](packages/opencode/test/config/fixtures/v2-compat/read/lsp-output.json) — 14 wierszy
+- [packages/opencode/test/config/fixtures/v2-compat/read/mcp-enablement-input.jsonc](packages/opencode/test/config/fixtures/v2-compat/read/mcp-enablement-input.jsonc)
+- [packages/opencode/test/config/fixtures/v2-compat/read/mcp-enablement-output.json](packages/opencode/test/config/fixtures/v2-compat/read/mcp-enablement-output.json) — 45 wierszy
+- [packages/opencode/test/config/fixtures/v2-compat/read/mcp-merge-input.jsonc](packages/opencode/test/config/fixtures/v2-compat/read/mcp-merge-input.jsonc)
+- [packages/opencode/test/config/fixtures/v2-compat/read/mcp-merge-output.json](packages/opencode/test/config/fixtures/v2-compat/read/mcp-merge-output.json) — 18 wierszy
+- [packages/opencode/test/config/fixtures/v2-compat/read/mcp-oauth-input.jsonc](packages/opencode/test/config/fixtures/v2-compat/read/mcp-oauth-input.jsonc)
+- [packages/opencode/test/config/fixtures/v2-compat/read/mcp-oauth-output.json](packages/opencode/test/config/fixtures/v2-compat/read/mcp-oauth-output.json) — 25 wierszy
+- [packages/opencode/test/config/fixtures/v2-compat/read/mcp-partial-timeout-input.jsonc](packages/opencode/test/config/fixtures/v2-compat/read/mcp-partial-timeout-input.jsonc)
+- [packages/opencode/test/config/fixtures/v2-compat/read/mcp-partial-timeout-output.json](packages/opencode/test/config/fixtures/v2-compat/read/mcp-partial-timeout-output.json) — 3 wierszy
+- [packages/opencode/test/config/fixtures/v2-compat/read/mcp-reserved-enabled-input.jsonc](packages/opencode/test/config/fixtures/v2-compat/read/mcp-reserved-enabled-input.jsonc)
+- [packages/opencode/test/config/fixtures/v2-compat/read/mcp-reserved-enabled-output.json](packages/opencode/test/config/fixtures/v2-compat/read/mcp-reserved-enabled-output.json) — 10 wierszy
+- [packages/opencode/test/config/fixtures/v2-compat/read/mcp-reserved-input.jsonc](packages/opencode/test/config/fixtures/v2-compat/read/mcp-reserved-input.jsonc)
+- [packages/opencode/test/config/fixtures/v2-compat/read/mcp-reserved-output.json](packages/opencode/test/config/fixtures/v2-compat/read/mcp-reserved-output.json) — 12 wierszy
+- [packages/opencode/test/config/fixtures/v2-compat/read/mcp-timeouts-input.jsonc](packages/opencode/test/config/fixtures/v2-compat/read/mcp-timeouts-input.jsonc)
+- [packages/opencode/test/config/fixtures/v2-compat/read/mcp-timeouts-output.json](packages/opencode/test/config/fixtures/v2-compat/read/mcp-timeouts-output.json) — 28 wierszy
+- [packages/opencode/test/config/fixtures/v2-compat/read/model-object-input.jsonc](packages/opencode/test/config/fixtures/v2-compat/read/model-object-input.jsonc)
+- [packages/opencode/test/config/fixtures/v2-compat/read/model-object-output.json](packages/opencode/test/config/fixtures/v2-compat/read/model-object-output.json) — 4 wierszy
+- [packages/opencode/test/config/fixtures/v2-compat/read/model-string-input.jsonc](packages/opencode/test/config/fixtures/v2-compat/read/model-string-input.jsonc)
+- [packages/opencode/test/config/fixtures/v2-compat/read/model-string-output.json](packages/opencode/test/config/fixtures/v2-compat/read/model-string-output.json) — 6 wierszy
+- [packages/opencode/test/config/fixtures/v2-compat/read/model-variant-input.jsonc](packages/opencode/test/config/fixtures/v2-compat/read/model-variant-input.jsonc)
+- [packages/opencode/test/config/fixtures/v2-compat/read/model-variant-output.json](packages/opencode/test/config/fixtures/v2-compat/read/model-variant-output.json) — 3 wierszy
+- [packages/opencode/test/config/fixtures/v2-compat/read/settings-input.jsonc](packages/opencode/test/config/fixtures/v2-compat/read/settings-input.jsonc)
+- [packages/opencode/test/config/fixtures/v2-compat/read/settings-output.json](packages/opencode/test/config/fixtures/v2-compat/read/settings-output.json) — 27 wierszy
+- [packages/opencode/test/config/fixtures/v2-compat/read/settings-precedence-input.jsonc](packages/opencode/test/config/fixtures/v2-compat/read/settings-precedence-input.jsonc)
+- [packages/opencode/test/config/fixtures/v2-compat/read/settings-precedence-output.json](packages/opencode/test/config/fixtures/v2-compat/read/settings-precedence-output.json) — 17 wierszy
+- [packages/opencode/test/config/fixtures/v2-compat/read/skills-input.jsonc](packages/opencode/test/config/fixtures/v2-compat/read/skills-input.jsonc)
+- [packages/opencode/test/config/fixtures/v2-compat/read/skills-output.json](packages/opencode/test/config/fixtures/v2-compat/read/skills-output.json) — 6 wierszy
+- [packages/opencode/test/config/fixtures/v2-compat/update-global/clear-shell-input.jsonc](packages/opencode/test/config/fixtures/v2-compat/update-global/clear-shell-input.jsonc)
+- [packages/opencode/test/config/fixtures/v2-compat/update-global/clear-shell-normalized.json](packages/opencode/test/config/fixtures/v2-compat/update-global/clear-shell-normalized.json) — 5 wierszy
+- [packages/opencode/test/config/fixtures/v2-compat/update-global/clear-shell-output.jsonc](packages/opencode/test/config/fixtures/v2-compat/update-global/clear-shell-output.jsonc)
+- [packages/opencode/test/config/fixtures/v2-compat/update-global/clear-shell-patch.json](packages/opencode/test/config/fixtures/v2-compat/update-global/clear-shell-patch.json) — 3 wierszy
+- [packages/opencode/test/config/fixtures/v2-compat/update-global/preserve-v2-json-input.json](packages/opencode/test/config/fixtures/v2-compat/update-global/preserve-v2-json-input.json) — 18 wierszy
+- [packages/opencode/test/config/fixtures/v2-compat/update-global/preserve-v2-json-normalized.json](packages/opencode/test/config/fixtures/v2-compat/update-global/preserve-v2-json-normalized.json) — 11 wierszy
+- [packages/opencode/test/config/fixtures/v2-compat/update-global/preserve-v2-json-output.json](packages/opencode/test/config/fixtures/v2-compat/update-global/preserve-v2-json-output.json) — 20 wierszy
+- [packages/opencode/test/config/fixtures/v2-compat/update-global/preserve-v2-json-patch.json](packages/opencode/test/config/fixtures/v2-compat/update-global/preserve-v2-json-patch.json) — 3 wierszy
+- [packages/opencode/test/config/fixtures/v2-compat/update-global/preserve-v2-jsonc-input.jsonc](packages/opencode/test/config/fixtures/v2-compat/update-global/preserve-v2-jsonc-input.jsonc)
+- [packages/opencode/test/config/fixtures/v2-compat/update-global/preserve-v2-jsonc-normalized.json](packages/opencode/test/config/fixtures/v2-compat/update-global/preserve-v2-jsonc-normalized.json) — 11 wierszy
+- [packages/opencode/test/config/fixtures/v2-compat/update-global/preserve-v2-jsonc-output.jsonc](packages/opencode/test/config/fixtures/v2-compat/update-global/preserve-v2-jsonc-output.jsonc)
+- [packages/opencode/test/config/fixtures/v2-compat/update-global/preserve-v2-jsonc-patch.json](packages/opencode/test/config/fixtures/v2-compat/update-global/preserve-v2-jsonc-patch.json) — 3 wierszy
+- [packages/opencode/test/config/fixtures/v2-compat/update-global/v1-overrides-input.json](packages/opencode/test/config/fixtures/v2-compat/update-global/v1-overrides-input.json) — 16 wierszy
+- [packages/opencode/test/config/fixtures/v2-compat/update-global/v1-overrides-normalized.json](packages/opencode/test/config/fixtures/v2-compat/update-global/v1-overrides-normalized.json) — 19 wierszy
+- [packages/opencode/test/config/fixtures/v2-compat/update-global/v1-overrides-output.json](packages/opencode/test/config/fixtures/v2-compat/update-global/v1-overrides-output.json) — 32 wierszy
+- [packages/opencode/test/config/fixtures/v2-compat/update-global/v1-overrides-patch.json](packages/opencode/test/config/fixtures/v2-compat/update-global/v1-overrides-patch.json) — 6 wierszy
+- [packages/opencode/test/config/fixtures/v2-compat/update-project/preserve-v2-input.json](packages/opencode/test/config/fixtures/v2-compat/update-project/preserve-v2-input.json) — 18 wierszy
+- [packages/opencode/test/config/fixtures/v2-compat/update-project/preserve-v2-normalized.json](packages/opencode/test/config/fixtures/v2-compat/update-project/preserve-v2-normalized.json) — 11 wierszy
+- [packages/opencode/test/config/fixtures/v2-compat/update-project/preserve-v2-output.json](packages/opencode/test/config/fixtures/v2-compat/update-project/preserve-v2-output.json) — 20 wierszy
+- [packages/opencode/test/config/fixtures/v2-compat/update-project/preserve-v2-patch.json](packages/opencode/test/config/fixtures/v2-compat/update-project/preserve-v2-patch.json) — 3 wierszy
+- [packages/opencode/test/config/fixtures/v2-compat/update-project/v1-overrides-input.json](packages/opencode/test/config/fixtures/v2-compat/update-project/v1-overrides-input.json) — 16 wierszy
+- [packages/opencode/test/config/fixtures/v2-compat/update-project/v1-overrides-normalized.json](packages/opencode/test/config/fixtures/v2-compat/update-project/v1-overrides-normalized.json) — 17 wierszy
+- [packages/opencode/test/config/fixtures/v2-compat/update-project/v1-overrides-output.json](packages/opencode/test/config/fixtures/v2-compat/update-project/v1-overrides-output.json) — 30 wierszy
+- [packages/opencode/test/config/fixtures/v2-compat/update-project/v1-overrides-patch.json](packages/opencode/test/config/fixtures/v2-compat/update-project/v1-overrides-patch.json) — 6 wierszy
+- [packages/opencode/test/config/fixtures/weird-model-id.md](packages/opencode/test/config/fixtures/weird-model-id.md) — 13 wierszy
+- [packages/opencode/test/config/lsp.test.ts](packages/opencode/test/config/lsp.test.ts) — 69 wierszy
+- [packages/opencode/test/config/markdown.test.ts](packages/opencode/test/config/markdown.test.ts) — 228 wierszy
+- [packages/opencode/test/config/plugin.test.ts](packages/opencode/test/config/plugin.test.ts) — 0 wierszy
+- [packages/opencode/test/config/snapshot.ts](packages/opencode/test/config/snapshot.ts) — 8 wierszy; deklaracje: `snapshot:4`
+- [packages/opencode/test/config/tui.test.ts](packages/opencode/test/config/tui.test.ts) — 894 wierszy
+- [packages/opencode/test/config/v2-compat.test.ts](packages/opencode/test/config/v2-compat.test.ts) — 400 wierszy
+- [packages/opencode/test/control-plane/adapters.test.ts](packages/opencode/test/control-plane/adapters.test.ts) — 71 wierszy; deklaracje: `info:6`, `adapter:18`
+- [packages/opencode/test/control-plane/workspace.test.ts](packages/opencode/test/control-plane/workspace.test.ts) — 1717 wierszy; deklaracje: `RecordedCreate:69`, `RecordedAdapter:75`, `FetchCall:86`, `unique:94`, `restoreEnv:98`
+- [packages/opencode/test/effect/app-runtime-logger.test.ts](packages/opencode/test/effect/app-runtime-logger.test.ts) — 101 wierszy; deklaracje: `check:16`, `Dummy:25`
+- [packages/opencode/test/effect/config-service.test.ts](packages/opencode/test/effect/config-service.test.ts) — 65 wierszy; deklaracje: `TestConfig:6`
+- [packages/opencode/test/effect/instance-state.test.ts](packages/opencode/test/effect/instance-state.test.ts) — 392 wierszy; deklaracje: `Api:110`, `Test:114`, `Api:146`, `Test:150`, `Api:204`
+- [packages/opencode/test/effect/run-service.test.ts](packages/opencode/test/effect/run-service.test.ts) — 89 wierszy; deklaracje: `Shared:8`, `One:23`, `Two:34`, `NeedsInstance:56`
+- [packages/opencode/test/effect/runner.test.ts](packages/opencode/test/effect/runner.test.ts) — 514 wierszy
+- [packages/opencode/test/effect/runtime-flags.test.ts](packages/opencode/test/effect/runtime-flags.test.ts) — 374 wierszy
+- [packages/opencode/test/event-manifest.test.ts](packages/opencode/test/event-manifest.test.ts) — 24 wierszy
+- [packages/opencode/test/fake/account.ts](packages/opencode/test/fake/account.ts) — 9 wierszy
+- [packages/opencode/test/fake/auth.ts](packages/opencode/test/fake/auth.ts) — 8 wierszy
+- [packages/opencode/test/fake/npm.ts](packages/opencode/test/fake/npm.ts) — 8 wierszy
+- [packages/opencode/test/fake/provider.ts](packages/opencode/test/fake/provider.ts) — 82 wierszy; deklaracje: `model:7`, `info:34`, `fake:47`
+- [packages/opencode/test/fake/skill.ts](packages/opencode/test/fake/skill.ts) — 8 wierszy
+- [packages/opencode/test/filesystem/filesystem.test.ts](packages/opencode/test/filesystem/filesystem.test.ts) — 318 wierszy
+- [packages/opencode/test/fixture/agent-plugin.constants.ts](packages/opencode/test/fixture/agent-plugin.constants.ts) — 6 wierszy
+- [packages/opencode/test/fixture/agent-plugin.ts](packages/opencode/test/fixture/agent-plugin.ts) — 12 wierszy
+- [packages/opencode/test/fixture/config.ts](packages/opencode/test/fixture/config.ts) — 23 wierszy; deklaracje: `make:5`, `layer:19`
+- [packages/opencode/test/fixture/db.ts](packages/opencode/test/fixture/db.ts) — 11 wierszy; deklaracje: `resetDatabase:5`
+- [packages/opencode/test/fixture/fixture.test.ts](packages/opencode/test/fixture/fixture.test.ts) — 26 wierszy
+- [packages/opencode/test/fixture/fixture.ts](packages/opencode/test/fixture/fixture.ts) — 228 wierszy; deklaracje: `provideTestInstance:26`, `withTestInstance:40`, `reloadTestInstance:44`, `disposeAllInstances:48`, `sanitizePath:53`
+- [packages/opencode/test/fixture/flag.ts](packages/opencode/test/fixture/flag.ts) — 20 wierszy; deklaracje: `withFixedWorkspaceID:10`
+- [packages/opencode/test/fixture/flock-worker.ts](packages/opencode/test/fixture/flock-worker.ts) — 72 wierszy; deklaracje: `Msg:4`, `sleep:17`, `input:23`, `job:32`, `main:56`
+- [packages/opencode/test/fixture/lsp/fake-lsp-server.js](packages/opencode/test/fixture/lsp/fake-lsp-server.js) — 249 wierszy; deklaracje: `encode:22`, `decodeFrames:28`, `send:44`, `sendRequest:48`, `sendResponse:54`
+- [packages/opencode/test/fixture/mcp-lifecycle-stdio.ts](packages/opencode/test/fixture/mcp-lifecycle-stdio.ts) — 26 wierszy
+- [packages/opencode/test/fixture/mcp-session-recovery.ts](packages/opencode/test/fixture/mcp-session-recovery.ts) — 50 wierszy
+- [packages/opencode/test/fixture/plug-worker.ts](packages/opencode/test/fixture/plug-worker.ts) — 93 wierszy; deklaracje: `Msg:6`, `sleep:19`, `input:25`, `deps:39`, `ctx:64`
+- [packages/opencode/test/fixture/plugin-meta-worker.ts](packages/opencode/test/fixture/plugin-meta-worker.ts) — 19 wierszy
+- [packages/opencode/test/fixture/plugin.ts](packages/opencode/test/fixture/plugin.ts) — 10 wierszy; deklaracje: `markPluginDependenciesReady:4`
+- [packages/opencode/test/fixture/skills/agents-sdk/SKILL.md](packages/opencode/test/fixture/skills/agents-sdk/SKILL.md) — 152 wierszy; deklaracje: `State:73`, `Counter:75`, `App:130`
+- [packages/opencode/test/fixture/skills/agents-sdk/references/callable.md](packages/opencode/test/fixture/skills/agents-sdk/references/callable.md) — 92 wierszy; deklaracje: `MyAgent:12`, `MyAgent:43`
+- [packages/opencode/test/fixture/skills/cloudflare/SKILL.md](packages/opencode/test/fixture/skills/cloudflare/SKILL.md) — 211 wierszy
+- [packages/opencode/test/fixture/skills/index.json](packages/opencode/test/fixture/skills/index.json) — 6 wierszy
+- [packages/opencode/test/fixture/tui-environment.tsx](packages/opencode/test/fixture/tui-environment.tsx) — 32 wierszy; deklaracje: `TuiPaths:6`, `TestTuiContexts:10`
+- [packages/opencode/test/fixture/tui-plugin.ts](packages/opencode/test/fixture/tui-plugin.ts) — 355 wierszy; deklaracje: `Count:6`, `AttentionOpts:15`, `themeCurrent:19`, `Opts:87`, `tuiConfig:119`
+- [packages/opencode/test/fixture/tui-runtime.ts](packages/opencode/test/fixture/tui-runtime.ts) — 56 wierszy; deklaracje: `PluginSpec:7`, `PluginOrigin:8`, `HostResolved:13`, `ResolvedInput:14`, `createTuiResolvedKeybinds:21`
+- [packages/opencode/test/fixture/tui-sdk.ts](packages/opencode/test/fixture/tui-sdk.ts) — 82 wierszy; deklaracje: `json:7`, `eventSource:14`, `createEventSource:18`, `FetchHandler:37`, `createFetch:39`
+- [packages/opencode/test/fixture/workspace.ts](packages/opencode/test/fixture/workspace.ts) — 34 wierszy
+- [packages/opencode/test/fixtures/recordings/session/native-anthropic-tool-loop.json](packages/opencode/test/fixtures/recordings/session/native-anthropic-tool-loop.json) — 49 wierszy
+- [packages/opencode/test/fixtures/recordings/session/native-openai-oauth-tool-loop.json](packages/opencode/test/fixtures/recordings/session/native-openai-oauth-tool-loop.json) — 45 wierszy
+- [packages/opencode/test/fixtures/recordings/session/native-zen-tool-loop.json](packages/opencode/test/fixtures/recordings/session/native-zen-tool-loop.json) — 49 wierszy
+- [packages/opencode/test/format/format.test.ts](packages/opencode/test/format/format.test.ts) — 235 wierszy
+- [packages/opencode/test/git/git.test.ts](packages/opencode/test/git/git.test.ts) — 179 wierszy
+- [packages/opencode/test/ide/ide.test.ts](packages/opencode/test/ide/ide.test.ts) — 82 wierszy
+- [packages/opencode/test/image/fixtures/picture-5mb-base64.png](packages/opencode/test/image/fixtures/picture-5mb-base64.png)
+- [packages/opencode/test/image/image.test.ts](packages/opencode/test/image/image.test.ts) — 121 wierszy; deklaracje: `part:18`
+- [packages/opencode/test/installation/installation.test.ts](packages/opencode/test/installation/installation.test.ts) — 240 wierszy; deklaracje: `mockHttpClient:15`, `mockSpawner:20`, `jsonResponse:47`, `testLayer:54`
+- [packages/opencode/test/lib/cli-process.ts](packages/opencode/test/lib/cli-process.ts) — 535 wierszy; deklaracje: `fromBunStream:41`, `forkStderrDrain:52`, `isolatedEnv:62`, `RunResult:80`, `RunHandle:87`
+- [packages/opencode/test/lib/effect.ts](packages/opencode/test/lib/effect.ts) — 177 wierszy; deklaracje: `Body:12`, `InstanceOptions:13`, `isInstanceOptions:19`, `instanceArgs:25`, `Runner:36`
+- [packages/opencode/test/lib/filesystem.ts](packages/opencode/test/lib/filesystem.ts) — 10 wierszy
+- [packages/opencode/test/lib/llm-server.ts](packages/opencode/test/lib/llm-server.ts) — 779 wierszy; deklaracje: `Usage:7`, `Line:9`, `Flow:11`, `Hit:18`, `Match:23`
+- [packages/opencode/test/lib/snapshot.ts](packages/opencode/test/lib/snapshot.ts) — 73 wierszy; deklaracje: `stripCrlf:24`, `toPosixPath:33`, `withTmpdirStripped:42`, `normalizeForSnapshot:60`
+- [packages/opencode/test/lib/test-provider.ts](packages/opencode/test/lib/test-provider.ts) — 37 wierszy; deklaracje: `testProviderConfig:9`
+- [packages/opencode/test/lib/websocket.ts](packages/opencode/test/lib/websocket.ts) — 46 wierszy; deklaracje: `FakeWebSocket:1`
+- [packages/opencode/test/lsp/client.test.ts](packages/opencode/test/lsp/client.test.ts) — 488 wierszy; deklaracje: `spawnFakeServer:8`
+- [packages/opencode/test/lsp/index.test.ts](packages/opencode/test/lsp/index.test.ts) — 231 wierszy
+- [packages/opencode/test/lsp/jdtls-root.test.ts](packages/opencode/test/lsp/jdtls-root.test.ts) — 459 wierszy; deklaracje: `makeCtx:14`, `mkdirp:18`, `touch:22`
+- [packages/opencode/test/lsp/launch.test.ts](packages/opencode/test/lsp/launch.test.ts) — 22 wierszy
+- [packages/opencode/test/lsp/lifecycle.test.ts](packages/opencode/test/lsp/lifecycle.test.ts) — 160 wierszy
+- [packages/opencode/test/mcp/auth.test.ts](packages/opencode/test/mcp/auth.test.ts) — 78 wierszy; deklaracje: `authFile:8`, `authService:49`
+- [packages/opencode/test/mcp/catalog.test.ts](packages/opencode/test/mcp/catalog.test.ts) — 107 wierszy; deklaracje: `clientReturning:11`, `mcpTool:17`
+- [packages/opencode/test/mcp/headers.test.ts](packages/opencode/test/mcp/headers.test.ts) — 102 wierszy
+- [packages/opencode/test/mcp/lifecycle.test.ts](packages/opencode/test/mcp/lifecycle.test.ts) — 560 wierszy; deklaracje: `ServerCapabilities:13`, `Tool:14`, `Page:27`, `LifecycleServerState:29`, `lifecycleServer:45`
+- [packages/opencode/test/mcp/oauth-auto-connect.test.ts](packages/opencode/test/mcp/oauth-auto-connect.test.ts) — 300 wierszy; deklaracje: `OAuthMcpOptions:23`, `serveOAuthMcp:27`
+- [packages/opencode/test/mcp/oauth-browser.test.ts](packages/opencode/test/mcp/oauth-browser.test.ts) — 225 wierszy
+- [packages/opencode/test/mcp/oauth-callback.test.ts](packages/opencode/test/mcp/oauth-callback.test.ts) — 114 wierszy; deklaracje: `getFreeLoopbackPort:6`, `canConnect:23`
+- [packages/opencode/test/mcp/oauth-provider.test.ts](packages/opencode/test/mcp/oauth-provider.test.ts) — 102 wierszy
+- [packages/opencode/test/mcp/session-recovery.test.ts](packages/opencode/test/mcp/session-recovery.test.ts) — 27 wierszy
+- [packages/opencode/test/mcp/transport.test.ts](packages/opencode/test/mcp/transport.test.ts) — 38 wierszy
+- [packages/opencode/test/patch/patch.test.ts](packages/opencode/test/patch/patch.test.ts) — 384 wierszy
+- [packages/opencode/test/patched-dependencies.test.ts](packages/opencode/test/patched-dependencies.test.ts) — 29 wierszy
+- [packages/opencode/test/permission-task.test.ts](packages/opencode/test/permission-task.test.ts) — 319 wierszy
+- [packages/opencode/test/permission/arity.test.ts](packages/opencode/test/permission/arity.test.ts) — 33 wierszy
+- [packages/opencode/test/permission/next.test.ts](packages/opencode/test/permission/next.test.ts) — 1174 wierszy
+- [packages/opencode/test/plugin/auth-override.test.ts](packages/opencode/test/plugin/auth-override.test.ts) — 101 wierszy; deklaracje: `providerAuthLayer:19`
+- [packages/opencode/test/plugin/azure.test.ts](packages/opencode/test/plugin/azure.test.ts) — 280 wierszy; deklaracje: `oauthMethod:40`, `loader:46`, `customFetch:51`, `azureShell:61`, `azureCli:72`
+- [packages/opencode/test/plugin/cerebras.test.ts](packages/opencode/test/plugin/cerebras.test.ts) — 47 wierszy; deklaracje: `ChatParams:5`, `input:7`, `output:13`
+- [packages/opencode/test/plugin/cloudflare.test.ts](packages/opencode/test/plugin/cloudflare.test.ts) — 25 wierszy
+- [packages/opencode/test/plugin/codex.test.ts](packages/opencode/test/plugin/codex.test.ts) — 498 wierszy; deklaracje: `IdTokenClaims:12`, `createTestJwt:15`, `waitFor:466`, `createCodexWebSocketServer:474`
+- [packages/opencode/test/plugin/github-copilot-models.test.ts](packages/opencode/test/plugin/github-copilot-models.test.ts) — 492 wierszy
+- [packages/opencode/test/plugin/github-copilot.test.ts](packages/opencode/test/plugin/github-copilot.test.ts) — 56 wierszy; deklaracje: `ChatHeaders:5`, `hook:7`, `input:25`
+- [packages/opencode/test/plugin/install-concurrency.test.ts](packages/opencode/test/plugin/install-concurrency.test.ts) — 140 wierszy; deklaracje: `Msg:12`, `run:19`, `plugin:26`, `read:50`, `mods:54`
+- [packages/opencode/test/plugin/install.test.ts](packages/opencode/test/plugin/install.test.ts) — 570 wierszy; deklaracje: `deps:9`, `ctx:34`, `ctxDir:42`, `ctxRoot:50`, `plugin:58`
+- [packages/opencode/test/plugin/loader-shared.test.ts](packages/opencode/test/plugin/loader-shared.test.ts) — 1306 wierszy; deklaracje: `withTmp:28`, `load:39`
+- [packages/opencode/test/plugin/meta.test.ts](packages/opencode/test/plugin/meta.test.ts) — 137 wierszy; deklaracje: `run:14`, `map:21`
+- [packages/opencode/test/plugin/modal-models.test.ts](packages/opencode/test/plugin/modal-models.test.ts) — 198 wierszy; deklaracje: `makeProvider:9`
+- [packages/opencode/test/plugin/openai-rollout.test.ts](packages/opencode/test/plugin/openai-rollout.test.ts) — 17 wierszy
+- [packages/opencode/test/plugin/openai-ws.test.ts](packages/opencode/test/plugin/openai-ws.test.ts) — 909 wierszy; deklaracje: `streamRequest:801`, `readTextError:814`, `createWebSocketServer:827`, `createHangingTcpServer:834`, `createRejectingWebSocketServer:855`
+- [packages/opencode/test/plugin/shared.test.ts](packages/opencode/test/plugin/shared.test.ts) — 88 wierszy
+- [packages/opencode/test/plugin/snowflake-cortex.test.ts](packages/opencode/test/plugin/snowflake-cortex.test.ts) — 278 wierszy; deklaracje: `makeInput:5`
+- [packages/opencode/test/plugin/trigger.test.ts](packages/opencode/test/plugin/trigger.test.ts) — 108 wierszy; deklaracje: `withProject:32`
+- [packages/opencode/test/plugin/workspace-adapter.test.ts](packages/opencode/test/plugin/workspace-adapter.test.ts) — 111 wierszy
+- [packages/opencode/test/plugin/xai.test.ts](packages/opencode/test/plugin/xai.test.ts) — 585 wierszy; deklaracje: `makeJwt:5`, `makeInput:11`, `makeServer:28`, `serverOptions:35`
+- [packages/opencode/test/preload.ts](packages/opencode/test/preload.ts) — 92 wierszy
+- [packages/opencode/test/project/instance-bootstrap.test.ts](packages/opencode/test/project/instance-bootstrap.test.ts) — 115 wierszy; deklaracje: `waitDisposed:63`
+- [packages/opencode/test/project/instance.test.ts](packages/opencode/test/project/instance.test.ts) — 248 wierszy
+- [packages/opencode/test/project/migrate-global.test.ts](packages/opencode/test/project/migrate-global.test.ts) — 168 wierszy; deklaracje: `legacySessionID:19`, `seed:24`, `ensureGlobal:44`
+- [packages/opencode/test/project/project-directory.test.ts](packages/opencode/test/project/project-directory.test.ts) — 202 wierszy; deklaracje: `directories:19`
+- [packages/opencode/test/project/project.test.ts](packages/opencode/test/project/project.test.ts) — 808 wierszy; deklaracje: `remoteProjectID:29`, `mockGitFailure:38`, `projectLayerWithFailure:68`, `projectV2FailureLayer:75`, `waitForProjectIcon:98`
+- [packages/opencode/test/project/vcs.test.ts](packages/opencode/test/project/vcs.test.ts) — 335 wierszy
+- [packages/opencode/test/project/worktree-remove.test.ts](packages/opencode/test/project/worktree-remove.test.ts) — 128 wierszy
+- [packages/opencode/test/project/worktree.test.ts](packages/opencode/test/project/worktree.test.ts) — 324 wierszy; deklaracje: `normalize:21`
+- [packages/opencode/test/provider/amazon-bedrock.test.ts](packages/opencode/test/provider/amazon-bedrock.test.ts) — 404 wierszy
+- [packages/opencode/test/provider/cf-ai-gateway-e2e.test.ts](packages/opencode/test/provider/cf-ai-gateway-e2e.test.ts) — 320 wierszy; deklaracje: `Captured:23`, `ProviderOptions:24`, `isRecord:29`, `upstreamResponseBody:35`, `firstStep:147`
+- [packages/opencode/test/provider/digitalocean.test.ts](packages/opencode/test/provider/digitalocean.test.ts) — 124 wierszy
+- [packages/opencode/test/provider/error.test.ts](packages/opencode/test/provider/error.test.ts) — 24 wierszy
+- [packages/opencode/test/provider/gitlab-duo.test.ts](packages/opencode/test/provider/gitlab-duo.test.ts) — 412 wierszy
+- [packages/opencode/test/provider/header-timeout.test.ts](packages/opencode/test/provider/header-timeout.test.ts) — 307 wierszy; deklaracje: `providerConfig:247`, `delayedHeaderServer:260`, `delayedBodyServer:273`, `withAuthContent:287`, `defaultAuthContent:303`
+- [packages/opencode/test/provider/model-status.test.ts](packages/opencode/test/provider/model-status.test.ts) — 61 wierszy
+- [packages/opencode/test/provider/provider.test.ts](packages/opencode/test/provider/provider.test.ts) — 2118 wierszy
+- [packages/opencode/test/provider/transform.test.ts](packages/opencode/test/provider/transform.test.ts) — 6211 wierszy
+- [packages/opencode/test/question/question.test.ts](packages/opencode/test/question/question.test.ts) — 459 wierszy
+- [packages/opencode/test/server/AGENTS.md](packages/opencode/test/server/AGENTS.md) — 15 wierszy
+- [packages/opencode/test/server/auth.test.ts](packages/opencode/test/server/auth.test.ts) — 59 wierszy
+- [packages/opencode/test/server/global-bus.ts](packages/opencode/test/server/global-bus.ts) — 31 wierszy; deklaracje: `waitGlobalBusEvent:4`
+- [packages/opencode/test/server/global-session-list.test.ts](packages/opencode/test/server/global-session-list.test.ts) — 108 wierszy
+- [packages/opencode/test/server/httpapi-authorization.test.ts](packages/opencode/test/server/httpapi-authorization.test.ts) — 174 wierszy
+- [packages/opencode/test/server/httpapi-compression.test.ts](packages/opencode/test/server/httpapi-compression.test.ts) — 151 wierszy; deklaracje: `app:12`, `fatConfig:18`
+- [packages/opencode/test/server/httpapi-config.test.ts](packages/opencode/test/server/httpapi-config.test.ts) — 110 wierszy; deklaracje: `app:10`, `waitDisposed:14`
+- [packages/opencode/test/server/httpapi-control-plane.test.ts](packages/opencode/test/server/httpapi-control-plane.test.ts) — 63 wierszy
+- [packages/opencode/test/server/httpapi-cors-vary.test.ts](packages/opencode/test/server/httpapi-cors-vary.test.ts) — 63 wierszy; deklaracje: `app:11`

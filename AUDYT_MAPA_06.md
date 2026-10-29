@@ -1,0 +1,306 @@
+# opencode — mapa plików (6/23)
+
+Wykaz śledzonych plików z badanego commita. Liczba wierszy i nazwy deklaracji są wyciągane automatycznie z dostępnej kopii tekstowej; nie oznaczają ręcznej oceny pliku. Brak opisu oznacza, że zawartość nie była analizowana tą metodą (np. plik binarny, zasób lub pominięty plik).
+
+[Wróć do audytu](AUDYT_EDUKACYJNY.md) · [1](AUDYT_MAPA_01.md) · [2](AUDYT_MAPA_02.md) · [3](AUDYT_MAPA_03.md) · [4](AUDYT_MAPA_04.md) · [5](AUDYT_MAPA_05.md) · [6](AUDYT_MAPA_06.md) · [7](AUDYT_MAPA_07.md) · [8](AUDYT_MAPA_08.md) · [9](AUDYT_MAPA_09.md) · [10](AUDYT_MAPA_10.md) · [11](AUDYT_MAPA_11.md) · [12](AUDYT_MAPA_12.md) · [13](AUDYT_MAPA_13.md) · [14](AUDYT_MAPA_14.md) · [15](AUDYT_MAPA_15.md) · [16](AUDYT_MAPA_16.md) · [17](AUDYT_MAPA_17.md) · [18](AUDYT_MAPA_18.md) · [19](AUDYT_MAPA_19.md) · [20](AUDYT_MAPA_20.md) · [21](AUDYT_MAPA_21.md) · [22](AUDYT_MAPA_22.md) · [23](AUDYT_MAPA_23.md)
+
+- [packages/core/src/background-job.ts](packages/core/src/background-job.ts) — 365 wierszy; deklaracje: `Status:7`, `Info:9`, `Active:21`, `State:34`, `FinishResult:39`
+- [packages/core/src/catalog.ts](packages/core/src/catalog.ts) — 301 wierszy; deklaracje: `ProviderRecord:13`, `DefaultModel:18`, `Data:24`, `Draft:29`, `Interface:47`
+- [packages/core/src/command.ts](packages/core/src/command.ts) — 64 wierszy; deklaracje: `Info:9`, `Data:11`, `Draft:15`, `Interface:22`, `Service:27`
+- [packages/core/src/config.ts](packages/core/src/config.ts) — 227 wierszy; deklaracje: `Info:29`, `Document:109`, `Directory:115`, `Entry:120`, `latest:122`
+- [packages/core/src/config/agent.ts](packages/core/src/config/agent.ts) — 25 wierszy; deklaracje: `Info:13`
+- [packages/core/src/config/attachments.ts](packages/core/src/config/attachments.ts) — 15 wierszy; deklaracje: `Image:6`, `Info:13`
+- [packages/core/src/config/command.ts](packages/core/src/config/command.ts) — 12 wierszy; deklaracje: `Info:5`
+- [packages/core/src/config/compaction.ts](packages/core/src/config/compaction.ts) — 15 wierszy; deklaracje: `Keep:6`, `Info:10`
+- [packages/core/src/config/experimental.ts](packages/core/src/config/experimental.ts) — 18 wierszy; deklaracje: `Policy:11`, `Experimental:16`
+- [packages/core/src/config/formatter.ts](packages/core/src/config/formatter.ts) — 12 wierszy; deklaracje: `Entry:5`
+- [packages/core/src/config/lsp.ts](packages/core/src/config/lsp.ts) — 18 wierszy; deklaracje: `Server:9`
+- [packages/core/src/config/markdown.ts](packages/core/src/config/markdown.ts) — 36 wierszy; deklaracje: `parse:4`, `parseOption:12`, `sanitize:22`
+- [packages/core/src/config/mcp.ts](packages/core/src/config/mcp.ts) — 48 wierszy; deklaracje: `Timeout:6`, `Local:15`, `OAuth:26`, `Remote:34`, `Info:45`
+- [packages/core/src/config/plugin.ts](packages/core/src/config/plugin.ts) — 13 wierszy; deklaracje: `Entry:5`, `Plugin:11`
+- [packages/core/src/config/plugin/agent.ts](packages/core/src/config/plugin/agent.ts) — 179 wierszy; deklaracje: `PathAction:27`, `expandPermissions:119`, `isPathAction:127`, `expandHome:131`, `discover:140`
+- [packages/core/src/config/plugin/command.ts](packages/core/src/config/plugin/command.ts) — 83 wierszy; deklaracje: `loadDirectory:52`, `decode:70`
+- [packages/core/src/config/plugin/external.ts](packages/core/src/config/plugin/external.ts) — 91 wierszy
+- [packages/core/src/config/plugin/provider.ts](packages/core/src/config/plugin/provider.ts) — 113 wierszy
+- [packages/core/src/config/plugin/reference.ts](packages/core/src/config/plugin/reference.ts) — 70 wierszy; deklaracje: `validAlias:57`, `local:61`, `localPath:67`
+- [packages/core/src/config/plugin/skill.ts](packages/core/src/config/plugin/skill.ts) — 50 wierszy
+- [packages/core/src/config/provider.ts](packages/core/src/config/provider.ts) — 71 wierszy; deklaracje: `Request:7`, `Cache:12`, `Cost:17`, `Limit:27`, `Model:47`
+- [packages/core/src/config/reference.ts](packages/core/src/config/reference.ts) — 22 wierszy; deklaracje: `Git:5`, `Local:12`, `Entry:19`, `Info:22`
+- [packages/core/src/config/tool-output.ts](packages/core/src/config/tool-output.ts) — 9 wierszy; deklaracje: `Info:6`
+- [packages/core/src/config/watcher.ts](packages/core/src/config/watcher.ts) — 7 wierszy; deklaracje: `Info:5`
+- [packages/core/src/control-plane/move-session.ts](packages/core/src/control-plane/move-session.ts) — 148 wierszy; deklaracje: `Destination:19`, `Input:26`, `DestinationProjectMismatchError:28`, `ApplyChangesError:36`, `CaptureChangesError:40`
+- [packages/core/src/control-plane/workspace.sql.ts](packages/core/src/control-plane/workspace.sql.ts) — 20 wierszy
+- [packages/core/src/credential.ts](packages/core/src/credential.ts) — 138 wierszy; deklaracje: `ID:12`, `OAuth:15`, `Key:18`, `Value:21`, `Info:23`
+- [packages/core/src/credential/sql.ts](packages/core/src/credential/sql.ts) — 14 wierszy
+- [packages/core/src/cross-spawn-spawner.ts](packages/core/src/cross-spawn-spawner.ts) — 507 wierszy; deklaracje: `ExitSignal:97`
+- [packages/core/src/data-migration.sql.ts](packages/core/src/data-migration.sql.ts) — 6 wierszy
+- [packages/core/src/database/database.ts](packages/core/src/database/database.ts) — 57 wierszy; deklaracje: `DatabaseShape:14`, `Interface:16`, `Service:20`, `layerFromPath:39`, `path:43`
+- [packages/core/src/database/migration.gen.ts](packages/core/src/database/migration.gen.ts) — 44 wierszy
+- [packages/core/src/database/migration.ts](packages/core/src/database/migration.ts) — 108 wierszy; deklaracje: `Database:9`, `Transaction:10`, `Migration:13`, `apply:18`, `applyOnly:43`
+- [packages/core/src/database/migration/20260127222353_familiar_lady_ursula.ts](packages/core/src/database/migration/20260127222353_familiar_lady_ursula.ts) — 107 wierszy
+- [packages/core/src/database/migration/20260211171708_add_project_commands.ts](packages/core/src/database/migration/20260211171708_add_project_commands.ts) — 11 wierszy
+- [packages/core/src/database/migration/20260213144116_wakeful_the_professor.ts](packages/core/src/database/migration/20260213144116_wakeful_the_professor.ts) — 23 wierszy
+- [packages/core/src/database/migration/20260225215848_workspace.ts](packages/core/src/database/migration/20260225215848_workspace.ts) — 19 wierszy
+- [packages/core/src/database/migration/20260227213759_add_session_workspace_id.ts](packages/core/src/database/migration/20260227213759_add_session_workspace_id.ts) — 12 wierszy
+- [packages/core/src/database/migration/20260228203230_blue_harpoon.ts](packages/core/src/database/migration/20260228203230_blue_harpoon.ts) — 30 wierszy
+- [packages/core/src/database/migration/20260303231226_add_workspace_fields.ts](packages/core/src/database/migration/20260303231226_add_workspace_fields.ts) — 15 wierszy
+- [packages/core/src/database/migration/20260309230000_move_org_to_state.ts](packages/core/src/database/migration/20260309230000_move_org_to_state.ts) — 15 wierszy
+- [packages/core/src/database/migration/20260312043431_session_message_cursor.ts](packages/core/src/database/migration/20260312043431_session_message_cursor.ts) — 16 wierszy
+- [packages/core/src/database/migration/20260323234822_events.ts](packages/core/src/database/migration/20260323234822_events.ts) — 26 wierszy
+- [packages/core/src/database/migration/20260410174513_workspace-name.ts](packages/core/src/database/migration/20260410174513_workspace-name.ts) — 32 wierszy
+- [packages/core/src/database/migration/20260413175956_chief_energizer.ts](packages/core/src/database/migration/20260413175956_chief_energizer.ts) — 24 wierszy
+- [packages/core/src/database/migration/20260423070820_add_icon_url_override.ts](packages/core/src/database/migration/20260423070820_add_icon_url_override.ts) — 14 wierszy
+- [packages/core/src/database/migration/20260427172553_slow_nightmare.ts](packages/core/src/database/migration/20260427172553_slow_nightmare.ts) — 30 wierszy
+- [packages/core/src/database/migration/20260428004200_add_session_path.ts](packages/core/src/database/migration/20260428004200_add_session_path.ts) — 11 wierszy
+- [packages/core/src/database/migration/20260501142318_next_venus.ts](packages/core/src/database/migration/20260501142318_next_venus.ts) — 12 wierszy
+- [packages/core/src/database/migration/20260504145000_add_sync_owner.ts](packages/core/src/database/migration/20260504145000_add_sync_owner.ts) — 11 wierszy
+- [packages/core/src/database/migration/20260507164347_add_workspace_time.ts](packages/core/src/database/migration/20260507164347_add_workspace_time.ts) — 11 wierszy
+- [packages/core/src/database/migration/20260510033149_session_usage.ts](packages/core/src/database/migration/20260510033149_session_usage.ts) — 56 wierszy
+- [packages/core/src/database/migration/20260511000411_data_migration_state.ts](packages/core/src/database/migration/20260511000411_data_migration_state.ts) — 16 wierszy
+- [packages/core/src/database/migration/20260511173437_session-metadata.ts](packages/core/src/database/migration/20260511173437_session-metadata.ts) — 16 wierszy
+- [packages/core/src/database/migration/20260601010001_normalize_storage_paths.ts](packages/core/src/database/migration/20260601010001_normalize_storage_paths.ts) — 22 wierszy
+- [packages/core/src/database/migration/20260601202201_amazing_prowler.ts](packages/core/src/database/migration/20260601202201_amazing_prowler.ts) — 11 wierszy
+- [packages/core/src/database/migration/20260602002951_lowly_union_jack.ts](packages/core/src/database/migration/20260602002951_lowly_union_jack.ts) — 24 wierszy
+- [packages/core/src/database/migration/20260602182828_add_project_directories.ts](packages/core/src/database/migration/20260602182828_add_project_directories.ts) — 20 wierszy
+- [packages/core/src/database/migration/20260603001617_session_message_projection_indexes.ts](packages/core/src/database/migration/20260603001617_session_message_projection_indexes.ts) — 19 wierszy
+- [packages/core/src/database/migration/20260603040000_session_message_projection_order.ts](packages/core/src/database/migration/20260603040000_session_message_projection_order.ts) — 19 wierszy
+- [packages/core/src/database/migration/20260603141458_session_input_inbox.ts](packages/core/src/database/migration/20260603141458_session_input_inbox.ts) — 25 wierszy
+- [packages/core/src/database/migration/20260603160727_jittery_ezekiel_stane.ts](packages/core/src/database/migration/20260603160727_jittery_ezekiel_stane.ts) — 20 wierszy
+- [packages/core/src/database/migration/20260604172448_event_sourced_session_input.ts](packages/core/src/database/migration/20260604172448_event_sourced_session_input.ts) — 47 wierszy
+- [packages/core/src/database/migration/20260605003541_add_session_context_snapshot.ts](packages/core/src/database/migration/20260605003541_add_session_context_snapshot.ts) — 21 wierszy
+- [packages/core/src/database/migration/20260605042240_add_context_epoch_agent.ts](packages/core/src/database/migration/20260605042240_add_context_epoch_agent.ts) — 11 wierszy
+- [packages/core/src/database/migration/20260611035744_credential.ts](packages/core/src/database/migration/20260611035744_credential.ts) — 25 wierszy
+- [packages/core/src/database/migration/20260611192811_lush_chimera.ts](packages/core/src/database/migration/20260611192811_lush_chimera.ts) — 25 wierszy
+- [packages/core/src/database/migration/20260612174303_project_dir_strategy.ts](packages/core/src/database/migration/20260612174303_project_dir_strategy.ts) — 29 wierszy
+- [packages/core/src/database/migration/20260622142730_simplify_session_context_epoch.ts](packages/core/src/database/migration/20260622142730_simplify_session_context_epoch.ts) — 13 wierszy
+- [packages/core/src/database/migration/20260622170816_reset_v2_session_state.ts](packages/core/src/database/migration/20260622170816_reset_v2_session_state.ts) — 17 wierszy
+- [packages/core/src/database/migration/20260622202450_simplify_session_input.ts](packages/core/src/database/migration/20260622202450_simplify_session_input.ts) — 17 wierszy
+- [packages/core/src/database/path.ts](packages/core/src/database/path.ts) — 91 wierszy; deklaracje: `storagePath:5`, `isWindowsStoragePath:10`, `absolute:14`, `toPlatform:22`
+- [packages/core/src/database/schema.gen.ts](packages/core/src/database/schema.gen.ts) — 274 wierszy
+- [packages/core/src/database/schema.sql.ts](packages/core/src/database/schema.sql.ts) — 10 wierszy
+- [packages/core/src/database/sqlite.bun.ts](packages/core/src/database/sqlite.bun.ts) — 183 wierszy; deklaracje: `TypeId:21`, `SqliteClient:23`, `Config:31`, `SqliteConnection:42`
+- [packages/core/src/database/sqlite.node.ts](packages/core/src/database/sqlite.node.ts) — 178 wierszy; deklaracje: `TypeId:21`, `SqliteClient:23`, `Config:30`, `SqliteConnection:43`
+- [packages/core/src/database/sqlite.ts](packages/core/src/database/sqlite.ts) — 8 wierszy; deklaracje: `DrizzleClient:6`, `Native:7`, `Drizzle:8`
+- [packages/core/src/effect/app-node-builder.ts](packages/core/src/effect/app-node-builder.ts) — 23 wierszy; deklaracje: `build:6`, `hasReplacement:19`
+- [packages/core/src/effect/app-node-platform.ts](packages/core/src/effect/app-node-platform.ts) — 18 wierszy
+- [packages/core/src/effect/app-node.ts](packages/core/src/effect/app-node.ts) — 14 wierszy; deklaracje: `GlobalNode:8`, `LocationNode:9`
+- [packages/core/src/effect/dfdf](packages/core/src/effect/dfdf)
+- [packages/core/src/effect/keyed-mutex.ts](packages/core/src/effect/keyed-mutex.ts) — 45 wierszy; deklaracje: `KeyedMutex:5`
+- [packages/core/src/effect/layer-node.ts](packages/core/src/effect/layer-node.ts) — 333 wierszy; deklaracje: `AnyNode:3`, `RuntimeLayer:4`, `NodeList:5`, `Output:6`, `Error:7`
+- [packages/core/src/effect/memo-map.ts](packages/core/src/effect/memo-map.ts) — 3 wierszy
+- [packages/core/src/effect/runtime.ts](packages/core/src/effect/runtime.ts) — 21 wierszy; deklaracje: `makeRuntime:5`
+- [packages/core/src/effect/service-use.ts](packages/core/src/effect/service-use.ts) — 43 wierszy; deklaracje: `EffectMethod:3`, `ServiceUse:5`
+- [packages/core/src/event.ts](packages/core/src/event.ts) — 638 wierszy; deklaracje: `ID:15`, `Subscriber:18`, `Unsubscribe:19`, `SerializedEvent:34`, `InvalidDurableEventError:42`
+- [packages/core/src/event/sql.ts](packages/core/src/event/sql.ts) — 25 wierszy
+- [packages/core/src/file-mutation.ts](packages/core/src/file-mutation.ts) — 207 wierszy; deklaracje: `Target:9`, `WriteInput:14`, `TextWriteInput:19`, `ConditionalWriteInput:24`, `RemoveInput:28`
+- [packages/core/src/file.ts](packages/core/src/file.ts) — 6 wierszy; deklaracje: `Diff:6`
+- [packages/core/src/filesystem.ts](packages/core/src/filesystem.ts) — 118 wierszy; deklaracje: `ReadInput:16`, `Content:25`, `ListInput:30`, `GlobInput:34`, `GrepInput:40`
+- [packages/core/src/filesystem/fff.bun.ts](packages/core/src/filesystem/fff.bun.ts) — 140 wierszy; deklaracje: `DirItem:3`, `DirSearchResult:4`, `FileItem:5`, `GrepCursor:6`, `GrepMatch:7`
+- [packages/core/src/filesystem/fff.node.ts](packages/core/src/filesystem/fff.node.ts) — 138 wierszy; deklaracje: `Result:1`, `Init:3`, `File:18`, `Directory:24`, `Mixed:30`
+- [packages/core/src/filesystem/ignore.ts](packages/core/src/filesystem/ignore.ts) — 67 wierszy; deklaracje: `match:50`
+- [packages/core/src/filesystem/protected.ts](packages/core/src/filesystem/protected.ts) — 53 wierszy; deklaracje: `names:35`, `paths:42`
+- [packages/core/src/filesystem/search.ts](packages/core/src/filesystem/search.ts) — 239 wierszy; deklaracje: `Interface:15`, `Service:21`
+- [packages/core/src/filesystem/watcher.ts](packages/core/src/filesystem/watcher.ts) — 140 wierszy; deklaracje: `getBackend:38`, `protecteds:44`, `Interface:53`, `Service:55`
+- [packages/core/src/flag/flag.ts](packages/core/src/flag/flag.ts) — 78 wierszy; deklaracje: `truthy:3`, `enabledByExperimental:11`
+- [packages/core/src/fs-util.ts](packages/core/src/fs-util.ts) — 274 wierszy; deklaracje: `FileSystemError:14`, `Error:24`, `DirEntry:26`, `Interface:31`, `Service:49`
+- [packages/core/src/git.ts](packages/core/src/git.ts) — 987 wierszy; deklaracje: `Repository:14`, `ChangeSet:21`, `TreeID:24`, `OperationError:26`, `Worktree:44`
+- [packages/core/src/github-copilot/README.md](packages/core/src/github-copilot/README.md) — 5 wierszy
+- [packages/core/src/github-copilot/chat/convert-to-openai-compatible-chat-messages.ts](packages/core/src/github-copilot/chat/convert-to-openai-compatible-chat-messages.ts) — 170 wierszy; deklaracje: `LanguageModelV3Prompt:2`, `SharedV3ProviderOptions:3`, `getOpenAIMetadata:9`, `convertToOpenAICompatibleChatMessages:13`
+- [packages/core/src/github-copilot/chat/get-response-metadata.ts](packages/core/src/github-copilot/chat/get-response-metadata.ts) — 15 wierszy; deklaracje: `getResponseMetadata:1`
+- [packages/core/src/github-copilot/chat/map-openai-compatible-finish-reason.ts](packages/core/src/github-copilot/chat/map-openai-compatible-finish-reason.ts) — 19 wierszy; deklaracje: `mapOpenAICompatibleFinishReason:3`
+- [packages/core/src/github-copilot/chat/openai-compatible-api-types.ts](packages/core/src/github-copilot/chat/openai-compatible-api-types.ts) — 64 wierszy; deklaracje: `OpenAICompatibleChatPrompt:3`, `OpenAICompatibleMessage:5`, `JsonRecord:13`, `OpenAICompatibleSystemMessage:15`, `OpenAICompatibleSystemContentPart:20`
+- [packages/core/src/github-copilot/chat/openai-compatible-chat-language-model.ts](packages/core/src/github-copilot/chat/openai-compatible-chat-language-model.ts) — 815 wierszy; deklaracje: `LanguageModelV3:4`, `LanguageModelV3CallOptions:5`, `LanguageModelV3Content:6`, `LanguageModelV3StreamPart:7`, `SharedV3ProviderMetadata:8`
+- [packages/core/src/github-copilot/chat/openai-compatible-chat-options.ts](packages/core/src/github-copilot/chat/openai-compatible-chat-options.ts) — 28 wierszy; deklaracje: `OpenAICompatibleChatModelId:3`, `OpenAICompatibleProviderOptions:28`
+- [packages/core/src/github-copilot/chat/openai-compatible-metadata-extractor.ts](packages/core/src/github-copilot/chat/openai-compatible-metadata-extractor.ts) — 44 wierszy; deklaracje: `MetadataExtractor:8`
+- [packages/core/src/github-copilot/chat/openai-compatible-prepare-tools.ts](packages/core/src/github-copilot/chat/openai-compatible-prepare-tools.ts) — 83 wierszy; deklaracje: `prepareTools:3`
+- [packages/core/src/github-copilot/copilot-provider.ts](packages/core/src/github-copilot/copilot-provider.ts) — 100 wierszy; deklaracje: `OpenaiCompatibleModelId:9`, `OpenaiCompatibleProviderSettings:11`, `OpenaiCompatibleProvider:38`, `createOpenaiCompatible:52`
+- [packages/core/src/github-copilot/openai-compatible-error.ts](packages/core/src/github-copilot/openai-compatible-error.ts) — 27 wierszy; deklaracje: `OpenAICompatibleErrorData:16`, `ProviderErrorStructure:18`
+- [packages/core/src/github-copilot/responses/convert-to-openai-responses-input.ts](packages/core/src/github-copilot/responses/convert-to-openai-responses-input.ts) — 335 wierszy; deklaracje: `LanguageModelV3Prompt:2`, `LanguageModelV3ToolCallPart:3`, `SharedV3Warning:4`, `isFileId:16`, `convertToOpenAIResponsesInput:21`
+- [packages/core/src/github-copilot/responses/map-openai-responses-finish-reason.ts](packages/core/src/github-copilot/responses/map-openai-responses-finish-reason.ts) — 22 wierszy; deklaracje: `mapOpenAIResponseFinishReason:3`
+- [packages/core/src/github-copilot/responses/openai-config.ts](packages/core/src/github-copilot/responses/openai-config.ts) — 18 wierszy; deklaracje: `OpenAIConfig:3`
+- [packages/core/src/github-copilot/responses/openai-error.ts](packages/core/src/github-copilot/responses/openai-error.ts) — 22 wierszy; deklaracje: `OpenAIErrorData:17`
+- [packages/core/src/github-copilot/responses/openai-responses-api-types.ts](packages/core/src/github-copilot/responses/openai-responses-api-types.ts) — 214 wierszy; deklaracje: `OpenAIResponsesInput:3`, `OpenAIResponsesInputItem:5`, `OpenAIResponsesIncludeValue:18`, `OpenAIResponsesIncludeOptions:27`, `OpenAIResponsesSystemMessage:29`
+- [packages/core/src/github-copilot/responses/openai-responses-language-model.ts](packages/core/src/github-copilot/responses/openai-responses-language-model.ts) — 1770 wierszy; deklaracje: `JSONValue:3`, `LanguageModelV3:4`, `LanguageModelV3CallOptions:5`, `LanguageModelV3Content:6`, `LanguageModelV3ProviderTool:7`
+- [packages/core/src/github-copilot/responses/openai-responses-prepare-tools.ts](packages/core/src/github-copilot/responses/openai-responses-prepare-tools.ts) — 173 wierszy; deklaracje: `prepareResponsesTools:9`
+- [packages/core/src/github-copilot/responses/openai-responses-settings.ts](packages/core/src/github-copilot/responses/openai-responses-settings.ts) — 1 wierszy; deklaracje: `OpenAIResponsesModelId:1`
+- [packages/core/src/github-copilot/responses/tool/code-interpreter.ts](packages/core/src/github-copilot/responses/tool/code-interpreter.ts) — 87 wierszy; deklaracje: `CodeInterpreterArgs:31`
+- [packages/core/src/github-copilot/responses/tool/file-search.ts](packages/core/src/github-copilot/responses/tool/file-search.ts) — 127 wierszy
+- [packages/core/src/github-copilot/responses/tool/image-generation.ts](packages/core/src/github-copilot/responses/tool/image-generation.ts) — 114 wierszy; deklaracje: `ImageGenerationArgs:28`
+- [packages/core/src/github-copilot/responses/tool/local-shell.ts](packages/core/src/github-copilot/responses/tool/local-shell.ts) — 64 wierszy
+- [packages/core/src/github-copilot/responses/tool/web-search-preview.ts](packages/core/src/github-copilot/responses/tool/web-search-preview.ts) — 103 wierszy
+- [packages/core/src/github-copilot/responses/tool/web-search.ts](packages/core/src/github-copilot/responses/tool/web-search.ts) — 102 wierszy
+- [packages/core/src/global.ts](packages/core/src/global.ts) — 87 wierszy; deklaracje: `Service:45`, `Interface:47`, `make:59`
+- [packages/core/src/id/id.ts](packages/core/src/id/id.ts) — 47 wierszy; deklaracje: `ascending:16`, `descending:20`, `generateID:24`, `create:35`, `timestamp:40`
+- [packages/core/src/image.ts](packages/core/src/image.ts) — 81 wierszy; deklaracje: `ResizerUnavailableError:8`, `DecodeError:13`, `SizeError:21`, `Interface:35`, `Service:45`
+- [packages/core/src/image/photon.ts](packages/core/src/image/photon.ts) — 94 wierszy
+- [packages/core/src/installation/version.ts](packages/core/src/installation/version.ts) — 8 wierszy
+- [packages/core/src/instruction-context.ts](packages/core/src/instruction-context.ts) — 101 wierszy; deklaracje: `File:14`, `render:99`
+- [packages/core/src/integration.ts](packages/core/src/integration.ts) — 520 wierszy; deklaracje: `ID:25`, `MethodID:28`, `AttemptID:31`, `When:34`, `TextPrompt:37`
+- [packages/core/src/integration/connection.ts](packages/core/src/integration/connection.ts) — 12 wierszy; deklaracje: `CredentialInfo:6`, `EnvInfo:9`, `Info:12`
+- [packages/core/src/location-mutation.ts](packages/core/src/location-mutation.ts) — 162 wierszy; deklaracje: `Kind:10`, `ResolveInput:22`, `PathError:24`, `ExternalDirectoryAuthorization:29`, `Target:44`
+- [packages/core/src/location-service-map.ts](packages/core/src/location-service-map.ts) — 18 wierszy; deklaracje: `Service:7`
+- [packages/core/src/location-services.ts](packages/core/src/location-services.ts) — 115 wierszy; deklaracje: `LocationServices:81`, `LocationError:82`, `buildLocationServiceMap:84`
+- [packages/core/src/location.ts](packages/core/src/location.ts) — 39 wierszy; deklaracje: `Interface:11`, `Service:15`
+- [packages/core/src/markdown.d.ts](packages/core/src/markdown.d.ts) — 4 wierszy
+- [packages/core/src/model.ts](packages/core/src/model.ts) — 41 wierszy; deklaracje: `ID:6`, `VariantID:9`, `Family:13`, `Capabilities:16`, `Ref:21`
+- [packages/core/src/models-dev.ts](packages/core/src/models-dev.ts) — 266 wierszy; deklaracje: `CatalogModelStatus:16`, `Model:121`, `Provider:132`, `Interface:138`, `Service:143`
+- [packages/core/src/npm-config.ts](packages/core/src/npm-config.ts) — 40 wierszy
+- [packages/core/src/npm.ts](packages/core/src/npm.ts) — 269 wierszy; deklaracje: `InstallFailedError:16`, `EntryPoint:22`, `Interface:27`, `Service:41`, `sanitize:45`
+- [packages/core/src/oauth/page.ts](packages/core/src/oauth/page.ts) — 276 wierszy; deklaracje: `CallbackPageOptions:14`, `success:21`, `error:35`, `BootstrapOptions:51`, `bootstrap:61`
+- [packages/core/src/observability.ts](packages/core/src/observability.ts) — 24 wierszy
+- [packages/core/src/observability/logging.ts](packages/core/src/observability/logging.ts) — 71 wierszy; deklaracje: `formatter:6`, `flatten:23`, `plain:38`, `format:44`, `fileLogger:49`
+- [packages/core/src/observability/otlp.ts](packages/core/src/observability/otlp.ts) — 79 wierszy; deklaracje: `resourceAttributes:20`, `resource:36`, `loggers:50`, `tracingLayer:55`
+- [packages/core/src/observability/shared.ts](packages/core/src/observability/shared.ts) — 1 wierszy
+- [packages/core/src/patch.ts](packages/core/src/patch.ts) — 197 wierszy; deklaracje: `Hunk:3`, `UpdateFileChunk:13`, `FileUpdate:20`, `parse:25`, `derive:71`
+- [packages/core/src/permission.ts](packages/core/src/permission.ts) — 310 wierszy; deklaracje: `ID:18`, `Source:21`, `Request:33`, `Reply:36`, `AssertInput:43`
+- [packages/core/src/permission/saved.ts](packages/core/src/permission/saved.ts) — 79 wierszy; deklaracje: `ID:12`, `Info:15`, `ListInput:20`, `AddInput:27`, `Interface:29`
+- [packages/core/src/permission/sql.ts](packages/core/src/permission/sql.ts) — 20 wierszy
+- [packages/core/src/plugin.ts](packages/core/src/plugin.ts) — 167 wierszy; deklaracje: `ID:20`, `Interface:23`, `Service:29`
+- [packages/core/src/plugin/agent.ts](packages/core/src/plugin/agent.ts) — 202 wierszy
+- [packages/core/src/plugin/command.ts](packages/core/src/plugin/command.ts) — 25 wierszy
+- [packages/core/src/plugin/command/initialize.txt](packages/core/src/plugin/command/initialize.txt)
+- [packages/core/src/plugin/command/review.txt](packages/core/src/plugin/command/review.txt)
+- [packages/core/src/plugin/host.ts](packages/core/src/plugin/host.ts) — 219 wierszy
+- [packages/core/src/plugin/internal.ts](packages/core/src/plugin/internal.ts) — 153 wierszy; deklaracje: `Requirements:37`, `Plugin:54`, `define:59`
+- [packages/core/src/plugin/layer-map.example.ts](packages/core/src/plugin/layer-map.example.ts) — 94 wierszy; deklaracje: `RequestContext:35`, `RequestContextRef:40`, `ConfigServiceShape:44`, `ConfigService:51`, `ConfigServiceMap:72`
+- [packages/core/src/plugin/models-dev.ts](packages/core/src/plugin/models-dev.ts) — 183 wierszy; deklaracje: `released:8`, `cost:13`, `mergeCost:52`, `modeName:72`, `applyModel:76`
+- [packages/core/src/plugin/promise.ts](packages/core/src/plugin/promise.ts) — 93 wierszy; deklaracje: `HostRegistration:9`, `fromPromise:20`
+- [packages/core/src/plugin/provider.ts](packages/core/src/plugin/provider.ts) — 71 wierszy
+- [packages/core/src/plugin/provider/alibaba.ts](packages/core/src/plugin/provider/alibaba.ts) — 15 wierszy
+- [packages/core/src/plugin/provider/amazon-bedrock.ts](packages/core/src/plugin/provider/amazon-bedrock.ts) — 134 wierszy; deklaracje: `MantleSDK:6`, `resolveModelID:15`, `selectMantleModel:64`
+- [packages/core/src/plugin/provider/anthropic.ts](packages/core/src/plugin/provider/anthropic.ts) — 27 wierszy
+- [packages/core/src/plugin/provider/azure.ts](packages/core/src/plugin/provider/azure.ts) — 82 wierszy; deklaracje: `selectLanguage:5`
+- [packages/core/src/plugin/provider/cerebras.ts](packages/core/src/plugin/provider/cerebras.ts) — 26 wierszy
+- [packages/core/src/plugin/provider/cloudflare-ai-gateway.ts](packages/core/src/plugin/provider/cloudflare-ai-gateway.ts) — 87 wierszy; deklaracje: `GatewayConfig:44`, `gatewayConfig:52`, `gatewayMetadata:64`, `gatewayOptions:72`, `stringOption:85`
+- [packages/core/src/plugin/provider/cloudflare-workers-ai.ts](packages/core/src/plugin/provider/cloudflare-workers-ai.ts) — 81 wierszy; deklaracje: `resolveAccountId:49`, `workersEndpoint:53`, `hasWorkersEndpoint:57`, `sdkOptions:61`, `expandAccountId:74`
+- [packages/core/src/plugin/provider/cohere.ts](packages/core/src/plugin/provider/cohere.ts) — 15 wierszy
+- [packages/core/src/plugin/provider/deepinfra.ts](packages/core/src/plugin/provider/deepinfra.ts) — 15 wierszy
+- [packages/core/src/plugin/provider/dynamic.ts](packages/core/src/plugin/provider/dynamic.ts) — 31 wierszy
+- [packages/core/src/plugin/provider/gateway.ts](packages/core/src/plugin/provider/gateway.ts) — 15 wierszy
+- [packages/core/src/plugin/provider/github-copilot.ts](packages/core/src/plugin/provider/github-copilot.ts) — 52 wierszy
+- [packages/core/src/plugin/provider/gitlab.ts](packages/core/src/plugin/provider/gitlab.ts) — 65 wierszy
+- [packages/core/src/plugin/provider/google-vertex.ts](packages/core/src/plugin/provider/google-vertex.ts) — 173 wierszy; deklaracje: `resolveProject:5`, `resolveLocation:17`, `vertexEndpoint:27`, `replaceVertexVars:32`, `authFetch:41`
+- [packages/core/src/plugin/provider/google.ts](packages/core/src/plugin/provider/google.ts) — 15 wierszy
+- [packages/core/src/plugin/provider/groq.ts](packages/core/src/plugin/provider/groq.ts) — 15 wierszy
+- [packages/core/src/plugin/provider/kilo.ts](packages/core/src/plugin/provider/kilo.ts) — 21 wierszy
+- [packages/core/src/plugin/provider/llmgateway.ts](packages/core/src/plugin/provider/llmgateway.ts) — 26 wierszy
+- [packages/core/src/plugin/provider/mistral.ts](packages/core/src/plugin/provider/mistral.ts) — 15 wierszy
+- [packages/core/src/plugin/provider/nvidia.ts](packages/core/src/plugin/provider/nvidia.ts) — 22 wierszy
+- [packages/core/src/plugin/provider/openai-compatible.ts](packages/core/src/plugin/provider/openai-compatible.ts) — 17 wierszy
+- [packages/core/src/plugin/provider/openai.ts](packages/core/src/plugin/provider/openai.ts) — 292 wierszy; deklaracje: `Pkce:21`, `TokenResponse:26`, `Claims:33`, `headers:191`, `exchange:195`
+- [packages/core/src/plugin/provider/opencode.ts](packages/core/src/plugin/provider/opencode.ts) — 320 wierszy; deklaracje: `oauth:37`, `fetchProviders:199`, `withoutCredentials:223`, `remoteCost:227`, `poll:248`
+- [packages/core/src/plugin/provider/openrouter.ts](packages/core/src/plugin/provider/openrouter.ts) — 36 wierszy
+- [packages/core/src/plugin/provider/perplexity.ts](packages/core/src/plugin/provider/perplexity.ts) — 15 wierszy
+- [packages/core/src/plugin/provider/sap-ai-core.ts](packages/core/src/plugin/provider/sap-ai-core.ts) — 46 wierszy
+- [packages/core/src/plugin/provider/snowflake-cortex.ts](packages/core/src/plugin/provider/snowflake-cortex.ts) — 89 wierszy; deklaracje: `FetchLike:5`, `cortexFetch:8`
+- [packages/core/src/plugin/provider/togetherai.ts](packages/core/src/plugin/provider/togetherai.ts) — 15 wierszy
+- [packages/core/src/plugin/provider/venice.ts](packages/core/src/plugin/provider/venice.ts) — 15 wierszy
+- [packages/core/src/plugin/provider/vercel.ts](packages/core/src/plugin/provider/vercel.ts) — 27 wierszy
+- [packages/core/src/plugin/provider/xai.ts](packages/core/src/plugin/provider/xai.ts) — 22 wierszy
+- [packages/core/src/plugin/provider/zenmux.ts](packages/core/src/plugin/provider/zenmux.ts) — 21 wierszy
+- [packages/core/src/plugin/skill.ts](packages/core/src/plugin/skill.ts) — 31 wierszy
+- [packages/core/src/plugin/skill/customize-opencode.md](packages/core/src/plugin/skill/customize-opencode.md) — 453 wierszy
+- [packages/core/src/plugin/variant.ts](packages/core/src/plugin/variant.ts) — 39 wierszy; deklaracje: `generate:30`
+- [packages/core/src/policy.ts](packages/core/src/policy.ts) — 49 wierszy; deklaracje: `Effect:9`, `Info:11`, `Interface:17`, `Service:23`
+- [packages/core/src/process.ts](packages/core/src/process.ts) — 261 wierszy; deklaracje: `AppProcessError:8`, `RunOptions:22`, `RunStreamOptions:31`, `RunResult:38`, `Interface:49`
+- [packages/core/src/project.ts](packages/core/src/project.ts) — 136 wierszy; deklaracje: `ID:15`, `Vcs:18`, `Info:20`, `DirectoriesInput:25`, `Directories:28`
+- [packages/core/src/project/copy-strategies.ts](packages/core/src/project/copy-strategies.ts) — 35 wierszy; deklaracje: `makeGitWorktreeStrategy:6`
+- [packages/core/src/project/copy.ts](packages/core/src/project/copy.ts) — 292 wierszy; deklaracje: `StrategyID:20`, `CreateInput:23`, `RemoveInput:26`, `RefreshInput:31`, `RefreshResult:37`
+- [packages/core/src/project/directories.ts](packages/core/src/project/directories.ts) — 158 wierszy; deklaracje: `Directory:12`, `CreateInput:23`, `RemoveInput:29`, `DatabaseClient:31`, `Transaction:32`
+- [packages/core/src/project/schema.ts](packages/core/src/project/schema.ts) — 16 wierszy; deklaracje: `ID:8`, `Vcs:16`
+- [packages/core/src/project/sql.ts](packages/core/src/project/sql.ts) — 35 wierszy
+- [packages/core/src/provider.ts](packages/core/src/provider.ts) — 25 wierszy; deklaracje: `ID:7`, `Api:14`, `MutableApi:15`, `Request:20`, `Info:23`
+- [packages/core/src/pty.ts](packages/core/src/pty.ts) — 318 wierszy; deklaracje: `Subscriber:20`, `Active:29`, `Info:40`, `CreateInput:44`, `UpdateInput:48`
+- [packages/core/src/pty/protocol.ts](packages/core/src/pty/protocol.ts) — 37 wierszy; deklaracje: `metaFrame:15`, `chunks:23`, `decodeInput:30`
+- [packages/core/src/pty/pty.bun.ts](packages/core/src/pty/pty.bun.ts) — 26 wierszy; deklaracje: `spawn:6`
+- [packages/core/src/pty/pty.node.ts](packages/core/src/pty/pty.node.ts) — 29 wierszy; deklaracje: `spawn:6`
+- [packages/core/src/pty/pty.ts](packages/core/src/pty/pty.ts) — 25 wierszy; deklaracje: `Disp:1`, `Exit:5`, `Opts:10`, `Proc:18`
+- [packages/core/src/pty/schema.ts](packages/core/src/pty/schema.ts) — 1 wierszy
+- [packages/core/src/pty/ticket.ts](packages/core/src/pty/ticket.ts) — 56 wierszy; deklaracje: `Scope:14`, `Interface:20`, `Service:25`, `matches:27`
+- [packages/core/src/public-event-manifest.ts](packages/core/src/public-event-manifest.ts) — 7 wierszy
+- [packages/core/src/question.ts](packages/core/src/question.ts) — 153 wierszy; deklaracje: `ID:10`, `Option:13`, `Info:16`, `Prompt:19`, `Tool:22`
+- [packages/core/src/reference.ts](packages/core/src/reference.ts) — 125 wierszy; deklaracje: `LocalSource:14`, `GitSource:17`, `Source:20`, `Info:25`, `Data:27`
+- [packages/core/src/reference/guidance.ts](packages/core/src/reference/guidance.ts) — 69 wierszy; deklaracje: `Interface:28`, `Service:32`
+- [packages/core/src/repository-cache.ts](packages/core/src/repository-cache.ts) — 259 wierszy; deklaracje: `Result:18`, `EnsureInput:28`, `InvalidRepositoryError:34`, `InvalidBranchError:42`, `CloneFailedError:50`
+- [packages/core/src/repository.ts](packages/core/src/repository.ts) — 214 wierszy; deklaracje: `BaseReference:5`, `RemoteReference:15`, `FileReference:19`, `Reference:24`, `InvalidReferenceError:26`
+- [packages/core/src/ripgrep.ts](packages/core/src/ripgrep.ts) — 284 wierszy; deklaracje: `RawMatchData:39`, `Error:41`, `InvalidPatternError:46`, `FindInput:51`, `GlobInput:61`
+- [packages/core/src/ripgrep/binary.ts](packages/core/src/ripgrep/binary.ts) — 132 wierszy; deklaracje: `Interface:25`, `Service:29`
+- [packages/core/src/schema.ts](packages/core/src/schema.ts) — 79 wierszy; deklaracje: `DeepMutable:32`, `Newtype:61`, `Base:63`
+- [packages/core/src/session.ts](packages/core/src/session.ts) — 486 wierszy; deklaracje: `RevertState:42`, `ListInput:77`, `CreateInput:79`, `CompactInput:86`, `NotFoundError:91`
+- [packages/core/src/session/compaction.ts](packages/core/src/session/compaction.ts) — 248 wierszy; deklaracje: `Entry:57`, `Settings:62`, `Dependencies:68`, `Input:76`
+- [packages/core/src/session/context-epoch.ts](packages/core/src/session/context-epoch.ts) — 174 wierszy; deklaracje: `DatabaseService:16`, `Prepared:18`, `initialize:23`, `prepare:31`
+- [packages/core/src/session/error.ts](packages/core/src/session/error.ts) — 24 wierszy; deklaracje: `MessageDecodeError:5`, `ContextSnapshotDecodeError:14`
+- [packages/core/src/session/event.ts](packages/core/src/session/event.ts) — 2 wierszy
+- [packages/core/src/session/execution.ts](packages/core/src/session/execution.ts) — 34 wierszy; deklaracje: `Interface:9`, `Service:21`
+- [packages/core/src/session/execution/local.ts](packages/core/src/session/execution/local.ts) — 46 wierszy
+- [packages/core/src/session/history.ts](packages/core/src/session/history.ts) — 101 wierszy; deklaracje: `DatabaseService:9`
+- [packages/core/src/session/info.ts](packages/core/src/session/info.ts) — 50 wierszy; deklaracje: `fromRow:14`
+- [packages/core/src/session/input.ts](packages/core/src/session/input.ts) — 288 wierszy; deklaracje: `DatabaseService:14`, `LifecycleConflict:37`
+- [packages/core/src/session/message-updater.ts](packages/core/src/session/message-updater.ts) — 397 wierszy; deklaracje: `MemoryState:6`, `Adapter:10`, `memory:19`, `update:78`, `DraftAssistant:79`
+- [packages/core/src/session/message.ts](packages/core/src/session/message.ts) — 2 wierszy
+- [packages/core/src/session/projector.ts](packages/core/src/session/projector.ts) — 455 wierszy; deklaracje: `DatabaseService:18`, `SessionAlreadyProjected:23`, `Usage:25`, `usage:35`, `sessionRow:43`
+- [packages/core/src/session/prompt.ts](packages/core/src/session/prompt.ts) — 1 wierszy
+- [packages/core/src/session/revert.ts](packages/core/src/session/revert.ts) — 121 wierszy; deklaracje: `MessageNotFoundError:14`, `BoundaryInput:22`
+- [packages/core/src/session/run-coordinator.ts](packages/core/src/session/run-coordinator.ts) — 104 wierszy; deklaracje: `Coordinator:6`, `Entry:17`
+- [packages/core/src/session/runner/index.ts](packages/core/src/session/runner/index.ts) — 28 wierszy; deklaracje: `RunError:11`, `Interface:20`, `Service:28`
+- [packages/core/src/session/runner/llm.ts](packages/core/src/session/runner/llm.ts) — 439 wierszy; deklaracje: `ProviderErrorEvent:9`, `TurnTransition:152`, `TurnTransitionError:158`, `RunTurn:356`
+- [packages/core/src/session/runner/max-steps.ts](packages/core/src/session/runner/max-steps.ts) — 16 wierszy
+- [packages/core/src/session/runner/model.ts](packages/core/src/session/runner/model.ts) — 218 wierszy; deklaracje: `ModelNotSelectedError:18`, `ModelUnavailableError:29`, `VariantUnavailableError:41`, `UnsupportedApiError:54`, `Error:67`
+- [packages/core/src/session/runner/publish-llm-event.ts](packages/core/src/session/runner/publish-llm-event.ts) — 423 wierszy; deklaracje: `Input:9`, `SettledOutput:42`
+- [packages/core/src/session/runner/to-llm-message.ts](packages/core/src/session/runner/to-llm-message.ts) — 171 wierszy; deklaracje: `ContentPart:6`, `Model:7`, `ProviderMetadata:8`, `toLLMMessage:115`
+- [packages/core/src/session/schema.ts](packages/core/src/session/schema.ts) — 9 wierszy; deklaracje: `ID:6`, `Info:9`
+- [packages/core/src/session/sql.ts](packages/core/src/session/sql.ts) — 176 wierszy; deklaracje: `SessionMessageData:18`, `V1MessageData:19`, `V1PartData:20`
+- [packages/core/src/session/store.ts](packages/core/src/session/store.ts) — 63 wierszy; deklaracje: `Interface:14`, `Service:26`
+- [packages/core/src/session/todo.ts](packages/core/src/session/todo.ts) — 78 wierszy; deklaracje: `Info:13`, `Interface:16`, `Service:24`
+- [packages/core/src/share/sql.ts](packages/core/src/share/sql.ts) — 13 wierszy
+- [packages/core/src/shell.ts](packages/core/src/shell.ts) — 226 wierszy; deklaracje: `Item:25`, `killTree:31`, `stat:62`, `full:66`, `meta:77`
+- [packages/core/src/skill.ts](packages/core/src/skill.ts) — 132 wierszy; deklaracje: `DirectorySource:16`, `UrlSource:19`, `EmbeddedSource:22`, `Source:25`, `Info:28`
+- [packages/core/src/skill/discovery.ts](packages/core/src/skill/discovery.ts) — 213 wierszy; deklaracje: `isSafeSegment:15`, `isSafeRelativePath:26`, `IndexSkill:55`, `Index:61`, `Interface:65`
+- [packages/core/src/skill/guidance.ts](packages/core/src/skill/guidance.ts) — 76 wierszy; deklaracje: `Summary:14`, `Interface:34`, `Service:38`
+- [packages/core/src/snapshot.ts](packages/core/src/snapshot.ts) — 266 wierszy; deklaracje: `ID:16`, `Error:18`, `CompareInput:24`, `DiffInput:29`, `RestoreInput:34`
+- [packages/core/src/state.ts](packages/core/src/state.ts) — 128 wierszy; deklaracje: `TransformCallback:11`, `MakeDraft:12`, `Registration:14`, `Transform:18`, `Reload:22`
+- [packages/core/src/system-context/builtins.ts](packages/core/src/system-context/builtins.ts) — 50 wierszy
+- [packages/core/src/system-context/index.ts](packages/core/src/system-context/index.ts) — 320 wierszy; deklaracje: `Key:25`, `Unavailable:29`, `Source:32`, `SystemContext:44`, `SourceSnapshot:53`
+- [packages/core/src/system-context/registry.ts](packages/core/src/system-context/registry.ts) — 49 wierszy; deklaracje: `Entry:7`, `Interface:12`, `Service:17`
+- [packages/core/src/tool-output-store.ts](packages/core/src/tool-output-store.ts) — 211 wierszy; deklaracje: `BoundInput:19`, `BoundResult:25`, `StorageError:30`, `Error:40`, `Interface:42`
+- [packages/core/src/tool/AGENTS.md](packages/core/src/tool/AGENTS.md) — 59 wierszy
+- [packages/core/src/tool/application-tools.ts](packages/core/src/tool/application-tools.ts) — 57 wierszy; deklaracje: `Data:8`, `Draft:12`, `Entry:16`, `Interface:21`, `Service:28`
+- [packages/core/src/tool/apply-patch.ts](packages/core/src/tool/apply-patch.ts) — 219 wierszy; deklaracje: `Output:35`, `Prepared:45`, `patchFile:205`
+- [packages/core/src/tool/bash.ts](packages/core/src/tool/bash.ts) — 207 wierszy; deklaracje: `Output:47`
+- [packages/core/src/tool/builtins.ts](packages/core/src/tool/builtins.ts) — 48 wierszy
+- [packages/core/src/tool/edit.ts](packages/core/src/tool/edit.ts) — 223 wierszy; deklaracje: `Output:40`
+- [packages/core/src/tool/glob.ts](packages/core/src/tool/glob.ts) — 105 wierszy; deklaracje: `ModelOutput:29`
+- [packages/core/src/tool/grep.ts](packages/core/src/tool/grep.ts) — 137 wierszy; deklaracje: `ModelOutput:35`
+- [packages/core/src/tool/http-body.ts](packages/core/src/tool/http-body.ts) — 30 wierszy
+- [packages/core/src/tool/question.ts](packages/core/src/tool/question.ts) — 94 wierszy; deklaracje: `Output:32`
+- [packages/core/src/tool/read-filesystem.ts](packages/core/src/tool/read-filesystem.ts) — 366 wierszy; deklaracje: `BinaryFileError:17`, `MediaIngestLimitError:25`, `MalformedUtf8Error:37`, `OffsetOutOfRangeError:45`, `PathKindError:54`
+- [packages/core/src/tool/read.ts](packages/core/src/tool/read.ts) — 117 wierszy
+- [packages/core/src/tool/registry.ts](packages/core/src/tool/registry.ts) — 147 wierszy; deklaracje: `ExecuteInput:16`, `Interface:23`, `Materialization:29`, `Settlement:34`, `Service:40`
+- [packages/core/src/tool/skill.ts](packages/core/src/tool/skill.ts) — 109 wierszy
+- [packages/core/src/tool/todowrite.ts](packages/core/src/tool/todowrite.ts) — 62 wierszy; deklaracje: `Output:21`
+- [packages/core/src/tool/tool.ts](packages/core/src/tool/tool.ts) — 162 wierszy; deklaracje: `Context:9`, `SchemaType:16`, `Definition:20`, `AnyTool:27`, `Failure:29`
+- [packages/core/src/tool/tools.ts](packages/core/src/tool/tools.ts) — 13 wierszy; deklaracje: `Interface:6`, `Service:13`
+- [packages/core/src/tool/webfetch.ts](packages/core/src/tool/webfetch.ts) — 218 wierszy; deklaracje: `Format:44`, `extractTextFromHTML:189`, `convertHTMLToMarkdown:208`
+- [packages/core/src/tool/websearch.ts](packages/core/src/tool/websearch.ts) — 260 wierszy; deklaracje: `Provider:60`, `Config:62`, `ConfigService:70`, `selectProvider:88`
+- [packages/core/src/tool/write.ts](packages/core/src/tool/write.ts) — 101 wierszy; deklaracje: `Output:36`
+- [packages/core/src/util/array.ts](packages/core/src/util/array.ts) — 10 wierszy; deklaracje: `findLast:1`
+- [packages/core/src/util/binary.ts](packages/core/src/util/binary.ts) — 41 wierszy; deklaracje: `search:2`, `insert:22`
+- [packages/core/src/util/effect-flock.ts](packages/core/src/util/effect-flock.ts) — 284 wierszy; deklaracje: `LockTimeoutError:17`, `LockCompromisedError:21`, `ReleaseError:25`, `NotAcquired:35`, `LockError:37`
+- [packages/core/src/util/encode.ts](packages/core/src/util/encode.ts) — 51 wierszy; deklaracje: `base64Encode:1`, `base64Decode:7`, `hash:13`, `checksum:22`, `sampledChecksum:32`
+- [packages/core/src/util/error.ts](packages/core/src/util/error.ts) — 70 wierszy; deklaracje: `NamedError:3`, `Data:30`
+- [packages/core/src/util/flock.ts](packages/core/src/util/flock.ts) — 358 wierszy; deklaracje: `FlockGlobal:8`, `setGlobal:15`, `WaitEvent:32`, `Wait:39`, `Options:41`
+- [packages/core/src/util/glob.ts](packages/core/src/util/glob.ts) — 34 wierszy; deklaracje: `Options:5`, `toGlobOptions:13`, `scan:23`, `scanSync:27`, `match:31`
+- [packages/core/src/util/hash.ts](packages/core/src/util/hash.ts) — 11 wierszy; deklaracje: `fast:4`, `sha256:8`
+- [packages/core/src/util/identifier.ts](packages/core/src/util/identifier.ts) — 1 wierszy
+- [packages/core/src/util/iife.ts](packages/core/src/util/iife.ts) — 3 wierszy; deklaracje: `iife:1`
+- [packages/core/src/util/lazy.ts](packages/core/src/util/lazy.ts) — 11 wierszy; deklaracje: `lazy:1`
+- [packages/core/src/util/module.ts](packages/core/src/util/module.ts) — 10 wierszy; deklaracje: `resolve:5`
+- [packages/core/src/util/path.ts](packages/core/src/util/path.ts) — 37 wierszy; deklaracje: `getFilename:1`, `getDirectory:8`, `getFileExtension:15`, `getFilenameTruncated:21`, `truncateMiddle:31`
+- [packages/core/src/util/retry.ts](packages/core/src/util/retry.ts) — 42 wierszy; deklaracje: `RetryOptions:1`, `isTransientError:20`, `retry:27`
+- [packages/core/src/util/slug.ts](packages/core/src/util/slug.ts) — 74 wierszy; deklaracje: `create:68`
+- [packages/core/src/util/token.ts](packages/core/src/util/token.ts) — 5 wierszy
+- [packages/core/src/util/which.ts](packages/core/src/util/which.ts) — 14 wierszy; deklaracje: `which:5`
+- [packages/core/src/util/wildcard.ts](packages/core/src/util/wildcard.ts) — 14 wierszy; deklaracje: `match:3`
+- [packages/core/src/v1/config/agent.ts](packages/core/src/v1/config/agent.ts) — 89 wierszy; deklaracje: `Info:89`
+- [packages/core/src/v1/config/attachment.ts](packages/core/src/v1/config/attachment.ts) — 25 wierszy; deklaracje: `Image:20`, `Info:25`
+- [packages/core/src/v1/config/command.ts](packages/core/src/v1/config/command.ts) — 13 wierszy; deklaracje: `Info:13`

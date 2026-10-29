@@ -1,0 +1,306 @@
+# opencode — mapa plików (19/23)
+
+Wykaz śledzonych plików z badanego commita. Liczba wierszy i nazwy deklaracji są wyciągane automatycznie z dostępnej kopii tekstowej; nie oznaczają ręcznej oceny pliku. Brak opisu oznacza, że zawartość nie była analizowana tą metodą (np. plik binarny, zasób lub pominięty plik).
+
+[Wróć do audytu](AUDYT_EDUKACYJNY.md) · [1](AUDYT_MAPA_01.md) · [2](AUDYT_MAPA_02.md) · [3](AUDYT_MAPA_03.md) · [4](AUDYT_MAPA_04.md) · [5](AUDYT_MAPA_05.md) · [6](AUDYT_MAPA_06.md) · [7](AUDYT_MAPA_07.md) · [8](AUDYT_MAPA_08.md) · [9](AUDYT_MAPA_09.md) · [10](AUDYT_MAPA_10.md) · [11](AUDYT_MAPA_11.md) · [12](AUDYT_MAPA_12.md) · [13](AUDYT_MAPA_13.md) · [14](AUDYT_MAPA_14.md) · [15](AUDYT_MAPA_15.md) · [16](AUDYT_MAPA_16.md) · [17](AUDYT_MAPA_17.md) · [18](AUDYT_MAPA_18.md) · [19](AUDYT_MAPA_19.md) · [20](AUDYT_MAPA_20.md) · [21](AUDYT_MAPA_21.md) · [22](AUDYT_MAPA_22.md) · [23](AUDYT_MAPA_23.md)
+
+- [packages/ui/src/assets/icons/provider/drun.svg](packages/ui/src/assets/icons/provider/drun.svg)
+- [packages/ui/src/assets/icons/provider/evroc.svg](packages/ui/src/assets/icons/provider/evroc.svg)
+- [packages/ui/src/assets/icons/provider/fastrouter.svg](packages/ui/src/assets/icons/provider/fastrouter.svg)
+- [packages/ui/src/assets/icons/provider/fireworks-ai.svg](packages/ui/src/assets/icons/provider/fireworks-ai.svg)
+- [packages/ui/src/assets/icons/provider/firmware.svg](packages/ui/src/assets/icons/provider/firmware.svg)
+- [packages/ui/src/assets/icons/provider/friendli.svg](packages/ui/src/assets/icons/provider/friendli.svg)
+- [packages/ui/src/assets/icons/provider/github-copilot.svg](packages/ui/src/assets/icons/provider/github-copilot.svg)
+- [packages/ui/src/assets/icons/provider/github-models.svg](packages/ui/src/assets/icons/provider/github-models.svg)
+- [packages/ui/src/assets/icons/provider/gitlab.svg](packages/ui/src/assets/icons/provider/gitlab.svg)
+- [packages/ui/src/assets/icons/provider/google-vertex-anthropic.svg](packages/ui/src/assets/icons/provider/google-vertex-anthropic.svg)
+- [packages/ui/src/assets/icons/provider/google-vertex.svg](packages/ui/src/assets/icons/provider/google-vertex.svg)
+- [packages/ui/src/assets/icons/provider/google.svg](packages/ui/src/assets/icons/provider/google.svg)
+- [packages/ui/src/assets/icons/provider/groq.svg](packages/ui/src/assets/icons/provider/groq.svg)
+- [packages/ui/src/assets/icons/provider/helicone.svg](packages/ui/src/assets/icons/provider/helicone.svg)
+- [packages/ui/src/assets/icons/provider/huggingface.svg](packages/ui/src/assets/icons/provider/huggingface.svg)
+- [packages/ui/src/assets/icons/provider/iflowcn.svg](packages/ui/src/assets/icons/provider/iflowcn.svg)
+- [packages/ui/src/assets/icons/provider/inception.svg](packages/ui/src/assets/icons/provider/inception.svg)
+- [packages/ui/src/assets/icons/provider/inference.svg](packages/ui/src/assets/icons/provider/inference.svg)
+- [packages/ui/src/assets/icons/provider/io-net.svg](packages/ui/src/assets/icons/provider/io-net.svg)
+- [packages/ui/src/assets/icons/provider/jiekou.svg](packages/ui/src/assets/icons/provider/jiekou.svg)
+- [packages/ui/src/assets/icons/provider/kilo.svg](packages/ui/src/assets/icons/provider/kilo.svg)
+- [packages/ui/src/assets/icons/provider/kimi-for-coding.svg](packages/ui/src/assets/icons/provider/kimi-for-coding.svg)
+- [packages/ui/src/assets/icons/provider/kuae-cloud-coding-plan.svg](packages/ui/src/assets/icons/provider/kuae-cloud-coding-plan.svg)
+- [packages/ui/src/assets/icons/provider/llama.svg](packages/ui/src/assets/icons/provider/llama.svg)
+- [packages/ui/src/assets/icons/provider/lmstudio.svg](packages/ui/src/assets/icons/provider/lmstudio.svg)
+- [packages/ui/src/assets/icons/provider/lucidquery.svg](packages/ui/src/assets/icons/provider/lucidquery.svg)
+- [packages/ui/src/assets/icons/provider/meganova.svg](packages/ui/src/assets/icons/provider/meganova.svg)
+- [packages/ui/src/assets/icons/provider/merge-gateway.svg](packages/ui/src/assets/icons/provider/merge-gateway.svg)
+- [packages/ui/src/assets/icons/provider/minimax-cn-coding-plan.svg](packages/ui/src/assets/icons/provider/minimax-cn-coding-plan.svg)
+- [packages/ui/src/assets/icons/provider/minimax-cn.svg](packages/ui/src/assets/icons/provider/minimax-cn.svg)
+- [packages/ui/src/assets/icons/provider/minimax-coding-plan.svg](packages/ui/src/assets/icons/provider/minimax-coding-plan.svg)
+- [packages/ui/src/assets/icons/provider/minimax.svg](packages/ui/src/assets/icons/provider/minimax.svg)
+- [packages/ui/src/assets/icons/provider/mistral.svg](packages/ui/src/assets/icons/provider/mistral.svg)
+- [packages/ui/src/assets/icons/provider/moark.svg](packages/ui/src/assets/icons/provider/moark.svg)
+- [packages/ui/src/assets/icons/provider/modelscope.svg](packages/ui/src/assets/icons/provider/modelscope.svg)
+- [packages/ui/src/assets/icons/provider/moonshotai-cn.svg](packages/ui/src/assets/icons/provider/moonshotai-cn.svg)
+- [packages/ui/src/assets/icons/provider/moonshotai.svg](packages/ui/src/assets/icons/provider/moonshotai.svg)
+- [packages/ui/src/assets/icons/provider/morph.svg](packages/ui/src/assets/icons/provider/morph.svg)
+- [packages/ui/src/assets/icons/provider/nano-gpt.svg](packages/ui/src/assets/icons/provider/nano-gpt.svg)
+- [packages/ui/src/assets/icons/provider/nebius.svg](packages/ui/src/assets/icons/provider/nebius.svg)
+- [packages/ui/src/assets/icons/provider/nova.svg](packages/ui/src/assets/icons/provider/nova.svg)
+- [packages/ui/src/assets/icons/provider/novita-ai.svg](packages/ui/src/assets/icons/provider/novita-ai.svg)
+- [packages/ui/src/assets/icons/provider/nvidia.svg](packages/ui/src/assets/icons/provider/nvidia.svg)
+- [packages/ui/src/assets/icons/provider/ollama-cloud.svg](packages/ui/src/assets/icons/provider/ollama-cloud.svg)
+- [packages/ui/src/assets/icons/provider/openai.svg](packages/ui/src/assets/icons/provider/openai.svg)
+- [packages/ui/src/assets/icons/provider/opencode-go.svg](packages/ui/src/assets/icons/provider/opencode-go.svg)
+- [packages/ui/src/assets/icons/provider/opencode.svg](packages/ui/src/assets/icons/provider/opencode.svg)
+- [packages/ui/src/assets/icons/provider/openrouter.svg](packages/ui/src/assets/icons/provider/openrouter.svg)
+- [packages/ui/src/assets/icons/provider/ovhcloud.svg](packages/ui/src/assets/icons/provider/ovhcloud.svg)
+- [packages/ui/src/assets/icons/provider/perplexity-agent.svg](packages/ui/src/assets/icons/provider/perplexity-agent.svg)
+- [packages/ui/src/assets/icons/provider/perplexity.svg](packages/ui/src/assets/icons/provider/perplexity.svg)
+- [packages/ui/src/assets/icons/provider/poe.svg](packages/ui/src/assets/icons/provider/poe.svg)
+- [packages/ui/src/assets/icons/provider/privatemode-ai.svg](packages/ui/src/assets/icons/provider/privatemode-ai.svg)
+- [packages/ui/src/assets/icons/provider/qihang-ai.svg](packages/ui/src/assets/icons/provider/qihang-ai.svg)
+- [packages/ui/src/assets/icons/provider/qiniu-ai.svg](packages/ui/src/assets/icons/provider/qiniu-ai.svg)
+- [packages/ui/src/assets/icons/provider/requesty.svg](packages/ui/src/assets/icons/provider/requesty.svg)
+- [packages/ui/src/assets/icons/provider/sap-ai-core.svg](packages/ui/src/assets/icons/provider/sap-ai-core.svg)
+- [packages/ui/src/assets/icons/provider/scaleway.svg](packages/ui/src/assets/icons/provider/scaleway.svg)
+- [packages/ui/src/assets/icons/provider/siliconflow-cn.svg](packages/ui/src/assets/icons/provider/siliconflow-cn.svg)
+- [packages/ui/src/assets/icons/provider/siliconflow.svg](packages/ui/src/assets/icons/provider/siliconflow.svg)
+- [packages/ui/src/assets/icons/provider/stackit.svg](packages/ui/src/assets/icons/provider/stackit.svg)
+- [packages/ui/src/assets/icons/provider/stepfun.svg](packages/ui/src/assets/icons/provider/stepfun.svg)
+- [packages/ui/src/assets/icons/provider/submodel.svg](packages/ui/src/assets/icons/provider/submodel.svg)
+- [packages/ui/src/assets/icons/provider/synthetic.svg](packages/ui/src/assets/icons/provider/synthetic.svg)
+- [packages/ui/src/assets/icons/provider/tencent-coding-plan.svg](packages/ui/src/assets/icons/provider/tencent-coding-plan.svg)
+- [packages/ui/src/assets/icons/provider/togetherai.svg](packages/ui/src/assets/icons/provider/togetherai.svg)
+- [packages/ui/src/assets/icons/provider/upstage.svg](packages/ui/src/assets/icons/provider/upstage.svg)
+- [packages/ui/src/assets/icons/provider/v0.svg](packages/ui/src/assets/icons/provider/v0.svg)
+- [packages/ui/src/assets/icons/provider/venice.svg](packages/ui/src/assets/icons/provider/venice.svg)
+- [packages/ui/src/assets/icons/provider/vercel.svg](packages/ui/src/assets/icons/provider/vercel.svg)
+- [packages/ui/src/assets/icons/provider/vivgrid.svg](packages/ui/src/assets/icons/provider/vivgrid.svg)
+- [packages/ui/src/assets/icons/provider/vultr.svg](packages/ui/src/assets/icons/provider/vultr.svg)
+- [packages/ui/src/assets/icons/provider/wandb.svg](packages/ui/src/assets/icons/provider/wandb.svg)
+- [packages/ui/src/assets/icons/provider/xai.svg](packages/ui/src/assets/icons/provider/xai.svg)
+- [packages/ui/src/assets/icons/provider/xiaomi.svg](packages/ui/src/assets/icons/provider/xiaomi.svg)
+- [packages/ui/src/assets/icons/provider/zai-coding-plan.svg](packages/ui/src/assets/icons/provider/zai-coding-plan.svg)
+- [packages/ui/src/assets/icons/provider/zai.svg](packages/ui/src/assets/icons/provider/zai.svg)
+- [packages/ui/src/assets/icons/provider/zenmux.svg](packages/ui/src/assets/icons/provider/zenmux.svg)
+- [packages/ui/src/assets/icons/provider/zhipuai-coding-plan.svg](packages/ui/src/assets/icons/provider/zhipuai-coding-plan.svg)
+- [packages/ui/src/assets/icons/provider/zhipuai.svg](packages/ui/src/assets/icons/provider/zhipuai.svg)
+- [packages/ui/src/assets/images/social-share-black.png](packages/ui/src/assets/images/social-share-black.png)
+- [packages/ui/src/assets/images/social-share-zen.png](packages/ui/src/assets/images/social-share-zen.png)
+- [packages/ui/src/assets/images/social-share.png](packages/ui/src/assets/images/social-share.png)
+- [packages/ui/src/components/accordion.css](packages/ui/src/components/accordion.css) — 147 wierszy
+- [packages/ui/src/components/accordion.stories.tsx](packages/ui/src/components/accordion.stories.tsx) — 149 wierszy
+- [packages/ui/src/components/accordion.tsx](packages/ui/src/components/accordion.tsx) — 92 wierszy; deklaracje: `AccordionProps:5`, `AccordionItemProps:6`, `AccordionHeaderProps:7`, `AccordionTriggerProps:8`, `AccordionContentProps:9`
+- [packages/ui/src/components/animated-number.css](packages/ui/src/components/animated-number.css) — 75 wierszy
+- [packages/ui/src/components/animated-number.tsx](packages/ui/src/components/animated-number.tsx) — 109 wierszy; deklaracje: `normalize:7`, `spin:11`, `Digit:17`, `AnimatedNumber:65`
+- [packages/ui/src/components/app-icon.css](packages/ui/src/components/app-icon.css) — 5 wierszy
+- [packages/ui/src/components/app-icon.stories.tsx](packages/ui/src/components/app-icon.stories.tsx) — 69 wierszy
+- [packages/ui/src/components/app-icon.tsx](packages/ui/src/components/app-icon.tsx) — 85 wierszy; deklaracje: `AppIconProps:53`
+- [packages/ui/src/components/app-icons/sprite.svg](packages/ui/src/components/app-icons/sprite.svg)
+- [packages/ui/src/components/app-icons/types.ts](packages/ui/src/components/app-icons/types.ts) — 21 wierszy; deklaracje: `IconName:21`
+- [packages/ui/src/components/avatar.css](packages/ui/src/components/avatar.css) — 49 wierszy
+- [packages/ui/src/components/avatar.stories.tsx](packages/ui/src/components/avatar.stories.tsx) — 76 wierszy
+- [packages/ui/src/components/avatar.tsx](packages/ui/src/components/avatar.tsx) — 55 wierszy; deklaracje: `first:8`, `AvatarProps:14`, `Avatar:22`
+- [packages/ui/src/components/button.css](packages/ui/src/components/button.css) — 194 wierszy
+- [packages/ui/src/components/button.stories.tsx](packages/ui/src/components/button.stories.tsx) — 108 wierszy
+- [packages/ui/src/components/button.tsx](packages/ui/src/components/button.tsx) — 33 wierszy; deklaracje: `ButtonProps:5`, `Button:13`
+- [packages/ui/src/components/card.css](packages/ui/src/components/card.css) — 115 wierszy
+- [packages/ui/src/components/card.stories.tsx](packages/ui/src/components/card.stories.tsx) — 88 wierszy
+- [packages/ui/src/components/card.tsx](packages/ui/src/components/card.tsx) — 123 wierszy; deklaracje: `Variant:4`, `CardProps:6`, `CardTitleProps:10`, `pick:23`, `mix:31`
+- [packages/ui/src/components/checkbox.css](packages/ui/src/components/checkbox.css) — 131 wierszy
+- [packages/ui/src/components/checkbox.stories.tsx](packages/ui/src/components/checkbox.stories.tsx) — 71 wierszy
+- [packages/ui/src/components/checkbox.tsx](packages/ui/src/components/checkbox.tsx) — 43 wierszy; deklaracje: `CheckboxProps:5`, `Checkbox:11`
+- [packages/ui/src/components/collapsible.css](packages/ui/src/components/collapsible.css) — 154 wierszy
+- [packages/ui/src/components/collapsible.stories.tsx](packages/ui/src/components/collapsible.stories.tsx) — 86 wierszy
+- [packages/ui/src/components/collapsible.tsx](packages/ui/src/components/collapsible.tsx) — 48 wierszy; deklaracje: `CollapsibleProps:5`, `CollapsibleRoot:11`, `CollapsibleTrigger:26`, `CollapsibleContent:30`, `CollapsibleArrow:34`
+- [packages/ui/src/components/context-menu.css](packages/ui/src/components/context-menu.css) — 134 wierszy
+- [packages/ui/src/components/context-menu.stories.tsx](packages/ui/src/components/context-menu.stories.tsx) — 113 wierszy
+- [packages/ui/src/components/context-menu.tsx](packages/ui/src/components/context-menu.tsx) — 308 wierszy; deklaracje: `ContextMenuProps:5`, `ContextMenuTriggerProps:6`, `ContextMenuIconProps:7`, `ContextMenuPortalProps:8`, `ContextMenuContentProps:9`
+- [packages/ui/src/components/dialog.css](packages/ui/src/components/dialog.css) — 181 wierszy
+- [packages/ui/src/components/dialog.stories.tsx](packages/ui/src/components/dialog.stories.tsx) — 173 wierszy
+- [packages/ui/src/components/dialog.tsx](packages/ui/src/components/dialog.tsx) — 72 wierszy; deklaracje: `DialogProps:6`, `Dialog:17`
+- [packages/ui/src/components/diff-changes.css](packages/ui/src/components/diff-changes.css) — 44 wierszy
+- [packages/ui/src/components/diff-changes.stories.tsx](packages/ui/src/components/diff-changes.stories.tsx) — 81 wierszy
+- [packages/ui/src/components/diff-changes.tsx](packages/ui/src/components/diff-changes.tsx) — 115 wierszy; deklaracje: `DiffChanges:3`
+- [packages/ui/src/components/dock-surface.css](packages/ui/src/components/dock-surface.css) — 37 wierszy
+- [packages/ui/src/components/dock-surface.tsx](packages/ui/src/components/dock-surface.tsx) — 54 wierszy; deklaracje: `DockTrayProps:3`, `DockShell:7`, `DockShellForm:23`, `DockTray:39`
+- [packages/ui/src/components/dropdown-menu.css](packages/ui/src/components/dropdown-menu.css) — 135 wierszy
+- [packages/ui/src/components/dropdown-menu.stories.tsx](packages/ui/src/components/dropdown-menu.stories.tsx) — 97 wierszy
+- [packages/ui/src/components/dropdown-menu.tsx](packages/ui/src/components/dropdown-menu.tsx) — 308 wierszy; deklaracje: `DropdownMenuProps:5`, `DropdownMenuTriggerProps:6`, `DropdownMenuIconProps:7`, `DropdownMenuPortalProps:8`, `DropdownMenuContentProps:9`
+- [packages/ui/src/components/favicon.stories.tsx](packages/ui/src/components/favicon.stories.tsx) — 49 wierszy
+- [packages/ui/src/components/favicon.tsx](packages/ui/src/components/favicon.tsx) — 13 wierszy
+- [packages/ui/src/components/file-icon.css](packages/ui/src/components/file-icon.css) — 26 wierszy
+- [packages/ui/src/components/file-icon.stories.tsx](packages/ui/src/components/file-icon.stories.tsx) — 94 wierszy
+- [packages/ui/src/components/file-icon.tsx](packages/ui/src/components/file-icon.tsx) — 588 wierszy; deklaracje: `FileIconProps:6`, `IconMaps:37`, `chooseIconName:567`
+- [packages/ui/src/components/file-icons/sprite.svg](packages/ui/src/components/file-icons/sprite.svg)
+- [packages/ui/src/components/file-icons/types.ts](packages/ui/src/components/file-icons/types.ts) — 1095 wierszy; deklaracje: `IconName:1095`
+- [packages/ui/src/components/font.stories.tsx](packages/ui/src/components/font.stories.tsx) — 48 wierszy
+- [packages/ui/src/components/font.tsx](packages/ui/src/components/font.tsx) — 1 wierszy
+- [packages/ui/src/components/hover-card.css](packages/ui/src/components/hover-card.css) — 61 wierszy
+- [packages/ui/src/components/hover-card.stories.tsx](packages/ui/src/components/hover-card.stories.tsx) — 70 wierszy
+- [packages/ui/src/components/hover-card.tsx](packages/ui/src/components/hover-card.tsx) — 32 wierszy; deklaracje: `HoverCardProps:4`, `HoverCard:11`
+- [packages/ui/src/components/icon-button.css](packages/ui/src/components/icon-button.css) — 181 wierszy
+- [packages/ui/src/components/icon-button.stories.tsx](packages/ui/src/components/icon-button.stories.tsx) — 74 wierszy
+- [packages/ui/src/components/icon-button.tsx](packages/ui/src/components/icon-button.tsx) — 29 wierszy; deklaracje: `IconButtonProps:5`, `IconButton:12`
+- [packages/ui/src/components/icon.css](packages/ui/src/components/icon.css) — 39 wierszy
+- [packages/ui/src/components/icon.stories.tsx](packages/ui/src/components/icon.stories.tsx) — 171 wierszy
+- [packages/ui/src/components/icon.tsx](packages/ui/src/components/icon.tsx) — 181 wierszy; deklaracje: `viewBox:113`, `ensureSprite:117`, `IconProps:144`, `Icon:149`
+- [packages/ui/src/components/image-preview.css](packages/ui/src/components/image-preview.css) — 63 wierszy
+- [packages/ui/src/components/image-preview.stories.tsx](packages/ui/src/components/image-preview.stories.tsx) — 59 wierszy
+- [packages/ui/src/components/image-preview.tsx](packages/ui/src/components/image-preview.tsx) — 32 wierszy; deklaracje: `ImagePreviewProps:5`, `ImagePreview:10`
+- [packages/ui/src/components/inline-input.css](packages/ui/src/components/inline-input.css) — 17 wierszy
+- [packages/ui/src/components/inline-input.stories.tsx](packages/ui/src/components/inline-input.stories.tsx) — 50 wierszy
+- [packages/ui/src/components/inline-input.tsx](packages/ui/src/components/inline-input.tsx) — 22 wierszy; deklaracje: `InlineInputProps:4`, `InlineInput:8`
+- [packages/ui/src/components/keybind.css](packages/ui/src/components/keybind.css) — 18 wierszy
+- [packages/ui/src/components/keybind.stories.tsx](packages/ui/src/components/keybind.stories.tsx) — 43 wierszy
+- [packages/ui/src/components/keybind.tsx](packages/ui/src/components/keybind.tsx) — 20 wierszy; deklaracje: `KeybindProps:3`, `Keybind:8`
+- [packages/ui/src/components/list.css](packages/ui/src/components/list.css) — 331 wierszy
+- [packages/ui/src/components/list.stories.tsx](packages/ui/src/components/list.stories.tsx) — 170 wierszy
+- [packages/ui/src/components/list.tsx](packages/ui/src/components/list.tsx) — 394 wierszy; deklaracje: `findByKey:10`, `ListSearchProps:17`, `ListAddProps:25`, `ListAddProps:30`, `ListProps:35`
+- [packages/ui/src/components/logo.css](packages/ui/src/components/logo.css) — 4 wierszy
+- [packages/ui/src/components/logo.stories.tsx](packages/ui/src/components/logo.stories.tsx) — 57 wierszy
+- [packages/ui/src/components/logo.tsx](packages/ui/src/components/logo.tsx) — 62 wierszy
+- [packages/ui/src/components/motion-spring.tsx](packages/ui/src/components/motion-spring.tsx) — 58 wierszy; deklaracje: `Opt:5`, `useSpring:14`
+- [packages/ui/src/components/popover.css](packages/ui/src/components/popover.css) — 98 wierszy
+- [packages/ui/src/components/popover.stories.tsx](packages/ui/src/components/popover.stories.tsx) — 87 wierszy
+- [packages/ui/src/components/popover.tsx](packages/ui/src/components/popover.tsx) — 153 wierszy; deklaracje: `PopoverProps:8`, `Popover:22`
+- [packages/ui/src/components/progress-circle.css](packages/ui/src/components/progress-circle.css) — 16 wierszy
+- [packages/ui/src/components/progress-circle.stories.tsx](packages/ui/src/components/progress-circle.stories.tsx) — 59 wierszy
+- [packages/ui/src/components/progress-circle.tsx](packages/ui/src/components/progress-circle.tsx) — 64 wierszy; deklaracje: `ProgressCircleProps:3`, `ProgressCircle:9`
+- [packages/ui/src/components/progress.css](packages/ui/src/components/progress.css) — 63 wierszy
+- [packages/ui/src/components/progress.stories.tsx](packages/ui/src/components/progress.stories.tsx) — 67 wierszy
+- [packages/ui/src/components/progress.tsx](packages/ui/src/components/progress.tsx) — 39 wierszy; deklaracje: `ProgressProps:5`, `Progress:10`
+- [packages/ui/src/components/provider-icon.css](packages/ui/src/components/provider-icon.css) — 5 wierszy
+- [packages/ui/src/components/provider-icon.stories.tsx](packages/ui/src/components/provider-icon.stories.tsx) — 69 wierszy
+- [packages/ui/src/components/provider-icon.tsx](packages/ui/src/components/provider-icon.tsx) — 25 wierszy; deklaracje: `ProviderIconProps:6`
+- [packages/ui/src/components/provider-icons/sprite.svg](packages/ui/src/components/provider-icons/sprite.svg)
+- [packages/ui/src/components/provider-icons/types.ts](packages/ui/src/components/provider-icons/types.ts) — 106 wierszy; deklaracje: `IconName:106`
+- [packages/ui/src/components/radio-group.css](packages/ui/src/components/radio-group.css) — 187 wierszy
+- [packages/ui/src/components/radio-group.stories.tsx](packages/ui/src/components/radio-group.stories.tsx) — 92 wierszy
+- [packages/ui/src/components/radio-group.tsx](packages/ui/src/components/radio-group.tsx) — 83 wierszy; deklaracje: `RadioGroupProps:5`, `RadioGroup:22`
+- [packages/ui/src/components/resize-handle.css](packages/ui/src/components/resize-handle.css) — 70 wierszy
+- [packages/ui/src/components/resize-handle.stories.tsx](packages/ui/src/components/resize-handle.stories.tsx) — 161 wierszy
+- [packages/ui/src/components/resize-handle.tsx](packages/ui/src/components/resize-handle.tsx) — 102 wierszy; deklaracje: `ResizeHandleProps:3`, `ResizeHandle:16`
+- [packages/ui/src/components/scroll-view.css](packages/ui/src/components/scroll-view.css) — 67 wierszy
+- [packages/ui/src/components/scroll-view.test.ts](packages/ui/src/components/scroll-view.test.ts) — 90 wierszy
+- [packages/ui/src/components/scroll-view.tsx](packages/ui/src/components/scroll-view.tsx) — 388 wierszy; deklaracje: `Accessor:9`, `ComponentProps:10`, `ScrollViewThumbVisibility:17`, `ScrollViewProps:19`, `canScrollKey:57`
+- [packages/ui/src/components/select.css](packages/ui/src/components/select.css) — 201 wierszy
+- [packages/ui/src/components/select.stories.tsx](packages/ui/src/components/select.stories.tsx) — 113 wierszy
+- [packages/ui/src/components/select.tsx](packages/ui/src/components/select.tsx) — 174 wierszy; deklaracje: `SelectProps:7`, `Select:25`
+- [packages/ui/src/components/spinner.css](packages/ui/src/components/spinner.css) — 6 wierszy
+- [packages/ui/src/components/spinner.stories.tsx](packages/ui/src/components/spinner.stories.tsx) — 53 wierszy
+- [packages/ui/src/components/spinner.tsx](packages/ui/src/components/spinner.tsx) — 52 wierszy; deklaracje: `Spinner:15`
+- [packages/ui/src/components/sticky-accordion-header.css](packages/ui/src/components/sticky-accordion-header.css) — 6 wierszy
+- [packages/ui/src/components/sticky-accordion-header.stories.tsx](packages/ui/src/components/sticky-accordion-header.stories.tsx) — 54 wierszy
+- [packages/ui/src/components/sticky-accordion-header.tsx](packages/ui/src/components/sticky-accordion-header.tsx) — 18 wierszy; deklaracje: `StickyAccordionHeader:4`
+- [packages/ui/src/components/switch.css](packages/ui/src/components/switch.css) — 136 wierszy
+- [packages/ui/src/components/switch.stories.tsx](packages/ui/src/components/switch.stories.tsx) — 68 wierszy
+- [packages/ui/src/components/switch.tsx](packages/ui/src/components/switch.tsx) — 29 wierszy; deklaracje: `SwitchProps:5`, `Switch:10`
+- [packages/ui/src/components/tabs.css](packages/ui/src/components/tabs.css) — 889 wierszy
+- [packages/ui/src/components/tabs.stories.tsx](packages/ui/src/components/tabs.stories.tsx) — 179 wierszy
+- [packages/ui/src/components/tabs.tsx](packages/ui/src/components/tabs.tsx) — 126 wierszy; deklaracje: `TabsProps:5`, `TabsListProps:9`, `TabsTriggerProps:10`, `TabsContentProps:18`, `TabsRoot:20`
+- [packages/ui/src/components/tag.css](packages/ui/src/components/tag.css) — 37 wierszy
+- [packages/ui/src/components/tag.stories.tsx](packages/ui/src/components/tag.stories.tsx) — 58 wierszy
+- [packages/ui/src/components/tag.tsx](packages/ui/src/components/tag.tsx) — 22 wierszy; deklaracje: `TagProps:3`, `Tag:7`
+- [packages/ui/src/components/text-field.css](packages/ui/src/components/text-field.css) — 134 wierszy
+- [packages/ui/src/components/text-field.stories.tsx](packages/ui/src/components/text-field.stories.tsx) — 111 wierszy
+- [packages/ui/src/components/text-field.tsx](packages/ui/src/components/text-field.tsx) — 128 wierszy; deklaracje: `TextFieldProps:8`, `TextField:34`, `handleCopy:70`, `handleClick:77`
+- [packages/ui/src/components/text-reveal.css](packages/ui/src/components/text-reveal.css) — 150 wierszy
+- [packages/ui/src/components/text-reveal.stories.tsx](packages/ui/src/components/text-reveal.stories.tsx) — 320 wierszy
+- [packages/ui/src/components/text-reveal.tsx](packages/ui/src/components/text-reveal.tsx) — 143 wierszy; deklaracje: `TextReveal:21`
+- [packages/ui/src/components/text-shimmer.css](packages/ui/src/components/text-shimmer.css) — 119 wierszy
+- [packages/ui/src/components/text-shimmer.stories.tsx](packages/ui/src/components/text-shimmer.stories.tsx) — 92 wierszy
+- [packages/ui/src/components/text-shimmer.tsx](packages/ui/src/components/text-shimmer.tsx) — 62 wierszy
+- [packages/ui/src/components/text-strikethrough.css](packages/ui/src/components/text-strikethrough.css) — 27 wierszy
+- [packages/ui/src/components/text-strikethrough.stories.tsx](packages/ui/src/components/text-strikethrough.stories.tsx) — 279 wierszy; deklaracje: `VariantA:42`, `VariantD:75`, `VariantE:98`, `VariantF:128`
+- [packages/ui/src/components/text-strikethrough.tsx](packages/ui/src/components/text-strikethrough.tsx) — 84 wierszy; deklaracje: `TextStrikethrough:7`
+- [packages/ui/src/components/thinking-heading.stories.tsx](packages/ui/src/components/thinking-heading.stories.tsx) — 854 wierszy; deklaracje: `AnimatedHeading:378`
+- [packages/ui/src/components/toast.css](packages/ui/src/components/toast.css) — 236 wierszy
+- [packages/ui/src/components/toast.stories.tsx](packages/ui/src/components/toast.stories.tsx) — 138 wierszy
+- [packages/ui/src/components/toast.tsx](packages/ui/src/components/toast.tsx) — 185 wierszy; deklaracje: `ToastRegionProps:10`, `ToastRegion:12`, `ToastRootComponentProps:22`, `ToastRoot:28`, `ToastIcon:41`
+- [packages/ui/src/components/tooltip.css](packages/ui/src/components/tooltip.css) — 74 wierszy
+- [packages/ui/src/components/tooltip.stories.tsx](packages/ui/src/components/tooltip.stories.tsx) — 64 wierszy
+- [packages/ui/src/components/tooltip.tsx](packages/ui/src/components/tooltip.tsx) — 163 wierszy; deklaracje: `TooltipProps:6`, `TooltipKeybindProps:15`, `TooltipKeybind:20`, `Tooltip:35`
+- [packages/ui/src/components/typewriter.css](packages/ui/src/components/typewriter.css) — 14 wierszy
+- [packages/ui/src/components/typewriter.stories.tsx](packages/ui/src/components/typewriter.stories.tsx) — 51 wierszy
+- [packages/ui/src/components/typewriter.tsx](packages/ui/src/components/typewriter.tsx) — 55 wierszy
+- [packages/ui/src/context/dialog.tsx](packages/ui/src/context/dialog.tsx) — 197 wierszy; deklaracje: `Owner:8`, `ParentProps:9`, `JSX:12`, `DialogElement:19`, `Active:21`
+- [packages/ui/src/context/file.tsx](packages/ui/src/context/file.tsx) — 10 wierszy
+- [packages/ui/src/context/helper.tsx](packages/ui/src/context/helper.tsx) — 38 wierszy; deklaracje: `createSimpleContext:3`
+- [packages/ui/src/context/i18n.test.ts](packages/ui/src/context/i18n.test.ts) — 24 wierszy
+- [packages/ui/src/context/i18n.tsx](packages/ui/src/context/i18n.tsx) — 74 wierszy; deklaracje: `UiI18nKey:5`, `UiI18nPluralKey:13`, `UiPluralCategory:14`, `UiI18nPluralLookupKey:15`, `UiI18nParams:17`
+- [packages/ui/src/context/index.ts](packages/ui/src/context/index.ts) — 4 wierszy
+- [packages/ui/src/context/marked-parser.test.ts](packages/ui/src/context/marked-parser.test.ts) — 19 wierszy
+- [packages/ui/src/context/marked-parser.tsx](packages/ui/src/context/marked-parser.tsx) — 68 wierszy; deklaracje: `createMarkdownParser:5`, `renderKatexToken:63`
+- [packages/ui/src/context/marked-regression.test.ts](packages/ui/src/context/marked-regression.test.ts) — 12 wierszy
+- [packages/ui/src/context/marked-theme-register.tsx](packages/ui/src/context/marked-theme-register.tsx) — 10 wierszy; deklaracje: `registerOpenCodeTheme:6`
+- [packages/ui/src/context/marked-theme.tsx](packages/ui/src/context/marked-theme.tsx) — 372 wierszy
+- [packages/ui/src/context/marked.tsx](packages/ui/src/context/marked.tsx) — 28 wierszy
+- [packages/ui/src/context/worker-pool.tsx](packages/ui/src/context/worker-pool.tsx) — 20 wierszy; deklaracje: `WorkerPools:4`, `useWorkerPool:16`
+- [packages/ui/src/custom-elements.d.ts](packages/ui/src/custom-elements.d.ts) — 17 wierszy; deklaracje: `IntrinsicElements:11`
+- [packages/ui/src/hooks/create-auto-scroll.tsx](packages/ui/src/hooks/create-auto-scroll.tsx) — 237 wierszy; deklaracje: `AutoScrollOptions:6`, `createAutoScroll:13`
+- [packages/ui/src/hooks/index.ts](packages/ui/src/hooks/index.ts) — 2 wierszy
+- [packages/ui/src/hooks/use-filtered-list.tsx](packages/ui/src/hooks/use-filtered-list.tsx) — 134 wierszy; deklaracje: `FilteredListProps:7`, `useFilteredList:20`, `Group:23`, `initialActive:65`
+- [packages/ui/src/i18n/am.ts](packages/ui/src/i18n/am.ts) — 196 wierszy
+- [packages/ui/src/i18n/ar.ts](packages/ui/src/i18n/ar.ts) — 233 wierszy
+- [packages/ui/src/i18n/az.ts](packages/ui/src/i18n/az.ts) — 197 wierszy
+- [packages/ui/src/i18n/bg.ts](packages/ui/src/i18n/bg.ts) — 197 wierszy
+- [packages/ui/src/i18n/bn.ts](packages/ui/src/i18n/bn.ts) — 199 wierszy
+- [packages/ui/src/i18n/br.ts](packages/ui/src/i18n/br.ts) — 221 wierszy
+- [packages/ui/src/i18n/bs.ts](packages/ui/src/i18n/bs.ts) — 225 wierszy; deklaracje: `Keys:3`
+- [packages/ui/src/i18n/ca.ts](packages/ui/src/i18n/ca.ts) — 201 wierszy
+- [packages/ui/src/i18n/cs.ts](packages/ui/src/i18n/cs.ts) — 205 wierszy
+- [packages/ui/src/i18n/da.ts](packages/ui/src/i18n/da.ts) — 216 wierszy
+- [packages/ui/src/i18n/de.ts](packages/ui/src/i18n/de.ts) — 221 wierszy; deklaracje: `Keys:3`
+- [packages/ui/src/i18n/dv.ts](packages/ui/src/i18n/dv.ts) — 198 wierszy
+- [packages/ui/src/i18n/dz.ts](packages/ui/src/i18n/dz.ts) — 199 wierszy
+- [packages/ui/src/i18n/el.ts](packages/ui/src/i18n/el.ts) — 197 wierszy
+- [packages/ui/src/i18n/en.ts](packages/ui/src/i18n/en.ts) — 220 wierszy
+- [packages/ui/src/i18n/es.ts](packages/ui/src/i18n/es.ts) — 221 wierszy
+- [packages/ui/src/i18n/et.ts](packages/ui/src/i18n/et.ts) — 197 wierszy
+- [packages/ui/src/i18n/fa.ts](packages/ui/src/i18n/fa.ts) — 197 wierszy
+- [packages/ui/src/i18n/fi.ts](packages/ui/src/i18n/fi.ts) — 197 wierszy
+- [packages/ui/src/i18n/fo.ts](packages/ui/src/i18n/fo.ts) — 197 wierszy
+- [packages/ui/src/i18n/fr.ts](packages/ui/src/i18n/fr.ts) — 223 wierszy
+- [packages/ui/src/i18n/hi.ts](packages/ui/src/i18n/hi.ts) — 199 wierszy
+- [packages/ui/src/i18n/hr.ts](packages/ui/src/i18n/hr.ts) — 202 wierszy
+- [packages/ui/src/i18n/hu.ts](packages/ui/src/i18n/hu.ts) — 199 wierszy
+- [packages/ui/src/i18n/hy.ts](packages/ui/src/i18n/hy.ts) — 197 wierszy
+- [packages/ui/src/i18n/id.ts](packages/ui/src/i18n/id.ts) — 219 wierszy
+- [packages/ui/src/i18n/is.ts](packages/ui/src/i18n/is.ts) — 197 wierszy
+- [packages/ui/src/i18n/it.ts](packages/ui/src/i18n/it.ts) — 202 wierszy
+- [packages/ui/src/i18n/ja.ts](packages/ui/src/i18n/ja.ts) — 216 wierszy
+- [packages/ui/src/i18n/ka.ts](packages/ui/src/i18n/ka.ts) — 197 wierszy
+- [packages/ui/src/i18n/km.ts](packages/ui/src/i18n/km.ts) — 198 wierszy
+- [packages/ui/src/i18n/ko.ts](packages/ui/src/i18n/ko.ts) — 218 wierszy
+- [packages/ui/src/i18n/lo.ts](packages/ui/src/i18n/lo.ts) — 197 wierszy
+- [packages/ui/src/i18n/lt.ts](packages/ui/src/i18n/lt.ts) — 205 wierszy
+- [packages/ui/src/i18n/lv.ts](packages/ui/src/i18n/lv.ts) — 201 wierszy
+- [packages/ui/src/i18n/mk.ts](packages/ui/src/i18n/mk.ts) — 197 wierszy
+- [packages/ui/src/i18n/mn.ts](packages/ui/src/i18n/mn.ts) — 197 wierszy
+- [packages/ui/src/i18n/ms.ts](packages/ui/src/i18n/ms.ts) — 197 wierszy
+- [packages/ui/src/i18n/my.ts](packages/ui/src/i18n/my.ts) — 198 wierszy
+- [packages/ui/src/i18n/ne.ts](packages/ui/src/i18n/ne.ts) — 199 wierszy
+- [packages/ui/src/i18n/nl.ts](packages/ui/src/i18n/nl.ts) — 197 wierszy
+- [packages/ui/src/i18n/no.ts](packages/ui/src/i18n/no.ts) — 221 wierszy; deklaracje: `Keys:2`
+- [packages/ui/src/i18n/pa.ts](packages/ui/src/i18n/pa.ts) — 198 wierszy
+- [packages/ui/src/i18n/pl.ts](packages/ui/src/i18n/pl.ts) — 225 wierszy
+- [packages/ui/src/i18n/ro.ts](packages/ui/src/i18n/ro.ts) — 201 wierszy
+- [packages/ui/src/i18n/ru.ts](packages/ui/src/i18n/ru.ts) — 224 wierszy
+- [packages/ui/src/i18n/si.ts](packages/ui/src/i18n/si.ts) — 197 wierszy
+- [packages/ui/src/i18n/sk.ts](packages/ui/src/i18n/sk.ts) — 205 wierszy
+- [packages/ui/src/i18n/sl.ts](packages/ui/src/i18n/sl.ts) — 206 wierszy
+- [packages/ui/src/i18n/sq.ts](packages/ui/src/i18n/sq.ts) — 197 wierszy
+- [packages/ui/src/i18n/sr.ts](packages/ui/src/i18n/sr.ts) — 202 wierszy
+- [packages/ui/src/i18n/sv.ts](packages/ui/src/i18n/sv.ts) — 197 wierszy
+- [packages/ui/src/i18n/tg.ts](packages/ui/src/i18n/tg.ts) — 197 wierszy
+- [packages/ui/src/i18n/th.ts](packages/ui/src/i18n/th.ts) — 217 wierszy
+- [packages/ui/src/i18n/tk.ts](packages/ui/src/i18n/tk.ts) — 197 wierszy
+- [packages/ui/src/i18n/tr.ts](packages/ui/src/i18n/tr.ts) — 223 wierszy; deklaracje: `Keys:3`
+- [packages/ui/src/i18n/uk.ts](packages/ui/src/i18n/uk.ts) — 228 wierszy
+- [packages/ui/src/i18n/ur.ts](packages/ui/src/i18n/ur.ts) — 198 wierszy
+- [packages/ui/src/i18n/uz.ts](packages/ui/src/i18n/uz.ts) — 200 wierszy
+- [packages/ui/src/i18n/vi.ts](packages/ui/src/i18n/vi.ts) — 197 wierszy
+- [packages/ui/src/i18n/zh.ts](packages/ui/src/i18n/zh.ts) — 219 wierszy; deklaracje: `Keys:3`
+- [packages/ui/src/i18n/zht.ts](packages/ui/src/i18n/zht.ts) — 219 wierszy; deklaracje: `Keys:3`
+- [packages/ui/src/storybook/fixtures.ts](packages/ui/src/storybook/fixtures.ts) — 51 wierszy; deklaracje: `average:25`
+- [packages/ui/src/storybook/scaffold.tsx](packages/ui/src/storybook/scaffold.tsx) — 62 wierszy; deklaracje: `fn:4`, `pick:8`, `create:30`

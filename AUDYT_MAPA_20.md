@@ -1,0 +1,306 @@
+# opencode — mapa plików (20/23)
+
+Wykaz śledzonych plików z badanego commita. Liczba wierszy i nazwy deklaracji są wyciągane automatycznie z dostępnej kopii tekstowej; nie oznaczają ręcznej oceny pliku. Brak opisu oznacza, że zawartość nie była analizowana tą metodą (np. plik binarny, zasób lub pominięty plik).
+
+[Wróć do audytu](AUDYT_EDUKACYJNY.md) · [1](AUDYT_MAPA_01.md) · [2](AUDYT_MAPA_02.md) · [3](AUDYT_MAPA_03.md) · [4](AUDYT_MAPA_04.md) · [5](AUDYT_MAPA_05.md) · [6](AUDYT_MAPA_06.md) · [7](AUDYT_MAPA_07.md) · [8](AUDYT_MAPA_08.md) · [9](AUDYT_MAPA_09.md) · [10](AUDYT_MAPA_10.md) · [11](AUDYT_MAPA_11.md) · [12](AUDYT_MAPA_12.md) · [13](AUDYT_MAPA_13.md) · [14](AUDYT_MAPA_14.md) · [15](AUDYT_MAPA_15.md) · [16](AUDYT_MAPA_16.md) · [17](AUDYT_MAPA_17.md) · [18](AUDYT_MAPA_18.md) · [19](AUDYT_MAPA_19.md) · [20](AUDYT_MAPA_20.md) · [21](AUDYT_MAPA_21.md) · [22](AUDYT_MAPA_22.md) · [23](AUDYT_MAPA_23.md)
+
+- [packages/ui/src/styles/animations.css](packages/ui/src/styles/animations.css) — 141 wierszy
+- [packages/ui/src/styles/base.css](packages/ui/src/styles/base.css) — 404 wierszy
+- [packages/ui/src/styles/colors.css](packages/ui/src/styles/colors.css) — 772 wierszy
+- [packages/ui/src/styles/index.css](packages/ui/src/styles/index.css) — 53 wierszy
+- [packages/ui/src/styles/tailwind/colors.css](packages/ui/src/styles/tailwind/colors.css) — 286 wierszy
+- [packages/ui/src/styles/tailwind/index.css](packages/ui/src/styles/tailwind/index.css) — 78 wierszy
+- [packages/ui/src/styles/tailwind/utilities.css](packages/ui/src/styles/tailwind/utilities.css) — 131 wierszy
+- [packages/ui/src/styles/theme.css](packages/ui/src/styles/theme.css) — 631 wierszy
+- [packages/ui/src/styles/utilities.css](packages/ui/src/styles/utilities.css) — 118 wierszy
+- [packages/ui/src/theme/color.ts](packages/ui/src/theme/color.ts) — 299 wierszy; deklaracje: `clamp:3`, `hue:7`, `hexToRgb:11`, `rgbToHex:30`, `linearToSrgb:39`
+- [packages/ui/src/theme/context.tsx](packages/ui/src/theme/context.tsx) — 373 wierszy; deklaracje: `ColorScheme:12`, `getFiles:26`, `themeIDs:32`, `knownThemes:40`, `normalize:87`
+- [packages/ui/src/theme/default-themes.ts](packages/ui/src/theme/default-themes.ts) — 116 wierszy
+- [packages/ui/src/theme/desktop-theme.schema.json](packages/ui/src/theme/desktop-theme.schema.json) — 168 wierszy
+- [packages/ui/src/theme/index.ts](packages/ui/src/theme/index.ts) — 78 wierszy
+- [packages/ui/src/theme/loader.ts](packages/ui/src/theme/loader.ts) — 112 wierszy; deklaracje: `ensureLoaderStyleElement:8`, `applyTheme:19`, `buildThemeCss:32`, `loadThemeFromUrl:78`, `getActiveTheme:86`
+- [packages/ui/src/theme/resolve.ts](packages/ui/src/theme/resolve.ts) — 540 wierszy; deklaracje: `resolveThemeVariant:4`, `ThemeColors:458`, `getColors:473`, `generateNeutralAlphaScale:516`, `getHex:524`
+- [packages/ui/src/theme/themes/amoled.json](packages/ui/src/theme/themes/amoled.json) — 49 wierszy
+- [packages/ui/src/theme/themes/aura.json](packages/ui/src/theme/themes/aura.json) — 51 wierszy
+- [packages/ui/src/theme/themes/ayu.json](packages/ui/src/theme/themes/ayu.json) — 51 wierszy
+- [packages/ui/src/theme/themes/carbonfox.json](packages/ui/src/theme/themes/carbonfox.json) — 53 wierszy
+- [packages/ui/src/theme/themes/catppuccin-frappe.json](packages/ui/src/theme/themes/catppuccin-frappe.json) — 85 wierszy
+- [packages/ui/src/theme/themes/catppuccin-macchiato.json](packages/ui/src/theme/themes/catppuccin-macchiato.json) — 85 wierszy
+- [packages/ui/src/theme/themes/catppuccin.json](packages/ui/src/theme/themes/catppuccin.json) — 45 wierszy
+- [packages/ui/src/theme/themes/cobalt2.json](packages/ui/src/theme/themes/cobalt2.json) — 87 wierszy
+- [packages/ui/src/theme/themes/cursor.json](packages/ui/src/theme/themes/cursor.json) — 91 wierszy
+- [packages/ui/src/theme/themes/dracula.json](packages/ui/src/theme/themes/dracula.json) — 49 wierszy
+- [packages/ui/src/theme/themes/everforest.json](packages/ui/src/theme/themes/everforest.json) — 89 wierszy
+- [packages/ui/src/theme/themes/flexoki.json](packages/ui/src/theme/themes/flexoki.json) — 86 wierszy
+- [packages/ui/src/theme/themes/github.json](packages/ui/src/theme/themes/github.json) — 85 wierszy
+- [packages/ui/src/theme/themes/gruvbox.json](packages/ui/src/theme/themes/gruvbox.json) — 45 wierszy
+- [packages/ui/src/theme/themes/kanagawa.json](packages/ui/src/theme/themes/kanagawa.json) — 89 wierszy
+- [packages/ui/src/theme/themes/lucent-orng.json](packages/ui/src/theme/themes/lucent-orng.json) — 87 wierszy
+- [packages/ui/src/theme/themes/material.json](packages/ui/src/theme/themes/material.json) — 87 wierszy
+- [packages/ui/src/theme/themes/matrix.json](packages/ui/src/theme/themes/matrix.json) — 113 wierszy
+- [packages/ui/src/theme/themes/mercury.json](packages/ui/src/theme/themes/mercury.json) — 86 wierszy
+- [packages/ui/src/theme/themes/monokai.json](packages/ui/src/theme/themes/monokai.json) — 49 wierszy
+- [packages/ui/src/theme/themes/nightowl.json](packages/ui/src/theme/themes/nightowl.json) — 46 wierszy
+- [packages/ui/src/theme/themes/nord.json](packages/ui/src/theme/themes/nord.json) — 46 wierszy
+- [packages/ui/src/theme/themes/oc-2.json](packages/ui/src/theme/themes/oc-2.json) — 476 wierszy
+- [packages/ui/src/theme/themes/one-dark.json](packages/ui/src/theme/themes/one-dark.json) — 89 wierszy
+- [packages/ui/src/theme/themes/onedarkpro.json](packages/ui/src/theme/themes/onedarkpro.json) — 45 wierszy
+- [packages/ui/src/theme/themes/opencode.json](packages/ui/src/theme/themes/opencode.json) — 89 wierszy
+- [packages/ui/src/theme/themes/orng.json](packages/ui/src/theme/themes/orng.json) — 87 wierszy
+- [packages/ui/src/theme/themes/osaka-jade.json](packages/ui/src/theme/themes/osaka-jade.json) — 88 wierszy
+- [packages/ui/src/theme/themes/palenight.json](packages/ui/src/theme/themes/palenight.json) — 85 wierszy
+- [packages/ui/src/theme/themes/rosepine.json](packages/ui/src/theme/themes/rosepine.json) — 85 wierszy
+- [packages/ui/src/theme/themes/shadesofpurple.json](packages/ui/src/theme/themes/shadesofpurple.json) — 51 wierszy
+- [packages/ui/src/theme/themes/solarized.json](packages/ui/src/theme/themes/solarized.json) — 49 wierszy
+- [packages/ui/src/theme/themes/synthwave84.json](packages/ui/src/theme/themes/synthwave84.json) — 87 wierszy
+- [packages/ui/src/theme/themes/tokyonight.json](packages/ui/src/theme/themes/tokyonight.json) — 47 wierszy
+- [packages/ui/src/theme/themes/vercel.json](packages/ui/src/theme/themes/vercel.json) — 90 wierszy
+- [packages/ui/src/theme/themes/vesper.json](packages/ui/src/theme/themes/vesper.json) — 51 wierszy
+- [packages/ui/src/theme/themes/zenburn.json](packages/ui/src/theme/themes/zenburn.json) — 87 wierszy
+- [packages/ui/src/theme/types.ts](packages/ui/src/theme/types.ts) — 75 wierszy; deklaracje: `HexColor:1`, `OklchColor:3`, `ThemeSeedColors:9`, `ThemePaletteColors:21`, `ThemeVariantBase:35`
+- [packages/ui/src/theme/v2/avatar.ts](packages/ui/src/theme/v2/avatar.ts) — 48 wierszy
+- [packages/ui/src/theme/v2/default-primitives.ts](packages/ui/src/theme/v2/default-primitives.ts) — 114 wierszy
+- [packages/ui/src/theme/v2/foreground.ts](packages/ui/src/theme/v2/foreground.ts) — 60 wierszy; deklaracje: `greyHex:9`, `resolveGreyRef:14`, `pickGrey:22`, `mapV2Foreground:31`
+- [packages/ui/src/theme/v2/mapping.ts](packages/ui/src/theme/v2/mapping.ts) — 170 wierszy; deklaracje: `mapV2Semantics:164`, `mergeV2Tokens:168`
+- [packages/ui/src/theme/v2/resolve.ts](packages/ui/src/theme/v2/resolve.ts) — 153 wierszy; deklaracje: `PaletteInput:11`, `clamp:25`, `generateV2HueScale:30`, `generateV2NeutralScale:59`, `assignHueRamp:64`
+- [packages/ui/src/v2/components/accordion-v2.css](packages/ui/src/v2/components/accordion-v2.css) — 139 wierszy
+- [packages/ui/src/v2/components/accordion-v2.stories.tsx](packages/ui/src/v2/components/accordion-v2.stories.tsx) — 177 wierszy
+- [packages/ui/src/v2/components/accordion-v2.tsx](packages/ui/src/v2/components/accordion-v2.tsx) — 86 wierszy; deklaracje: `AccordionV2Props:19`, `AccordionV2ItemProps:20`, `AccordionV2HeaderProps:21`, `AccordionV2TriggerProps:22`, `AccordionV2ContentProps:25`
+- [packages/ui/src/v2/components/avatar-v2.css](packages/ui/src/v2/components/avatar-v2.css) — 70 wierszy
+- [packages/ui/src/v2/components/avatar-v2.stories.tsx](packages/ui/src/v2/components/avatar-v2.stories.tsx) — 85 wierszy
+- [packages/ui/src/v2/components/avatar-v2.tsx](packages/ui/src/v2/components/avatar-v2.tsx) — 59 wierszy; deklaracje: `first:9`, `AvatarProps:15`, `Avatar:24`
+- [packages/ui/src/v2/components/badge-v2.css](packages/ui/src/v2/components/badge-v2.css) — 33 wierszy
+- [packages/ui/src/v2/components/badge-v2.stories.tsx](packages/ui/src/v2/components/badge-v2.stories.tsx) — 59 wierszy
+- [packages/ui/src/v2/components/badge-v2.tsx](packages/ui/src/v2/components/badge-v2.tsx) — 23 wierszy; deklaracje: `TagProps:4`, `Tag:8`
+- [packages/ui/src/v2/components/button-v2.css](packages/ui/src/v2/components/button-v2.css) — 262 wierszy
+- [packages/ui/src/v2/components/button-v2.stories.tsx](packages/ui/src/v2/components/button-v2.stories.tsx) — 153 wierszy
+- [packages/ui/src/v2/components/button-v2.tsx](packages/ui/src/v2/components/button-v2.tsx) — 35 wierszy; deklaracje: `ButtonV2Props:6`, `ButtonV2:14`
+- [packages/ui/src/v2/components/checkbox-v2.css](packages/ui/src/v2/components/checkbox-v2.css) — 184 wierszy
+- [packages/ui/src/v2/components/checkbox-v2.stories.tsx](packages/ui/src/v2/components/checkbox-v2.stories.tsx) — 92 wierszy
+- [packages/ui/src/v2/components/checkbox-v2.tsx](packages/ui/src/v2/components/checkbox-v2.tsx) — 65 wierszy; deklaracje: `CheckboxV2Props:6`, `CheckboxV2:12`
+- [packages/ui/src/v2/components/dialog-v2.css](packages/ui/src/v2/components/dialog-v2.css) — 177 wierszy
+- [packages/ui/src/v2/components/dialog-v2.stories.tsx](packages/ui/src/v2/components/dialog-v2.stories.tsx) — 206 wierszy; deklaracje: `dialogHeader:37`
+- [packages/ui/src/v2/components/dialog-v2.tsx](packages/ui/src/v2/components/dialog-v2.tsx) — 117 wierszy; deklaracje: `DialogProps:6`, `DialogHeaderProps:15`, `DialogTitleGroupProps:20`, `DialogFooter:25`, `DialogBody:29`
+- [packages/ui/src/v2/components/diff-changes-v2.css](packages/ui/src/v2/components/diff-changes-v2.css) — 26 wierszy
+- [packages/ui/src/v2/components/diff-changes-v2.stories.tsx](packages/ui/src/v2/components/diff-changes-v2.stories.tsx) — 60 wierszy
+- [packages/ui/src/v2/components/diff-changes-v2.tsx](packages/ui/src/v2/components/diff-changes-v2.tsx) — 28 wierszy; deklaracje: `DiffChanges:4`
+- [packages/ui/src/v2/components/divider-v2.css](packages/ui/src/v2/components/divider-v2.css) — 11 wierszy
+- [packages/ui/src/v2/components/divider-v2.stories.tsx](packages/ui/src/v2/components/divider-v2.stories.tsx) — 38 wierszy
+- [packages/ui/src/v2/components/divider-v2.tsx](packages/ui/src/v2/components/divider-v2.tsx) — 20 wierszy; deklaracje: `DividerV2Props:4`, `DividerV2:6`
+- [packages/ui/src/v2/components/field-v2.css](packages/ui/src/v2/components/field-v2.css) — 94 wierszy
+- [packages/ui/src/v2/components/field-v2.stories.tsx](packages/ui/src/v2/components/field-v2.stories.tsx) — 135 wierszy
+- [packages/ui/src/v2/components/field-v2.tsx](packages/ui/src/v2/components/field-v2.tsx) — 265 wierszy; deklaracje: `ComponentProps:11`, `ParentProps:12`, `FieldContextValue:17`, `useField:32`, `FieldV2Props:46`
+- [packages/ui/src/v2/components/file-tree-v2.css](packages/ui/src/v2/components/file-tree-v2.css) — 141 wierszy
+- [packages/ui/src/v2/components/icon-button-v2.css](packages/ui/src/v2/components/icon-button-v2.css) — 159 wierszy
+- [packages/ui/src/v2/components/icon-button-v2.stories.tsx](packages/ui/src/v2/components/icon-button-v2.stories.tsx) — 105 wierszy
+- [packages/ui/src/v2/components/icon-button-v2.tsx](packages/ui/src/v2/components/icon-button-v2.tsx) — 37 wierszy; deklaracje: `IconButtonV2Props:6`, `IconButtonV2:18`
+- [packages/ui/src/v2/components/icon.tsx](packages/ui/src/v2/components/icon.tsx) — 209 wierszy; deklaracje: `ensureSprite:158`, `IconProps:183`, `Icon:188`
+- [packages/ui/src/v2/components/inline-input-v2.css](packages/ui/src/v2/components/inline-input-v2.css) — 225 wierszy
+- [packages/ui/src/v2/components/inline-input-v2.stories.tsx](packages/ui/src/v2/components/inline-input-v2.stories.tsx) — 141 wierszy
+- [packages/ui/src/v2/components/inline-input-v2.tsx](packages/ui/src/v2/components/inline-input-v2.tsx) — 107 wierszy; deklaracje: `InlineInputV2Props:6`, `InlineInputV2:25`
+- [packages/ui/src/v2/components/keybind-v2.css](packages/ui/src/v2/components/keybind-v2.css) — 76 wierszy
+- [packages/ui/src/v2/components/keybind-v2.stories.tsx](packages/ui/src/v2/components/keybind-v2.stories.tsx) — 82 wierszy
+- [packages/ui/src/v2/components/keybind-v2.tsx](packages/ui/src/v2/components/keybind-v2.tsx) — 30 wierszy; deklaracje: `KeybindV2Props:4`, `KeybindV2:9`
+- [packages/ui/src/v2/components/line-comment-v2.css](packages/ui/src/v2/components/line-comment-v2.css) — 258 wierszy
+- [packages/ui/src/v2/components/line-comment-v2.stories.tsx](packages/ui/src/v2/components/line-comment-v2.stories.tsx) — 88 wierszy
+- [packages/ui/src/v2/components/line-comment-v2.tsx](packages/ui/src/v2/components/line-comment-v2.tsx) — 306 wierszy; deklaracje: `LineCommentV2OverflowIcon:9`, `LineCommentV2Props:27`, `LineCommentV2:36`, `LineCommentEditorV2Mention:59`, `LineCommentEditorV2Props:63`
+- [packages/ui/src/v2/components/loader-v2.css](packages/ui/src/v2/components/loader-v2.css) — 32 wierszy
+- [packages/ui/src/v2/components/loader-v2.stories.tsx](packages/ui/src/v2/components/loader-v2.stories.tsx) — 42 wierszy
+- [packages/ui/src/v2/components/loader-v2.tsx](packages/ui/src/v2/components/loader-v2.tsx) — 31 wierszy; deklaracje: `LoaderV2:4`
+- [packages/ui/src/v2/components/menu-v2.css](packages/ui/src/v2/components/menu-v2.css) — 190 wierszy
+- [packages/ui/src/v2/components/menu-v2.stories.tsx](packages/ui/src/v2/components/menu-v2.stories.tsx) — 216 wierszy
+- [packages/ui/src/v2/components/menu-v2.tsx](packages/ui/src/v2/components/menu-v2.tsx) — 225 wierszy; deklaracje: `ItemBody:32`, `MenuV2ItemProps:49`, `MenuV2Item:54`, `MenuV2CheckboxItemProps:65`, `MenuV2CheckboxItem:70`
+- [packages/ui/src/v2/components/progress-circle-v2.css](packages/ui/src/v2/components/progress-circle-v2.css) — 13 wierszy
+- [packages/ui/src/v2/components/progress-circle-v2.tsx](packages/ui/src/v2/components/progress-circle-v2.tsx) — 52 wierszy; deklaracje: `ProgressCircleV2Props:4`, `ProgressCircleV2:10`
+- [packages/ui/src/v2/components/project-avatar-v2.css](packages/ui/src/v2/components/project-avatar-v2.css) — 132 wierszy
+- [packages/ui/src/v2/components/project-avatar-v2.stories.tsx](packages/ui/src/v2/components/project-avatar-v2.stories.tsx) — 89 wierszy
+- [packages/ui/src/v2/components/project-avatar-v2.tsx](packages/ui/src/v2/components/project-avatar-v2.tsx) — 66 wierszy; deklaracje: `first:9`, `ProjectAvatarVariant:27`, `ProjectAvatarStyle:30`, `ProjectAvatarProps:32`, `ProjectAvatar:39`
+- [packages/ui/src/v2/components/radio-v2.css](packages/ui/src/v2/components/radio-v2.css) — 202 wierszy
+- [packages/ui/src/v2/components/radio-v2.stories.tsx](packages/ui/src/v2/components/radio-v2.stories.tsx) — 92 wierszy
+- [packages/ui/src/v2/components/radio-v2.tsx](packages/ui/src/v2/components/radio-v2.tsx) — 72 wierszy; deklaracje: `RadioGroupV2Props:6`, `RadioGroupV2:12`, `RadioItemV2Props:39`, `RadioItemV2:45`
+- [packages/ui/src/v2/components/segmented-control-v2.css](packages/ui/src/v2/components/segmented-control-v2.css) — 80 wierszy
+- [packages/ui/src/v2/components/segmented-control-v2.stories.tsx](packages/ui/src/v2/components/segmented-control-v2.stories.tsx) — 107 wierszy
+- [packages/ui/src/v2/components/segmented-control-v2.tsx](packages/ui/src/v2/components/segmented-control-v2.tsx) — 208 wierszy; deklaracje: `Accessor:8`, `JSX:9`, `ParentProps:10`, `OnChange:15`, `SegmentedControlContextValue:17`
+- [packages/ui/src/v2/components/select-v2.css](packages/ui/src/v2/components/select-v2.css) — 297 wierszy
+- [packages/ui/src/v2/components/select-v2.stories.tsx](packages/ui/src/v2/components/select-v2.stories.tsx) — 175 wierszy; deklaracje: `Region:8`
+- [packages/ui/src/v2/components/select-v2.tsx](packages/ui/src/v2/components/select-v2.tsx) — 209 wierszy; deklaracje: `groupOptions:5`, `SelectV2Props:43`, `SelectV2:64`
+- [packages/ui/src/v2/components/split-button-v2.css](packages/ui/src/v2/components/split-button-v2.css) — 99 wierszy
+- [packages/ui/src/v2/components/split-button-v2.tsx](packages/ui/src/v2/components/split-button-v2.tsx) — 48 wierszy; deklaracje: `SplitButtonV2:4`, `SplitButtonV2Action:20`, `SplitButtonV2MenuTrigger:35`
+- [packages/ui/src/v2/components/switch-v2.css](packages/ui/src/v2/components/switch-v2.css) — 162 wierszy
+- [packages/ui/src/v2/components/switch-v2.stories.tsx](packages/ui/src/v2/components/switch-v2.stories.tsx) — 64 wierszy
+- [packages/ui/src/v2/components/switch-v2.tsx](packages/ui/src/v2/components/switch-v2.tsx) — 28 wierszy; deklaracje: `SwitchProps:6`, `Switch:10`
+- [packages/ui/src/v2/components/tab-state-indicator.tsx](packages/ui/src/v2/components/tab-state-indicator.tsx) — 37 wierszy; deklaracje: `TabStateIndicator:3`
+- [packages/ui/src/v2/components/tabs-v2.css](packages/ui/src/v2/components/tabs-v2.css) — 224 wierszy
+- [packages/ui/src/v2/components/tabs-v2.stories.tsx](packages/ui/src/v2/components/tabs-v2.stories.tsx) — 168 wierszy
+- [packages/ui/src/v2/components/tabs-v2.tsx](packages/ui/src/v2/components/tabs-v2.tsx) — 149 wierszy; deklaracje: `TabsV2Props:7`, `TabsV2ListProps:11`, `TabsV2TriggerProps:12`, `TabsV2CloseButtonProps:17`, `TabsV2ContentProps:18`
+- [packages/ui/src/v2/components/text-input-v2.css](packages/ui/src/v2/components/text-input-v2.css) — 181 wierszy
+- [packages/ui/src/v2/components/text-input-v2.stories.tsx](packages/ui/src/v2/components/text-input-v2.stories.tsx) — 141 wierszy
+- [packages/ui/src/v2/components/text-input-v2.tsx](packages/ui/src/v2/components/text-input-v2.tsx) — 99 wierszy; deklaracje: `TextInputV2Props:6`, `TextInputV2:28`
+- [packages/ui/src/v2/components/text-shimmer-v2.css](packages/ui/src/v2/components/text-shimmer-v2.css) — 125 wierszy
+- [packages/ui/src/v2/components/text-shimmer-v2.stories.tsx](packages/ui/src/v2/components/text-shimmer-v2.stories.tsx) — 70 wierszy
+- [packages/ui/src/v2/components/text-shimmer-v2.tsx](packages/ui/src/v2/components/text-shimmer-v2.tsx) — 63 wierszy
+- [packages/ui/src/v2/components/textarea-v2.css](packages/ui/src/v2/components/textarea-v2.css) — 78 wierszy
+- [packages/ui/src/v2/components/textarea-v2.stories.tsx](packages/ui/src/v2/components/textarea-v2.stories.tsx) — 111 wierszy
+- [packages/ui/src/v2/components/textarea-v2.tsx](packages/ui/src/v2/components/textarea-v2.tsx) — 31 wierszy; deklaracje: `TextareaV2Props:4`, `TextareaV2:9`
+- [packages/ui/src/v2/components/toast-v2.css](packages/ui/src/v2/components/toast-v2.css) — 225 wierszy
+- [packages/ui/src/v2/components/toast-v2.stories.tsx](packages/ui/src/v2/components/toast-v2.stories.tsx) — 151 wierszy
+- [packages/ui/src/v2/components/toast-v2.tsx](packages/ui/src/v2/components/toast-v2.tsx) — 281 wierszy; deklaracje: `ToastV2RegionProps:10`, `ToastV2Region:12`, `ToastV2RootComponentProps:72`, `ToastV2Root:77`, `ToastV2Icon:81`
+- [packages/ui/src/v2/components/tooltip-v2.css](packages/ui/src/v2/components/tooltip-v2.css) — 69 wierszy
+- [packages/ui/src/v2/components/tooltip-v2.stories.tsx](packages/ui/src/v2/components/tooltip-v2.stories.tsx) — 91 wierszy
+- [packages/ui/src/v2/components/tooltip-v2.tsx](packages/ui/src/v2/components/tooltip-v2.tsx) — 147 wierszy; deklaracje: `TooltipV2Props:7`, `TooltipV2:16`
+- [packages/ui/src/v2/components/wordmark-v2.tsx](packages/ui/src/v2/components/wordmark-v2.tsx) — 71 wierszy; deklaracje: `WordmarkV2:3`
+- [packages/ui/src/v2/styles/colors.css](packages/ui/src/v2/styles/colors.css) — 172 wierszy
+- [packages/ui/src/v2/styles/tailwind.css](packages/ui/src/v2/styles/tailwind.css) — 2 wierszy
+- [packages/ui/src/v2/styles/theme.css](packages/ui/src/v2/styles/theme.css) — 503 wierszy
+- [packages/ui/sst-env.d.ts](packages/ui/sst-env.d.ts) — 10 wierszy
+- [packages/ui/tsconfig.build.json](packages/ui/tsconfig.build.json) — 14 wierszy
+- [packages/ui/tsconfig.json](packages/ui/tsconfig.json) — 22 wierszy
+- [packages/ui/vite.config.ts](packages/ui/vite.config.ts) — 59 wierszy; deklaracje: `providerIconsPlugin:35`, `fetchProviderIcons:47`
+- [packages/web/.gitignore](packages/web/.gitignore)
+- [packages/web/README.md](packages/web/README.md) — 54 wierszy
+- [packages/web/astro.config.mjs](packages/web/astro.config.mjs) — 325 wierszy; deklaracje: `configSchema:315`
+- [packages/web/config.mjs](packages/web/config.mjs) — 14 wierszy
+- [packages/web/package.json](packages/web/package.json) — 44 wierszy
+- [packages/web/public/apple-touch-icon-v3.png](packages/web/public/apple-touch-icon-v3.png)
+- [packages/web/public/apple-touch-icon.png](packages/web/public/apple-touch-icon.png)
+- [packages/web/public/favicon-96x96-v3.png](packages/web/public/favicon-96x96-v3.png)
+- [packages/web/public/favicon-96x96.png](packages/web/public/favicon-96x96.png)
+- [packages/web/public/favicon-v3.ico](packages/web/public/favicon-v3.ico)
+- [packages/web/public/favicon-v3.svg](packages/web/public/favicon-v3.svg)
+- [packages/web/public/favicon.ico](packages/web/public/favicon.ico)
+- [packages/web/public/favicon.svg](packages/web/public/favicon.svg)
+- [packages/web/public/robots.txt](packages/web/public/robots.txt)
+- [packages/web/public/site.webmanifest](packages/web/public/site.webmanifest)
+- [packages/web/public/social-share-zen.png](packages/web/public/social-share-zen.png)
+- [packages/web/public/social-share.png](packages/web/public/social-share.png)
+- [packages/web/public/theme.json](packages/web/public/theme.json) — 183 wierszy
+- [packages/web/public/web-app-manifest-192x192.png](packages/web/public/web-app-manifest-192x192.png)
+- [packages/web/public/web-app-manifest-512x512.png](packages/web/public/web-app-manifest-512x512.png)
+- [packages/web/src/assets/lander/check.svg](packages/web/src/assets/lander/check.svg)
+- [packages/web/src/assets/lander/copy.svg](packages/web/src/assets/lander/copy.svg)
+- [packages/web/src/assets/lander/screenshot-github.png](packages/web/src/assets/lander/screenshot-github.png)
+- [packages/web/src/assets/lander/screenshot-splash.png](packages/web/src/assets/lander/screenshot-splash.png)
+- [packages/web/src/assets/lander/screenshot-vscode.png](packages/web/src/assets/lander/screenshot-vscode.png)
+- [packages/web/src/assets/lander/screenshot.png](packages/web/src/assets/lander/screenshot.png)
+- [packages/web/src/assets/logo-dark.svg](packages/web/src/assets/logo-dark.svg)
+- [packages/web/src/assets/logo-light.svg](packages/web/src/assets/logo-light.svg)
+- [packages/web/src/assets/logo-ornate-dark.svg](packages/web/src/assets/logo-ornate-dark.svg)
+- [packages/web/src/assets/logo-ornate-light.svg](packages/web/src/assets/logo-ornate-light.svg)
+- [packages/web/src/assets/web/web-homepage-active-session.png](packages/web/src/assets/web/web-homepage-active-session.png)
+- [packages/web/src/assets/web/web-homepage-new-session.png](packages/web/src/assets/web/web-homepage-new-session.png)
+- [packages/web/src/assets/web/web-homepage-see-servers.png](packages/web/src/assets/web/web-homepage-see-servers.png)
+- [packages/web/src/components/Footer.astro](packages/web/src/components/Footer.astro)
+- [packages/web/src/components/Head.astro](packages/web/src/components/Head.astro)
+- [packages/web/src/components/Header.astro](packages/web/src/components/Header.astro)
+- [packages/web/src/components/Hero.astro](packages/web/src/components/Hero.astro)
+- [packages/web/src/components/Lander.astro](packages/web/src/components/Lander.astro)
+- [packages/web/src/components/LanguageSelect.astro](packages/web/src/components/LanguageSelect.astro)
+- [packages/web/src/components/PageFrame.astro](packages/web/src/components/PageFrame.astro)
+- [packages/web/src/components/Share.tsx](packages/web/src/components/Share.tsx) — 646 wierszy; deklaracje: `MessageWithParts:13`, `Status:15`, `scrollToAnchor:17`, `getStatusText:24`, `Share:41`
+- [packages/web/src/components/SiteTitle.astro](packages/web/src/components/SiteTitle.astro)
+- [packages/web/src/components/V2Banner.astro](packages/web/src/components/V2Banner.astro)
+- [packages/web/src/components/icons/custom.tsx](packages/web/src/components/icons/custom.tsx) — 87 wierszy; deklaracje: `IconOpenAI:4`, `IconAnthropic:16`, `IconGemini:28`, `IconOpencode:39`, `IconMeta:54`
+- [packages/web/src/components/icons/index.tsx](packages/web/src/components/icons/index.tsx) — 4454 wierszy; deklaracje: `IconAcademicCap:4`, `IconAdjustmentsHorizontal:18`, `IconAdjustmentsVertical:32`, `IconArchiveBoxArrowDown:46`, `IconArchiveBoxXMark:60`
+- [packages/web/src/components/share.module.css](packages/web/src/components/share.module.css) — 832 wierszy
+- [packages/web/src/components/share/common.tsx](packages/web/src/components/share/common.tsx) — 128 wierszy; deklaracje: `ShareMessages:6`, `ShareI18nProvider:10`, `useShareMessages:14`, `normalizeLocale:22`, `formatNumber:26`
+- [packages/web/src/components/share/content-bash.module.css](packages/web/src/components/share/content-bash.module.css) — 85 wierszy
+- [packages/web/src/components/share/content-bash.tsx](packages/web/src/components/share/content-bash.tsx) — 67 wierszy; deklaracje: `Props:6`, `ContentBash:12`
+- [packages/web/src/components/share/content-code.module.css](packages/web/src/components/share/content-code.module.css) — 26 wierszy
+- [packages/web/src/components/share/content-code.tsx](packages/web/src/components/share/content-code.tsx) — 30 wierszy; deklaracje: `Props:5`, `ContentCode:10`
+- [packages/web/src/components/share/content-diff.module.css](packages/web/src/components/share/content-diff.module.css) — 153 wierszy
+- [packages/web/src/components/share/content-diff.tsx](packages/web/src/components/share/content-diff.tsx) — 240 wierszy; deklaracje: `DiffRow:6`, `Props:12`, `ContentDiff:17`
+- [packages/web/src/components/share/content-error.module.css](packages/web/src/components/share/content-error.module.css) — 64 wierszy
+- [packages/web/src/components/share/content-error.tsx](packages/web/src/components/share/content-error.tsx) — 25 wierszy; deklaracje: `Props:5`, `ContentError:8`
+- [packages/web/src/components/share/content-markdown.module.css](packages/web/src/components/share/content-markdown.module.css) — 154 wierszy
+- [packages/web/src/components/share/content-markdown.tsx](packages/web/src/components/share/content-markdown.tsx) — 74 wierszy; deklaracje: `Props:31`, `ContentMarkdown:36`, `strip:70`
+- [packages/web/src/components/share/content-text.module.css](packages/web/src/components/share/content-text.module.css) — 63 wierszy
+- [packages/web/src/components/share/content-text.tsx](packages/web/src/components/share/content-text.tsx) — 38 wierszy; deklaracje: `Props:6`, `ContentText:11`
+- [packages/web/src/components/share/copy-button.module.css](packages/web/src/components/share/copy-button.module.css) — 30 wierszy
+- [packages/web/src/components/share/copy-button.tsx](packages/web/src/components/share/copy-button.tsx) — 36 wierszy; deklaracje: `CopyButtonProps:6`, `CopyButton:10`, `handleCopyClick:14`
+- [packages/web/src/components/share/part.module.css](packages/web/src/components/share/part.module.css) — 428 wierszy
+- [packages/web/src/components/share/part.tsx](packages/web/src/components/share/part.tsx) — 816 wierszy; deklaracje: `PartProps:37`, `Part:44`, `ToolProps:297`, `Todo:305`, `stripWorkingDirectory:312`
+- [packages/web/src/content.config.ts](packages/web/src/content.config.ts) — 16 wierszy
+- [packages/web/src/content/docs/acp.mdx](packages/web/src/content/docs/acp.mdx)
+- [packages/web/src/content/docs/agents.mdx](packages/web/src/content/docs/agents.mdx)
+- [packages/web/src/content/docs/ar/acp.mdx](packages/web/src/content/docs/ar/acp.mdx)
+- [packages/web/src/content/docs/ar/agents.mdx](packages/web/src/content/docs/ar/agents.mdx)
+- [packages/web/src/content/docs/ar/cli.mdx](packages/web/src/content/docs/ar/cli.mdx)
+- [packages/web/src/content/docs/ar/commands.mdx](packages/web/src/content/docs/ar/commands.mdx)
+- [packages/web/src/content/docs/ar/config.mdx](packages/web/src/content/docs/ar/config.mdx)
+- [packages/web/src/content/docs/ar/custom-tools.mdx](packages/web/src/content/docs/ar/custom-tools.mdx)
+- [packages/web/src/content/docs/ar/ecosystem.mdx](packages/web/src/content/docs/ar/ecosystem.mdx)
+- [packages/web/src/content/docs/ar/enterprise.mdx](packages/web/src/content/docs/ar/enterprise.mdx)
+- [packages/web/src/content/docs/ar/formatters.mdx](packages/web/src/content/docs/ar/formatters.mdx)
+- [packages/web/src/content/docs/ar/github.mdx](packages/web/src/content/docs/ar/github.mdx)
+- [packages/web/src/content/docs/ar/gitlab.mdx](packages/web/src/content/docs/ar/gitlab.mdx)
+- [packages/web/src/content/docs/ar/go.mdx](packages/web/src/content/docs/ar/go.mdx)
+- [packages/web/src/content/docs/ar/ide.mdx](packages/web/src/content/docs/ar/ide.mdx)
+- [packages/web/src/content/docs/ar/index.mdx](packages/web/src/content/docs/ar/index.mdx)
+- [packages/web/src/content/docs/ar/keybinds.mdx](packages/web/src/content/docs/ar/keybinds.mdx)
+- [packages/web/src/content/docs/ar/lsp.mdx](packages/web/src/content/docs/ar/lsp.mdx)
+- [packages/web/src/content/docs/ar/mcp-servers.mdx](packages/web/src/content/docs/ar/mcp-servers.mdx)
+- [packages/web/src/content/docs/ar/models.mdx](packages/web/src/content/docs/ar/models.mdx)
+- [packages/web/src/content/docs/ar/network.mdx](packages/web/src/content/docs/ar/network.mdx)
+- [packages/web/src/content/docs/ar/permissions.mdx](packages/web/src/content/docs/ar/permissions.mdx)
+- [packages/web/src/content/docs/ar/plugins.mdx](packages/web/src/content/docs/ar/plugins.mdx)
+- [packages/web/src/content/docs/ar/providers.mdx](packages/web/src/content/docs/ar/providers.mdx)
+- [packages/web/src/content/docs/ar/rules.mdx](packages/web/src/content/docs/ar/rules.mdx)
+- [packages/web/src/content/docs/ar/sdk.mdx](packages/web/src/content/docs/ar/sdk.mdx)
+- [packages/web/src/content/docs/ar/server.mdx](packages/web/src/content/docs/ar/server.mdx)
+- [packages/web/src/content/docs/ar/share.mdx](packages/web/src/content/docs/ar/share.mdx)
+- [packages/web/src/content/docs/ar/skills.mdx](packages/web/src/content/docs/ar/skills.mdx)
+- [packages/web/src/content/docs/ar/themes.mdx](packages/web/src/content/docs/ar/themes.mdx)
+- [packages/web/src/content/docs/ar/tools.mdx](packages/web/src/content/docs/ar/tools.mdx)
+- [packages/web/src/content/docs/ar/troubleshooting.mdx](packages/web/src/content/docs/ar/troubleshooting.mdx)
+- [packages/web/src/content/docs/ar/tui.mdx](packages/web/src/content/docs/ar/tui.mdx)
+- [packages/web/src/content/docs/ar/web.mdx](packages/web/src/content/docs/ar/web.mdx)
+- [packages/web/src/content/docs/ar/windows-wsl.mdx](packages/web/src/content/docs/ar/windows-wsl.mdx)
+- [packages/web/src/content/docs/ar/zen.mdx](packages/web/src/content/docs/ar/zen.mdx)
+- [packages/web/src/content/docs/bs/acp.mdx](packages/web/src/content/docs/bs/acp.mdx)
+- [packages/web/src/content/docs/bs/agents.mdx](packages/web/src/content/docs/bs/agents.mdx)
+- [packages/web/src/content/docs/bs/cli.mdx](packages/web/src/content/docs/bs/cli.mdx)
+- [packages/web/src/content/docs/bs/commands.mdx](packages/web/src/content/docs/bs/commands.mdx)
+- [packages/web/src/content/docs/bs/config.mdx](packages/web/src/content/docs/bs/config.mdx)
+- [packages/web/src/content/docs/bs/custom-tools.mdx](packages/web/src/content/docs/bs/custom-tools.mdx)
+- [packages/web/src/content/docs/bs/ecosystem.mdx](packages/web/src/content/docs/bs/ecosystem.mdx)
+- [packages/web/src/content/docs/bs/enterprise.mdx](packages/web/src/content/docs/bs/enterprise.mdx)
+- [packages/web/src/content/docs/bs/formatters.mdx](packages/web/src/content/docs/bs/formatters.mdx)
+- [packages/web/src/content/docs/bs/github.mdx](packages/web/src/content/docs/bs/github.mdx)
+- [packages/web/src/content/docs/bs/gitlab.mdx](packages/web/src/content/docs/bs/gitlab.mdx)
+- [packages/web/src/content/docs/bs/go.mdx](packages/web/src/content/docs/bs/go.mdx)
+- [packages/web/src/content/docs/bs/ide.mdx](packages/web/src/content/docs/bs/ide.mdx)
+- [packages/web/src/content/docs/bs/index.mdx](packages/web/src/content/docs/bs/index.mdx)
+- [packages/web/src/content/docs/bs/keybinds.mdx](packages/web/src/content/docs/bs/keybinds.mdx)
+- [packages/web/src/content/docs/bs/lsp.mdx](packages/web/src/content/docs/bs/lsp.mdx)
+- [packages/web/src/content/docs/bs/mcp-servers.mdx](packages/web/src/content/docs/bs/mcp-servers.mdx)
+- [packages/web/src/content/docs/bs/models.mdx](packages/web/src/content/docs/bs/models.mdx)
+- [packages/web/src/content/docs/bs/network.mdx](packages/web/src/content/docs/bs/network.mdx)
+- [packages/web/src/content/docs/bs/permissions.mdx](packages/web/src/content/docs/bs/permissions.mdx)
+- [packages/web/src/content/docs/bs/plugins.mdx](packages/web/src/content/docs/bs/plugins.mdx)
+- [packages/web/src/content/docs/bs/providers.mdx](packages/web/src/content/docs/bs/providers.mdx)
+- [packages/web/src/content/docs/bs/rules.mdx](packages/web/src/content/docs/bs/rules.mdx)
+- [packages/web/src/content/docs/bs/sdk.mdx](packages/web/src/content/docs/bs/sdk.mdx)
+- [packages/web/src/content/docs/bs/server.mdx](packages/web/src/content/docs/bs/server.mdx)
+- [packages/web/src/content/docs/bs/share.mdx](packages/web/src/content/docs/bs/share.mdx)
+- [packages/web/src/content/docs/bs/skills.mdx](packages/web/src/content/docs/bs/skills.mdx)
+- [packages/web/src/content/docs/bs/themes.mdx](packages/web/src/content/docs/bs/themes.mdx)
+- [packages/web/src/content/docs/bs/tools.mdx](packages/web/src/content/docs/bs/tools.mdx)
+- [packages/web/src/content/docs/bs/troubleshooting.mdx](packages/web/src/content/docs/bs/troubleshooting.mdx)
+- [packages/web/src/content/docs/bs/tui.mdx](packages/web/src/content/docs/bs/tui.mdx)
+- [packages/web/src/content/docs/bs/web.mdx](packages/web/src/content/docs/bs/web.mdx)
+- [packages/web/src/content/docs/bs/windows-wsl.mdx](packages/web/src/content/docs/bs/windows-wsl.mdx)
+- [packages/web/src/content/docs/bs/zen.mdx](packages/web/src/content/docs/bs/zen.mdx)
+- [packages/web/src/content/docs/cli.mdx](packages/web/src/content/docs/cli.mdx)
+- [packages/web/src/content/docs/commands.mdx](packages/web/src/content/docs/commands.mdx)
+- [packages/web/src/content/docs/config.mdx](packages/web/src/content/docs/config.mdx)
+- [packages/web/src/content/docs/custom-tools.mdx](packages/web/src/content/docs/custom-tools.mdx)
+- [packages/web/src/content/docs/da/acp.mdx](packages/web/src/content/docs/da/acp.mdx)
+- [packages/web/src/content/docs/da/agents.mdx](packages/web/src/content/docs/da/agents.mdx)
+- [packages/web/src/content/docs/da/cli.mdx](packages/web/src/content/docs/da/cli.mdx)
+- [packages/web/src/content/docs/da/commands.mdx](packages/web/src/content/docs/da/commands.mdx)
+- [packages/web/src/content/docs/da/config.mdx](packages/web/src/content/docs/da/config.mdx)
+- [packages/web/src/content/docs/da/custom-tools.mdx](packages/web/src/content/docs/da/custom-tools.mdx)
+- [packages/web/src/content/docs/da/ecosystem.mdx](packages/web/src/content/docs/da/ecosystem.mdx)
+- [packages/web/src/content/docs/da/enterprise.mdx](packages/web/src/content/docs/da/enterprise.mdx)
+- [packages/web/src/content/docs/da/formatters.mdx](packages/web/src/content/docs/da/formatters.mdx)
+- [packages/web/src/content/docs/da/github.mdx](packages/web/src/content/docs/da/github.mdx)
